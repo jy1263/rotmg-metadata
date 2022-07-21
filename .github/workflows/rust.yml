@@ -21,4 +21,10 @@ jobs:
     - name: Build
       run: cargo run --release
     - name: Git
-      run: cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/exalt-tools/rotmg-metadata.git master:gh-pages
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+      run: |
+        eval "$(ssh-agent -s)"
+        ssh-add - <<< "${DEPLOY_KEY}"
+        cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/exalt-tools/rotmg-metadata.git master:gh-pages
