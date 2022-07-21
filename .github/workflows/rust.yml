@@ -20,3 +20,5 @@ jobs:
         submodules: recursive
     - name: Build
       run: cargo run --release
+    - name: Git
+      run: cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/exalt-tools/rotmg-metadata.git master:gh-pages
