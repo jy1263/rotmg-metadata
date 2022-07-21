@@ -6,7 +6,6 @@ mod asset_ripper;
 use std::process::Command;
 use asset_ripper::download_asset_ripper_to;
 use rotmg_driver::download_essential;
-use zip::ZipArchive;
 
 static ASSET_RIPPER_PLATFORM: &str = "linux_x64";
 static PLATFORM: &str = "rotmg-exalt-win-64";
@@ -20,8 +19,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let exported_project_assets_path = output_path.join("Ripped/ExportedProject/Assets");
     
     let final_output_path = output_path.join("output_final");
-    let final_output_atlases_path = final_output_path.join("atlases");
-    let final_output_xml_path = final_output_path.join("xml");
+    let final_output_path_assets = final_output_path.join("assets");
+    let final_output_path_assets_production = final_output_path.join("production");
+    let final_output_atlases_path_production = final_output_path_assets_production.join("atlases");
+    let final_output_xml_path_production = final_output_path_assets_production.join("xml");
 
 
 
@@ -86,14 +87,14 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         };
     }
 
-    fs::create_dir_all(&final_output_atlases_path)?;
+    fs::create_dir_all(&final_output_atlases_path_production)?;
     for atlas in atlases {
-        fs::copy(&atlas, final_output_atlases_path.join(&atlas.file_name().unwrap()))?;
+        fs::copy(&atlas, final_output_atlases_path_production.join(&atlas.file_name().unwrap()))?;
     }
 
-    fs::create_dir_all(&final_output_xml_path)?;
+    fs::create_dir_all(&final_output_xml_path_production)?;
     for xml_e in xml {
-        let out = final_output_xml_path.join(&xml_e.with_extension("xml").file_name().unwrap());
+        let out = final_output_xml_path_production.join(&xml_e.with_extension("xml").file_name().unwrap());
         fs::copy(&xml_e, out)?;
     }
     
