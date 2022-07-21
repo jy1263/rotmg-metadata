@@ -70,6 +70,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         if fname == "spritesheet.json" {
             atlases.push(res.path());
         }
+        else if fname == "assets_manifest.txt" {
+            atlases.push(res.path());
+        }
         else if fname.ends_with(".txt") {
             xml.push(res.path());
         }
@@ -89,7 +92,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     fs::create_dir_all(&final_output_atlases_path_production)?;
     for atlas in atlases {
-        fs::copy(&atlas, final_output_atlases_path_production.join(&atlas.file_name().unwrap()))?;
+        let atlas_name = atlas.file_name().unwrap();
+        if atlas_name.to_string_lossy().ends_with(".txt") {
+            fs::copy(&atlas, final_output_atlases_path_production.join(&atlas.with_extension("xml").file_name().unwrap()))?;
+        }
+        else {
+            fs::copy(&atlas, final_output_atlases_path_production.join(&atlas_name))?;
+        }
     }
 
     fs::create_dir_all(&final_output_xml_path_production)?;
