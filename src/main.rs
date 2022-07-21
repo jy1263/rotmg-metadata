@@ -18,7 +18,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let output_rotmg_path = output_path.join("RotMG Exalt_Data");
     let asset_ripper_path = output_path.join("AssetRipperConsole");
     let exported_project_assets_path = output_path.join("Ripped/ExportedProject/Assets");
+    
     let final_output_path = output_path.join("output_final");
+    let final_output_atlases_path = final_output_path.join("atlases");
+    let final_output_xml_path = final_output_path.join("xml");
+
+
 
 
     if !output_rotmg_path.exists() {
@@ -81,5 +86,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         };
     }
 
+    fs::create_dir_all(&final_output_atlases_path)?;
+    for atlas in atlases {
+        fs::copy(&atlas, final_output_atlases_path.join(&atlas.file_name().unwrap()))?;
+    }
+
+    fs::create_dir_all(&final_output_xml_path)?;
+    for xml_e in xml {
+        let out = final_output_xml_path.join(&xml_e.with_extension("xml").file_name().unwrap());
+        fs::copy(&xml_e, out)?;
+    }
+    
     Ok(())
 }
