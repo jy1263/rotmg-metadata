@@ -1,10 +1,11 @@
 use std::{fs, io, path::Path};
 
-use exalta_core::{
-    download::{download_files_from_checksums, request_checksums},
-    misc::init,
-};
+mod rotmg_driver;
+mod asset_ripper;
+
 use std::process::Command;
+use asset_ripper::download_asset_ripper_to;
+use rotmg_driver::download_essential;
 use zip::ZipArchive;
 
 static ASSET_RIPPER_PLATFORM: &str = "linux_x64";
@@ -13,102 +14,71 @@ static OUT: &str = "./out";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let build_hash = init(None, None).await?.build_hash;
     let output_path = Path::new(OUT);
-    let ripper_output = output_path.join("ripper");
-
-    println!("{}", build_hash);
-
-    let mut checksums_files = request_checksums(&build_hash, PLATFORM).await?.files;
-    checksums_files.retain(|e| {
-        return e.file.contains("resources.");
-    });
-
-    println!("{:?}", checksums_files);
-
-    // download_files_from_checksums(&build_hash, PLATFORM, &output_path.to_path_buf(), &checksums_files, None).await?;
-
+    let output_rotmg_path = output_path.join("RotMG Exalt_Data");
     let asset_ripper_path = output_path.join("AssetRipperConsole");
+    let exported_project_assets_path = output_path.join("Ripped/ExportedProject/Assets");
+    let final_output_path = output_path.join("output_final");
+
+
+    if !output_rotmg_path.exists() {
+        download_essential(output_path.to_path_buf()).await?;
+    }
+
+    
     if !asset_ripper_path.exists() {
-        let octocrab = octocrab::instance();
-        let releases = octocrab
-            .repos("AssetRipper", "AssetRipper")
-            .releases()
-            .list()
-            .send()
-            .await?
-            .take_items();
+        download_asset_ripper_to(output_path.to_path_buf()).await?;
+    }
 
-        let unfound_err = "No Releases Found for AssetRipper";
-        let release = releases
-            .first()
-            .ok_or_else(|| anyhow::anyhow!(unfound_err))?;
-        let release_asset = release
-            .assets
-            .iter()
-            .find(|e| e.name.contains(ASSET_RIPPER_PLATFORM))
-            .ok_or_else(|| anyhow::anyhow!(unfound_err))?;
-        let buf = reqwest::get(release_asset.browser_download_url.clone())
-            .await?
-            .bytes()
-            .await?;
-        let mut zip = ZipArchive::new(std::io::Cursor::new(buf))?;
-        for i in 0..zip.len() {
-            let mut file = zip.by_index(i).unwrap();
-            let outpath = output_path.join(match file.enclosed_name() {
-                Some(path) => path.to_owned(),
-                None => continue,
-            });
-
-            {
-                let comment = file.comment();
-                if !comment.is_empty() {
-                    println!("File {} comment: {}", i, comment);
-                }
-            }
-
-            if (*file.name()).ends_with('/') {
-                println!("File {} extracted to \"{}\"", i, outpath.display());
-                fs::create_dir_all(&outpath).unwrap();
-            } else {
-                println!(
-                    "File {} extracted to \"{}\" ({} bytes)",
-                    i,
-                    outpath.display(),
-                    file.size()
-                );
-                if let Some(p) = outpath.parent() {
-                    if !p.exists() {
-                        fs::create_dir_all(&p).unwrap();
-                    }
-                }
-                let mut outfile = fs::File::create(&outpath).unwrap();
-                io::copy(&mut file, &mut outfile).unwrap();
-            }
-
-            // Get and Set permissions
-            #[cfg(unix)]
-            {
-                use std::os::unix::fs::PermissionsExt;
-
-                if let Some(mode) = file.unix_mode() {
-                    fs::set_permissions(&outpath, fs::Permissions::from_mode(mode)).unwrap();
-                }
-            }
+    if !exported_project_assets_path.exists() {
+        #[cfg(unix)]
+        {
+            println!(
+                "{}",
+                Command::new("chmod")
+                    .args([
+                        "+x",
+                        &output_path.join("AssetRipperConsole").to_str().unwrap()
+                    ])
+                    .output()?
+                    .status
+            );
+            println!(
+                "{}",
+                String::from_utf8_lossy(&Command::new(output_path.join("AssetRipperConsole"))
+                    .args([
+                        output_path.join("RotMG Exalt_Data/resources.assets")
+                    ])
+                    .output()?
+                    .stdout)
+            );
         }
     }
-    #[cfg(unix)]
-    {
-        println!(
-            "{}",
-            Command::new("chmod")
-                .args([
-                    "+x",
-                    &output_path.join("AssetRipperConsole").to_str().unwrap()
-                ])
-                .output()?
-                .status
-        );
+    
+    let mut xml = vec![];
+    let mut atlases = vec![];
+
+    for path in exported_project_assets_path.join("TextAsset").read_dir()? {
+        let res = path?;
+        let fname = res.file_name().to_string_lossy().to_string();
+        if fname == "spritesheet.json" {
+            atlases.push(res.path());
+        }
+        else if fname.ends_with(".txt") {
+            xml.push(res.path());
+        }
+    }
+
+    for path in exported_project_assets_path.join("Texture2D").read_dir()? {
+        let res = path?;
+        let fname = res.file_name().to_string_lossy().to_string();
+        match fname.as_str() {
+            "characters_masks.png" | "characters.png" | "groundTiles.png" | "mapObjects.png" => {
+                atlases.push(res.path());
+            }
+            _ => {
+            }
+        };
     }
 
     Ok(())
