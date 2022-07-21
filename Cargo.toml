@@ -6,4 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+
 exalta_core = { path = "exalta-launcher/exalta_core" }
+
+reqwest = { version = "0.11.0", features = ["stream"] }
+zip = "0.6"
+
+octocrab = "0.16"
