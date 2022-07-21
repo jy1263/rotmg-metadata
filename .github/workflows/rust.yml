@@ -18,6 +18,8 @@ jobs:
     - uses: actions/checkout@v3
       with:
         submodules: recursive
+    - uses: Swatinem/rust-cache@v2
+    
     - name: Build
       run: cargo run --release
     - name: Git
