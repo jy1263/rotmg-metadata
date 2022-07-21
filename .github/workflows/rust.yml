@@ -33,4 +33,4 @@ jobs:
         ssh-add - <<< "${DEPLOY_KEY}"
         git config --global user.email "50583248+jy1263@users.noreply.github.com"
         git config --global user.name "jy1263"
-        cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/{username}/{repo}.git master:gh-pages
+        cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/rotmg-exalt-tools/rotmg-metadata.git master:gh-pages
