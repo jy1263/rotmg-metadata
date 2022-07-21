@@ -24,13 +24,8 @@ jobs:
     
     - name: Build
       run: cargo run --release
-    - name: Git
-      env:
-        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-      run: |
-        eval "$(ssh-agent -s)"
-        ssh-add - <<< "${DEPLOY_KEY}"
-        git config --global user.email "50583248+jy1263@users.noreply.github.com"
-        git config --global user.name "jy1263"
-        cd out/output_final && git init && git add -A && git commit -m 'deploy' && git push -f https://github.com/rotmg-exalt-tools/rotmg-metadata.git master:gh-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3.7.3
+      with:
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        publish_dir: ./out/output_final
