@@ -20,7 +20,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     let final_output_path = output_path.join("output_final");
     let final_output_path_assets = final_output_path.join("assets");
-    let final_output_path_assets_production = final_output_path.join("production");
+    let final_output_path_assets_production = final_output_path_assets.join("production");
     let final_output_atlases_path_production = final_output_path_assets_production.join("atlases");
     let final_output_xml_path_production = final_output_path_assets_production.join("xml");
 
