@@ -43,7 +43,7 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
 
     println!("Generating {}", build_str);
     exalta_core::set_build(build).await;
-    if !output_rotmg_data_path.exists() {
+    if !output_rotmg_data_path.exists() || build == exalta_core::Build::Testing {
         println!("Downloading rotmg data");
         download_essential(output_rotmg_path.to_path_buf()).await?;
     }
