@@ -6,7 +6,7 @@
     </head>
     <body>
         <script>
-            let split_path = window.location.pathname.split("/");
+            let split_path = window.location.pathname.split("/").filter((e) => e.length !== 0);
             let repo_name = split_path.shift();
             (async () => {
                 const response = await fetch(`https://api.github.com/repos/rotmg-mirror/${repo_name}/contents/${split_path.join("/")}/?ref=gh-pages`);
