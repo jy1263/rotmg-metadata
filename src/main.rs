@@ -13,19 +13,38 @@ static OUT: &str = "./out";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    generate(exalta_core::Build::Production).await?;
+    if !generate(exalta_core::Build::Testing).await .is_ok(){
+        println!("Testing build generation failed");
+    }
+
+    Ok(())
+}
+
+async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::Error>> {
+    let build_str = match build {
+        exalta_core::Build::Production => "production",
+        exalta_core::Build::Testing => "testing",
+    };
+
     let output_path = Path::new(OUT);
-    let output_rotmg_path = output_path.join("RotMG Exalt_Data");
+    let output_rotmg_path = output_path.join(format!("rotmg/{}", build_str));
+    let output_rotmg_data_path = output_rotmg_path.join("RotMG Exalt_Data");
+
     let asset_ripper_path = output_path.join("AssetRipperConsole");
-    let exported_project_assets_path = output_path.join("Ripped/ExportedProject/Assets");
+    let ripped_path = output_path.join(format!("ripped/{}", build_str));
+    let exported_project_assets_path = ripped_path.join("ExportedProject/Assets");
     
     let final_output_path = output_path.join("output_final");
     let final_output_path_assets = final_output_path.join("assets");
-    let final_output_path_assets_production = final_output_path_assets.join("production");
+    let final_output_path_assets_production = final_output_path_assets.join(build_str);
     let final_output_atlases_path_production = final_output_path_assets_production.join("atlases");
     let final_output_xml_path_production = final_output_path_assets_production.join("xml");
 
+    println!("Generating {}", build_str);
     if !output_rotmg_path.exists() {
-        download_essential(output_path.to_path_buf()).await?;
+        exalta_core::set_build_force(build);
+        download_essential(output_rotmg_path.to_path_buf()).await?;
     }
 
     
@@ -50,7 +69,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 "{}",
                 String::from_utf8_lossy(&Command::new(output_path.join("AssetRipperConsole"))
                     .args([
-                        output_path.join("RotMG Exalt_Data/resources.assets")
+                        &output_rotmg_data_path.join("resources.assets").to_string_lossy().to_string(),
+                        "--output",
+                        &ripped_path.to_string_lossy().to_string()
                     ])
                     .output()?
                     .stdout)
