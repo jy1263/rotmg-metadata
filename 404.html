@@ -6,9 +6,10 @@
     </head>
     <body>
         <script>
-            console.log(window.location.pathname);
+            let split_path = window.location.pathname.split("/");
+            let repo_name = split_path.shift();
             (async () => {
-                const response = await fetch(`https://api.github.com/repos/rotmg-mirror/rotmg-metadata/contents/${window.location.pathname}/?ref=gh-pages`);
+                const response = await fetch(`https://api.github.com/repos/rotmg-mirror/${repo_name}/contents/${split_path.join("/")}/?ref=gh-pages`);
                 const data = await response.json();
                 let htmlString = '<ul>';
                 
