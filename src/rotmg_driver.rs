@@ -13,9 +13,9 @@ pub async fn download_essential(output_path: PathBuf) -> Result<(), Box<dyn std:
 
     let mut checksums_files = request_checksums(&build_hash, PLATFORM).await?.files;
     checksums_files.retain(|e| {
-        return e.file.contains("resources.assets");
+        return e.file.ends_with("resources.assets");
     });
-    
+
     download_files_from_checksums(&build_hash, PLATFORM, &output_path.to_path_buf(), &checksums_files, None).await?;
     Ok(())
 }

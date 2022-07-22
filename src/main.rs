@@ -13,10 +13,10 @@ static OUT: &str = "./out";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    generate(exalta_core::Build::Production).await?;
-    if !generate(exalta_core::Build::Testing).await .is_ok(){
+    if !generate(exalta_core::Build::Testing).await.is_ok(){
         println!("Testing build generation failed");
     }
+    generate(exalta_core::Build::Production).await?;
 
     Ok(())
 }
@@ -42,8 +42,9 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
     let final_output_xml_path_production = final_output_path_assets_production.join("xml");
 
     println!("Generating {}", build_str);
-    exalta_core::set_build_force(build);
+    exalta_core::set_build(build).await;
     if !output_rotmg_data_path.exists() {
+        println!("Downloading rotmg data");
         download_essential(output_rotmg_path.to_path_buf()).await?;
     }
 
