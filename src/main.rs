@@ -24,9 +24,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let final_output_atlases_path_production = final_output_path_assets_production.join("atlases");
     let final_output_xml_path_production = final_output_path_assets_production.join("xml");
 
-
-
-
     if !output_rotmg_path.exists() {
         download_essential(output_path.to_path_buf()).await?;
     }
@@ -76,7 +73,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         else if fname.ends_with(".txt") {
             xml.push(res.path());
         }
-    }
+    } 
 
     for path in exported_project_assets_path.join("Texture2D").read_dir()? {
         let res = path?;
@@ -107,5 +104,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         fs::copy(&xml_e, out)?;
     }
     
+    let public_path = Path::new("public");
+    if public_path.exists() {
+        let mut opts = fs_extra::dir::CopyOptions::new();
+        opts.overwrite = true;
+        opts.content_only = true;
+        fs_extra::dir::copy(public_path, final_output_path, &opts)?;
+    }
+
     Ok(())
 }
