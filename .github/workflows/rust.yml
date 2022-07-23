@@ -31,7 +31,7 @@ jobs:
         key: ${{ runner.os }}-testing
     - name: Cache Test
       run: |
-        if compgen -G ./out/ > /dev/null; then
+        if [ -e "./out" ]; then
             ls ./out/
         fi
 
