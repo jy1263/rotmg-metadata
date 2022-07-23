@@ -1,4 +1,5 @@
 use std::io::Write;
+use std::path::PathBuf;
 use std::{fs, io, path::Path};
 
 mod rotmg_driver;
@@ -50,12 +51,7 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
     if need_to_update {
         println!("Downloading rotmg data");
         download_essential(&build_hash, output_rotmg_path.to_path_buf()).await?;
-        std::fs::OpenOptions::new()
-            .write(true)
-            .create(true)
-            .truncate(true)
-            .open(&output_rotmg_version_path)?
-            .write_all(build_hash.as_bytes())?;
+        create_or_overwrite(&output_rotmg_version_path, build_hash.as_bytes())?;
     }
 
     
@@ -145,8 +141,20 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
         let mut opts = fs_extra::dir::CopyOptions::new();
         opts.overwrite = true;
         opts.content_only = true;
-        fs_extra::dir::copy(public_path, final_output_path, &opts)?;
+        fs_extra::dir::copy(public_path, &final_output_path, &opts)?;
     }
 
+    create_or_overwrite(&final_output_path_assets_production.join("version.txt"), build_hash.as_bytes())?;
+
+    Ok(())
+}
+
+fn create_or_overwrite(file_path: &PathBuf, buf: &[u8]) -> Result<(), Box<dyn std::error::Error>> {
+    std::fs::OpenOptions::new()
+        .write(true)
+        .create(true)
+        .truncate(true)
+        .open(file_path)?
+        .write_all(buf)?;
     Ok(())
 }
