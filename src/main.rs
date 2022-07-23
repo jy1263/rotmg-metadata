@@ -46,14 +46,15 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
     println!("Generating {}", build_str);
     exalta_core::set_build(build).await;
     let build_hash = exalta_core::misc::init(None, None).await?.build_hash;
-    if !output_rotmg_data_path.exists() || build == exalta_core::Build::Testing {
+    let need_to_update = fs::read_to_string(&output_rotmg_version_path).unwrap_or_default() != build_hash;
+    if need_to_update {
         println!("Downloading rotmg data");
         download_essential(&build_hash, output_rotmg_path.to_path_buf()).await?;
         std::fs::OpenOptions::new()
             .write(true)
             .create(true)
             .truncate(true)
-            .open(output_rotmg_version_path)?
+            .open(&output_rotmg_version_path)?
             .write_all(build_hash.as_bytes())?;
     }
 
@@ -62,7 +63,11 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
         download_asset_ripper_to(output_path.to_path_buf()).await?;
     }
 
-    if !exported_project_assets_path.exists() {
+    if need_to_update {
+        if ripped_path.exists() {
+            fs::remove_dir_all(&ripped_path)?;
+        }
+
         #[cfg(unix)]
         {
             println!(
