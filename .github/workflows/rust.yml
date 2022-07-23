@@ -27,7 +27,7 @@ jobs:
       with:
         path: |
           ./out/*
-          !./out/ripped
+          !./out/output_final
         key: ${{ runner.os }}-testing
     - name: Cache Test
       run: |
