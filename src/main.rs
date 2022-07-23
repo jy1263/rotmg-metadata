@@ -1,3 +1,4 @@
+use std::io::Write;
 use std::{fs, io, path::Path};
 
 mod rotmg_driver;
@@ -29,6 +30,7 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
 
     let output_path = Path::new(OUT);
     let output_rotmg_path = output_path.join(format!("rotmg/{}", build_str));
+    let output_rotmg_version_path = output_rotmg_path.join("version.txt");
     let output_rotmg_data_path = output_rotmg_path.join("RotMG Exalt_Data");
 
     let asset_ripper_path = output_path.join("AssetRipperConsole");
@@ -43,9 +45,16 @@ async fn generate(build: exalta_core::Build) -> Result<(), Box<dyn std::error::E
 
     println!("Generating {}", build_str);
     exalta_core::set_build(build).await;
+    let build_hash = exalta_core::misc::init(None, None).await?.build_hash;
     if !output_rotmg_data_path.exists() || build == exalta_core::Build::Testing {
         println!("Downloading rotmg data");
-        download_essential(output_rotmg_path.to_path_buf()).await?;
+        download_essential(&build_hash, output_rotmg_path.to_path_buf()).await?;
+        std::fs::OpenOptions::new()
+            .write(true)
+            .create(true)
+            .truncate(true)
+            .open(output_rotmg_version_path)?
+            .write_all(build_hash.as_bytes())?;
     }
 
     
