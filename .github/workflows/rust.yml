@@ -30,7 +30,11 @@ jobs:
           !./out/ripped
         key: ${{ runner.os }}-testing
     - name: Cache Test
-      run: ls ./out/
+      run: |
+        if compgen -G ./out/ > /dev/null; then
+            ls ./out/
+        fi
+
       
     - name: Build
       run: cargo run --release
