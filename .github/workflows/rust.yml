@@ -25,9 +25,13 @@ jobs:
       id: cache-testing
       uses: actions/cache@v3
       with:
-        path: ./out/
+        path: |
+          ./out/*
+          !./out/ripped
         key: ${{ runner.os }}-testing
-    
+    - name: Cache Test
+      run: ls ./out/
+      
     - name: Build
       run: cargo run --release
     - name: GitHub Pages action
