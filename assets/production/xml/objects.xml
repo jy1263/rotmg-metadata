@@ -510,10 +510,10 @@
     <DisplayId>The Tinkerer</DisplayId>
     <ShadowSize>50</ShadowSize>
     <Size>120</Size>
-    <Texture>
-      <File>lofiObj3</File>
-      <Index>0x4F6</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>interregnumChars8x8</File>
+      <Index>0</Index>
+    </AnimatedTexture>
   </Object>
   <Object type="0x1755" id="Quest Rewards Inv Object">
     <Class>QuestRewards</Class>
@@ -1390,6 +1390,22 @@
     <Defense>0</Defense>
     <Size>160</Size>
     <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
+  <Object type="0x9530" id="Interregnum Quest Chest">
+    <DisplayId>Interregnum Treasure Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <TrackLoot />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1185</Index>
+    </Texture>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>140</Size>
+    <Exp>60000</Exp>
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>

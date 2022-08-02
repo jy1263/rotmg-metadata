@@ -15,6 +15,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Coral Arrow</ObjectId>
@@ -43,6 +44,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Fire Bolt</ObjectId>
@@ -71,6 +73,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -101,6 +104,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Rainbow Magic</ObjectId>
@@ -129,6 +133,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Directed Explosion</ObjectId>
@@ -157,6 +162,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Stone Slash</ObjectId>
@@ -185,6 +191,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Aqua Slash</ObjectId>
@@ -213,6 +220,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Aqua Missile</ObjectId>
@@ -243,6 +251,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Black Arrow</ObjectId>
@@ -271,6 +280,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Crystal Serpent Missile</ObjectId>
@@ -301,6 +311,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Spirit Dagger Slash</ObjectId>
@@ -329,6 +340,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
@@ -357,6 +369,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
@@ -385,6 +398,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Jewel Slash</ObjectId>
@@ -413,6 +427,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Poison Katana Slash</ObjectId>
@@ -443,6 +458,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -471,6 +487,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Rimmed Mystic Shot</ObjectId>
@@ -497,6 +514,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Beam Slash</ObjectId>

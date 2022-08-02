@@ -77,6 +77,7 @@
     <ParalyzeImmune />
     <Level>20</Level>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -176,6 +177,7 @@
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -201,6 +203,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>100</Size>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <MaxHitPoints>750</MaxHitPoints>
     <Defense>25</Defense>
     <Projectile id="0">
@@ -227,6 +230,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>100</Size>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <MaxHitPoints>810</MaxHitPoints>
     <Defense>30</Defense>
     <Projectile id="0">
@@ -254,6 +258,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>100</Size>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <MaxHitPoints>565</MaxHitPoints>
     <Defense>20</Defense>
     <Projectile id="0">
@@ -281,6 +286,7 @@
     <Size>100</Size>
     <MaxHitPoints>1800</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>30</Defense>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
@@ -307,6 +313,7 @@
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -333,6 +340,7 @@
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -359,6 +367,7 @@
     <Size>100</Size>
     <MaxHitPoints>1800</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>30</Defense>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
@@ -385,6 +394,7 @@
     <Size>110</Size>
     <MaxHitPoints>1350</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>White Bolt</ObjectId>
@@ -420,6 +430,7 @@
     <Size>120</Size>
     <MaxHitPoints>1350</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
@@ -446,6 +457,7 @@
     <Enemy />
     <Class>Character</Class>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Texture>
       <File>lofiChar8x8</File>
       <Index>0xb0</Index>
@@ -533,6 +545,7 @@
     <Size>150</Size>
     <MaxHitPoints>450</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Brown Magic</ObjectId>
@@ -692,6 +705,7 @@
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Fire Bolt</ObjectId>
@@ -755,6 +769,7 @@
     <LeachHealth />
     <MaxHitPoints>1350</MaxHitPoints>
     <Exp>450</Exp>
+    <BXP>2137</BXP>
     <Defense>30</Defense>
     <Projectile id="0">
       <ObjectId>Grey Star</ObjectId>

@@ -130,6 +130,7 @@
     <StasisImmune />
     <Level>1</Level>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -195,6 +196,7 @@
     <MaxHitPoints>70</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>7</Exp>
+    <BXP>33</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Shot</ObjectId>
       <Damage>10</Damage>
@@ -220,6 +222,7 @@
     <MaxHitPoints>80</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>8</Exp>
+    <BXP>38</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Shot</ObjectId>
       <Damage>12</Damage>
@@ -245,6 +248,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Shot</ObjectId>
       <Damage>14</Damage>
@@ -277,6 +281,7 @@
     <MaxHitPoints>120</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>12</Exp>
+    <BXP>57</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Shot</ObjectId>
       <Damage>15</Damage>
@@ -309,6 +314,7 @@
     <MaxHitPoints>20</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Sword</ObjectId>
       <Damage>4</Damage>
@@ -334,6 +340,7 @@
     <MaxHitPoints>30</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>3</Exp>
+    <BXP>14</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Sword</ObjectId>
       <Damage>7</Damage>
@@ -359,6 +366,7 @@
     <MaxHitPoints>35</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>4</Exp>
+    <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Pirate Sword</ObjectId>
       <Damage>8</Damage>
@@ -384,6 +392,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -403,6 +412,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -422,6 +432,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -441,6 +452,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -460,6 +472,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -479,6 +492,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>

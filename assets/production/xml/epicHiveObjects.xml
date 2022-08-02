@@ -120,6 +120,7 @@
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2500</Exp>
+    <BXP>12500</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -195,6 +196,7 @@
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2500</Exp>
+    <BXP>12500</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -261,6 +263,7 @@
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2500</Exp>
+    <BXP>12500</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -326,6 +329,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>3000</Exp>
+    <BXP>15000</BXP>
     <StasisImmune />
     <TrackLoot />
     <DontFaceAttacks />
@@ -386,6 +390,7 @@
     <MaxHitPoints>125</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -420,6 +425,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Yellow Stinger Small</ObjectId>
@@ -450,6 +456,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Red Stinger Small</ObjectId>
@@ -480,6 +487,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Blue Stinger Small</ObjectId>
@@ -509,6 +517,7 @@
     <MaxHitPoints>112500</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>65000</Exp>
+    <BXP>325000</BXP>
     <Size>120</Size>
     <StasisImmune />
     <ParalyzeImmune />
@@ -755,6 +764,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Killer Bee Queen Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
   </Object>
   <Object type="0x1094" id="EH Maggot Egg1">
     <Class>Character</Class>
@@ -829,6 +840,7 @@
     <MaxHitPoints>400000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>80</Size>
     <DontFaceAttacks />
     <Projectile id="0">
@@ -859,6 +871,7 @@
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>400000</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>80</Size>
     <DontFaceAttacks />
     <Projectile id="0">
@@ -889,6 +902,7 @@
     <DeathSound>monster/wooden_walls_death</DeathSound>
     <MaxHitPoints>400000</MaxHitPoints>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>100</Size>
     <DontFaceAttacks />
     <Projectile id="0">
@@ -1002,6 +1016,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -1044,6 +1059,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -1086,6 +1102,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -1128,6 +1145,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Projectile id="0">
       <ObjectId>EH Blue Ball</ObjectId>
       <Damage>30</Damage>
@@ -1155,6 +1173,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Projectile id="0">
       <ObjectId>EH Red Ball</ObjectId>
       <Damage>35</Damage>
@@ -1182,6 +1201,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Projectile id="0">
       <ObjectId>EH Yellow Ball</ObjectId>
       <Damage>30</Damage>
@@ -1231,6 +1251,7 @@
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>25</Defense>
     <Flying />
     <Z>0.24</Z>
@@ -1262,6 +1283,7 @@
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>25</Defense>
     <Flying />
     <Z>0.24</Z>
@@ -2824,6 +2846,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -2883,6 +2906,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -2944,6 +2968,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -3178,6 +3203,7 @@
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <ParalyzeImmune />
@@ -3264,6 +3290,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Yellow Stinger Small</ObjectId>
@@ -3296,6 +3323,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Red Stinger Small</ObjectId>
@@ -3316,6 +3344,7 @@
     <DisplayId>Blue Killer Bee</DisplayId>
     <Enemy />
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>epicHiveChars8x8</File>
@@ -3704,6 +3733,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <StasisImmune />
     <DontFaceAttacks />
     <Projectile id="0">
@@ -3837,6 +3867,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Flying />
     <God />
     <Quest />
@@ -3912,6 +3943,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Flying />
     <Z>0.24</Z>
     <God />
@@ -3978,6 +4010,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Flying />
     <Z>0.24</Z>
     <God />
@@ -4057,6 +4090,7 @@
     <Flying />
     <Z>0.24</Z>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Projectile id="0">
       <ObjectId>EH Yellow Stinger Small</ObjectId>
       <Damage>130</Damage>
@@ -4087,6 +4121,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Red Stinger Small</ObjectId>
@@ -4119,6 +4154,7 @@
     <Flying />
     <Z>0.24</Z>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Projectile id="0">
       <ObjectId>EH Blue Stinger Small</ObjectId>
       <Damage>100</Damage>
@@ -4151,6 +4187,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Yellow Stinger Small</ObjectId>
@@ -4183,6 +4220,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Red Stinger Small</ObjectId>
@@ -4216,6 +4254,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Blue Stinger Small</ObjectId>

@@ -28,6 +28,7 @@
     <MaxHitPoints>67500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <Level>20</Level>
     <Quest />
     <StasisImmune />
@@ -173,6 +174,7 @@
     <MaxHitPoints>25500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>292</Exp>
+    <BXP>1387</BXP>
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />
@@ -259,6 +261,7 @@
     <MaxHitPoints>22500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>292</Exp>
+    <BXP>1387</BXP>
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />
@@ -344,6 +347,7 @@
     <MaxHitPoints>22500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>390</Exp>
+    <BXP>1852</BXP>
     <Level>20</Level>
     <ParalyzeImmune />
     <StasisImmune />
@@ -415,6 +419,7 @@
     <MaxHitPoints>28500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>390</Exp>
+    <BXP>1852</BXP>
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />

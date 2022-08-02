@@ -272,6 +272,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Lesser Gray Fairy Magic</ObjectId>
       <Damage>45</Damage>
@@ -301,6 +302,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Standard Gray Fairy Magic</ObjectId>
       <Damage>75</Damage>
@@ -330,6 +332,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Greater Gray Fairy Magic</ObjectId>
       <Damage>105</Damage>
@@ -360,6 +363,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -382,6 +386,7 @@
     <MaxHitPoints>450</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -404,6 +409,7 @@
     <MaxHitPoints>650</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -426,6 +432,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Bright Green Fairy Boomerang</ObjectId>
       <Damage>60</Damage>
@@ -465,6 +472,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Bright Green Fairy Boomerang</ObjectId>
       <Damage>75</Damage>
@@ -504,6 +512,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Bright Green Fairy Boomerang</ObjectId>
       <Damage>90</Damage>
@@ -543,6 +552,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -565,6 +575,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -587,6 +598,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,NATURE,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -609,6 +621,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Lesser Red Fairy Spear</ObjectId>
       <Damage>50</Damage>
@@ -638,6 +651,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Standard Red Fairy Spear</ObjectId>
       <Damage>60</Damage>
@@ -667,6 +681,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Greater Red Fairy Spear</ObjectId>
       <Damage>70</Damage>
@@ -696,6 +711,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>30</Damage>
@@ -725,6 +741,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>60</Damage>
@@ -755,6 +772,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Orange Fairy Breath</ObjectId>
       <Damage>60</Damage>
@@ -791,6 +809,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Brown Fairy Wave</ObjectId>
       <Damage>30</Damage>
@@ -821,6 +840,7 @@
     <MaxHitPoints>450</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Brown Fairy Wave</ObjectId>
       <Damage>50</Damage>
@@ -852,6 +872,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>9</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Brown Fairy Wave</ObjectId>
       <Damage>70</Damage>
@@ -883,6 +904,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Sky Blue Fairy Boomerang</ObjectId>
       <Damage>70</Damage>
@@ -913,6 +935,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Sky Blue Fairy Boomerang</ObjectId>
       <Damage>80</Damage>
@@ -943,6 +966,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Sky Blue Fairy Boomerang</ObjectId>
       <Damage>90</Damage>
@@ -973,6 +997,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Dark Purple Fairy Spike</ObjectId>
       <Damage>45</Damage>
@@ -1003,6 +1028,7 @@
     <MaxHitPoints>450</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Dark Purple Fairy Spike</ObjectId>
       <Damage>60</Damage>
@@ -1033,6 +1059,7 @@
     <MaxHitPoints>550</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Dark Purple Fairy Spike</ObjectId>
       <Damage>90</Damage>
@@ -1063,6 +1090,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>40</Damage>
@@ -1091,6 +1119,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>75</Damage>
@@ -1119,6 +1148,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Dark Magenta Fairy Wave</ObjectId>
       <Damage>120</Damage>
@@ -1147,6 +1177,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Pink Fairy Blade</ObjectId>
       <Damage>45</Damage>
@@ -1177,6 +1208,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Pink Fairy Blade</ObjectId>
       <Damage>75</Damage>
@@ -1207,6 +1239,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>7</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Pink Fairy Blade</ObjectId>
       <Damage>135</Damage>
@@ -1237,6 +1270,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Bright Purple Fairy Pellet</ObjectId>
       <Damage>75</Damage>
@@ -1273,6 +1307,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Bright Purple Fairy Blast</ObjectId>
       <Damage>90</Damage>
@@ -1305,6 +1340,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Bright Purple Fairy Mystical</ObjectId>
       <Damage>155</Damage>
@@ -1336,6 +1372,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Cyan Fairy Bolt</ObjectId>
       <Damage>75</Damage>
@@ -1365,6 +1402,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Cyan Fairy Spike</ObjectId>
       <Damage>90</Damage>
@@ -1394,6 +1432,7 @@
     <MaxHitPoints>550</MaxHitPoints>
     <Defense>9</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Cyan Fairy Magic</ObjectId>
       <Damage>80</Damage>
@@ -1423,6 +1462,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>15</Damage>
@@ -1453,6 +1493,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Seafoam Green Fairy Shockwave</ObjectId>
       <Damage>90</Damage>
@@ -1481,6 +1522,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Seafoam Green Fairy Blast</ObjectId>
       <Damage>135</Damage>
@@ -1512,6 +1554,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Projectile id="0">
       <ObjectId>Faint Pink Fairy Star</ObjectId>
       <Damage>105</Damage>
@@ -1541,6 +1584,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Faint Pink Fairy Hallucinogenic Star</ObjectId>
       <Damage>50</Damage>
@@ -1616,6 +1660,7 @@
     <MaxHitPoints>11250</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <Quest />
     <God />
     <StasisImmune />

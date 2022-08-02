@@ -16,6 +16,7 @@
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <Quest />
     <SlowImmune />
     <ParalyzeImmune />

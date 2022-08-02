@@ -348,6 +348,7 @@
     <StunImmune />
     <Level>1</Level>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -468,6 +469,7 @@
     <SpecialSpawn category="Souvenir_MID">Pirate King's Cutlass</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -709,6 +711,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile id="0">
@@ -764,6 +767,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile id="0">
@@ -804,6 +808,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="BeastKills" />
     <KillStat stat="LesserGodKills" />
     <Projectile id="0">
@@ -833,6 +838,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Small Cannonball Orange</ObjectId>
@@ -861,6 +867,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="StructureKills" />
     <Projectile id="0">
       <ObjectId>Bilgewater Cannonball</ObjectId>
@@ -893,6 +900,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="GrotesqueKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Small Cannonball</ObjectId>
@@ -928,6 +936,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Small Cannonball Orange</ObjectId>
@@ -956,6 +965,7 @@
     <MaxHitPoints>1550</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="CritterKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Knife</ObjectId>
@@ -986,6 +996,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Talon</ObjectId>
@@ -1014,6 +1025,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="BeastKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Crab Claw</ObjectId>
@@ -1040,6 +1052,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="CritterKills" />
     <Projectile id="0">
       <ObjectId>Deadwater White Wave</ObjectId>
@@ -1067,6 +1080,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="CritterKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Bubble</ObjectId>
@@ -1095,6 +1109,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="CritterKills" />
     <Projectile id="0">
       <ObjectId>Deadwater White Spike</ObjectId>
@@ -1122,6 +1137,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="CritterKills" />
     <Projectile id="0">
       <ObjectId>Deadwater White Zap</ObjectId>
@@ -1164,6 +1180,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Small Cannonball Blue</ObjectId>
@@ -1191,6 +1208,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Liquid Bolt</ObjectId>
@@ -1219,6 +1237,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Liquid Missile</ObjectId>
@@ -1247,6 +1266,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Liquid Magic</ObjectId>
@@ -1273,6 +1293,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Blade</ObjectId>
@@ -1300,6 +1321,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="HumanoidKills" />
     <Projectile id="0">
       <ObjectId>Deadwater Blade</ObjectId>
@@ -1337,6 +1359,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
@@ -1356,6 +1379,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT</Labels>
@@ -1376,6 +1400,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT</Labels>
@@ -3300,6 +3325,7 @@
     <MaxHitPoints>32000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <God />
     <StasisImmune />
     <ParalyzeImmune />
@@ -3461,6 +3487,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <God />
     <StasisImmune />
     <ParalyzeImmune />

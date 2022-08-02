@@ -151,6 +151,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,NATURE,MINION_STRONG</Labels>
@@ -205,6 +206,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Projectile id="0">
       <ObjectId>Sand Cannon</ObjectId>
       <Damage>70</Damage>
@@ -247,6 +249,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Venom Flick</ObjectId>
       <Damage>70</Damage>
@@ -288,6 +291,7 @@
     <MaxHitPoints>950</MaxHitPoints>
     <Defense>16</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Feather Bolt</ObjectId>
       <Damage>45</Damage>
@@ -316,6 +320,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Antlion Bite</ObjectId>
       <Damage>85</Damage>
@@ -345,6 +350,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Arcane Blade</ObjectId>
       <Damage>80</Damage>
@@ -373,6 +379,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Arcane Blade</ObjectId>
       <Damage>55</Damage>
@@ -401,6 +408,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Arcane Blade</ObjectId>
       <Damage>90</Damage>
@@ -455,6 +463,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Effect color="0xE0BF48" minRadius="2.5" maxRadius="9.5" rise="3.4" life="2" amount="45" speed="0.05">Circle</Effect>
     <KillStat stat="StructureKills" />
@@ -479,6 +488,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -516,6 +526,7 @@
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <God />
     <StasisImmune />
     <ParalyzeImmune />
@@ -579,6 +590,7 @@
     <MaxHitPoints>10500</MaxHitPoints>
     <Defense>34</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <EventChestBoss />
@@ -707,6 +719,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Sand Wanderer Trickster Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -729,6 +742,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <NoMiniMap />
     <StasisImmune />
     <StunImmune />

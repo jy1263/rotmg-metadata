@@ -18,6 +18,7 @@
     <Level>10</Level>
     <Quest />
     <Exp>144</Exp>
+    <BXP>684</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>52</Damage>
@@ -114,6 +115,7 @@
     <Size>100</Size>
     <MaxHitPoints>1400</MaxHitPoints>
     <Exp>280</Exp>
+    <BXP>1330</BXP>
     <Defense>12</Defense>
     <Terrain>HighSand</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -160,6 +162,7 @@
     <Size>100</Size>
     <Defense>7</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Terrain>HighSand</Terrain>
     <KillStat stat="GrotesqueKills" />
@@ -191,6 +194,7 @@
     <Size>100</Size>
     <Defense>12</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Terrain>HighSand</Terrain>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,GROTESQUE,MINION_WEAK</Labels>
@@ -209,6 +213,7 @@
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>250</MaxHitPoints>
+    <BXP>118</BXP>
     <Defense>7</Defense>
     <Terrain>HighPlains</Terrain>
     <Projectile id="0">
@@ -234,6 +239,7 @@
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>260</MaxHitPoints>
+    <BXP>123</BXP>
     <Defense>7</Defense>
     <Terrain>HighPlains</Terrain>
     <Projectile id="0">
@@ -259,6 +265,7 @@
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>210</MaxHitPoints>
+    <BXP>99</BXP>
     <Defense>0</Defense>
     <Terrain>HighPlains</Terrain>
     <Projectile id="0">
@@ -285,6 +292,7 @@
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>400</MaxHitPoints>
+    <BXP>190</BXP>
     <Defense>7</Defense>
     <Terrain>HighPlains</Terrain>
     <Projectile id="0">
@@ -310,6 +318,7 @@
     <DeathSound>monster/undead_dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>250</MaxHitPoints>
+    <BXP>118</BXP>
     <Defense>11</Defense>
     <Terrain>HighPlains</Terrain>
     <Projectile id="0">
@@ -337,6 +346,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>11</Defense>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Terrain>HighPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
@@ -380,6 +390,7 @@
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Terrain>HighPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <KillStat stat="HumanoidKills" />
@@ -410,6 +421,7 @@
     <Size>100</Size>
     <Defense>10</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Terrain>HighPlains</Terrain>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
@@ -440,6 +452,7 @@
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Terrain>HighPlains</Terrain>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
@@ -461,6 +474,7 @@
     <Size>100</Size>
     <Defense>9</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <SpawnProb>1.00</SpawnProb>
     <Level>13</Level>
     <Quest />
@@ -681,6 +695,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>300</MaxHitPoints>
+    <BXP>142</BXP>
     <Defense>7</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -706,6 +721,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>270</MaxHitPoints>
+    <BXP>128</BXP>
     <Defense>7</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -731,6 +747,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>300</MaxHitPoints>
+    <BXP>142</BXP>
     <Defense>7</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -757,6 +774,7 @@
     <Size>120</Size>
     <MaxHitPoints>700</MaxHitPoints>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Defense>7</Defense>
     <Terrain>HighForest</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -784,6 +802,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>240</MaxHitPoints>
+    <BXP>114</BXP>
     <Defense>0</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -809,6 +828,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>280</MaxHitPoints>
+    <BXP>133</BXP>
     <Defense>2</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -834,6 +854,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>220</MaxHitPoints>
+    <BXP>104</BXP>
     <Defense>0</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -860,6 +881,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>300</MaxHitPoints>
+    <BXP>142</BXP>
     <Defense>4</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -887,6 +909,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>180</MaxHitPoints>
+    <BXP>85</BXP>
     <Defense>5</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -913,6 +936,7 @@
     <Size>100</Size>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>160</Exp>
+    <BXP>570</BXP>
     <Defense>12</Defense>
     <Terrain>HighForest</Terrain>
     <God />
@@ -939,6 +963,7 @@
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
     <MaxHitPoints>75</MaxHitPoints>
+    <BXP>35</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -959,6 +984,7 @@
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>240</MaxHitPoints>
+    <BXP>114</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -985,6 +1011,7 @@
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>300</MaxHitPoints>
+    <BXP>142</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -1012,6 +1039,7 @@
     <DeathSound>monster/dragons_death</DeathSound>
     <MaxHitPoints>400</MaxHitPoints>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Terrain>HighForest</Terrain>
     <Enemy />
     <Projectile>
@@ -1038,6 +1066,7 @@
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
     <MaxHitPoints>700</MaxHitPoints>
+    <BXP>332</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -1065,6 +1094,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <MaxHitPoints>1200</MaxHitPoints>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -1105,6 +1135,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>250</MaxHitPoints>
+    <BXP>118</BXP>
     <Defense>2</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -1130,6 +1161,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>340</MaxHitPoints>
+    <BXP>161</BXP>
     <Defense>5</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -1155,6 +1187,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>260</MaxHitPoints>
+    <BXP>123</BXP>
     <Defense>0</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -1182,6 +1215,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>450</MaxHitPoints>
+    <BXP>213</BXP>
     <Defense>2</Defense>
     <Terrain>HighForest</Terrain>
     <Projectile id="0">
@@ -1211,6 +1245,7 @@
     <Quest />
     <Level>14</Level>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blue Magic Attack</ObjectId>
@@ -1248,7 +1283,7 @@
     <StunImmune />
     <TrackLoot />
       ​
-      <AnimatedTexture><File>chars16x16rEncounters</File><Index>52</Index></AnimatedTexture><AltTexture id="1"><AnimatedTexture><File>chars16x16rEncounters</File><Index>53</Index></AnimatedTexture></AltTexture><HitSound>monster/lizard_god_hit</HitSound><DeathSound>monster/lizard_god_death</DeathSound><Size>-1</Size><MaxHitPoints>40000</MaxHitPoints><Defense>10</Defense><Terrain>HighForest</Terrain><Level>20</Level><Exp>4000</Exp><SpawnProb>0.35</SpawnProb><PerRealmMax>2</PerRealmMax>
+      <AnimatedTexture><File>chars16x16rEncounters</File><Index>52</Index></AnimatedTexture><AltTexture id="1"><AnimatedTexture><File>chars16x16rEncounters</File><Index>53</Index></AnimatedTexture></AltTexture><HitSound>monster/lizard_god_hit</HitSound><DeathSound>monster/lizard_god_death</DeathSound><Size>-1</Size><MaxHitPoints>40000</MaxHitPoints><Defense>10</Defense><Terrain>HighForest</Terrain><Level>20</Level><Exp>4000</Exp><BXP>15000</BXP><SpawnProb>0.35</SpawnProb><PerRealmMax>2</PerRealmMax>
       ​
       <Projectile id="0"><ObjectId>Beer Barrel</ObjectId><Damage>125</Damage><Speed>85</Speed><Size>130</Size><LifetimeMS>1400</LifetimeMS><PassesCover /><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile><Projectile id="1"><ObjectId>Beer Shockwave</ObjectId><Damage>100</Damage><Speed>55</Speed><Size>140</Size><PassesCover /><LifetimeMS>1200</LifetimeMS></Projectile><Projectile id="2"><ObjectId>Beer Punch</ObjectId><Damage>125</Damage><Speed>65</Speed><Size>130</Size><LifetimeMS>1500</LifetimeMS><ConditionEffect duration="2">Drunk</ConditionEffect></Projectile>
       ​

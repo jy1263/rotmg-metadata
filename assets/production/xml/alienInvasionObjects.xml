@@ -115,6 +115,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Pink Shot</ObjectId>
       <Damage>100</Damage>
@@ -142,6 +143,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Pink Shot</ObjectId>
       <Damage>80</Damage>
@@ -169,6 +171,7 @@
     <MaxHitPoints>1400</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Pink Shot</ObjectId>
       <Damage>110</Damage>
@@ -196,6 +199,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Z>0.25</Z>
     <Flying />
     <Projectile id="0">
@@ -225,6 +229,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Tank Shot</ObjectId>
       <Damage>100</Damage>
@@ -252,6 +257,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Tank Shot</ObjectId>
       <Damage>120</Damage>
@@ -280,6 +286,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Projectile id="0">
       <ObjectId>AI Alien Green Shot</ObjectId>
       <Damage>130</Damage>
@@ -308,6 +315,7 @@
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -356,6 +364,7 @@
     <MaxHitPoints>100000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -735,6 +744,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <TrackLoot />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
@@ -759,6 +769,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <TrackLoot />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
@@ -788,6 +799,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>25</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -829,6 +841,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -858,6 +871,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -895,6 +909,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -937,6 +952,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -965,6 +981,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>125</Exp>
+    <BXP>593</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -1000,6 +1017,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -1028,6 +1046,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>25</Defense>
     <WhileMoving>
       <Z>0.30</Z>
@@ -1057,6 +1076,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Defense>25</Defense>
     <WhileMoving>
       <Z>0.30</Z>
@@ -1098,6 +1118,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <StunImmune />
@@ -1138,6 +1159,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Defense>25</Defense>
     <Quest />
     <WhileMoving>
@@ -1181,6 +1203,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <Defense>25</Defense>
     <Quest />
     <StasisImmune />
@@ -1223,6 +1246,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>37500</MaxHitPoints>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Defense>30</Defense>
     <Quest />
     <StasisImmune />
@@ -1679,6 +1703,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1703,6 +1728,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -2095,6 +2121,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -2125,6 +2152,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Defense>15</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -2154,6 +2182,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>15</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -2183,6 +2212,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>20</Defense>
     <Z>0.6</Z>
     <StasisImmune />
@@ -2237,6 +2267,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2267,6 +2298,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>125</Exp>
+    <BXP>593</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2306,6 +2338,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>1500</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2334,6 +2367,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2362,6 +2396,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <StunImmune />
@@ -2405,6 +2440,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>6000</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Defense>30</Defense>
     <Z>0.6</Z>
     <StasisImmune />
@@ -2466,6 +2502,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <Defense>25</Defense>
     <Quest />
     <StasisImmune />
@@ -2511,6 +2548,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>6000</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Defense>30</Defense>
     <Z>0.6</Z>
     <Quest />
@@ -2577,6 +2615,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Defense>30</Defense>
     <Quest />
     <StasisImmune />
@@ -2997,6 +3036,7 @@
     <TrackLoot />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -3021,6 +3061,7 @@
     <TrackLoot />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -3060,6 +3101,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <Z>0.24</Z>
     <Flying />
@@ -3088,6 +3130,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3114,6 +3157,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3142,6 +3186,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3169,6 +3214,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Defense>10</Defense>
     <Z>0.6</Z>
     <Flying />
@@ -3196,6 +3242,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>15</Defense>
     <Z>0.6</Z>
     <Flying />
@@ -3223,6 +3270,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>15</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3271,6 +3319,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>125</Exp>
+    <BXP>593</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3319,6 +3368,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <StunImmune />
@@ -3350,6 +3400,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <StunImmune />
@@ -3402,6 +3453,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Defense>25</Defense>
     <Quest />
     <StasisImmune />
@@ -3435,6 +3487,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <Defense>25</Defense>
     <Quest />
     <StasisImmune />
@@ -3488,6 +3541,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>37500</MaxHitPoints>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Defense>30</Defense>
     <Quest />
     <StasisImmune />
@@ -3880,6 +3934,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -3904,6 +3959,7 @@
     <Flying />
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -3984,6 +4040,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4011,6 +4068,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>125</Exp>
+    <BXP>593</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4038,6 +4096,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4065,6 +4124,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>900</MaxHitPoints>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Defense>20</Defense>
     <Z>0.2</Z>
     <Flying />
@@ -4094,6 +4154,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Defense>25</Defense>
     <Z>0.2</Z>
     <Flying />
@@ -4123,6 +4184,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4148,6 +4210,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>2250</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Defense>25</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4177,6 +4240,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>4500</MaxHitPoints>
     <Exp>175</Exp>
+    <BXP>831</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -4206,6 +4270,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <StunImmune />
@@ -4237,6 +4302,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Defense>40</Defense>
     <StasisImmune />
     <StunImmune />
@@ -4274,6 +4340,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>18750</MaxHitPoints>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <Defense>35</Defense>
     <Quest />
     <StasisImmune />
@@ -4307,6 +4374,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Defense>40</Defense>
     <Quest />
     <StasisImmune />
@@ -4346,6 +4414,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>30000</MaxHitPoints>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Defense>50</Defense>
     <Quest />
     <Z>0.15</Z>

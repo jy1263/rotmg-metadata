@@ -172,6 +172,7 @@
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>60</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <Quest />
@@ -206,6 +207,7 @@
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>60</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <Quest />
@@ -240,6 +242,7 @@
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>60</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <Quest />
@@ -274,6 +277,7 @@
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>60</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <Quest />
@@ -312,6 +316,7 @@
     <DeathSound>monster/eggs_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>300000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <PerRealmMax>1</PerRealmMax>
@@ -345,6 +350,7 @@
     <Quest />
     <Level>20</Level>
     <MaxHitPoints>80000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <StunImmune />
@@ -615,6 +621,7 @@
     <Quest />
     <Level>20</Level>
     <MaxHitPoints>80000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>0</Defense>
     <StasisImmune />
     <StunImmune />

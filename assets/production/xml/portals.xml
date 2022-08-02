@@ -1623,4 +1623,195 @@
     </Texture>
     <ShadowSize>0</ShadowSize>
   </Object>
+  <Object type="0xc268" id="Interregnum Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Hidden Interregnum</DisplayId>
+    <DungeonName>Hidden Interregnum</DungeonName>
+    <Texture>
+      <File>interregnumObjects16x16</File>
+      <Index>111</Index>
+    </Texture>
+    <Animation prob="1" id="A1">
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>111</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>112</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>113</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>114</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>115</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>116</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>117</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>118</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>119</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>120</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>121</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>122</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>123</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>124</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>125</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>126</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>127</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>128</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>130</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>132</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Animation prob="1" id="A2">
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>133</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>134</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>135</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>136</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>137</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.085">
+        <Texture>
+          <File>interregnumObjects16x16</File>
+          <Index>138</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Presentation>
+      <Style id="A1">
+        <StyleStep id="A1">SetAnimation</StyleStep>
+      </Style>
+      <Style id="A2">
+        <StyleStep id="A2">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
+  </Object>
 </Objects>

@@ -29,6 +29,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>8000</Exp>
+    <BXP>40000</BXP>
     <LeachHealth />
     <EventChestBoss />
     <TrackLoot />
@@ -273,6 +274,7 @@
     <MaxHitPoints>125</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <Z>0.24</Z>
     <Flying />
     <Size>80</Size>
@@ -302,6 +304,7 @@
     <MaxHitPoints>1100</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
     <TrackLoot />
@@ -337,6 +340,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
     <Projectile id="0">
@@ -395,6 +399,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Size>100</Size>
     <ShadowSize>60</ShadowSize>
     <Projectile id="0">
@@ -422,6 +427,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <Projectile id="0">
@@ -480,6 +486,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Size>80</Size>
     <ShadowSize>60</ShadowSize>
     <KillStat stat="ConstructKills" />
@@ -507,6 +514,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
     <TrackLoot />
@@ -527,6 +535,7 @@
     <MaxHitPoints>480</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
     <Projectile id="0">

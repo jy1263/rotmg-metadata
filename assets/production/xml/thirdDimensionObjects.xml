@@ -557,6 +557,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -623,6 +624,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <ParalyzeImmune />
@@ -700,6 +702,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <ParalyzeImmune />
@@ -1390,6 +1393,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="GodKills" />
     <HealthBarBoss radius="20" yOffset="5" />
@@ -1623,6 +1627,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -1649,6 +1654,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -1688,6 +1694,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <Labels>ENEMY,MINION,MINION_STRONG,CUBE</Labels>
@@ -1722,6 +1729,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -1756,6 +1764,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <ParalyzeImmune />
@@ -1823,6 +1832,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <ParalyzeImmune />
@@ -1966,6 +1976,7 @@
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>7500</Exp>
+    <BXP>37500</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="GodKills" />
     <StunImmune />
@@ -2041,6 +2052,7 @@
     <MaxHitPoints>8500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -2418,6 +2430,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="GodKills" />
     <Quest />
@@ -2551,6 +2564,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <StasisImmune />
@@ -2623,6 +2637,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <StasisImmune />
@@ -2705,6 +2720,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <StasisImmune />
@@ -2745,6 +2761,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -2829,6 +2846,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -3012,6 +3030,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="CubeKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -3136,6 +3155,7 @@
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <ParalyzeImmune />
@@ -3688,6 +3708,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>85000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>50</Defense>
     <KillStat stat="CubeKills" />
     <StunImmune />
@@ -3773,6 +3794,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>85000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>50</Defense>
     <KillStat stat="CubeKills" />
     <StunImmune />
@@ -4511,6 +4533,7 @@
     <MaxHitPoints>115000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>7500</Exp>
+    <BXP>37500</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="GodKills" />
     <Quest />
@@ -4540,6 +4563,7 @@
     <SpecialSpawn category="Souvenir_MID">tD Cloak</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt11">
         <StyleStep altTextureId="11">SetAltTexture</StyleStep>
@@ -4649,6 +4673,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1250</Exp>
+    <BXP>6250</BXP>
     <KillStat stat="CubeKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -4725,6 +4750,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <DazedImmune />
@@ -4769,6 +4795,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <DazedImmune />
@@ -4803,6 +4830,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <KillStat stat="CubeKills" />
     <StunImmune />
     <DazedImmune />

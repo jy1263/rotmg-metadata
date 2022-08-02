@@ -131,6 +131,7 @@
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />

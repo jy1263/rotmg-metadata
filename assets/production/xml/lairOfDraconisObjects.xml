@@ -412,6 +412,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>7500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -450,6 +451,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>7500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -488,6 +490,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>7500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -526,6 +529,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>7500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>15</Defense>
     <AlwaysPositiveHealth />
     <StasisImmune />
@@ -1599,6 +1603,7 @@
     <MaxHitPoints>48750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <Quest />
     <God />
     <KeepDamageRecord />
@@ -2393,6 +2398,7 @@
     <MaxHitPoints>48750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <Quest />
     <God />
     <KeepDamageRecord />
@@ -2592,6 +2598,7 @@
     <Class>Character</Class>
     <ShadowSize>80</ShadowSize>
     <MaxHitPoints>9000</MaxHitPoints>
+    <BXP>926</BXP>
     <Size>140</Size>
     <HitSound>monster/eggs_hit</HitSound>
     <DeathSound>monster/eggs_death</DeathSound>
@@ -2893,6 +2900,7 @@
     <MaxHitPoints>48750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <Level>20</Level>
     <Quest />
     <God />
@@ -3487,6 +3495,7 @@
     <MaxHitPoints>48750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <Level>20</Level>
     <Quest />
     <God />
@@ -3914,6 +3923,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Level>20</Level>
     <Quest />
     <ParalyzeImmune />
@@ -4759,6 +4769,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>15000</MaxHitPoints>
+    <BXP>926</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <Projectile id="0">
@@ -4845,6 +4856,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>15000</MaxHitPoints>
+    <BXP>926</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <Projectile id="0">
@@ -4928,6 +4940,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>15000</MaxHitPoints>
+    <BXP>926</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <Projectile id="0">
@@ -5031,6 +5044,7 @@
     <DeathSound>monster/rocks_hit</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>15000</MaxHitPoints>
+    <BXP>926</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <Projectile id="0">
@@ -5165,6 +5179,7 @@
     <MaxHitPoints>36000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <Size>140</Size>
     <Flying />
     <Z>0.34</Z>

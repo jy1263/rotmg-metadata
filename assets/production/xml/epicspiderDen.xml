@@ -243,6 +243,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Enemy />
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <Projectile id="0">
       <ObjectId>Blue Spider Venom</ObjectId>
       <Speed>50</Speed>
@@ -268,6 +269,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Enemy />
     <Projectile>
       <ObjectId>Yellow Spider Venom</ObjectId>
@@ -296,6 +298,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Enemy />
     <Projectile id="0">
       <ObjectId>Red Spider Venom</ObjectId>
@@ -336,6 +339,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Enemy />
     <Projectile>
       <ObjectId>Purple Spider Venom</ObjectId>
@@ -362,6 +366,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Enemy />
     <Projectile>
       <ObjectId>Green Spider Venom</ObjectId>
@@ -389,6 +394,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>Blue Spider Blob</ObjectId>
       <Size>110</Size>
@@ -417,6 +423,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>White Spider Blast</ObjectId>
       <Size>120</Size>
@@ -453,6 +460,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>Red Spider Star</ObjectId>
       <Size>110</Size>
@@ -503,6 +511,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>Yellow Spider Bolt</ObjectId>
       <Size>130</Size>
@@ -537,6 +546,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>White Spider Spike</ObjectId>
       <Damage>110</Damage>
@@ -625,6 +635,7 @@
     <SizeStep>10</SizeStep>
     <ShadowColor>0xFFEC66</ShadowColor>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <StasisImmune />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,NATURE</Labels>
@@ -649,6 +660,7 @@
     <SizeStep>10</SizeStep>
     <ShadowColor>0xFFEC66</ShadowColor>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <StasisImmune />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,NATURE</Labels>
@@ -673,6 +685,7 @@
     <SizeStep>10</SizeStep>
     <ShadowColor>0xFFEC66</ShadowColor>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <StasisImmune />
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,NATURE</Labels>
@@ -695,6 +708,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Enemy />
     <God />
     <StasisImmune />
@@ -879,6 +893,7 @@
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <TrackLoot />
@@ -921,6 +936,7 @@
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <TrackLoot />
@@ -963,6 +979,7 @@
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <TrackLoot />
@@ -1005,6 +1022,7 @@
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <TrackLoot />

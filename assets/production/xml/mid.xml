@@ -12,6 +12,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>30</MaxHitPoints>
+    <BXP>14</BXP>
     <Defense>0</Defense>
     <Terrain>MidSand</Terrain>
     <Projectile id="0">
@@ -37,6 +38,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>40</MaxHitPoints>
+    <BXP>19</BXP>
     <Defense>0</Defense>
     <Terrain>MidSand</Terrain>
     <Projectile id="0">
@@ -67,6 +69,7 @@
     <Quest />
     <Level>5</Level>
     <Exp>51</Exp>
+    <BXP>242</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -102,6 +105,7 @@
     <Defense>3</Defense>
     <Terrain>MidSand</Terrain>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -137,6 +141,7 @@
     <Defense>3</Defense>
     <Terrain>MidSand</Terrain>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Black Ball</ObjectId>
@@ -169,6 +174,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
@@ -187,6 +193,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
@@ -205,6 +212,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,MINION_WEAK</Labels>
@@ -224,6 +232,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
     <Projectile id="0">
@@ -251,6 +260,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
     <Projectile id="0">
@@ -278,6 +288,7 @@
     <DeathSound>monster/cubes_death</DeathSound>
     <Defense>5</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <MaxHitPoints>1000</MaxHitPoints>
     <Size>50</Size>
     <Projectile id="0">
@@ -308,6 +319,7 @@
     <Defense>3</Defense>
     <Terrain>MidSand</Terrain>
     <Exp>18</Exp>
+    <BXP>85</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -335,6 +347,7 @@
     <Defense>0</Defense>
     <Terrain>MidSand</Terrain>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -359,6 +372,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>140</MaxHitPoints>
+    <BXP>66</BXP>
     <Defense>1</Defense>
     <Terrain>MidSand</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -399,6 +413,7 @@
     <Quest />
     <Level>6</Level>
     <Exp>90</Exp>
+    <BXP>427</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -431,6 +446,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>100</MaxHitPoints>
+    <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>MidPlains</Terrain>
     <Flying />
@@ -458,6 +474,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>100</MaxHitPoints>
+    <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>MidPlains</Terrain>
     <Flying />
@@ -487,6 +504,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>100</MaxHitPoints>
+    <BXP>47</BXP>
     <Defense>0</Defense>
     <Terrain>MidPlains</Terrain>
     <Flying />
@@ -515,6 +533,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>90</MaxHitPoints>
+    <BXP>42</BXP>
     <Defense>3</Defense>
     <Terrain>MidPlains</Terrain>
     <Projectile id="0">
@@ -540,6 +559,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>80</MaxHitPoints>
+    <BXP>38</BXP>
     <Defense>0</Defense>
     <Terrain>MidPlains</Terrain>
     <Projectile id="0">
@@ -565,6 +585,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>130</MaxHitPoints>
+    <BXP>61</BXP>
     <Defense>0</Defense>
     <Terrain>MidPlains</Terrain>
     <KillStat stat="HumanoidKills" />
@@ -584,6 +605,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>240</MaxHitPoints>
+    <BXP>114</BXP>
     <Defense>3</Defense>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -611,6 +633,7 @@
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
+    <BXP>104</BXP>
     <Defense>4</Defense>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -639,6 +662,7 @@
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
+    <BXP>104</BXP>
     <Defense>1</Defense>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -665,6 +689,7 @@
     <HitSound>monster/blobs_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <MaxHitPoints>100</MaxHitPoints>
+    <BXP>47</BXP>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -695,6 +720,7 @@
     <HitSound>monster/blobs_hit</HitSound>
     <DeathSound>monster/blobs_death</DeathSound>
     <MaxHitPoints>25</MaxHitPoints>
+    <BXP>11</BXP>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
     <Spawn>
@@ -724,6 +750,7 @@
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <MaxHitPoints>150</MaxHitPoints>
+    <BXP>71</BXP>
     <Size>150</Size>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -754,6 +781,7 @@
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <MaxHitPoints>50</MaxHitPoints>
+    <BXP>23</BXP>
     <Size>75</Size>
     <Terrain>MidPlains</Terrain>
     <Projectile>
@@ -785,6 +813,7 @@
     <Quest />
     <Level>8</Level>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <SpawnProb>0.50</SpawnProb>
     <Projectile id="0">
@@ -814,6 +843,7 @@
     <MaxHitPoints>110</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Flying />
     <Terrain>MidPlains</Terrain>
     <Projectile id="0">
@@ -842,6 +872,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>7</Exp>
+    <BXP>33</BXP>
     <Flying />
     <Terrain>MidPlains</Terrain>
     <Projectile id="0">
@@ -873,6 +904,7 @@
     <Quest />
     <Level>8</Level>
     <Exp>206</Exp>
+    <BXP>978</BXP>
     <Z>0.2</Z>
     <Flying />
     <SpawnProb>0.45</SpawnProb>
@@ -902,6 +934,7 @@
     <MaxHitPoints>110</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Z>0.1</Z>
     <Flying />
     <Terrain>MidPlains</Terrain>
@@ -931,6 +964,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>7</Exp>
+    <BXP>33</BXP>
     <Z>0.1</Z>
     <Flying />
     <Terrain>MidPlains</Terrain>
@@ -963,6 +997,7 @@
     <Quest />
     <Level>6</Level>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Gray Spinner</ObjectId>
@@ -992,6 +1027,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>12</Exp>
+    <BXP>57</BXP>
     <Projectile id="0">
       <ObjectId>White Flame</ObjectId>
       <Damage>14</Damage>
@@ -1021,6 +1057,7 @@
     <Quest />
     <Level>5</Level>
     <Exp>64</Exp>
+    <BXP>304</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Flying />
     <Projectile id="0">
@@ -1047,6 +1084,7 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>80</MaxHitPoints>
+    <BXP>38</BXP>
     <Defense>2</Defense>
     <Terrain>MidForest</Terrain>
     <Projectile id="0">
@@ -1073,6 +1111,7 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>80</MaxHitPoints>
+    <BXP>38</BXP>
     <Defense>0</Defense>
     <Terrain>MidForest</Terrain>
     <Projectile id="0">
@@ -1101,6 +1140,7 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <Size>90</Size>
     <MaxHitPoints>100</MaxHitPoints>
+    <BXP>47</BXP>
     <Defense>3</Defense>
     <Terrain>MidForest</Terrain>
     <Projectile id="0">
@@ -1131,6 +1171,7 @@
     <Quest />
     <Level>5</Level>
     <Exp>51</Exp>
+    <BXP>242</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1159,6 +1200,7 @@
     <Defense>5</Defense>
     <Terrain>MidForest</Terrain>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1184,6 +1226,7 @@
     <DeathSound>monster/golems_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>220</MaxHitPoints>
+    <BXP>104</BXP>
     <Defense>3</Defense>
     <Terrain>MidForest</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -1216,6 +1259,7 @@
     <Defense>3</Defense>
     <Terrain>MidForest</Terrain>
     <Exp>8</Exp>
+    <BXP>38</BXP>
     <Projectile id="0">
       <ObjectId>Violet Missile</ObjectId>
       <Damage>17</Damage>
@@ -1244,6 +1288,7 @@
     <Defense>1</Defense>
     <Terrain>MidForest</Terrain>
     <Exp>8</Exp>
+    <BXP>38</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Damage>19</Damage>
@@ -1271,6 +1316,7 @@
     <Defense>3</Defense>
     <Terrain>MidForest</Terrain>
     <Exp>9</Exp>
+    <BXP>42</BXP>
     <Projectile id="0">
       <ObjectId>Brown Magic</ObjectId>
       <Damage>16</Damage>
@@ -1294,6 +1340,7 @@
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>400</MaxHitPoints>
+    <BXP>190</BXP>
     <Defense>5</Defense>
     <Terrain>MidForest</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -1333,6 +1380,7 @@
     <Quest />
     <Level>8</Level>
     <Exp>228</Exp>
+    <BXP>1083</BXP>
     <Flying />
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
@@ -1361,6 +1409,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>35</Exp>
+    <BXP>166</BXP>
     <Terrain>MidForest</Terrain>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
@@ -1384,6 +1433,7 @@
     <DeathSound>monster/spiders_death</DeathSound>
     <Size>50</Size>
     <MaxHitPoints>150</MaxHitPoints>
+    <BXP>71</BXP>
     <Enemy />
     <BloodProb>0.5</BloodProb>
     <BloodColor>0x50d71b</BloodColor>
@@ -1416,6 +1466,7 @@
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <MaxHitPoints>50</MaxHitPoints>
+    <BXP>23</BXP>
     <Enemy />
     <Size>50</Size>
     <Z>0.3</Z>
@@ -1458,6 +1509,7 @@
     <Quest />
     <Level>5</Level>
     <Exp>51</Exp>
+    <BXP>242</BXP>
     <SpawnProb>0.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -1489,6 +1541,7 @@
     <Quest />
     <Level>8</Level>
     <Exp>228</Exp>
+    <BXP>1083</BXP>
     <Flying />
     <SpawnProb>0.0</SpawnProb>
     <Projectile id="0">
@@ -1518,6 +1571,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>35</Exp>
+    <BXP>166</BXP>
     <Terrain>MidForest</Terrain>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>

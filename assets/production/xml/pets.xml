@@ -21099,4 +21099,88 @@
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
   </Object>
+  <Object id="Penguin Gunslinger" type="0x7963">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Penguin Gunslinger Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7964" id="Penguin Gunslinger Pet Skin">
+    <PetSkin />
+    <DisplayId>Penguin Gunslinger</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Penguin</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>226</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7965" id="Penguin Gunslinger Pet Stone">
+    <DisplayId>Penguin Gunslinger Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>226</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A fellow Syndicate member. While there is for sure a language barrier between him and the other members, no one could deny his skills with a gun!\n\nUnlocks Penguin Gunslinger Skin of the Penguin family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31076">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Dimensional Wanderer" type="0x7966">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Dimensional Wanderer Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7967" id="Dimensional Wanderer Pet Skin">
+    <PetSkin />
+    <DisplayId>Dimensional Wanderer</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>105</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7968" id="Dimensional Wanderer Pet Stone">
+    <DisplayId>Dimensional Wanderer Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>105</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A Wanderer from another dimension. Instead of forming a shadowy Syndicate, this one has chosen to accompany the Heroes of the Nexus against Oryx. As long as she gets a share in the loot!\n\nUnlocks Dimensional Wanderer Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31079">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
 </Objects>

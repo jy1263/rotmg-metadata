@@ -62,6 +62,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>350</Exp>
+    <BXP>1662</BXP>
     <God />
     <Terrain>Mountains</Terrain>
     <PerRealmMax>50</PerRealmMax>
@@ -252,6 +253,7 @@
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <God />
     <TrackLoot />
     <Quest />

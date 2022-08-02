@@ -519,6 +519,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -545,6 +546,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -573,6 +575,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -600,6 +603,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <TrackLoot />
     <KillStat stat="NatureKills" />
@@ -630,6 +634,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -659,6 +664,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -685,6 +691,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -713,6 +720,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -741,6 +749,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <TrackLoot />
     <KillStat stat="NatureKills" />
@@ -771,6 +780,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <KillStat stat="NatureKills" />
     <Projectile id="0">
@@ -823,6 +833,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Flying />
     <God />
     <KillStat stat="NatureKills" />
@@ -1370,6 +1381,7 @@
     <Quest />
     <Enemy />
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -1495,6 +1507,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Sprite Star Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt5">
         <StyleStep altTextureId="5">SetAltTexture</StyleStep>

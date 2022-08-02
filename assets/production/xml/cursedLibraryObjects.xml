@@ -262,6 +262,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Size>100</Size>
     <HitSound>monster/beholder_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -300,6 +301,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>18</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Size>100</Size>
     <HitSound>monster/beholder_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -337,6 +339,7 @@
     <MaxHitPoints>1800</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Size>80</Size>
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
@@ -357,6 +360,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>100</Size>
     <ShadowSize>85</ShadowSize>
     <HitSound>monster/medusa_hit</HitSound>
@@ -397,6 +401,7 @@
     <MaxHitPoints>3900</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>100</Size>
     <ShadowSize>85</ShadowSize>
     <HitSound>monster/ghost_god_hit</HitSound>
@@ -530,6 +535,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <Size>40</Size>
     <ShadowSize>85</ShadowSize>
     <HitSound>monster/slimes_hit</HitSound>
@@ -573,6 +579,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <HitSound>monster/ghosts_hit</HitSound>
@@ -641,6 +648,7 @@
     <MaxHitPoints>2200</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>100</Size>
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
@@ -669,6 +677,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>100</Size>
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
@@ -701,6 +710,7 @@
     <MaxHitPoints>1400</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>100</Size>
     <HitSound>monster/mummies_hit</HitSound>
     <DeathSound>monster/mummies_death</DeathSound>
@@ -736,6 +746,7 @@
     <MaxHitPoints>2800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Size>80</Size>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
@@ -765,6 +776,7 @@
     <MaxHitPoints>4205</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Size>90</Size>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -875,6 +887,7 @@
     <MaxHitPoints>22500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <Size>130</Size>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
@@ -959,6 +972,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <Size>150</Size>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>monster/skull_shrine_death</DeathSound>
@@ -1023,6 +1037,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StunImmune />
     <Projectile id="0">
       <ObjectId>Corruption Stab</ObjectId>
@@ -1057,6 +1072,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Corruption Star</ObjectId>
@@ -1087,6 +1103,7 @@
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StunImmune />
     <Projectile id="0">
       <ObjectId>Corruption Gaze</ObjectId>
@@ -1117,6 +1134,7 @@
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Corruption Spinner</ObjectId>

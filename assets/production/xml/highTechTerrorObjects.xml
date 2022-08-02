@@ -659,6 +659,7 @@
     <AlwaysPositiveHealth />
     <Defense>30</Defense>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <Quest />

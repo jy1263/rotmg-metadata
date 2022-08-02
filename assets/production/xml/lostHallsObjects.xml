@@ -771,6 +771,7 @@
     <MaxHitPoints>3190</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Crusade Soldier Bolt</ObjectId>
       <Damage>125</Damage>
@@ -799,6 +800,7 @@
     <MaxHitPoints>2810</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Crusade Shipwright Bolt</ObjectId>
       <Damage>140</Damage>
@@ -827,6 +829,7 @@
     <MaxHitPoints>2440</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Crusade Explorer Torch</ObjectId>
       <Damage>100</Damage>
@@ -855,6 +858,7 @@
     <DeathSound>monster/cave_pirates_death</DeathSound>
     <Size>115</Size>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>30</Defense>
     <Projectile id="0">
@@ -889,6 +893,7 @@
     <MaxHitPoints>2625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Oryx Swordsman Slash</ObjectId>
       <Damage>165</Damage>
@@ -917,6 +922,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Oryx Armorbearer Wave</ObjectId>
       <Damage>130</Damage>
@@ -945,6 +951,7 @@
     <MaxHitPoints>2810</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <StunImmune />
     <Projectile id="0">
       <ObjectId>Oryx Admiral Spike</ObjectId>
@@ -978,6 +985,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>125</Size>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>30</Defense>
     <StasisImmune />
@@ -1014,6 +1022,7 @@
     <MaxHitPoints>2060</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Z>0.5</Z>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
@@ -1045,6 +1054,7 @@
     <MaxHitPoints>2060</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <StunImmune />
@@ -1074,6 +1084,7 @@
     <MaxHitPoints>2625</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <HitSound>monster/blobs_death</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <StunImmune />
@@ -1104,6 +1115,7 @@
     <MaxHitPoints>8430</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <HitSound>monster/blobs_death</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
     <StasisImmune />
@@ -1137,6 +1149,7 @@
     <MaxHitPoints>2440</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -1177,6 +1190,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -1221,6 +1235,7 @@
     <MaxHitPoints>2625</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -1258,6 +1273,7 @@
     <MaxHitPoints>8430</MaxHitPoints>
     <Defense>1000</Defense>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <HitSound>monster/dwarf_god_hit</HitSound>
     <DeathSound>monster/dwarf_god_death</DeathSound>
     <ParalyzeImmune />
@@ -2066,6 +2082,7 @@
     <God />
     <DontFaceAttacks />
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -2089,6 +2106,7 @@
     <Quest />
     <DontFaceAttacks />
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -2251,6 +2269,7 @@
     <Quest />
     <God />
     <Exp>80000</Exp>
+    <BXP>400000</BXP>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
     <StunImmune />
@@ -2473,7 +2492,7 @@
       <ConditionEffect duration="2">Darkness</ConditionEffect>
     </Projectile>
       |
-      <HealthBarBoss radius="50" /><KillStat stat="ConstructKills" /><KillStat stat="GodKills" /><DamageBasedXP /><BleedMax>1</BleedMax><Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,STGEMDROP</Labels><SpecialSpawn category="Bis">Lost Halls Portal</SpecialSpawn><SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn><SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn><SpecialSpawn category="Generous">Marble Quest Chest Item</SpecialSpawn><SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn><SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn><SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn><SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn><SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn><SpecialSpawn category="ExaltedBanner">ExaltationBanner_DEF</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn><SpecialSpawn category="Souvenir_HIG">Sword of the Colossus</SpecialSpawn><SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn><SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn><SpecialSpawn category="Token">3STToken</SpecialSpawn><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style><Style id="SetAlt2"><StyleStep altTextureId="2">SetAltTexture</StyleStep></Style><Style id="SetAlt3"><StyleStep altTextureId="3">SetAltTexture</StyleStep></Style><Style id="SetAlt4"><StyleStep altTextureId="4">SetAltTexture</StyleStep></Style><Style id="SetAlt5"><StyleStep altTextureId="5">SetAltTexture</StyleStep></Style><Style id="SetAlt6"><StyleStep altTextureId="6">SetAltTexture</StyleStep></Style><Style id="SetAlt7"><StyleStep altTextureId="7">SetAltTexture</StyleStep></Style><Style id="SetAlt8"><StyleStep altTextureId="8">SetAltTexture</StyleStep></Style></Presentation></Object>
+      <HealthBarBoss radius="50" /><KillStat stat="ConstructKills" /><KillStat stat="GodKills" /><DamageBasedXP /><BleedMax>1</BleedMax><Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT,STGEMDROP</Labels><SpecialSpawn category="Bis">Lost Halls Portal</SpecialSpawn><SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn><SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn><SpecialSpawn category="Generous">Marble Quest Chest Item</SpecialSpawn><SpecialSpawn category="NobleBoss">Court of Oryx Portal</SpecialSpawn><SpecialSpawn category="Dimitus">Dimitus</SpecialSpawn><SpecialSpawn category="Prismimic">Prismimic Summoner</SpecialSpawn><SpecialSpawn category="MysteryStatPotion">Mystery Stat Pot</SpecialSpawn><SpecialSpawn category="Colorful">Mystery Dye (Clothing)</SpecialSpawn><SpecialSpawn category="ExaltedBanner">ExaltationBanner_DEF</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Weapon">Shard of the Mad God x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ability">Shard of the Intern x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Armor">Shard of the Doorwarden x1</SpecialSpawn><SpecialSpawn category="AgentOfOryx_Ring">Shard of the Advisor x1</SpecialSpawn><SpecialSpawn category="Souvenir_HIG">Sword of the Colossus</SpecialSpawn><SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn><SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn><SpecialSpawn category="Token">3STToken</SpecialSpawn><SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn><SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn><Presentation><Style id="SetAlt1"><StyleStep altTextureId="1">SetAltTexture</StyleStep></Style><Style id="SetAlt2"><StyleStep altTextureId="2">SetAltTexture</StyleStep></Style><Style id="SetAlt3"><StyleStep altTextureId="3">SetAltTexture</StyleStep></Style><Style id="SetAlt4"><StyleStep altTextureId="4">SetAltTexture</StyleStep></Style><Style id="SetAlt5"><StyleStep altTextureId="5">SetAltTexture</StyleStep></Style><Style id="SetAlt6"><StyleStep altTextureId="6">SetAltTexture</StyleStep></Style><Style id="SetAlt7"><StyleStep altTextureId="7">SetAltTexture</StyleStep></Style><Style id="SetAlt8"><StyleStep altTextureId="8">SetAltTexture</StyleStep></Style></Presentation></Object>
   <Object type="0xb012" id="LH Marble Colossus Anchor">
     <DisplayId>Marble Colossus</DisplayId>
     <Class>GameObject</Class>
@@ -4183,6 +4202,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Z>0.15</Z>
     <Projectile id="0">
@@ -4229,6 +4249,7 @@
     <MaxHitPoints>54375</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <ShadowSize>100</ShadowSize>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>
@@ -4318,6 +4339,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4361,6 +4383,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4389,6 +4412,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4417,6 +4441,7 @@
     <MaxHitPoints>2440</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4444,6 +4469,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4470,6 +4496,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>750</Exp>
+    <BXP>3562</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4496,6 +4523,7 @@
     <MaxHitPoints>2440</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>750</Exp>
+    <BXP>3562</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Size>120</Size>
     <HitSound>monster/mummies_hit</HitSound>
@@ -4757,6 +4785,7 @@
     <MaxHitPoints>33750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Labels>ENEMY,MINIBOSS,HUMANOID</Labels>
     <KeepDamageRecord />
     <HitSound>monster/lizard_god_hit</HitSound>
@@ -4827,6 +4856,7 @@
     <MaxHitPoints>33750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Labels>ENEMY,MINIBOSS,HUMANOID</Labels>
     <KeepDamageRecord />
     <HitSound>monster/lizard_god_hit</HitSound>
@@ -4897,6 +4927,7 @@
     <MaxHitPoints>33750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Labels>ENEMY,MINIBOSS,HUMANOID</Labels>
     <KeepDamageRecord />
     <HitSound>monster/lizard_god_hit</HitSound>
@@ -4967,6 +4998,7 @@
     <MaxHitPoints>33750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Labels>ENEMY,MINIBOSS,HUMANOID</Labels>
     <KeepDamageRecord />
     <HitSound>monster/lizard_god_hit</HitSound>
@@ -5013,6 +5045,7 @@
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Labels>ENEMY,MINIBOSS,HUMANOID</Labels>
     <KeepDamageRecord />
     <HitSound>monster/archdemon_hit</HitSound>
@@ -5162,6 +5195,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <Labels>ENEMY,HUMANOID,MINIBOSS</Labels>
     <KeepDamageRecord />
     <HitSound>monster/archdemon_hit</HitSound>
@@ -5195,6 +5229,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <Labels>ENEMY,HUMANOID,MINIBOSS</Labels>
     <KeepDamageRecord />
     <HitSound>monster/archdemon_hit</HitSound>
@@ -5226,6 +5261,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <Labels>ENEMY,HUMANOID,MINIBOSS</Labels>
     <KeepDamageRecord />
     <HitSound>monster/archdemon_hit</HitSound>
@@ -5431,6 +5467,7 @@
     <MaxHitPoints>97500</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>60000</Exp>
+    <BXP>300000</BXP>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/lizard_god_death</DeathSound>
     <StasisImmune />
@@ -5462,6 +5499,8 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Mini Malus Sorcerer Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt6">
         <StyleStep altTextureId="6">SetAltTexture</StyleStep>
@@ -5885,6 +5924,7 @@
     <Size>200</Size>
     <MaxHitPoints>300000</MaxHitPoints>
     <Exp>80000</Exp>
+    <BXP>400000</BXP>
     <Defense>60</Defense>
     <HitSound>weapon/wand_of_dark_magic</HitSound>
     <DeathSound>enter_realm</DeathSound>
@@ -6138,6 +6178,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Token">3STToken</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt30">
         <StyleStep altTextureId="30">SetAltTexture</StyleStep>
@@ -10165,6 +10207,7 @@
     <PerRealmMax>1</PerRealmMax>
     <Size>140</Size>
     <Exp>65000</Exp>
+    <BXP>325000</BXP>
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <HitSound>monster/golems_hit</HitSound>
     <DeathSound>monster/golems_death</DeathSound>

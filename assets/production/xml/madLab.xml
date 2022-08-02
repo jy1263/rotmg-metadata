@@ -32,6 +32,7 @@
     <MaxHitPoints>33750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <EventChestBoss />
@@ -64,6 +65,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Robobuddy Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -328,6 +330,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Purple Energy Shot</ObjectId>
       <Damage>80</Damage>
@@ -357,6 +360,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Purple Energy Shot</ObjectId>
       <Damage>80</Damage>
@@ -385,6 +389,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile id="0">
       <ObjectId>Yellow Energy Shot</ObjectId>
       <Damage>80</Damage>
@@ -427,6 +432,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile id="0">
       <ObjectId>Yellow Energy Shot</ObjectId>
       <Damage>80</Damage>
@@ -468,6 +474,7 @@
     <MaxHitPoints>2750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Robot Attack</ObjectId>
       <Damage>100</Damage>
@@ -496,6 +503,7 @@
     <MaxHitPoints>2750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Robot Attack</ObjectId>
       <Damage>100</Damage>
@@ -523,6 +531,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Lightning Spiral</ObjectId>
       <Damage>150</Damage>
@@ -558,6 +567,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Shockwave Blast</ObjectId>
@@ -704,6 +714,7 @@
     <MaxHitPoints>37500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <TrackLoot />

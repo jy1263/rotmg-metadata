@@ -688,6 +688,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -744,6 +745,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -802,6 +804,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -1002,6 +1005,7 @@
     <HitSound>monster/dark_elves_hit</HitSound>
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <ParalyzeImmune />
@@ -1081,6 +1085,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Yellow Stinger Small</ObjectId>
@@ -1111,6 +1116,7 @@
     <Defense>25</Defense>
     <Flying />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Z>0.24</Z>
     <Projectile id="0">
       <ObjectId>EH Red Stinger Small</ObjectId>
@@ -1129,6 +1135,7 @@
     <DisplayId>Blue Killer Bee</DisplayId>
     <Enemy />
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Class>Character</Class>
     <AnimatedTexture>
       <File>epicHiveChars8x8</File>
@@ -1213,6 +1220,7 @@
     <NoArticle />
     <Level>1</Level>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>Poison Fireball</ObjectId>
@@ -1365,6 +1373,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>5000</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Quest />
     <TrackLoot />
     <ParalyzeImmune />
@@ -1498,6 +1507,7 @@
     <MaxHitPoints>60000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1568,6 +1578,7 @@
     <MaxHitPoints>90000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <God />
     <Quest />
     <Level>20</Level>
@@ -1752,6 +1763,7 @@
     <God />
     <Level>20</Level>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <StasisImmune />
     <MaxHitPoints>18750</MaxHitPoints>
     <EventChestBoss />
@@ -1790,6 +1802,7 @@
     <MaxHitPoints>940</MaxHitPoints>
     <Size>80</Size>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
       <Speed>150</Speed>
@@ -1821,6 +1834,7 @@
     <MaxHitPoints>940</MaxHitPoints>
     <Size>80</Size>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
       <Speed>150</Speed>
@@ -1909,6 +1923,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Size>120</Size>
     <Exp>19</Exp>
+    <BXP>90</BXP>
     <God />
     <StasisImmune />
     <KeepDamageRecord />
@@ -1980,6 +1995,7 @@
     <MaxHitPoints>56250</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>1636</Exp>
+    <BXP>8180</BXP>
     <Level>20</Level>
     <Quest />
     <StasisImmune />
@@ -2074,6 +2090,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>390</Exp>
+    <BXP>1852</BXP>
     <Level>20</Level>
     <ParalyzeImmune />
     <StasisImmune />
@@ -2142,6 +2159,7 @@
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>390</Exp>
+    <BXP>1852</BXP>
     <Level>20</Level>
     <StasisImmune />
     <StunImmune />

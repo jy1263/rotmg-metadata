@@ -246,6 +246,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>pD Sword Shot</ObjectId>
       <Size>100</Size>
@@ -287,6 +288,7 @@
     <MaxHitPoints>1800</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>138</Exp>
+    <BXP>655</BXP>
     <Projectile id="0">
       <ObjectId>pD Wand Shot</ObjectId>
       <Size>100</Size>
@@ -328,6 +330,7 @@
     <MaxHitPoints>2200</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>pD Bow Shot</ObjectId>
       <Size>100</Size>
@@ -370,6 +373,7 @@
     <MaxHitPoints>2200</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>pD Dagger Shot</ObjectId>
       <Size>100</Size>
@@ -410,6 +414,7 @@
     <MaxHitPoints>1800</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>138</Exp>
+    <BXP>655</BXP>
     <Projectile id="0">
       <ObjectId>pD Staff Shot</ObjectId>
       <Size>100</Size>
@@ -452,6 +457,7 @@
     <MaxHitPoints>2200</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>pD Katana Shot</ObjectId>
       <Size>100</Size>
@@ -493,6 +499,7 @@
     <MaxHitPoints>1700</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>130</Exp>
+    <BXP>617</BXP>
     <Projectile id="0">
       <ObjectId>pD Sword Shot</ObjectId>
       <Size>100</Size>
@@ -534,6 +541,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>92</Exp>
+    <BXP>437</BXP>
     <Projectile id="0">
       <ObjectId>pD Wand Shot</ObjectId>
       <Size>100</Size>
@@ -575,6 +583,7 @@
     <MaxHitPoints>1450</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>111</Exp>
+    <BXP>527</BXP>
     <Projectile id="0">
       <ObjectId>pD Bow Shot</ObjectId>
       <Size>100</Size>
@@ -617,6 +626,7 @@
     <MaxHitPoints>1450</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>111</Exp>
+    <BXP>527</BXP>
     <Projectile id="0">
       <ObjectId>pD Dagger Shot</ObjectId>
       <Size>100</Size>
@@ -657,6 +667,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>92</Exp>
+    <BXP>437</BXP>
     <Projectile id="0">
       <ObjectId>pD Staff Shot</ObjectId>
       <Size>100</Size>
@@ -699,6 +710,7 @@
     <MaxHitPoints>1450</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>111</Exp>
+    <BXP>527</BXP>
     <Projectile id="0">
       <ObjectId>pD Katana Shot</ObjectId>
       <Size>100</Size>
@@ -727,6 +739,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Projectile id="0">
       <ObjectId>pD Stalker Shot</ObjectId>
       <Damage>130</Damage>
@@ -756,6 +769,7 @@
     <MaxHitPoints>1950</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Projectile id="0">
       <ObjectId>pD Stalker Shot</ObjectId>
       <Damage>130</Damage>
@@ -785,6 +799,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>156</Exp>
+    <BXP>741</BXP>
     <Projectile id="0">
       <ObjectId>Big Fireball</ObjectId>
       <Damage>10</Damage>
@@ -813,6 +828,7 @@
     <MaxHitPoints>2625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Walker Shot</ObjectId>
       <Damage>150</Damage>
@@ -842,6 +858,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Maw Shot</ObjectId>
       <Damage>140</Damage>
@@ -896,6 +913,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Tongue Shot</ObjectId>
       <Damage>140</Damage>
@@ -926,6 +944,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Maw Shot</ObjectId>
       <Damage>140</Damage>
@@ -980,6 +999,7 @@
     <MaxHitPoints>2625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Tongue Shot</ObjectId>
       <Damage>140</Damage>
@@ -1079,6 +1099,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
@@ -1109,6 +1130,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
       <Damage>80</Damage>
@@ -1139,6 +1161,7 @@
     <MaxHitPoints>1600</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
       <Damage>80</Damage>
@@ -1167,6 +1190,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
       <Damage>80</Damage>
@@ -1233,6 +1257,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
@@ -1373,6 +1398,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
@@ -1417,6 +1443,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Speed>10</Speed>
@@ -1509,6 +1536,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Projectile id="0">
       <ObjectId>Poison Fireball</ObjectId>
       <Damage>90</Damage>
@@ -1562,6 +1590,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>5000</Defense>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <Quest />
     <EventChestBoss />
     <TrackLoot />
@@ -1642,6 +1671,7 @@
     <SpecialSpawn category="Souvenir_MID">pD Scepter</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
   </Object>
   <Object type="0x81e" id="pD Infested Chest">
     <DisplayId>Infested Chest</DisplayId>
@@ -1728,6 +1758,7 @@
     <MaxHitPoints>3200</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Projectile id="0">
       <ObjectId>pD Maw Shot 2</ObjectId>
       <Speed>60</Speed>
@@ -2155,6 +2186,7 @@
     <MaxSize>120</MaxSize>
     <SizeStep>2</SizeStep>
     <MaxHitPoints>200</MaxHitPoints>
+    <BXP>95</BXP>
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,GROTESQUE</Labels>
   </Object>

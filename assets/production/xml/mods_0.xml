@@ -1383,4 +1383,64 @@
       <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.10" perPlayer="true" />
     </Mutators>
   </DungeonModifier>
+  <DungeonModifier id="INTERREGNUMS" type="0x0133">
+    <DisplayId>Interregnum Fight</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Fight all four Syndicate mercenaries together, followed by the Wanderer!</Description>
+    <Labels>INTERREGNUM</Labels>
+    <IncompatibleLabels />
+    <Mutators>
+      <GlobalFlag>INTERREGNUMS</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCA" type="0x0134">
+    <DisplayId>Syndicate Takeover I</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Battle Pirate Queen Ramm after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCA</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_A" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCB" type="0x0135">
+    <DisplayId>Syndicate Takeover II</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Battle Izel the Grand Shaman after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCB</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_B" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCC" type="0x0136">
+    <DisplayId>Syndicate Takeover III</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Battle Nefret the Pharaoh after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCC</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_C" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCD" type="0x0137">
+    <DisplayId>Syndicate Takeover IV</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Battle Black Blade Ozuchi after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCD</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Mercenary_D" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="MERCDORWANDER" type="0x0138">
+    <DisplayId>Syndicate Takeover IV</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Battle Black Blade Ozuchi or Wanderer after the final boss of the dungeon.</Description>
+    <Labels>EXTRABOSS,MERCD</Labels>
+    <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="Wanderer_or_D" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
 </DungeonModifiers>

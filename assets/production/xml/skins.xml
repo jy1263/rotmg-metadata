@@ -10851,4 +10851,81 @@
     <PlayerClassType>0x0311</PlayerClassType>
     <NoSkinSelect />
   </Object>
+  <Object type="0x7a9c" id="Resistance Scout Rogue">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>838</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7a9e" id="Fur Trader Archer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>839</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0307</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aa0" id="Resistance Leader Knight">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>840</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aa2" id="Syndicate Necromancer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>841</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aa4" id="Syndicate Samurai">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>842</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0311</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aa6" id="Syndicate Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>843</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aa8" id="Syndicate Sorcerer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>844</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
 </Objects>

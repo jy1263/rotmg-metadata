@@ -20,6 +20,7 @@
     <God />
     <Level>19</Level>
     <Exp>234</Exp>
+    <BXP>833</BXP>
     <Projectile id="0">
       <ObjectId>Ent God Bolt</ObjectId>
       <Damage>100</Damage>
@@ -58,6 +59,7 @@
     <Defense>10</Defense>
     <Flying />
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Imp Projectile</ObjectId>
       <Damage>40</Damage>
@@ -83,6 +85,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Fire Projectile</ObjectId>
       <Damage>55</Damage>
@@ -108,6 +111,7 @@
     <MaxHitPoints>260</MaxHitPoints>
     <Defense>14</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Fire Projectile</ObjectId>
       <Damage>60</Damage>
@@ -129,6 +133,7 @@
     </Texture>
     <Size>100</Size>
     <MaxHitPoints>3000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>15</Defense>
     <Flying />
     <Hero />
@@ -160,6 +165,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>11</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>White Flame</ObjectId>
       <Damage>40</Damage>
@@ -184,6 +190,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>7</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>White Flame</ObjectId>
       <Damage>46</Damage>
@@ -206,6 +213,7 @@
     </Texture>
     <Size>100</Size>
     <MaxHitPoints>4200</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>15</Defense>
     <Flying />
     <Quest />
@@ -257,6 +265,7 @@
     <DeathSound>monster/cyclops_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>4500</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>8</Defense>
     <Hero />
     <Quest />
@@ -320,6 +329,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>40</Damage>
@@ -345,6 +355,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>3</Exp>
+    <BXP>14</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>50</Damage>
@@ -370,6 +381,7 @@
     <MaxHitPoints>310</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>3</Exp>
+    <BXP>14</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>55</Damage>
@@ -395,6 +407,7 @@
     <MaxHitPoints>320</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>3</Exp>
+    <BXP>14</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>55</Damage>
@@ -420,6 +433,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>3</Exp>
+    <BXP>14</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>60</Damage>
@@ -443,6 +457,7 @@
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>95</Size>
     <MaxHitPoints>300000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
@@ -477,6 +492,7 @@
     <Defense>2</Defense>
     <StasisImmune />
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
       <Damage>30</Damage>
@@ -502,6 +518,7 @@
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>95</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>7</Defense>
     <StasisImmune />
     <Hero />
@@ -534,6 +551,7 @@
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>475</BXP>
     <Defense>2</Defense>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -558,6 +576,7 @@
     <HitSound>monster/ghosts_hit</HitSound>
     <DeathSound>monster/ghosts_death</DeathSound>
     <MaxHitPoints>4000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>7</Defense>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -584,6 +603,7 @@
     <DeathSound>monster/ghosts_death</DeathSound>
     <Size>180</Size>
     <MaxHitPoints>8000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
@@ -612,6 +632,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blue Arrow</ObjectId>
       <Damage>30</Damage>
@@ -637,6 +658,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>35</Damage>
@@ -662,6 +684,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
       <Damage>40</Damage>
@@ -687,6 +710,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>30</Damage>
@@ -712,6 +736,7 @@
     <MaxHitPoints>160</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>40</Damage>
@@ -737,6 +762,7 @@
     <MaxHitPoints>180</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>50</Damage>
@@ -764,6 +790,7 @@
     <TrackLoot />
     <Level>13</Level>
     <Exp>325</Exp>
+    <BXP>1157</BXP>
     <Projectile id="0">
       <ObjectId>Green Bolt</ObjectId>
       <Damage>70</Damage>
@@ -790,6 +817,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Orange Missile</ObjectId>
       <Damage>55</Damage>
@@ -814,6 +842,7 @@
     <MaxHitPoints>180</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Pink Bolt</ObjectId>
       <Damage>30</Damage>
@@ -837,6 +866,7 @@
     <MaxHitPoints>160</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Purple Bolt</ObjectId>
       <Damage>25</Damage>
@@ -860,6 +890,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Cyan Magic</ObjectId>
       <Damage>20</Damage>
@@ -925,6 +956,7 @@
     <Quest />
     <Level>11</Level>
     <Exp>384</Exp>
+    <BXP>1367</BXP>
     <Projectile id="0">
       <ObjectId>Bark Bolt</ObjectId>
       <Damage>20</Damage>
@@ -1017,6 +1049,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>11</Defense>
     <Exp>29</Exp>
+    <BXP>137</BXP>
     <Projectile id="0">
       <ObjectId>Leaf Bolt</ObjectId>
       <Damage>70</Damage>
@@ -1043,6 +1076,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Projectile id="0">
       <ObjectId>Leaf Bolt</ObjectId>
       <Damage>20</Damage>
@@ -1100,6 +1134,7 @@
     <Defense>7</Defense>
     <Flying />
     <Exp>78</Exp>
+    <BXP>370</BXP>
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
@@ -1176,6 +1211,7 @@
     <Quest />
     <Level>9</Level>
     <Exp>165</Exp>
+    <BXP>587</BXP>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>25</Damage>
@@ -1214,6 +1250,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>58</Exp>
+    <BXP>275</BXP>
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
@@ -1250,6 +1287,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>18</Defense>
     <Exp>58</Exp>
+    <BXP>275</BXP>
     <Projectile id="0">
       <ObjectId>Eldritch Zap</ObjectId>
       <Damage>90</Damage>
@@ -1276,6 +1314,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>30</Damage>
@@ -1301,6 +1340,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>40</Damage>
@@ -1326,6 +1366,7 @@
     <MaxHitPoints>140</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>40</Damage>
@@ -1380,6 +1421,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>63</Defense>
     <Exp>273</Exp>
+    <BXP>1296</BXP>
     <Size>120</Size>
     <DontFaceAttacks />
     <Projectile id="0">
@@ -1442,6 +1484,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>150</Defense>
     <Exp>2</Exp>
+    <BXP>9</BXP>
     <Size>100</Size>
     <ShadowSize>80</ShadowSize>
     <Projectile id="0">
@@ -1469,6 +1512,7 @@
     <Quest />
     <Level>8</Level>
     <Exp>270</Exp>
+    <BXP>1282</BXP>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
@@ -1502,6 +1546,7 @@
     <MaxHitPoints>100</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
@@ -1589,6 +1634,7 @@
     <Level>7</Level>
     <TrackLoot />
     <Exp>270</Exp>
+    <BXP>1282</BXP>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>25</Damage>
@@ -1616,6 +1662,7 @@
     <MaxHitPoints>50</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>10</Damage>
@@ -1641,6 +1688,7 @@
     <MaxHitPoints>55</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>15</Damage>
@@ -1666,6 +1714,7 @@
     <MaxHitPoints>60</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>20</Damage>
@@ -1691,6 +1740,7 @@
     <MaxHitPoints>50</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>20</Damage>
@@ -1716,6 +1766,7 @@
     <MaxHitPoints>75</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
       <Damage>15</Damage>
@@ -1778,6 +1829,7 @@
     <Quest />
     <Level>11</Level>
     <Exp>384</Exp>
+    <BXP>1824</BXP>
     <Projectile id="0">
       <ObjectId>Bark Bolt</ObjectId>
       <Damage>20</Damage>

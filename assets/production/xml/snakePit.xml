@@ -52,6 +52,7 @@
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <TrackLoot />
     <ParalyzeImmune />
     <SlowImmune />
@@ -171,6 +172,7 @@
     <StasisImmune />
     <Quest />
     <Exp>3000</Exp>
+    <BXP>15000</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -211,6 +213,7 @@
     <SpecialSpawn category="Souvenir_MID">Wand of the Bulwark</SpecialSpawn>
     <SpecialSpawn category="SkinHunter">Mini Stheno Skin</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
   </Object>
   <Object type="0x0918" id="Stheno Pet">
     <Class>Character</Class>
@@ -291,6 +294,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Projectile>
       <ObjectId>Green Spider Venom</ObjectId>
       <Speed>60</Speed>
@@ -318,6 +322,7 @@
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <Projectile>
       <ObjectId>Purple Spider Venom</ObjectId>
       <Speed>50</Speed>
@@ -345,6 +350,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>70</Exp>
+    <BXP>332</BXP>
     <Projectile>
       <ObjectId>Red Spider Venom</ObjectId>
       <Speed>65</Speed>
@@ -372,6 +378,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>70</Exp>
+    <BXP>332</BXP>
     <Projectile>
       <ObjectId>Blue Spider Venom</ObjectId>
       <Speed>70</Speed>
@@ -398,6 +405,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>70</Exp>
+    <BXP>332</BXP>
     <Projectile>
       <ObjectId>Yellow Spider Venom</ObjectId>
       <Speed>85</Speed>
@@ -424,6 +432,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile>
       <ObjectId>Green Spider Venom</ObjectId>
       <Speed>80</Speed>
@@ -452,6 +461,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile id="0">
       <ObjectId>Purple Spider Venom</ObjectId>
       <Speed>60</Speed>

@@ -2024,6 +2024,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>12</Exp>
+    <BXP>57</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2045,6 +2046,7 @@
     <MaxHitPoints>550</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2066,6 +2068,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2087,6 +2090,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2108,6 +2112,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2129,6 +2134,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2150,6 +2156,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2171,6 +2178,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>35</Exp>
+    <BXP>166</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2192,6 +2200,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2243,6 +2252,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>12</Exp>
+    <BXP>57</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2294,6 +2304,7 @@
     <MaxHitPoints>550</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2315,6 +2326,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2336,6 +2348,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2357,6 +2370,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2378,6 +2392,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2399,6 +2414,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2420,6 +2436,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_WEAK</Labels>
@@ -2481,6 +2498,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2532,6 +2550,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2553,6 +2572,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2574,6 +2594,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2595,6 +2616,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2616,6 +2638,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2637,6 +2660,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2658,6 +2682,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2720,6 +2745,7 @@
     <MaxHitPoints>1440</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2771,6 +2797,7 @@
     <MaxHitPoints>1440</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_MID</Labels>
@@ -2792,6 +2819,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2814,6 +2842,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2836,6 +2865,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2858,6 +2888,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2880,6 +2911,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2902,6 +2934,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -2924,6 +2957,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <TrackLoot />
     <EventChestBoss />

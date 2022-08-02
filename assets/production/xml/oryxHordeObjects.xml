@@ -158,6 +158,7 @@
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>19</Exp>
+    <BXP>90</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
@@ -277,6 +278,7 @@
     <Size>100</Size>
     <Defense>50</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <KillStat stat="StructureKills" />
   </Object>
   <Object type="0x206f" id="Xmas Ent Tree">
@@ -666,6 +668,7 @@
     <DeathSound>monster/greater_demons_death</DeathSound>
     <Size>1</Size>
     <MaxHitPoints>75000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>12</Defense>
     <Flying />
     <StasisImmune />
@@ -864,6 +867,7 @@
     <Size>140</Size>
     <Defense>100</Defense>
     <Exp>26</Exp>
+    <BXP>123</BXP>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -950,6 +954,7 @@
     <Size>140</Size>
     <Defense>100</Defense>
     <Exp>26</Exp>
+    <BXP>123</BXP>
     <KeepDamageRecord />
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
@@ -1091,6 +1096,7 @@
     <Size>140</Size>
     <Defense>50</Defense>
     <Exp>312</Exp>
+    <BXP>1482</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,HUMANOID,MINION_STRONG</Labels>
     <Presentation>
@@ -1200,6 +1206,7 @@
     <Size>200</Size>
     <Defense>75</Defense>
     <Exp>312</Exp>
+    <BXP>1482</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />

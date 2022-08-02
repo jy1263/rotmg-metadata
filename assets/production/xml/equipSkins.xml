@@ -16698,4 +16698,123 @@
     <feedPower>1000</feedPower>
     <UniqueID />
   </Object>
+  <Object type="0x7a9b" id="Resistance Scout Rogue Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>838</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A small group of people, all from various backgrounds have joined The Resistance to try and stop the Syndicate. Meet the town pickpocket. A teenager that got the short end of the stick when it came to upbringing. While most townsfolk detest them, the boy joined the resistance with the intention of fixing his name, and has been acting as their scout ever since. \n\nSkin Class: Rogue</Description>
+    <Activate skinType="31388">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7a9d" id="Fur Trader Archer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>839</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A small group of people, all from various backgrounds have joined The Resistance to try and stop the Syndicate. Meet the local fur and pelt trader. A master hunter, who decided to use his skills with a bow for a much greater purpose than just replenishing his shop wares. \n\nSkin Class: Archer</Description>
+    <Activate skinType="31390">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7a9f" id="Resistance Leader Knight Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>840</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A small group of people, all from various backgrounds have joined The Resistance to try and stop the Syndicate. This noble knight is their leader. While using the resources that come with being from royal blood, he hides his identity even to his fellow resistance members in fear of people doubting his morale and intentions. \n\nSkin Class: Knight</Description>
+    <Activate skinType="31392">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aa1" id="Syndicate Necromancer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>841</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The desert has always kept well the lore of the dead. From the scrolls of the old Empire, he has grown his knowledge and his power. \n\nSkin Class: Necromancer</Description>
+    <Activate skinType="31394">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aa3" id="Syndicate Samurai Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>842</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Black Blade clan was all but gone. Still, there were some that wished to follow in their footsteps, and take up their ancient fighting style. \n\nSkin Class: Samurai</Description>
+    <Activate skinType="31396">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aa5" id="Syndicate Assassin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>843</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Taking down Oryx is only a welcome side goal to her - she is in the employment of the Syndicate and gets well rewarded for her stealth and efficacy. \n\nSkin Class: Assassin</Description>
+    <Activate skinType="31398">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aa7" id="Syndicate Sorcerer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>844</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>He left his employment as the sorcerer of a small noble court to seek meaning in a mission to save the Realm. What others saw as a shady conspiracy, he saw as the beginnings of a shining revolution. \n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="31400">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
 </Objects>

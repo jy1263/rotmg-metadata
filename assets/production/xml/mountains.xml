@@ -12,6 +12,7 @@
     <DeathSound>monster/greater_demons_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -50,6 +51,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -126,6 +128,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>50</MaxHitPoints>
+    <BXP>17</BXP>
     <Defense>0</Defense>
     <Terrain>Mountains</Terrain>
     <Flying />
@@ -148,6 +151,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>18</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -183,6 +187,7 @@
     <DeathSound>monster/ents_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>18</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -219,6 +224,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1500</MaxHitPoints>
+    <BXP>534</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -263,6 +269,7 @@
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -299,6 +306,7 @@
     <DeathSound>monster/slimes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -335,6 +343,7 @@
     <DeathSound>monster/ghost_god_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -372,6 +381,7 @@
     <DeathSound>monster/djinn_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>12</Defense>
     <Terrain>Mountains</Terrain>
     <Spawn>
@@ -411,6 +421,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>2000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>20</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.55</SpawnProb>
@@ -449,6 +460,7 @@
     <Size>70</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>534</BXP>
     <Terrain>Mountains</Terrain>
     <God />
     <Projectile id="0">
@@ -481,6 +493,7 @@
     <Size>70</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>534</BXP>
     <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>Construct Wood Bolt</ObjectId>
@@ -512,6 +525,7 @@
     <Size>70</Size>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>534</BXP>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.3</SpawnProb>
     <Projectile id="0">
@@ -579,6 +593,7 @@
     <StasisImmune />
     <TrackLoot />
     <Exp>5000</Exp>
+    <BXP>18750</BXP>
     <Projectile id="0">
       <ObjectId>Crystal Prisoner Orb</ObjectId>
       <Speed>80</Speed>
@@ -633,6 +648,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>19</Exp>
+    <BXP>90</BXP>
     <Projectile id="0">
       <ObjectId>Crystal Prisoner Orb</ObjectId>
       <Speed>70</Speed>
@@ -659,6 +675,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>11</Defense>
     <Exp>48</Exp>
+    <BXP>228</BXP>
     <Projectile id="0">
       <ObjectId>Crystal Steed Bolt</ObjectId>
       <Speed>35</Speed>
@@ -699,6 +716,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.045</SpawnProb>
     <Exp>136</Exp>
+    <BXP>484</BXP>
     <Projectile id="0">
       <ObjectId>Headless Horseman Shockwave</ObjectId>
       <Damage>85</Damage>
@@ -751,6 +769,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.045</SpawnProb>
     <Exp>136</Exp>
+    <BXP>484</BXP>
     <Projectile id="0">
       <ObjectId>Sting Spider Bite</ObjectId>
       <Damage>100</Damage>
@@ -803,6 +822,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.045</SpawnProb>
     <Exp>136</Exp>
+    <BXP>484</BXP>
     <DontFaceAttacks />
     <Projectile id="0">
       <ObjectId>Great Owl Talon</ObjectId>
@@ -907,6 +927,7 @@
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.045</SpawnProb>
     <Exp>136</Exp>
+    <BXP>484</BXP>
     <Projectile id="0">
       <ObjectId>Corsair Crab Claw</ObjectId>
       <Damage>120</Damage>
@@ -962,6 +983,7 @@
     <DeathSound>monster/greater_demons_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1030,6 +1052,7 @@
     <DeathSound>monster/sprite_god_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1108,6 +1131,7 @@
     <DeathSound>monster/sprites_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>20</Defense>
     <Flying />
     <KillStat stat="NatureKills" />
@@ -1129,6 +1153,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1168,6 +1193,7 @@
     <DeathSound>monster/ents_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1205,6 +1231,7 @@
     <DeathSound>monster/beholder_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1243,6 +1270,7 @@
     <DeathSound>monster/flying_brain_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1275,6 +1303,7 @@
     <DeathSound>monster/slimes_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1326,6 +1355,7 @@
     <DeathSound>monster/ghost_god_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1361,6 +1391,7 @@
     <DeathSound>monster/djinn_death</DeathSound>
     <Size>130</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1410,6 +1441,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>10000</MaxHitPoints>
+    <BXP>694</BXP>
     <Defense>40</Defense>
     <Terrain>Mountains</Terrain>
     <SpawnProb>0.01</SpawnProb>
@@ -1448,6 +1480,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>500</Exp>
+    <BXP>1781</BXP>
     <God />
     <Flying />
     <Projectile id="0">

@@ -50,6 +50,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <ShadowColor>0x479CFF</ShadowColor>
     <ParalyzeImmune />
     <Texture>
@@ -109,6 +110,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <ShadowColor>0xFF478A</ShadowColor>
     <StunImmune />
     <ParalyzeImmune />
@@ -168,6 +170,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <ShadowColor>0x93FF47</ShadowColor>
     <ParalyzeImmune />
     <Texture>
@@ -226,6 +229,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <ShadowColor>0xFFA447</ShadowColor>
     <StasisImmune />
     <ParalyzeImmune />
@@ -287,6 +291,7 @@
     <MaxHitPoints>120000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <ShadowColor>0xFFA447</ShadowColor>
     <Quest />
     <God />

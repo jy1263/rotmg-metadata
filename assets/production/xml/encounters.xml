@@ -208,6 +208,7 @@
     <Size>200</Size>
     <Defense>90</Defense>
     <Exp>50000</Exp>
+    <BXP>250000</BXP>
     <TrackLoot />
     <AnimatedTexture>
       <File>theShattersChars32x32</File>
@@ -1898,6 +1899,7 @@
     <MaxHitPoints>18000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <Size>120</Size>
     <Flying />
     <Z>0.34</Z>
@@ -2570,6 +2572,7 @@
     <Size>140</Size>
     <Defense>30</Defense>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
@@ -2631,6 +2634,7 @@
     <Size>100</Size>
     <Defense>0</Defense>
     <Exp>19</Exp>
+    <BXP>90</BXP>
     <KillStat stat="HumanoidKills" />
   </Object>
   <Object type="0x0d53" id="Guardian of the Lost Lands">
@@ -2662,6 +2666,7 @@
     <Size>100</Size>
     <Defense>10</Defense>
     <Exp>39</Exp>
+    <BXP>185</BXP>
     <KillStat stat="HumanoidKills" />
   </Object>
   <Object type="0x0d54" id="Grand Sphinx">
@@ -2685,6 +2690,7 @@
     <TrackLoot />
     <Level>20</Level>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <PerRealmMax>2</PerRealmMax>
     <Projectile id="0">
       <ObjectId>Fireball</ObjectId>
@@ -2775,6 +2781,7 @@
     <Size>120</Size>
     <MaxHitPoints>16000</MaxHitPoints>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Defense>40</Defense>
     <Enemy />
     <Hero />
@@ -2816,6 +2823,7 @@
     <Flying />
     <Z>0.2</Z>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <Projectile>
       <ObjectId>Red Fire</ObjectId>
       <Speed>100</Speed>
@@ -2844,6 +2852,7 @@
     <Flying />
     <Z>0.2</Z>
     <Exp>7</Exp>
+    <BXP>33</BXP>
     <Projectile>
       <ObjectId>Blue Magic</ObjectId>
       <Speed>100</Speed>
@@ -2863,6 +2872,7 @@
     <Size>120</Size>
     <MaxHitPoints>16000</MaxHitPoints>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Defense>40</Defense>
     <Enemy />
     <Hero />
@@ -2898,6 +2908,7 @@
     <Flying />
     <Z>0.2</Z>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <Projectile>
       <ObjectId>Green Magic</ObjectId>
       <Speed>100</Speed>
@@ -2921,6 +2932,7 @@
     <Flying />
     <Z>0.2</Z>
     <Exp>7</Exp>
+    <BXP>33</BXP>
     <Projectile>
       <ObjectId>Blue Magic</ObjectId>
       <Speed>100</Speed>
@@ -2940,6 +2952,7 @@
     <Size>120</Size>
     <MaxHitPoints>16000</MaxHitPoints>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Hero />
     <Quest />
     <HealthBarBoss />
@@ -2993,6 +3006,7 @@
     </Projectile>
     <Size>130</Size>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5b" id="Cube Defender">
@@ -3016,6 +3030,7 @@
     </Projectile>
     <Size>100</Size>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5c" id="Cube Blaster">
@@ -3045,6 +3060,7 @@
     </Projectile>
     <Size>80</Size>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0e29" id="Turkey God">
@@ -3059,6 +3075,7 @@
     <Size>120</Size>
     <MaxHitPoints>16000</MaxHitPoints>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Hero />
     <Quest />
     <God />
@@ -3110,6 +3127,7 @@
     </Projectile>
     <Size>130</Size>
     <Exp>15</Exp>
+    <BXP>71</BXP>
     <KillStat stat="CritterKills" />
   </Object>
   <Object type="0x0e2b" id="Turkey God Defender">
@@ -3133,6 +3151,7 @@
     </Projectile>
     <Size>100</Size>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <KillStat stat="CritterKills" />
   </Object>
   <Object type="0x0e2c" id="Turkey God Blaster">
@@ -3162,6 +3181,7 @@
     </Projectile>
     <Size>80</Size>
     <Exp>5</Exp>
+    <BXP>23</BXP>
     <KillStat stat="CritterKills" />
   </Object>
   <Object type="0x0d5d" id="Pentaract Eye">
@@ -3174,6 +3194,7 @@
     <MaxHitPoints>650</MaxHitPoints>
     <Size>80</Size>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>White Bolt</ObjectId>
       <Speed>150</Speed>
@@ -3252,6 +3273,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Size>120</Size>
     <Exp>19</Exp>
+    <BXP>90</BXP>
     <God />
     <StasisImmune />
     <KeepDamageRecord />
@@ -3357,6 +3379,7 @@
     <Level>20</Level>
     <StasisImmune />
     <MaxHitPoints>9000</MaxHitPoints>
+    <BXP>926</BXP>
     <Size>130</Size>
     <HealthBarBoss radius="30" />
     <KillStat stat="StructureKills" />
@@ -3423,6 +3446,7 @@
     <DeathSound>monster/dwarves_death</DeathSound>
     <MaxHitPoints>50000</MaxHitPoints>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <Size>140</Size>
     <Defense>35</Defense>
     <Projectile id="0">
@@ -3481,6 +3505,7 @@
     <MaxHitPoints>2200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
@@ -3643,6 +3668,7 @@
     <StunImmune />
     <TrackLoot />
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Projectile id="0">
       <ObjectId>Big Zombie Wave</ObjectId>
       <Speed>30</Speed>
@@ -3729,6 +3755,7 @@
     <EventChestBoss />
     <Defense>10</Defense>
     <Exp>10000</Exp>
+    <BXP>37500</BXP>
     <HealthBarBoss radius="50" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -3774,9 +3801,12 @@
     <Defense>15</Defense>
     <Terrain>HighForest</Terrain>
     <SpawnProb>0.008</SpawnProb>
+    <Exp>300</Exp>
+    <BXP>1425</BXP>
     <PerRealmMax>1</PerRealmMax>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="EncounterKills" />
+    <Labels>ENEMY,ENCOUNTER</Labels>
   </Object>
   <Object type="0x0e4f" id="Water Mine">
     <Enemy />
@@ -4048,6 +4078,7 @@
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>35000</Exp>
+    <BXP>175000</BXP>
     <Flying />
     <Hero />
     <Level>20</Level>

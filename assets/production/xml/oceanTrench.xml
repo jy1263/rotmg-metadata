@@ -13,6 +13,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <MaxHitPoints>51750</MaxHitPoints>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <ShadowSize>0</ShadowSize>
     <God />
     <StasisImmune />
@@ -87,6 +88,7 @@
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <MaxHitPoints>10000</MaxHitPoints>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>FishWarrior Spear</ObjectId>
@@ -243,6 +245,7 @@
     <MaxHitPoints>17250</MaxHitPoints>
     <TrackLoot />
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Size>90</Size>
     <Defense>5</Defense>
     <Texture>
@@ -282,6 +285,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <MaxHitPoints>51750</MaxHitPoints>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <ShadowSize>0</ShadowSize>
     <God />
     <StasisImmune />
@@ -424,6 +428,7 @@
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile id="0">
       <ObjectId>Fishman Spear</ObjectId>
       <Speed>55</Speed>
@@ -458,6 +463,7 @@
     <DeathSound>monster/night_elves_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Flying />
     <Z>0.26</Z>
     <ShadowSize>80</ShadowSize>
@@ -487,6 +493,7 @@
     <DeathSound>monster/medusa_death</DeathSound>
     <MaxHitPoints>6000</MaxHitPoints>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <Projectile id="0">
       <ObjectId>Squid Shot</ObjectId>
       <Speed>50</Speed>
@@ -549,6 +556,7 @@
     <DeathSound>monster/scorpions_death</DeathSound>
     <MaxHitPoints>6000</MaxHitPoints>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>Squid Sucker</ObjectId>
       <Speed>0</Speed>
@@ -590,6 +598,7 @@
     <DeathSound>monster/stone_walls_hit</DeathSound>
     <MaxHitPoints>5000</MaxHitPoints>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <Projectile id="0">
       <ObjectId>Oryx Insect Sting</ObjectId>
       <Speed>65</Speed>
@@ -628,6 +637,7 @@
     <DeathSound>monster/blobs_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Purple Spit</ObjectId>
       <Speed>60</Speed>

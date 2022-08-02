@@ -30,6 +30,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>9</Exp>
+    <BXP>42</BXP>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>75</Damage>
@@ -89,6 +90,7 @@
     <Size>100</Size>
     <Defense>40</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <EventChestBoss />
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
@@ -208,6 +210,7 @@
     <DeathSound>monster/greater_demons_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>2250</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>24</Defense>
     <Flying />
     <God />
@@ -254,6 +257,7 @@
     <DeathSound>monster/abyss_demons_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>675</MaxHitPoints>
+    <BXP>320</BXP>
     <Defense>40</Defense>
     <Flying />
     <Projectile id="0">
@@ -279,6 +283,7 @@
     <DeathSound>monster/abyss_demons_death</DeathSound>
     <Size>140</Size>
     <MaxHitPoints>935</MaxHitPoints>
+    <BXP>444</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -311,6 +316,7 @@
     <DeathSound>monster/abyss_demons_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>1000</MaxHitPoints>
+    <BXP>475</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -333,6 +339,7 @@
     <DeathSound>monster/abyss_demons_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>675</MaxHitPoints>
+    <BXP>320</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
@@ -355,6 +362,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>120</Size>
     <MaxHitPoints>750</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -379,6 +387,7 @@
     <DeathSound>monster/abyss_brutes_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>750</MaxHitPoints>
+    <BXP>356</BXP>
     <Defense>40</Defense>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -406,6 +415,7 @@
     </Texture>
     <MaxHitPoints>18000</MaxHitPoints>
     <Exp>68</Exp>
+    <BXP>323</BXP>
     <Size>180</Size>
     <StasisImmune />
     <Defense>50</Defense>

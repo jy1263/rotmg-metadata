@@ -40,6 +40,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <Quest />
     <Level>20</Level>
     <ParalyzeImmune />
@@ -87,6 +88,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <Quest />
     <Level>20</Level>
     <ParalyzeImmune />
@@ -205,6 +207,7 @@
     <Defense>0</Defense>
     <Size>100</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,MINION_STRONG</Labels>
@@ -228,6 +231,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <Quest />
     <Level>20</Level>
     <ParalyzeImmune />
@@ -500,6 +504,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <Quest />
     <Hero />
     <Level>20</Level>

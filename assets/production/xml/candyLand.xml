@@ -14,6 +14,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Terrain>MidPlains</Terrain>
     <SpawnProb>0.04</SpawnProb>
     <KillStat stat="HumanoidKills" />
@@ -35,6 +36,7 @@
     <MaxHitPoints>9750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <StasisImmune />
@@ -89,6 +91,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <TrackLoot />
@@ -129,6 +132,7 @@
     <MaxHitPoints>10875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <StasisImmune />
@@ -189,6 +193,7 @@
     <MaxHitPoints>9750</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <StasisImmune />
@@ -237,6 +242,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <Quest />
     <StasisImmune />
@@ -294,6 +300,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,TRACKLOOT</Labels>
   </Object>
@@ -321,6 +328,7 @@
     <MaxHitPoints>9750</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Quest />
     <God />
     <StasisImmune />
@@ -385,6 +393,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Unicorn Horn</ObjectId>
       <Damage>70</Damage>
@@ -417,6 +426,7 @@
     <MaxHitPoints>1300</MaxHitPoints>
     <Defense>18</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Hard Candy Stake</ObjectId>
       <Damage>50</Damage>
@@ -444,6 +454,7 @@
     <AlwaysPositiveHealth />
     <Defense>30</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -474,6 +485,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Flying />
     <Z>0.25</Z>
     <Projectile id="0">
@@ -506,6 +518,7 @@
     <AlwaysPositiveHealth />
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Troll Hair Whip</ObjectId>
       <Damage>70</Damage>
@@ -532,6 +545,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Icecream Bullet</ObjectId>
       <Damage>36</Damage>
@@ -561,6 +575,7 @@
     <AlwaysPositiveHealth />
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Cream Shot</ObjectId>
       <Damage>85</Damage>
@@ -592,6 +607,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Cream Bullet</ObjectId>
       <Damage>55</Damage>
@@ -627,6 +643,7 @@
     <MaxHitPoints>1200</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Purple Rototo Blast</ObjectId>
       <Damage>40</Damage>
@@ -666,6 +683,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Purple Rototo Blast</ObjectId>
       <Damage>120</Damage>

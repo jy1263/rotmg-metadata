@@ -13,6 +13,7 @@
     <Size>100</Size>
     <MaxHitPoints>5</MaxHitPoints>
     <Defense>0</Defense>
+    <BXP>2</BXP>
     <Terrain>ShoreSand</Terrain>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -37,6 +38,7 @@
     <DeathSound>monster/pirates_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>6</MaxHitPoints>
+    <BXP>2</BXP>
     <Defense>0</Defense>
     <Terrain>ShoreSand</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -63,6 +65,7 @@
     <DeathSound>monster/snakes_death</DeathSound>
     <Size>80</Size>
     <MaxHitPoints>5</MaxHitPoints>
+    <BXP>2</BXP>
     <Defense>0</Defense>
     <Terrain>ShoreSand</Terrain>
     <SpawnProb>1.0</SpawnProb>
@@ -95,6 +98,7 @@
     <DeathSound>monster/scorpions_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>10</MaxHitPoints>
+    <BXP>4</BXP>
     <Defense>0</Defense>
     <Terrain>ShoreSand</Terrain>
     <Projectile id="0">
@@ -125,6 +129,7 @@
     <Quest />
     <Level>1</Level>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <SpawnProb>0.75</SpawnProb>
     <KillStat stat="BeastKills" />
     <Labels>ENEMY,MINION,BEAST,QUEST,MINION_WEAK</Labels>
@@ -148,6 +153,7 @@
     <Quest />
     <Level>2</Level>
     <Exp>44</Exp>
+    <BXP>209</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -174,6 +180,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>50</MaxHitPoints>
+    <BXP>23</BXP>
     <Defense>1</Defense>
     <Terrain>ShoreSand</Terrain>
     <Projectile id="0">
@@ -218,6 +225,7 @@
     </Spawn>
     <Cube />
     <Exp>4</Exp>
+    <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Salmon Missile</ObjectId>
       <Damage>9</Damage>
@@ -252,6 +260,7 @@
     </Spawn>
     <Cube />
     <Exp>4</Exp>
+    <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
       <Damage>12</Damage>
@@ -286,6 +295,7 @@
     </Spawn>
     <Cube />
     <Exp>4</Exp>
+    <BXP>19</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>10</Damage>

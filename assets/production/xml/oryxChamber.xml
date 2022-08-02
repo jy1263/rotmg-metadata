@@ -20,6 +20,7 @@
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>White Bullet</ObjectId>
@@ -548,6 +549,7 @@
     </Projectile>
     <Size>100</Size>
     <Exp>58</Exp>
+    <BXP>275</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <Presentation>
@@ -753,6 +755,7 @@
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>25000</Exp>
+    <BXP>125000</BXP>
     <TrackLoot />
     <Projectile id="0">
       <ObjectId>pD Blob Shot</ObjectId>
@@ -1385,6 +1388,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Projectile id="0">
       <ObjectId>pD Stalker Shot</ObjectId>
       <Damage>130</Damage>
@@ -1411,6 +1415,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Projectile id="0">
       <ObjectId>pD Walker Shot</ObjectId>
       <Damage>150</Damage>

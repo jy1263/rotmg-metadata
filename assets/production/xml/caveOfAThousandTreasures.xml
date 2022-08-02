@@ -14,6 +14,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>136</Exp>
+    <BXP>646</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
@@ -121,6 +122,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Projectile id="0">
       <ObjectId>Golden Coin</ObjectId>
       <Speed>50</Speed>
@@ -209,6 +211,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Projectile id="0">
       <ObjectId>H Baby Blast</ObjectId>
       <Size>200</Size>
@@ -373,6 +376,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>50</Damage>
@@ -442,6 +446,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <Projectile id="0">
       <ObjectId>Dagger Throw</ObjectId>
       <Damage>55</Damage>
@@ -508,6 +513,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <Projectile id="1">
       <ObjectId>Golden Blast</ObjectId>
       <Damage>80</Damage>
@@ -566,6 +572,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>195</Exp>
+    <BXP>926</BXP>
     <StasisImmune />
     <Projectile id="1">
       <ObjectId>Golden Blast</ObjectId>

@@ -12,6 +12,7 @@
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>30</MaxHitPoints>
+    <BXP>14</BXP>
     <Defense>0</Defense>
     <Terrain>LowSand</Terrain>
     <Projectile id="0">
@@ -37,6 +38,7 @@
     <DeathSound>monster/dark_elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>88</MaxHitPoints>
+    <BXP>41</BXP>
     <Defense>0</Defense>
     <Terrain>LowSand</Terrain>
     <Projectile id="0">
@@ -74,6 +76,7 @@
     <Quest />
     <Level>4</Level>
     <Exp>43</Exp>
+    <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -102,6 +105,7 @@
     <Quest />
     <Level>3</Level>
     <Exp>43</Exp>
+    <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Beam</ObjectId>
@@ -157,6 +161,7 @@
     <Defense>1</Defense>
     <Terrain>LowSand</Terrain>
     <Exp>4</Exp>
+    <BXP>19</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Dark Gray Spinner</ObjectId>
@@ -184,6 +189,7 @@
     <DeathSound>monster/hobbits_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>26</MaxHitPoints>
+    <BXP>12</BXP>
     <Defense>0</Defense>
     <Terrain>LowPlains</Terrain>
     <Projectile id="0">
@@ -209,6 +215,7 @@
     <DeathSound>monster/hobbits_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>22</MaxHitPoints>
+    <BXP>10</BXP>
     <Defense>0</Defense>
     <Terrain>LowPlains</Terrain>
     <Projectile id="0">
@@ -238,6 +245,7 @@
     <Quest />
     <Level>3</Level>
     <Exp>32</Exp>
+    <BXP>152</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Dark Blue Magic</ObjectId>
@@ -274,6 +282,7 @@
     <DeathSound>monster/undead_hobbits_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>34</MaxHitPoints>
+    <BXP>16</BXP>
     <Defense>0</Defense>
     <Terrain>LowPlains</Terrain>
     <Projectile id="0">
@@ -299,6 +308,7 @@
     <DeathSound>monster/undead_hobbits_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>28</MaxHitPoints>
+    <BXP>13</BXP>
     <Defense>0</Defense>
     <Terrain>LowPlains</Terrain>
     <Projectile id="0">
@@ -328,6 +338,7 @@
     <Quest />
     <Level>4</Level>
     <Exp>43</Exp>
+    <BXP>204</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Yellow Missile</ObjectId>
@@ -416,6 +427,7 @@
     <Size>100</Size>
     <Defense>5</Defense>
     <Exp>56</Exp>
+    <BXP>266</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <Presentation>
@@ -456,6 +468,7 @@
     <Size>100</Size>
     <Defense>4</Defense>
     <Exp>1</Exp>
+    <BXP>4</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -473,6 +486,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>22</MaxHitPoints>
+    <BXP>10</BXP>
     <Defense>2</Defense>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -498,6 +512,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>26</MaxHitPoints>
+    <BXP>12</BXP>
     <Defense>2</Defense>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -523,6 +538,7 @@
     <DeathSound>monster/elves_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>22</MaxHitPoints>
+    <BXP>10</BXP>
     <Defense>0</Defense>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -552,6 +568,7 @@
     <Quest />
     <Level>3</Level>
     <Exp>32</Exp>
+    <BXP>152</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>
@@ -577,6 +594,7 @@
     <DeathSound>monster/goblins_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>25</MaxHitPoints>
+    <BXP>11</BXP>
     <Defense>0</Defense>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -602,6 +620,7 @@
     <DeathSound>monster/goblins_death</DeathSound>
     <Size>75</Size>
     <MaxHitPoints>25</MaxHitPoints>
+    <BXP>11</BXP>
     <Defense>2</Defense>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -630,6 +649,7 @@
     <Quest />
     <Level>4</Level>
     <Exp>39</Exp>
+    <BXP>185</BXP>
     <SpawnProb>0.75</SpawnProb>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -685,6 +705,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Damage>12</Damage>
@@ -711,6 +732,7 @@
     <Defense>1</Defense>
     <Terrain>LowForest</Terrain>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <SpawnProb>1.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Purple Boomerang</ObjectId>
@@ -750,6 +772,7 @@
     <Quest />
     <Level>3</Level>
     <Exp>32</Exp>
+    <BXP>152</BXP>
     <SpawnProb>0.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Dark Blue Magic</ObjectId>
@@ -809,6 +832,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Damage>12</Damage>
@@ -837,6 +861,7 @@
     <Quest />
     <Level>4</Level>
     <Exp>39</Exp>
+    <BXP>185</BXP>
     <SpawnProb>0.0</SpawnProb>
     <Terrain>LowForest</Terrain>
     <Projectile id="0">
@@ -876,6 +901,7 @@
     <Quest />
     <Level>3</Level>
     <Exp>32</Exp>
+    <BXP>152</BXP>
     <SpawnProb>0.0</SpawnProb>
     <Projectile id="0">
       <ObjectId>Blue Bolt</ObjectId>

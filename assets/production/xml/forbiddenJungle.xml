@@ -59,6 +59,7 @@
     <MaxHitPoints>3150</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>700</Exp>
+    <BXP>3325</BXP>
     <God />
     <StasisImmune />
     <Quest />
@@ -108,6 +109,7 @@
     <SpecialSpawn category="SkinHunter" perPlayer="true">Baby Basilisk Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Ultra Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_A">Mercenary A Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -322,6 +324,7 @@
     <MaxHitPoints>125</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>10</Exp>
+    <BXP>47</BXP>
     <Z>0.26</Z>
     <Projectile id="0">
       <ObjectId>Ghost Shot</ObjectId>
@@ -349,6 +352,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>90</Exp>
+    <BXP>427</BXP>
     <Projectile id="0">
       <ObjectId>Totem Blast</ObjectId>
       <Damage>40</Damage>
@@ -375,6 +379,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>20</Exp>
+    <BXP>95</BXP>
     <Projectile id="0">
       <ObjectId>Basilisk Acid</ObjectId>
       <Damage>22</Damage>
@@ -403,6 +408,7 @@
     <MaxHitPoints>370</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Basilisk Acid</ObjectId>
       <Damage>22</Damage>
@@ -456,6 +462,7 @@
     <MaxHitPoints>250</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <Projectile id="0">
       <ObjectId>Shaman Star</ObjectId>
       <Damage>10</Damage>
@@ -485,6 +492,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Projectile id="0">
       <ObjectId>Mask Blast</ObjectId>
       <Damage>10</Damage>
@@ -512,6 +520,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>30</Exp>
+    <BXP>142</BXP>
     <Projectile id="0">
       <ObjectId>Hunter Spear</ObjectId>
       <Damage>25</Damage>
@@ -579,6 +588,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>80</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Damage>20</Damage>

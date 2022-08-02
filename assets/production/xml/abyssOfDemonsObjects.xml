@@ -134,6 +134,7 @@
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <EventChestBoss />
     <TrackLoot />
     <Projectile id="0">
@@ -236,6 +237,7 @@
     <SpecialSpawn category="Souvenir_MID">Demon Blade</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Horned Wyrm Pet Stone</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
   </Object>
   <Object type="0x090b" id="Malphas Hound">
     <Enemy />
@@ -301,6 +303,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Flying />
     <God />
     <Projectile id="0">
@@ -333,6 +336,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Flying />
     <Z>0.15</Z>
     <Projectile id="0">
@@ -361,6 +365,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Fire Projectile</ObjectId>
       <Damage>120</Damage>
@@ -387,6 +392,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Fire Projectile</ObjectId>
       <Damage>80</Damage>
@@ -412,6 +418,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Blast Projectile</ObjectId>
       <Damage>80</Damage>
@@ -437,6 +444,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Sword Projectile</ObjectId>
       <Damage>100</Damage>
@@ -462,6 +470,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Sword Projectile</ObjectId>
       <Damage>80</Damage>
@@ -489,6 +498,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Abyss Hammer Projectile</ObjectId>
       <Damage>90</Damage>
@@ -525,6 +535,7 @@
     </AltTexture>
     <MaxHitPoints>25000</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Size>120</Size>
     <StasisImmune />
     <Defense>30</Defense>

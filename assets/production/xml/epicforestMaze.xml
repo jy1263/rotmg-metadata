@@ -259,6 +259,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Size>110</Size>
     <Projectile id="0">
       <ObjectId>Squirrel Slash</ObjectId>
@@ -293,6 +294,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>6</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Size>120</Size>
     <TrackLoot />
     <Projectile id="0">
@@ -323,6 +325,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>350</Exp>
+    <BXP>1662</BXP>
     <Size>120</Size>
     <Projectile id="0">
       <ObjectId>Bright Leaf Magic</ObjectId>
@@ -352,6 +355,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Size>120</Size>
     <Projectile id="0">
       <ObjectId>Bruiser Slice</ObjectId>
@@ -406,6 +410,7 @@
       <Index>0x20</Index>
     </Texture>
     <MaxHitPoints>32500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>35</Defense>
     <Size>130</Size>
     <HealthBarBoss radius="14" />
@@ -505,6 +510,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>100</Size>
     <Flying />
     <Z>0.3</Z>
@@ -535,6 +541,7 @@
     <MaxHitPoints>1800</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Size>110</Size>
     <Flying />
     <Z>0.3</Z>
@@ -778,6 +785,7 @@
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Size>170</Size>
     <EventChestBoss />
     <TrackLoot />
@@ -872,6 +880,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Woodland Huntress Skin</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
   </Object>
   <Object type="0x2384" id="Woodland Wall">
     <Class>Wall</Class>

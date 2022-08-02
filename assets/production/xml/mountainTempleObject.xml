@@ -393,6 +393,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="ConstructKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,MINION_STRONG,CONSTRUCT</Labels>
@@ -463,6 +464,7 @@
     <MaxHitPoints>1850</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION_MID,MINION,CONSTRUCT</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -502,6 +504,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION_MID,MINION,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -538,6 +541,7 @@
     <Defense>30</Defense>
     <StasisImmune />
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -573,6 +577,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <KillStat stat="HumanoidKills" />
@@ -613,6 +618,7 @@
     <StasisImmune />
     <ParalyzeImmune />
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -670,6 +676,7 @@
     <StasisImmune />
     <Flying />
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,MINION,MINION_MID,STASISIMMUNE,NATURE</Labels>
     <Projectile id="0">
@@ -733,6 +740,7 @@
     <StunImmune />
     <DazedImmune />
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <ParalyzeImmune />
     <EventChestBoss />
     <TrackLoot />
@@ -855,6 +863,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Possessed Lantern Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_C">Mercenary C Dungeon</SpecialSpawn>
   </Object>
   <Object type="0x6fe7" id="chasingHorror">
     <DisplayId>Soulblast</DisplayId>
@@ -920,6 +929,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -1009,6 +1019,7 @@
     <MaxHitPoints>22000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <StunImmune />
@@ -1092,6 +1103,7 @@
     <MaxHitPoints>22000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <StunImmune />
@@ -1177,6 +1189,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <AlwaysPositiveHealth />
     <StasisImmune />
     <ParalyzeImmune />
@@ -1827,6 +1840,7 @@
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Flying />
     <TrackLoot />
     <Hero />
@@ -1896,6 +1910,7 @@
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Flying />
     <TrackLoot />
     <Hero />
@@ -2125,6 +2140,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Flying />
     <StasisImmune />
     <StunImmune />

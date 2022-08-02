@@ -23,6 +23,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>Fire Missile</ObjectId>
       <Damage>20</Damage>
@@ -51,6 +52,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Red Fire</ObjectId>
       <Damage>80</Damage>
@@ -98,6 +100,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>Yellow Magic</ObjectId>
       <Damage>0</Damage>
@@ -126,6 +129,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Yellow Magic</ObjectId>
       <Damage>40</Damage>
@@ -177,6 +181,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>Blue Missile</ObjectId>
       <Damage>0</Damage>
@@ -205,6 +210,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Blue Magic</ObjectId>
       <Damage>60</Damage>
@@ -255,6 +261,7 @@
     <MaxHitPoints>1400</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>80</Damage>
@@ -280,6 +287,7 @@
     <MaxHitPoints>1800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>120</Damage>
@@ -305,6 +313,7 @@
     <MaxHitPoints>2000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>350</Exp>
+    <BXP>1662</BXP>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
       <Damage>100</Damage>
@@ -330,6 +339,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <Projectile id="0">
       <ObjectId>Darkness Bolt</ObjectId>
       <Damage>140</Damage>
@@ -356,6 +366,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <Projectile id="0">
       <ObjectId>Green Star</ObjectId>
       <Damage>30</Damage>
@@ -391,6 +402,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>50</Damage>
@@ -693,6 +705,7 @@
     <DisplayId>Nut Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiChar216x16</File>
@@ -708,6 +721,7 @@
     <DisplayId>Geb Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiChar216x16</File>
@@ -723,6 +737,7 @@
     <DisplayId>Bes Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiChar216x16</File>
@@ -748,6 +763,7 @@
     <Size>140</Size>
     <Defense>15</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />
@@ -855,6 +871,7 @@
     <Size>140</Size>
     <Defense>30</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />
@@ -934,6 +951,7 @@
     <Size>140</Size>
     <Defense>50</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />
@@ -1006,6 +1024,7 @@
     <Defense>100</Defense>
     <StasisImmune />
     <Exp>5000</Exp>
+    <BXP>25000</BXP>
     <God />
     <TrackLoot />
     <Projectile id="0">
@@ -1039,6 +1058,7 @@
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <God />
     <TrackLoot />
     <Projectile id="0">
@@ -1077,6 +1097,7 @@
     <Size>100</Size>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <God />
     <TrackLoot />
     <Projectile id="0">
@@ -1115,6 +1136,7 @@
     <Size>180</Size>
     <Defense>100</Defense>
     <Exp>8000</Exp>
+    <BXP>40000</BXP>
     <God />
     <TrackLoot />
     <KillStat stat="StructureKills" />
@@ -1467,6 +1489,7 @@
     <Size>120</Size>
     <Defense>35</Defense>
     <Exp>700</Exp>
+    <BXP>3325</BXP>
     <God />
     <Projectile id="0">
       <ObjectId>Stick</ObjectId>
@@ -1508,6 +1531,7 @@
     <Size>120</Size>
     <Defense>5</Defense>
     <Exp>700</Exp>
+    <BXP>3325</BXP>
     <God />
     <Projectile id="0">
       <ObjectId>Violet Missile</ObjectId>
@@ -1542,6 +1566,7 @@
     <Size>120</Size>
     <Defense>20</Defense>
     <Exp>700</Exp>
+    <BXP>3325</BXP>
     <God />
     <Projectile id="0">
       <ObjectId>Indigo Arrow</ObjectId>

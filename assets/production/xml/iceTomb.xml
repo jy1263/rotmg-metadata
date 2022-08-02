@@ -624,6 +624,7 @@
     <DisplayId>Polaris Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiObjBig</File>
@@ -639,6 +640,7 @@
     <DisplayId>Glacius Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiObjBig</File>
@@ -654,6 +656,7 @@
     <DisplayId>Frimar Statue</DisplayId>
     <Size>140</Size>
     <MaxHitPoints>100000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <Texture>
       <File>lofiObjBig</File>
@@ -679,6 +682,7 @@
     <Size>140</Size>
     <Defense>15</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />
@@ -785,6 +789,7 @@
     <Size>140</Size>
     <Defense>30</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />
@@ -863,6 +868,7 @@
     <Size>140</Size>
     <Defense>50</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <God />
     <NoArticle />
     <TrackLoot />

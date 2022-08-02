@@ -245,6 +245,7 @@
     <Color>0xFE79F1</Color>
     <Enemy />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,MINION,CONSTRUCT,TRACKLOOT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
@@ -529,6 +530,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
@@ -550,6 +552,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
@@ -571,6 +574,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -636,6 +640,7 @@
     <Size>120</Size>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <MaxHitPoints>1875</MaxHitPoints>
@@ -673,6 +678,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Red Mushroom Magic</ObjectId>
       <Damage>110</Damage>
@@ -700,6 +706,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -744,6 +751,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Blue Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -771,6 +779,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Blue Mushroom Spore</ObjectId>
       <Damage>120</Damage>
@@ -840,6 +849,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -883,6 +893,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Yellow Mushroom Spore</ObjectId>
@@ -930,6 +941,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Yellow Mushroom Shot</ObjectId>
@@ -974,6 +986,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -1056,6 +1069,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Green Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -1096,6 +1110,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Green Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -1122,6 +1137,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -1171,6 +1187,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Purple Mushroom Shot</ObjectId>
@@ -1201,6 +1218,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Purple Mushroom Magic</ObjectId>
@@ -1239,6 +1257,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -1315,6 +1334,7 @@
     <Size>100</Size>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Web Thread</ObjectId>
       <Speed>24</Speed>
@@ -1350,6 +1370,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile>
       <ObjectId>GC Red Mushroom Magic</ObjectId>
       <Speed>50</Speed>
@@ -1392,6 +1413,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -1496,6 +1518,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -1600,6 +1623,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -1703,6 +1727,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
@@ -1724,6 +1749,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
@@ -1745,6 +1771,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -1809,6 +1836,7 @@
     <Size>120</Size>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
     <MaxHitPoints>1875</MaxHitPoints>
@@ -1846,6 +1874,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Red Mushroom Magic</ObjectId>
       <Damage>110</Damage>
@@ -1873,6 +1902,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -1916,6 +1946,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Blue Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -1943,6 +1974,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Blue Mushroom Spore</ObjectId>
       <Damage>120</Damage>
@@ -2012,6 +2044,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -2054,6 +2087,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Yellow Mushroom Spore</ObjectId>
@@ -2101,6 +2135,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Yellow Mushroom Shot</ObjectId>
@@ -2145,6 +2180,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <StunImmune />
     <ParalyzeImmune />
     <StasisImmune />
@@ -2226,6 +2262,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Green Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -2266,6 +2303,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <ObjectId>GC Green Mushroom Spear</ObjectId>
       <Damage>120</Damage>
@@ -2292,6 +2330,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2340,6 +2379,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Purple Mushroom Shot</ObjectId>
@@ -2370,6 +2410,7 @@
     <MaxHitPoints>1125</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>GC Purple Mushroom Magic</ObjectId>
@@ -2408,6 +2449,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2484,6 +2526,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2588,6 +2631,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2692,6 +2736,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2804,6 +2849,7 @@
     <MaxHitPoints>37500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <StunImmune />
     <StasisImmune />
     <Projectile id="0">
@@ -2855,6 +2901,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -2961,6 +3008,7 @@
     <MaxHitPoints>67500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>70000</Exp>
+    <BXP>350000</BXP>
     <Quest />
     <ParalyzeImmune />
     <EventChestBoss />
@@ -3049,6 +3097,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Crystal Cobra Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
   </Object>
   <Object type="0xb291" id="GC Boss Body">
     <DisplayId>Crystal Worm Mother</DisplayId>
@@ -3196,6 +3246,7 @@
     <HitSound>monster/flayers_hit</HitSound>
     <DeathSound>monster/flayers_death</DeathSound>
     <MaxHitPoints>12000</MaxHitPoints>
+    <BXP>926</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -3533,6 +3584,7 @@
     <StasisImmune />
     <StunImmune />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <TrackLoot />
     <Projectile id="0">
@@ -3595,6 +3647,7 @@
     <StasisImmune />
     <StunImmune />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <TrackLoot />
     <KillStat stat="ConstructKills" />
@@ -3622,6 +3675,7 @@
     <StasisImmune />
     <StunImmune />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <TrackLoot />
     <Projectile id="0">
@@ -3661,6 +3715,7 @@
     <StasisImmune />
     <StunImmune />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <TrackLoot />
     <Projectile id="8">
@@ -3713,6 +3768,7 @@
     <StasisImmune />
     <StunImmune />
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <ParalyzeImmune />
     <TrackLoot />
     <Projectile id="1">
@@ -3760,6 +3816,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <Projectile id="0">
@@ -3787,6 +3844,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <Projectile id="0">
@@ -3814,6 +3872,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <Projectile id="0">
@@ -3856,6 +3915,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <Projectile id="0">
@@ -3891,6 +3951,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
     <Projectile id="0">
@@ -3997,6 +4058,7 @@
     <Size>60</Size>
     <MaxHitPoints>1875</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <Projectile id="0">
@@ -4023,6 +4085,7 @@
     <Size>60</Size>
     <MaxHitPoints>1875</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <Projectile id="0">
@@ -4049,6 +4112,7 @@
     <Size>60</Size>
     <MaxHitPoints>1875</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <Projectile id="0">
@@ -4076,6 +4140,7 @@
     <Size>60</Size>
     <MaxHitPoints>1875</MaxHitPoints>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <Projectile id="0">
@@ -4107,6 +4172,7 @@
     <MaxHitPoints>7500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <ParalyzeImmune />
     <StunImmune />
     <StasisImmune />
@@ -4207,6 +4273,7 @@
     </AnimatedTexture>
     <Size>60</Size>
     <MaxHitPoints>1875</MaxHitPoints>
+    <BXP>890</BXP>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
     <Projectile id="0">

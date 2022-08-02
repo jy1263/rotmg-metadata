@@ -19495,4 +19495,814 @@
     <BagType>2</BagType>
     <Treasure />
   </Object>
+  <Object type="0x7e25" id="Encrypted Note x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e26" id="Encrypted Note x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e27" id="Encrypted Note x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e28" id="Encrypted Note x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e29" id="Encrypted Note x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2a" id="Encrypted Note x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2b" id="Encrypted Note x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2c" id="Encrypted Note x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2d" id="Encrypted Note x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2e" id="Encrypted Note x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e2f" id="Encrypted Note x11">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>11</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e30" id="Encrypted Note x12">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>12</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e31" id="Encrypted Note x13">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>13</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e32" id="Encrypted Note x14">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>14</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e33" id="Encrypted Note x15">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>15</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e34" id="Encrypted Note x16">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>16</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e35" id="Encrypted Note x17">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>17</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e36" id="Encrypted Note x18">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>18</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e37" id="Encrypted Note x19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>19</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e38" id="Encrypted Note x20">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>20</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e39" id="Encrypted Note x21">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>21</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3a" id="Encrypted Note x22">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>22</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3b" id="Encrypted Note x23">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>23</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3c" id="Encrypted Note x24">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>24</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3d" id="Encrypted Note x25">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>25</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3e" id="Encrypted Note x26">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>26</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e3f" id="Encrypted Note x27">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>27</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e40" id="Encrypted Note x28">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>28</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e41" id="Encrypted Note x29">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>29</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e42" id="Encrypted Note x30">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>30</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e43" id="Encrypted Note x31">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>31</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e44" id="Encrypted Note x32">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>32</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e45" id="Encrypted Note x33">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>33</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e46" id="Encrypted Note x34">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>34</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x7e47" id="Encrypted Note x35">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1178</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A note written in cipher, probably used for communication within a mysterious cabal...</Description>
+    <Quantity>35</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="35" />
+      <EffectInfo name="Event" description="Vindication" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e2" id="Black Coin x1">
+    <DisplayId>Black Coin x1</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e3" id="Black Coin x2">
+    <DisplayId>Black Coin x2</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e4" id="Black Coin x3">
+    <DisplayId>Black Coin x3</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e5" id="Black Coin x4">
+    <DisplayId>Black Coin x4</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e6" id="Black Coin x5">
+    <DisplayId>Black Coin x5</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e7" id="Black Coin x6">
+    <DisplayId>Black Coin x6</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e8" id="Black Coin x7">
+    <DisplayId>Black Coin x7</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87e9" id="Black Coin x8">
+    <DisplayId>Black Coin x8</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87ea" id="Black Coin x9">
+    <DisplayId>Black Coin x9</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x87eb" id="Black Coin x10">
+    <DisplayId>Black Coin x10</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="2">
+      <File>interregnumObjects8x8</File>
+      <Index>0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Stack of Black Coins can be traded for keys to the Hidden Interregnum.</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
 </Objects>

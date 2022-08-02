@@ -66,6 +66,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>40</Exp>
+    <BXP>190</BXP>
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
@@ -94,6 +95,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>DS White Shuriken</ObjectId>
       <Damage>90</Damage>
@@ -120,6 +122,7 @@
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <God />
     <Projectile id="0">
       <ObjectId>Slime God Sludge</ObjectId>
@@ -153,6 +156,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>Green Magic</ObjectId>
       <Damage>35</Damage>
@@ -179,6 +183,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>DS Green Magic</ObjectId>
       <Damage>70</Damage>
@@ -207,6 +212,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>8</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>DS Blue Magic</ObjectId>
       <Damage>75</Damage>
@@ -234,6 +240,7 @@
     <MaxHitPoints>1750</MaxHitPoints>
     <Defense>12</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>AI Forax Acidus Shot</ObjectId>
       <Damage>100</Damage>
@@ -277,6 +284,7 @@
     <MaxHitPoints>2450</MaxHitPoints>
     <Defense>18</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <Projectile id="0">
       <ObjectId>White Bolt</ObjectId>
       <Damage>80</Damage>
@@ -302,6 +310,7 @@
     <MaxHitPoints>1700</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>DS Green Slimeball</ObjectId>
       <Damage>150</Damage>
@@ -328,6 +337,7 @@
     <MaxHitPoints>2750</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>140</Exp>
+    <BXP>665</BXP>
     <Projectile id="0">
       <ObjectId>DS Brown Slimeball</ObjectId>
       <Damage>65</Damage>
@@ -393,6 +403,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>140</Exp>
+    <BXP>665</BXP>
     <Projectile id="0">
       <ObjectId>DS Yellow Slimeball</ObjectId>
       <Damage>60</Damage>
@@ -463,6 +474,7 @@
     <NoArticle />
     <Level>1</Level>
     <Exp>8000</Exp>
+    <BXP>40000</BXP>
     <EventChestBoss />
     <TrackLoot />
     <Projectile id="0">
@@ -1089,6 +1101,7 @@
       <Index>7</Index>
     </AnimatedTexture>
     <MaxHitPoints>5500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>10</Defense>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>
@@ -1111,6 +1124,7 @@
       <Index>7</Index>
     </AnimatedTexture>
     <MaxHitPoints>5500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>10</Defense>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/flayers_hit</DeathSound>

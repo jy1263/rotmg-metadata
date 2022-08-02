@@ -45,6 +45,7 @@
     <StasisImmune />
     <Level>1</Level>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <NoArticle />
     <EventChestBoss />
     <TrackLoot />
@@ -163,6 +164,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Easy</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Possessed Staff Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt2">
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
@@ -191,6 +193,7 @@
     <MaxHitPoints>11000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <ShadowSize>0</ShadowSize>
     <God />
     <StasisImmune />
@@ -278,6 +281,7 @@
     <MaxHitPoints>350</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL Bone</ObjectId>
       <Damage>40</Damage>
@@ -303,6 +307,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>2</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL White Slash</ObjectId>
       <Damage>35</Damage>
@@ -328,6 +333,7 @@
     <MaxHitPoints>450</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL Orange Slash</ObjectId>
       <Damage>40</Damage>
@@ -353,6 +359,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL Blue Magic</ObjectId>
       <Damage>45</Damage>
@@ -378,6 +385,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>UDL Blue Magic Big</ObjectId>
       <Damage>50</Damage>
@@ -403,6 +411,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL White Magic</ObjectId>
       <Damage>40</Damage>
@@ -434,6 +443,7 @@
     <MaxHitPoints>500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <ObjectId>UDL Orange Magic</ObjectId>
       <Damage>50</Damage>
@@ -459,6 +469,7 @@
     <MaxHitPoints>600</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>UDL Pink Magic</ObjectId>
       <Damage>60</Damage>
@@ -484,6 +495,7 @@
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>UDL Blue Shot</ObjectId>
       <Damage>80</Damage>
@@ -517,6 +529,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>UDL Brown Shot</ObjectId>
       <Damage>50</Damage>
@@ -549,6 +562,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <Size>100</Size>
       <ObjectId>UDL Black Magic</ObjectId>
@@ -574,6 +588,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <Size>90</Size>
       <ObjectId>UDL Black Magic</ObjectId>
@@ -599,6 +614,7 @@
     <MaxHitPoints>50</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Projectile id="0">
       <Size>80</Size>
       <ObjectId>UDL Black Magic</ObjectId>
@@ -625,6 +641,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <Size>100</Size>
       <ObjectId>UDL Brown Magic</ObjectId>
@@ -650,6 +667,7 @@
     <MaxHitPoints>150</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Projectile id="0">
       <Size>80</Size>
       <ObjectId>UDL Brown Magic</ObjectId>
@@ -676,6 +694,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Flying />
     <Z>0.1</Z>
     <Projectile id="0">
@@ -703,6 +722,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Flying />
     <Z>0.1</Z>
     <Projectile id="0">
@@ -900,6 +920,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>UDL Purple Bolt</ObjectId>
       <Damage>40</Damage>
@@ -925,6 +946,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>UDL Green Star</ObjectId>
       <Damage>80</Damage>
@@ -957,6 +979,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <Projectile id="0">
       <ObjectId>UDL Grey Star</ObjectId>
       <Damage>70</Damage>
@@ -989,6 +1012,7 @@
     <MaxHitPoints>200</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Flying />
     <Z>0.15</Z>
     <Projectile id="0">
@@ -1016,6 +1040,7 @@
     <MaxHitPoints>300</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>75</Exp>
+    <BXP>356</BXP>
     <Flying />
     <Z>0.2</Z>
     <Projectile id="0">
@@ -1044,6 +1069,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Flying />
     <Z>0.25</Z>
     <Projectile id="0">
@@ -2390,6 +2416,7 @@
     <MaxHitPoints>2500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <Projectile id="0">
       <ObjectId>UDL White Slash</ObjectId>
       <Damage>95</Damage>

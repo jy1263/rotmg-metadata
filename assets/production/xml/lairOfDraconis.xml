@@ -114,6 +114,7 @@
     <Z>.4</Z>
     <Flying />
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,NATURE</Labels>
@@ -164,6 +165,7 @@
     <Z>.4</Z>
     <Flying />
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <NoMiniMap />
     <KillStat stat="NatureKills" />
@@ -216,6 +218,7 @@
     <Z>.4</Z>
     <Flying />
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <KillStat stat="NatureKills" />
     <Labels>ENEMY,NATURE</Labels>
@@ -266,6 +269,7 @@
     <Z>.4</Z>
     <Flying />
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <NoMiniMap />
     <KillStat stat="NatureKills" />
@@ -290,6 +294,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>175</Size>
     <MaxHitPoints>35000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>40</Defense>
     <Level>20</Level>
     <Quest />
@@ -389,6 +394,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>225</Size>
     <MaxHitPoints>35000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>75</Defense>
     <Level>20</Level>
     <Quest />
@@ -569,6 +575,7 @@
     <MaxHitPoints>27500</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>975</Exp>
+    <BXP>4631</BXP>
     <Level>20</Level>
     <Quest />
     <God />
@@ -702,6 +709,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>225</Size>
     <MaxHitPoints>27500</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>40</Defense>
     <Level>20</Level>
     <Quest />
@@ -895,6 +903,7 @@
     <MaxHitPoints>40000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>975</Exp>
+    <BXP>4631</BXP>
     <Level>20</Level>
     <Quest />
     <God />
@@ -998,6 +1007,7 @@
     <DeathSound>monster/skeletons_death</DeathSound>
     <Size>225</Size>
     <MaxHitPoints>40000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>60</Defense>
     <Level>20</Level>
     <Quest />
@@ -1132,6 +1142,7 @@
     </Texture>
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY</Labels>
@@ -1212,6 +1223,7 @@
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>70</Defense>
     <Exp>1462</Exp>
+    <BXP>7310</BXP>
     <Quest />
     <God />
     <ParalyzeImmune />
@@ -1354,6 +1366,7 @@
     <MaxHitPoints>30000</MaxHitPoints>
     <Defense>70</Defense>
     <Exp>1462</Exp>
+    <BXP>7310</BXP>
     <Quest />
     <God />
     <ParalyzeImmune />
@@ -1552,6 +1565,7 @@
     </Texture>
     <Size>0</Size>
     <MaxHitPoints>1250000</MaxHitPoints>
+    <BXP>926</BXP>
     <NoMiniMap />
     <StasisImmune />
     <KillStat stat="StructureKills" />
@@ -1569,6 +1583,7 @@
     <Size>0</Size>
     <StasisImmune />
     <MaxHitPoints>1250000</MaxHitPoints>
+    <BXP>926</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
@@ -1584,6 +1599,7 @@
     <Size>0</Size>
     <StasisImmune />
     <MaxHitPoints>1250000</MaxHitPoints>
+    <BXP>926</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
@@ -1599,6 +1615,7 @@
     <NoMiniMap />
     <StasisImmune />
     <MaxHitPoints>1250000</MaxHitPoints>
+    <BXP>926</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
@@ -1614,6 +1631,7 @@
     <NoMiniMap />
     <StasisImmune />
     <MaxHitPoints>1250000</MaxHitPoints>
+    <BXP>926</BXP>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,STASISIMMUNE</Labels>
   </Object>
@@ -1864,6 +1882,7 @@
     <MaxHitPoints>50000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Level>20</Level>
     <ParalyzeImmune />
     <StasisImmune />
@@ -2048,6 +2067,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <StasisImmune />
     <StunImmune />
     <AltTexture id="1">
@@ -2106,6 +2126,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <StunImmune />
     <StasisImmune />
     <AltTexture id="1">
@@ -2164,6 +2185,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <StunImmune />
     <AltTexture id="1">
       <Texture>
@@ -2221,6 +2243,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>487</Exp>
+    <BXP>2313</BXP>
     <StasisImmune />
     <StunImmune />
     <AltTexture id="1">

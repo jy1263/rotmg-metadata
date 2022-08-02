@@ -2192,6 +2192,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2223,6 +2224,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2263,6 +2265,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2345,6 +2348,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2416,6 +2420,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2478,6 +2483,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2540,6 +2546,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2580,6 +2587,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2622,6 +2630,7 @@
     <MaxHitPoints>4250</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2828,6 +2837,7 @@
     <MaxHitPoints>4250</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -3002,6 +3012,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3087,6 +3098,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3158,6 +3170,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3193,6 +3206,7 @@
     <MaxHitPoints>2750</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
+    <BXP>1187</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -4293,6 +4307,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
@@ -4312,6 +4327,7 @@
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>65</Defense>
     <Exp>2500</Exp>
+    <BXP>12500</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
@@ -4347,6 +4363,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4522,6 +4539,7 @@
     <MaxHitPoints>4750</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4589,6 +4607,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>65</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4650,6 +4669,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>55</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4712,6 +4732,7 @@
     <MaxHitPoints>3250</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4793,6 +4814,7 @@
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4835,6 +4857,7 @@
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>85</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <KillStat stat="GodKills" />
     <KillStat stat="ConstructKills" />
     <StasisImmune />
@@ -5297,6 +5320,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <Projectile id="0">
@@ -5522,6 +5546,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <TrackLoot />
@@ -5659,6 +5684,7 @@
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <Projectile id="0">
@@ -5890,6 +5916,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -5928,6 +5955,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -6050,6 +6078,7 @@
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -6240,6 +6269,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Flying />
@@ -6487,6 +6517,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>45</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Flying />
@@ -7229,6 +7260,7 @@
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7556,6 +7588,7 @@
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7652,6 +7685,7 @@
     <MaxHitPoints>8500</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7829,6 +7863,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7971,6 +8006,7 @@
     <MaxHitPoints>10500</MaxHitPoints>
     <Defense>80</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -8936,6 +8972,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9023,6 +9060,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9079,6 +9117,7 @@
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9261,6 +9300,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9388,6 +9428,7 @@
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="BeastKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9458,6 +9499,7 @@
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -10002,6 +10044,7 @@
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -10081,6 +10124,7 @@
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <NoMiniMap />
     <AlwaysPositiveHealth />
     <StunImmune />
@@ -11737,6 +11781,7 @@
     <God />
     <Quest />
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -12423,6 +12468,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
@@ -12785,6 +12831,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
@@ -13147,6 +13194,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <StunImmune />
     <StasisImmune />
     <KillStat stat="StructureKills" />
@@ -13509,6 +13557,7 @@
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
@@ -15006,6 +15055,7 @@
     <AlwaysPositiveHealth />
     <Defense>45</Defense>
     <Exp>50000</Exp>
+    <BXP>250000</BXP>
     <HealthBarBoss radius="25" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -22234,6 +22284,7 @@
     <AlwaysPositiveHealth />
     <Defense>50</Defense>
     <Exp>100000</Exp>
+    <BXP>500000</BXP>
     <Quest />
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />
@@ -23905,6 +23956,8 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Royal Void Cat Pet Stone</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <Presentation from="forgottenBasic">
       <Style id="corruptTeleStart">
         <StyleStep visible="false">SetHud</StyleStep>
@@ -42061,6 +42114,7 @@
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>50</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <KillStat stat="StructureKills" />
     <ShadowSize>40</ShadowSize>
     <NoMiniMap />
@@ -46965,6 +47019,7 @@
     <MaxHitPoints>35000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>4000</Exp>
+    <BXP>20000</BXP>
     <KillStat stat="StructureKills" />
     <Size>140</Size>
     <HitSound>monster/djinn_hit</HitSound>
@@ -47454,6 +47509,7 @@
     <MaxHitPoints>60000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -48494,6 +48550,7 @@
     <AlwaysPositiveHealth />
     <Defense>35</Defense>
     <Exp>50000</Exp>
+    <BXP>250000</BXP>
     <Quest />
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />

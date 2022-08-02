@@ -340,10 +340,8 @@
     <ActivateOnEquipAll skinType="0x4b4b" size="80" color="0xADC718" bulletType="Acid Bubble Large">ChangeSkin</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="DEF" amount="10">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="ATT" amount="10">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="SPD" amount="-5">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="VIT" amount="15">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip3 stat="SPD" amount="-5">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="VIT" amount="10">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip2 stat="DEF" amount="5">IncrementStat</ActivateOnEquip2>
@@ -432,9 +430,14 @@
     <Setpiece slot="2" itemtype="0xbbe">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0xbbf">Equipment</Setpiece>
     <ActivateOnEquipAll skinType="0xbc1" size="80" color="0x92A9BA" bulletType="Horrific Proj Big">ChangeSkin</ActivateOnEquipAll>
-    <ActivateOnEquipAll stat="DEF" amount="15">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="10">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="SPD" amount="8">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="30">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="DEF" amount="5">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
-    <ActivateOnEquip2 stat="SPD" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip3 stat="WIS" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="SPD" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="DEF" amount="3">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
   <EquipmentSet type="0x1e51" id="Raijin Disciple Set">
     <Setpiece slot="0" itemtype="0x1e4d">Equipment</Setpiece>
@@ -1259,7 +1262,7 @@
     <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="DEF" amount="3">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="VIT" amount="5">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="MAXMP" amount="30">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="DEF" amount="2">IncrementStat</ActivateOnEquip3>

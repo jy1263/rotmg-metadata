@@ -16,6 +16,7 @@
     <MaxHitPoints>750</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>60</Exp>
+    <BXP>285</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Skeleton Attack</ObjectId>
@@ -43,6 +44,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Troll 1 Attack 1</ObjectId>
@@ -78,6 +80,7 @@
     <MaxHitPoints>1315</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>120</Exp>
+    <BXP>570</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Troll 2 Attack 1</ObjectId>
@@ -155,6 +158,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>6750</MaxHitPoints>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Defense>15</Defense>
     <StasisImmune />
     <TrackLoot />
@@ -197,6 +201,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <ShadowSize>70</ShadowSize>
     <Z>.4</Z>
     <Flying />
@@ -258,6 +263,7 @@
     <MaxHitPoints>1500</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <ShadowSize>70</ShadowSize>
     <Z>.4</Z>
     <Flying />
@@ -296,6 +302,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Purple Magic Blast</ObjectId>
@@ -342,6 +349,7 @@
     <ShadowSize>0</ShadowSize>
     <MaxHitPoints>7500</MaxHitPoints>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <Defense>30</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -391,6 +399,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>7500</MaxHitPoints>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -438,6 +447,7 @@
     <Size>150</Size>
     <MaxHitPoints>11250</MaxHitPoints>
     <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <Defense>30</Defense>
     <ShadowSize>0</ShadowSize>
     <Z>.2</Z>
@@ -500,6 +510,7 @@
     <MaxHitPoints>1315</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Spider Bolt</ObjectId>
@@ -534,6 +545,7 @@
     <MaxHitPoints>4125</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Mummy Blast</ObjectId>
@@ -618,6 +630,7 @@
     <MaxHitPoints>2440</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <LeachHealth />
     <StasisImmune />
     <Projectile id="0">
@@ -759,6 +772,7 @@
     <MaxHitPoints>9750</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -814,6 +828,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Purple Bolt</ObjectId>
@@ -843,6 +858,7 @@
     <MaxHitPoints>1875</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Purple Magic</ObjectId>
@@ -872,6 +888,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Green Arrow</ObjectId>
@@ -910,6 +927,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Yellow Grey Ball</ObjectId>
@@ -967,6 +985,7 @@
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>22500</MaxHitPoints>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Defense>15</Defense>
     <StunImmune />
     <StasisImmune />
@@ -1031,6 +1050,7 @@
     <DontFaceAttacks />
     <MaxHitPoints>1125</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Defense>8</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -1066,6 +1086,7 @@
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Big Zombie Wave</ObjectId>
@@ -1113,6 +1134,7 @@
     <MaxHitPoints>900</MaxHitPoints>
     <Defense>3</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Wereshot</ObjectId>
@@ -1147,6 +1169,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>15</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <StasisImmune />
     <Projectile id="0">
       <ObjectId>Wereblast</ObjectId>
@@ -1576,6 +1599,7 @@
     <ShadowColor>0xA9D1A9</ShadowColor>
     <MaxHitPoints>39750</MaxHitPoints>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Defense>35</Defense>
     <StasisImmune />
     <StunImmune />
@@ -1680,6 +1704,7 @@
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Mid</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Mid</SpecialSpawn>
     <SpecialSpawn category="SkinHunter" perPlayer="true">Werewolf Cub Pet Skin</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_B">Mercenary B Dungeon</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt9">
         <StyleStep altTextureId="9">SetAltTexture</StyleStep>

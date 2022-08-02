@@ -2829,7 +2829,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Lost Halls Portal" predefinedDungeonMods="S|;TOKENDROPA" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Lost Halls Portal" predefinedDungeonMods="S|;TOKENDROPA" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -2855,7 +2855,7 @@
     <BagType>7</BagType>
     <Consumable />
     <feedPower>200</feedPower>
-    <Activate id="Secluded Thicket Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Secluded Thicket Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <UniqueID />
   </Object>
   <Object type="0x7ed6" id="Solo Fungal Cavern Key">
@@ -2878,7 +2878,7 @@
     <BagType>7</BagType>
     <Track />
     <Consumable />
-    <Activate id="GC Gigantic Cave Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="GC Gigantic Cave Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <UniqueID />
   </Object>
   <Object type="0x7ed7" id="Solo High Tech Terror Key">
@@ -2896,7 +2896,7 @@
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="High Tech Terror Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="High Tech Terror Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -3758,6 +3758,27 @@
     <Soulbound />
     <Activate id="Lair of Draconis Portal">CreatePortal</Activate>
     <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7edb" id="Hidden Interregnum Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>interregnumObjects8x8</File>
+      <Index>1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key for opening the Hidden Interregnum, the lair of the Wanderer's Syndicate.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Restricted Area" description="This item can only be used near the Shady Vagrant in the Realm." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate color="-1" newId="Interregnum Portal" onlyIn="realm" radius="25" targetId="MotMG Invisible Rift" customString="Hidden Interregnum unlocked by" amount="1" predefinedDungeonMods="S|;INTERREGNUMS" readonlymods="true">ChangeObject</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />

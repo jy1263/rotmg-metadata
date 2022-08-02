@@ -12,6 +12,7 @@
     <MaxHitPoints>750</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>300</Exp>
+    <BXP>1425</BXP>
     <Size>140</Size>
     <Flying />
     <Z>0.2</Z>
@@ -79,6 +80,7 @@
     <MaxHitPoints>120</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>12</Exp>
+    <BXP>57</BXP>
     <Size>100</Size>
     <Flying />
     <Z>0.3</Z>
@@ -108,6 +110,7 @@
     <MaxHitPoints>130</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>13</Exp>
+    <BXP>61</BXP>
     <Size>100</Size>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>
@@ -134,6 +137,7 @@
     <MaxHitPoints>400</MaxHitPoints>
     <Defense>4</Defense>
     <Exp>50</Exp>
+    <BXP>237</BXP>
     <Size>120</Size>
     <Projectile id="0">
       <ObjectId>Acorn</ObjectId>
@@ -161,6 +165,7 @@
     <MaxHitPoints>60</MaxHitPoints>
     <Defense>1</Defense>
     <Exp>6</Exp>
+    <BXP>28</BXP>
     <Size>120</Size>
     <Projectile id="0">
       <ObjectId>Leaf Magic</ObjectId>
@@ -190,6 +195,7 @@
     <MaxHitPoints>90</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>9</Exp>
+    <BXP>42</BXP>
     <Size>120</Size>
     <Projectile id="0">
       <ObjectId>Blade</ObjectId>

@@ -47,6 +47,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>390</Exp>
+    <BXP>1852</BXP>
     <ParalyzeImmune />
     <Projectile id="0">
       <ObjectId>Ghost Boss Slash</ObjectId>
@@ -76,6 +77,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>585</Exp>
+    <BXP>2778</BXP>
     <Projectile id="0">
       <ObjectId>Ghost Boss Slash</ObjectId>
       <Speed>65</Speed>
@@ -103,6 +105,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>0</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <Projectile id="0">
       <ObjectId>Ice Burst</ObjectId>
       <Damage>70</Damage>
@@ -165,6 +168,7 @@
     <DeathSound>monster/trees_death</DeathSound>
     <MaxHitPoints>8000</MaxHitPoints>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <Enemy />
@@ -195,6 +199,7 @@
     <MaxHitPoints>45000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Quest />
     <StasisImmune />
     <StunImmune />
@@ -309,6 +314,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>780</Exp>
+    <BXP>3705</BXP>
     <Z>0.14</Z>
     <Flying />
     <Size>120</Size>
@@ -366,6 +372,7 @@
     <MaxHitPoints>800</MaxHitPoints>
     <Defense>5</Defense>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <Z>0.24</Z>
     <Flying />
     <Size>90</Size>
@@ -393,6 +400,7 @@
     <DeathSound>monster/orcs_death</DeathSound>
     <Size>100</Size>
     <Exp>160</Exp>
+    <BXP>760</BXP>
     <ShadowSize>100</ShadowSize>
     <MaxHitPoints>1600</MaxHitPoints>
     <Projectile id="0">
@@ -421,6 +429,7 @@
     <ShadowSize>80</ShadowSize>
     <MaxHitPoints>5000</MaxHitPoints>
     <Exp>780</Exp>
+    <BXP>3705</BXP>
     <Defense>0</Defense>
     <BloodProb>0.5</BloodProb>
     <BloodColor>0xED454D</BloodColor>
@@ -457,6 +466,7 @@
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>780</Exp>
+    <BXP>3705</BXP>
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
     <Projectile id="0">
@@ -493,6 +503,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>780</Exp>
+    <BXP>3705</BXP>
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
     <Projectile id="1">

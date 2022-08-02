@@ -111,6 +111,7 @@
       <Index>0x07</Index>
     </Texture>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <ShadowSize>80</ShadowSize>
     <ShadowColor>0xa0cde9</ShadowColor>
     <HitSound>monster/stone_walls_hit</HitSound>
@@ -331,6 +332,7 @@
     <Size>120</Size>
     <Defense>80</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -422,6 +424,7 @@
     <Size>120</Size>
     <Defense>80</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -512,6 +515,7 @@
     <Size>120</Size>
     <Defense>80</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -603,6 +607,7 @@
     <Size>120</Size>
     <Defense>80</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
@@ -745,6 +750,7 @@
     <Size>120</Size>
     <Defense>20</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,CONSTRUCT</Labels>
     <Presentation>
@@ -771,6 +777,7 @@
     <DeathSound>monster/snake_queen_death</DeathSound>
     <MaxHitPoints>3500</MaxHitPoints>
     <Exp>800</Exp>
+    <BXP>3800</BXP>
     <Flying />
     <Projectile id="0">
       <ObjectId>Oryx Knight Swipe</ObjectId>
@@ -836,6 +843,7 @@
     <Size>100</Size>
     <Defense>10</Defense>
     <Exp>25</Exp>
+    <BXP>118</BXP>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <Presentation>
@@ -875,6 +883,7 @@
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,HUMANOID,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
@@ -927,6 +936,7 @@
     <Size>100</Size>
     <Defense>30</Defense>
     <Exp>600</Exp>
+    <BXP>2850</BXP>
     <KillStat stat="HumanoidKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,HUMANOID,MINION_STRONG</Labels>
     <Presentation>
@@ -950,6 +960,7 @@
     <DeathSound>monster/dragons_hit</DeathSound>
     <MaxHitPoints>2500</MaxHitPoints>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Oryx Knight Swipe Spin</ObjectId>
       <Speed>65</Speed>
@@ -1012,6 +1023,7 @@
     <Size>100</Size>
     <Defense>15</Defense>
     <Exp>80</Exp>
+    <BXP>380</BXP>
     <KillStat stat="CritterKills" />
     <Labels>ENEMY,MINION,CRITTER,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
@@ -1191,6 +1203,7 @@
     <Size>120</Size>
     <Defense>20</Defense>
     <Exp>100</Exp>
+    <BXP>475</BXP>
     <KillStat stat="ConstructKills" />
     <Labels>ENEMY,CONSTRUCT</Labels>
     <Presentation>
@@ -1250,6 +1263,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>5000</Defense>
     <Exp>40000</Exp>
+    <BXP>200000</BXP>
     <Quest />
     <EventChestBoss />
     <TrackLoot />
@@ -1412,6 +1426,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,GROTESQUE,MINION_STRONG</Labels>
@@ -1455,6 +1470,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <StasisImmune />
     <KillStat stat="GrotesqueKills" />
     <Labels>ENEMY,MINION,STASISIMMUNE,GROTESQUE,MINION_STRONG</Labels>
@@ -1498,6 +1514,7 @@
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>2000</Defense>
     <Exp>2000</Exp>
+    <BXP>10000</BXP>
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Speed>10</Speed>
@@ -1583,6 +1600,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>pD Walker Shot</ObjectId>
@@ -1612,6 +1630,7 @@
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>pD Maw Shot</ObjectId>
@@ -1666,6 +1685,7 @@
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>400</Exp>
+    <BXP>1900</BXP>
     <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>pD Tongue Shot</ObjectId>
@@ -1702,6 +1722,7 @@
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
+    <BXP>712</BXP>
     <Projectile id="0">
       <ObjectId>Poison Fireball</ObjectId>
       <Damage>90</Damage>
@@ -1736,6 +1757,7 @@
     <MaxHitPoints>2600</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>200</Exp>
+    <BXP>950</BXP>
     <Terrain>Mountains</Terrain>
     <Projectile id="0">
       <ObjectId>pD Stalker Shot</ObjectId>

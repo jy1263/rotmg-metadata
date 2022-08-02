@@ -561,6 +561,7 @@
     <MaxHitPoints>375000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <Flying />
     <Z>0.24</Z>
     <StasisImmune />
@@ -4682,6 +4683,7 @@
     <MaxHitPoints>150000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <SlowImmune />

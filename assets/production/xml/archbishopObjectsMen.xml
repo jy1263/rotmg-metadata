@@ -354,6 +354,7 @@
     <Size>160</Size>
     <ShadowSize>0</ShadowSize>
     <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />

@@ -282,6 +282,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <Size>130</Size>
     <HitSound>monster/cyclops_hit</HitSound>
     <DeathSound>monster/cyclops_death</DeathSound>
@@ -1041,6 +1042,7 @@
     <MaxHitPoints>90000</MaxHitPoints>
     <Defense>65</Defense>
     <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <Size>160</Size>
     <HitSound>monster/wooden_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -1122,6 +1124,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>1</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <God />
     <MaxHitPoints>26250</MaxHitPoints>
     <Defense>25</Defense>
@@ -1175,6 +1178,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>1</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <God />
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>35</Defense>
@@ -1230,6 +1234,7 @@
     <DeathSound>monster/ogres_death</DeathSound>
     <Size>1</Size>
     <Exp>1000</Exp>
+    <BXP>4750</BXP>
     <God />
     <MaxHitPoints>26250</MaxHitPoints>
     <Defense>40</Defense>
@@ -2131,6 +2136,7 @@
     <MaxHitPoints>90000</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <Size>135</Size>
     <HitSound>monster/archdemon_hit</HitSound>
     <DeathSound>monster/archdemon_death</DeathSound>
@@ -2382,6 +2388,7 @@
     <Size>120</Size>
     <ShadowSize>80</ShadowSize>
     <MaxHitPoints>15000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>20</Defense>
     <StasisImmune />
     <ParalyzeImmune />

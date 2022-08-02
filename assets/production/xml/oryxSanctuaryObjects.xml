@@ -915,6 +915,7 @@
     <AlwaysPositiveHealth />
     <Defense>75</Defense>
     <Exp>200000</Exp>
+    <BXP>1000000</BXP>
     <Quest />
     <God />
     <Oryx />
@@ -1361,6 +1362,8 @@
     <SpecialSpawn category="Souvenir_HIG">Divinity</SpecialSpawn>
     <SpecialSpawn category="Wanderer_Boss">Wander Portal Hard</SpecialSpawn>
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
+    <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
+    <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
     <Presentation>
       <Style id="SetAlt25">
         <StyleStep altTextureId="25">SetAltTexture</StyleStep>
@@ -2018,6 +2021,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>75000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>60</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2064,6 +2068,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>75000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>60</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -2110,6 +2115,7 @@
     <DeathSound>monster/minion_of_oryx_death</DeathSound>
     <Size>100</Size>
     <MaxHitPoints>75000</MaxHitPoints>
+    <BXP>926</BXP>
     <Defense>60</Defense>
     <StasisImmune />
     <Projectile id="0">
@@ -3054,6 +3060,7 @@
     <MaxHitPoints>150000</MaxHitPoints>
     <Defense>40</Defense>
     <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <Size>130</Size>
     <HitSound>monster/minion_of_oryx_hit</HitSound>
     <DeathSound>spell/major_heal</DeathSound>
@@ -3986,6 +3993,7 @@
     <MaxHitPoints>5625</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <AltTexture id="1">
@@ -4031,6 +4039,7 @@
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>25</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <AltTexture id="1">
@@ -4091,6 +4100,7 @@
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -4135,6 +4145,7 @@
     <Size>100</Size>
     <Defense>15</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <Projectile id="0">
@@ -4204,6 +4215,7 @@
     <Size>100</Size>
     <Defense>10</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -4304,6 +4316,7 @@
     <Size>100</Size>
     <Defense>20</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -4367,6 +4380,7 @@
     <Size>100</Size>
     <Defense>15</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -4657,6 +4671,7 @@
     <Size>100</Size>
     <Defense>25</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <Projectile id="0">
@@ -5041,6 +5056,7 @@
     <Size>100</Size>
     <Defense>5</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -5792,6 +5808,7 @@
     <Size>100</Size>
     <Defense>40</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <Projectile id="0">
@@ -5866,6 +5883,7 @@
     <Size>100</Size>
     <Defense>45</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -5956,6 +5974,7 @@
     <Size>100</Size>
     <Defense>50</Defense>
     <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />

@@ -311,6 +311,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <ParalyzeImmune />
     <DazedImmune />
     <StasisImmune />
@@ -566,6 +567,7 @@
     <MaxHitPoints>75000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>10000</Exp>
+    <BXP>50000</BXP>
     <ParalyzeImmune />
     <DazedImmune />
     <StasisImmune />

@@ -52,6 +52,7 @@
     <MaxHitPoints>65000</MaxHitPoints>
     <Defense>60</Defense>
     <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <Size>200</Size>
     <StasisImmune />
     <StunImmune />
@@ -333,6 +334,7 @@
     <Size>130</Size>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -380,6 +382,7 @@
     <Size>130</Size>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -427,6 +430,7 @@
     <Size>130</Size>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
@@ -474,6 +478,7 @@
     <Size>130</Size>
     <Defense>15</Defense>
     <Exp>500</Exp>
+    <BXP>2375</BXP>
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
