@@ -970,6 +970,7 @@
     </Projectile>
     <ArcGap>2.7</ArcGap>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>53</feedPower>
     <XPBonus>1</XPBonus>
     <UniqueID />
@@ -1021,6 +1022,7 @@
     </Projectile>
     <ArcGap>2.7</ArcGap>
     <BagType>2</BagType>
+    <DropTradable />
     <XPBonus>2</XPBonus>
     <feedPower>75</feedPower>
     <UniqueID />
@@ -1072,6 +1074,7 @@
     </Projectile>
     <ArcGap>2.7</ArcGap>
     <BagType>2</BagType>
+    <DropTradable />
     <XPBonus>3</XPBonus>
     <feedPower>109</feedPower>
     <UniqueID />
@@ -1333,7 +1336,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,TIERED,T14,XPBONUS,SUBTYPE</Labels>
   </Object>
-  <Object id="Beekeeper's Flamethrower" type="0xD855">
+  <Object id="Beekeeper's Flamethrower" type="0xD855" collectionIcon="13">
     <Class>Equipment</Class>
     <Item />
     <Texture>
@@ -1374,7 +1377,7 @@
     <XPBonus>7</XPBonus>
     <Soulbound />
     <UniqueID />
-    <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS</Labels>
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,TAB_UT,XPBONUS,ORG_NEST_S</Labels>
   </Object>
   <Object type="0xb3f" id="Crystal Wand">
     <Class>Equipment</Class>
@@ -3501,6 +3504,7 @@
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <OldSound>arrowShoot</OldSound>
     <XPBonus>1</XPBonus>
     <feedPower>53</feedPower>
@@ -3552,6 +3556,7 @@
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <OldSound>arrowShoot</OldSound>
     <XPBonus>2</XPBonus>
     <feedPower>75</feedPower>
@@ -3603,6 +3608,7 @@
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <OldSound>arrowShoot</OldSound>
     <XPBonus>3</XPBonus>
     <feedPower>109</feedPower>
@@ -3927,12 +3933,13 @@
       <LifetimeMS>440</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
-    <BagType>9</BagType>
+    <BagType>6</BagType>
     <OldSound>arrowShoot</OldSound>
     <XPBonus>8</XPBonus>
     <feedPower>1200</feedPower>
     <Soulbound />
     <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,LONGBOW,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
   <Object type="0xc02" id="Doom Bow">
     <Class>Equipment</Class>
@@ -8546,7 +8553,7 @@
     <Projectile id="1">
       <ObjectId>Large Purple Missle</ObjectId>
       <Speed>150</Speed>
-      <MinDamage>60</MinDamage>
+      <MinDamage>50</MinDamage>
       <MaxDamage>65</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
       <MultiHit />
@@ -8742,7 +8749,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,SPELLBLADE,TIERED,T14,NUMPROJ_2,XPBONUS,SUBTYPE</Labels>
   </Object>
-  <Object type="0xd857" id="Crystallized Worm Spellblade">
+  <Object type="0xd857" id="Crystallized Worm Spellblade" collectionIcon="11">
     <Class>Equipment</Class>
     <Item />
     <Texture>
@@ -8791,14 +8798,13 @@
       <SpeedClamp>150</SpeedClamp>
       <FaceDir />
     </Projectile>
-    <BagType>9</BagType>
+    <BagType>6</BagType>
     <OldSound>magicShoot</OldSound>
     <feedPower>1200</feedPower>
-    <DropTradable />
     <XPBonus>7</XPBonus>
     <Soulbound />
     <UniqueID />
-    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UNTIERED,NUMPROJ_2,XPBONUS,WAVEFORM</Labels>
+    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UNTIERED,NUMPROJ_2,XPBONUS,WAVEFORM,TAB_UT,ORG_FUNGAL_S</Labels>
   </Object>
   <Object type="0xc03" id="Staff of Extreme Prejudice">
     <Class>Equipment</Class>
@@ -30119,7 +30125,7 @@
     <MpCost>100</MpCost>
     <Activate amount="20" duration="5" stat="WIS" channel="diminishingReturns">StatBoostSelf</Activate>
     <Activate arcDegrees="45" color="0xffffff" maxTargets="3" totalDamage="200" wisDamageBase="60" wisPerTarget="8" aoeActivationCount="3" aoeTime="1" aoeDamage="40" scalingStat="WIS" statModDamage="22" aoeRange="0.5" statModRadius="0.01" aoeMaxTargets="2" statModScalingMin="60" statModPerTarget="20">Lightning</Activate>
-    <OnPlayerAbilityActivate mustWear="0x4ba6;0x4ba3;0x4ba2;0x4ba1" duration="5" stat="MAXMP" amount="-50" proc="1">StatBoostSelf channel="diminishingReturns"</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x4ba6;0x4ba3;0x4ba2;0x4ba1" duration="5" stat="MAXMP" amount="-50" proc="1" channel="diminishingReturns">StatBoostSelf</OnPlayerAbilityActivate>
     <feedPower>900</feedPower>
     <Soulbound />
     <XPBonus>7</XPBonus>
@@ -36258,6 +36264,7 @@
     <SlotType>10</SlotType>
     <Description>Dismantle in the Item Forge for 20 Basic and 5 Rare Materials; and a small Forgefire reduction. Only 1 Ore can be used per crafting.</Description>
     <BagType>5</BagType>
+    <Treasure />
     <feedPower>50</feedPower>
     <Soulbound />
     <Labels>MATERIAL,TAB_ALL</Labels>
@@ -36273,6 +36280,7 @@
     <SlotType>10</SlotType>
     <Description>Dismantle in the Item Forge for 30 Basic and 15 Rare Materials; and a moderate Forgefire reduction. Only 1 Ore can be used per crafting.</Description>
     <BagType>5</BagType>
+    <Treasure />
     <feedPower>100</feedPower>
     <Soulbound />
     <Labels>MATERIAL,TAB_ALL</Labels>
@@ -36288,6 +36296,7 @@
     <SlotType>10</SlotType>
     <Description>Dismantle in the Item Forge for 40 Basic and 30 Rare Materials; and an important Forgefire reduction. Only 1 Ore can be used per crafting.</Description>
     <BagType>5</BagType>
+    <Treasure />
     <feedPower>250</feedPower>
     <Soulbound />
     <Labels>MATERIAL,TAB_ALL</Labels>
@@ -36303,6 +36312,7 @@
     <SlotType>10</SlotType>
     <Description>Dismantle in the Item Forge for 45 Basic, 40 Rare and 15 Legendary Materials; and a considerable Forgefire reduction. Only 1 Ore can be used per crafting.</Description>
     <BagType>5</BagType>
+    <Treasure />
     <feedPower>500</feedPower>
     <Soulbound />
     <Labels>MISC,TAB_ALL</Labels>
@@ -38177,6 +38187,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x37bb" id="Book of Chess">
@@ -38194,6 +38205,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x37bc" id="Book of Backgammon">
@@ -38211,6 +38223,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x37bd" id="Book of Arcade">
@@ -38228,6 +38241,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x37be" id="Forgotten Book I">
@@ -38245,6 +38259,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x37bf" id="Forgotten Book II">
@@ -38262,6 +38277,7 @@
     <BagType>0</BagType>
     <feedPower>5</feedPower>
     <DropTradable />
+    <Treasure />
     <Labels>MISC,TRADEABLE</Labels>
   </Object>
   <Object type="0x72e0" id="Blueprint_74">
@@ -38543,6 +38559,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37d8" id="Shatters Page 2">
@@ -38560,6 +38577,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37d9" id="Shatters Page 3">
@@ -38577,6 +38595,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37da" id="Shatters Page 4">
@@ -38594,6 +38613,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37db" id="Shatters Page 5">
@@ -38611,6 +38631,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37dc" id="Shatters Page 6">
@@ -38628,6 +38649,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37dd" id="Shatters Page 7">
@@ -38645,6 +38667,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37de" id="Shatters Page 8">
@@ -38662,6 +38685,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37df" id="Shatters Page 9">
@@ -38679,6 +38703,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37eb" id="Shatters Page 10">
@@ -38696,6 +38721,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37ec" id="Shatters Page 11">
@@ -38713,6 +38739,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37ed" id="Shatters Page 12">
@@ -38730,6 +38757,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37ee" id="Shatters Page 13">
@@ -38747,6 +38775,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37ef" id="Shatters Page 14">
@@ -38764,6 +38793,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f0" id="Shatters Page 15">
@@ -38781,6 +38811,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f1" id="Shatters Page 16">
@@ -38798,6 +38829,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f2" id="Shatters Page 17">
@@ -38815,6 +38847,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f3" id="Shatters Page 18">
@@ -38832,6 +38865,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f4" id="Shatters Page 19">
@@ -38849,6 +38883,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0x37f5" id="Shatters Page 20">
@@ -38866,6 +38901,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>MISC</Labels>
   </Object>
   <Object type="0xb610" id="Blueprint_79" collectionIcon="14">
@@ -41299,7 +41335,7 @@
     <SlotType>24</SlotType>
     <Description>Exceedingly large and challenging to handle, this titanic blade embodies the stoic might of its true owner.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="On Shoot" description="When in combat, reduces your attack by 15." />
+      <EffectInfo name="On Shoot" description="When in combat, reduces your attack by 10." />
     </ExtraTooltipData>
     <ActivateOnEquip amount="5" stat="SPD">IncrementStat</ActivateOnEquip>
     <RateOfFire>0.45</RateOfFire>
@@ -41367,7 +41403,7 @@
     <SlotType>3</SlotType>
     <Description>Rarely brandished and in pristine condition, the old monarchy deemed this exquisite recurve too dignified for all but royalty to handle. Though it remains unproven in practical combat, this bow's raw potential is unmatched, waiting to be drawn out through pure focus.</Description>
     <ExtraTooltipData>
-      <EffectInfo name="On Shoot" description="When in combat, reduces your dexterity by 15." />
+      <EffectInfo name="On Shoot" description="When in combat, reduces your dexterity by 10." />
     </ExtraTooltipData>
     <RateOfFire>1.2</RateOfFire>
     <Sound>weapon/double_bow</Sound>
@@ -45580,10 +45616,10 @@
     </ExtraTooltipData>
     <ActivateOnEquip amount="80" stat="MAXHP">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip amount="80" stat="MAXMP">IncrementStat</ActivateOnEquip>
-    <OnPlayerShootActivate cooldown="0" noStack="true" hpRequiredRelative="0.9" proc="1" amount="5" duration="1.4" stat="DEX" color="-1">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerShootActivate cooldown="0" noStack="true" hpRequiredRelative="0.9" proc="1" amount="5" duration="1.4" stat="ATT" color="-1">StatBoostSelf</OnPlayerShootActivate>
-    <OnPlayerHitActivate hpMinThresholdRelative="0.6" cooldown="15" duration="10" noStack="true" proc="1" amount="5" stat="DEF">StatBoostSelf</OnPlayerHitActivate>
-    <OnPlayerHitActivate hpMinThresholdRelative="0.6" cooldown="15" duration="10" noStack="true" proc="1" amount="15" stat="VIT">StatBoostSelf</OnPlayerHitActivate>
+    <OnPlayerShootActivate cooldown="0" channel="noStackItm" hpRequiredRelative="0.9" proc="1" amount="5" duration="1.4" stat="DEX" color="-1">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerShootActivate cooldown="0" channel="noStackItm" hpRequiredRelative="0.9" proc="1" amount="5" duration="1.4" stat="ATT" color="-1">StatBoostSelf</OnPlayerShootActivate>
+    <OnPlayerHitActivate hpMinThresholdRelative="0.6" cooldown="15" duration="10" channel="noStackItm" proc="1" amount="5" stat="DEF">StatBoostSelf</OnPlayerHitActivate>
+    <OnPlayerHitActivate hpMinThresholdRelative="0.6" cooldown="15" duration="10" channel="noStackItm" proc="1" amount="15" stat="VIT">StatBoostSelf</OnPlayerHitActivate>
     <BagType>6</BagType>
     <feedPower>1000</feedPower>
     <Soulbound />
@@ -45737,6 +45773,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x3856" id="Book of Air">
@@ -45754,6 +45791,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x3857" id="Book of Fire">
@@ -45771,6 +45809,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x3858" id="Book of Earth">
@@ -45788,6 +45827,7 @@
     <BagType>7</BagType>
     <feedPower>5</feedPower>
     <Soulbound />
+    <Treasure />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
   <Object type="0x7eb5" id="3HuntressST0" setType="0x382b" setName="Resurrected Huntress Set" collectionIcon="3">
@@ -46162,6 +46202,7 @@
       <PassesCover />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>53</feedPower>
     <XPBonus>1</XPBonus>
     <UniqueID />
@@ -46207,6 +46248,7 @@
       <PassesCover />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>75</feedPower>
     <XPBonus>2</XPBonus>
     <UniqueID />
@@ -46252,6 +46294,7 @@
       <PassesCover />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>109</feedPower>
     <XPBonus>3</XPBonus>
     <UniqueID />
@@ -46517,6 +46560,7 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>53</feedPower>
     <XPBonus>1</XPBonus>
     <UniqueID />
@@ -46556,8 +46600,8 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>75</feedPower>
-    <Soulbound />
     <XPBonus>2</XPBonus>
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,TACHI,TIERED,T8,TRADEABLE,SUBTYPE</Labels>
@@ -46596,6 +46640,7 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>109</feedPower>
     <XPBonus>3</XPBonus>
     <UniqueID />
@@ -46852,6 +46897,7 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>53</feedPower>
     <XPBonus>1</XPBonus>
     <UniqueID />
@@ -46912,6 +46958,7 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>75</feedPower>
     <XPBonus>2</XPBonus>
     <UniqueID />
@@ -46972,6 +47019,7 @@
       <MultiHit />
     </Projectile>
     <BagType>2</BagType>
+    <DropTradable />
     <feedPower>109</feedPower>
     <XPBonus>3</XPBonus>
     <UniqueID />
@@ -47278,7 +47326,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,FLAIL,TIERED,T14,SUBTYPE</Labels>
   </Object>
-  <Object type="0x4498" id="Fractal Blades">
+  <Object type="0x4498" id="Fractal Blades" collectionIcon="12">
     <DisplayId>Fractal Blades</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -47379,6 +47427,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_CRYSTAL_S</Labels>
   </Object>
   <Object type="0x4499" id="Barnacle Basher">
     <DisplayId>Barnacle Basher</DisplayId>
@@ -47460,8 +47509,9 @@
     <Soulbound />
     <XPBonus>8</XPBonus>
     <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,TAB_UT,POWERTIER_S,XPBONUS</Labels>
   </Object>
-  <Object type="0x449b" id="Burial Blades">
+  <Object type="0x449b" id="Burial Blades" collectionIcon="16">
     <DisplayId>Burial Blades</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -47531,6 +47581,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_S,XPBONUS,ORG_CULT_S</Labels>
   </Object>
   <Object type="0x7191" id="3STKeyMysteryChest">
     <DisplayId>Mythical ST Crate</DisplayId>
@@ -47738,11 +47789,11 @@
     <Projectile id="1">
       <ObjectId>Interregnum Long Arrow</ObjectId>
       <Speed>160</Speed>
-      <MinDamage>110</MinDamage>
-      <MaxDamage>140</MaxDamage>
+      <MinDamage>105</MinDamage>
+      <MaxDamage>125</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
-    <BagType>9</BagType>
+    <BagType>6</BagType>
     <OldSound>arrowShoot</OldSound>
     <feedPower>750</feedPower>
     <XPBonus>7</XPBonus>
@@ -47753,7 +47804,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="6.8" maxDistance="6.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustNotWearOR="0x385a;0x385b" mustWear="0x3879">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate>
       0x385a Robe: 0x385b
-      <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="-7.0" maxDistance="-7.0" offsetAngle="0" numShots="2" gapAngle="270" gapTiles="0.5" arcGap="0" type="0x386f" mustWear="0x3878;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="-7.0" maxDistance="-7.0" offsetAngle="0" numShots="2" gapAngle="270" gapTiles="0.5" arcGap="0" type="0x386f" mustWear="0x3878;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><Labels>EQUIPMENT,WEAPON,LONGBOW,UT,UNTRADEABLE,XPBONUS,SUBTYPE,INTERREGNUM</Labels></Object>
+      <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="1.0" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustNotWearOR="0x385a;0x385b" mustWear="0x387a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="-7.0" maxDistance="-7.0" offsetAngle="0" numShots="2" gapAngle="270" gapTiles="0.5" arcGap="0" type="0x386f" mustWear="0x3878;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="-7.0" maxDistance="-7.0" offsetAngle="0" numShots="2" gapAngle="270" gapTiles="0.5" arcGap="0" type="0x386f" mustWear="0x3878;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.2" minDistance="6.8" maxDistance="6.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386c" mustWear="0x3879;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="0" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="7" maxDistance="7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386d" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate><Labels>EQUIPMENT,WEAPON,LONGBOW,UT,TAB_UT,UNTRADEABLE,XPBONUS,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels></Object>
   <Object id="Enhanced Spellblade Shot 1" type="0x3781">
     <Class>Equipment</Class>
     <Item />
@@ -47872,7 +47923,7 @@
       <Size>100</Size>
       <ArmorPiercing />
     </Projectile>
-    <BagType>9</BagType>
+    <BagType>6</BagType>
     <OldSound>magicShoot</OldSound>
     <Soulbound />
     <feedPower>750</feedPower>
@@ -47896,7 +47947,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="6.5" maxDistance="6.5" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386b" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="6.5" maxDistance="6.5" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386b" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="6.5" maxDistance="6.5" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x386b" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
-    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UT,UNTRADEABLE,XPBONUS,SUBTYPE,INTERREGNUM</Labels>
+    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,UT,TAB_UT,UNTRADEABLE,XPBONUS,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels>
   </Object>
   <Object id="Enhanced Morning Shot 1" type="0x3884">
     <Class>Equipment</Class>
@@ -48047,7 +48098,7 @@
       <LifetimeMS>380</LifetimeMS>
       <Size>80</Size>
     </Projectile>
-    <BagType>9</BagType>
+    <BagType>6</BagType>
     <feedPower>750</feedPower>
     <XPBonus>7</XPBonus>
     <Soulbound />
@@ -48070,7 +48121,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="4.0" maxDistance="4.0" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3780" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="4.0" maxDistance="4.0" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3780" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="4.0" maxDistance="4.0" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3780" mustWear="0x387a;0x385b">BulletCreate</OnPlayerShootActivate>
-    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,UT,XPBONUS,SUBTYPE,INTERREGNUM</Labels>
+    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,UT,TAB_UT,XPBONUS,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels>
   </Object>
   <Object id="Enhanced Flail Ball 3" type="0x385e">
     <Class>Equipment</Class>
@@ -48223,7 +48274,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.7" maxDistance="3.7" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x385e" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.7" maxDistance="3.7" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x385e" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.7" maxDistance="3.7" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x385e" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
-    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,SUBTYPE,INTERREGNUM</Labels>
+    <Labels>EQUIPMENT,WEAPON,FLAIL,UT,TAB_UT,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels>
   </Object>
   <Object id="Enhanced Tachi Shot 1" type="0x387b">
     <Class>Equipment</Class>
@@ -48403,7 +48454,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.2" maxDistance="3.2" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x387d" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.2" maxDistance="3.2" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x387d" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="3.2" maxDistance="3.2" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x387d" mustWear="0x387a;0x385c">BulletCreate</OnPlayerShootActivate>
-    <Labels>EQUIPMENT,WEAPON,TACHI,UT,SUBTYPE,INTERREGNUM</Labels>
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels>
   </Object>
   <Object id="Enhanced Dagger Shot 1" type="0x387e">
     <Class>Equipment</Class>
@@ -48545,7 +48596,7 @@
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="5.4" maxDistance="5.4" offsetAngle="180" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3883" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="5.4" maxDistance="5.4" offsetAngle="-120" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3883" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate>
     <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" minDistance="5.4" maxDistance="5.4" offsetAngle="-60" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3883" mustWear="0x387a;0x385a">BulletCreate</OnPlayerShootActivate>
-    <Labels>EQUIPMENT,WEAPON,DUALBLADE,UT,SUBTYPE,INTERREGNUM</Labels>
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,UT,TAB_UT,SUBTYPE,INTERREGNUM,POWERTIER_A</Labels>
   </Object>
   <Object type="0x385a" id="Light Syndicate Attire">
     <Class>Equipment</Class>
@@ -48640,7 +48691,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,RING,UNTIERED</Labels>
+    <Labels>EQUIPMENT,RING,TAB_UT,UNTIERED,POWERTIER_A</Labels>
   </Object>
   <Object type="0x3879" id="Interregnum Ring 2">
     <DisplayId>Faded Heart Scarab</DisplayId>
@@ -48663,7 +48714,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,RING,UNTIERED</Labels>
+    <Labels>EQUIPMENT,RING,TAB_UT,UNTIERED,POWERTIER_A</Labels>
   </Object>
   <Object type="0x387a" id="Interregnum Ring 3">
     <DisplayId>Fractured Hannya</DisplayId>
@@ -48686,7 +48737,7 @@
     <XPBonus>6</XPBonus>
     <UniqueID />
     <Soulbound />
-    <Labels>EQUIPMENT,RING,UNTIERED</Labels>
+    <Labels>EQUIPMENT,RING,TAB_UT,UNTIERED,POWERTIER_A</Labels>
   </Object>
   <Object type="0x68a0" id="Acc BXP EP">
     <DisplayId>Seasonal BXP Accelerator</DisplayId>
@@ -48841,6 +48892,7 @@
     <feedPower>950</feedPower>
     <Soulbound />
     <XPBonus>7</XPBonus>
+    <Labels>EQUIPMENT,ABILITY,QUIVER,UT,TAB_UT,POWERTIER_S,XPBONUS,MPCOST</Labels>
   </Object>
   <Object id="MotMG Quiver Proc 1" type="0x6369">
     <Class>Equipment</Class>
@@ -49319,7 +49371,7 @@
     <Labels>CONSUMABLE,TAB_ALL</Labels>
   </Object>
   <Object type="0x87de" id="Blueprint_232">
-    <DisplayId>Crystalized Worm Blueprint</DisplayId>
+    <DisplayId>Crystallized Worm Blueprint</DisplayId>
     <Class>Equipment</Class>
     <Item />
     <Texture xOffset="2" yOffset="0">
@@ -49329,7 +49381,7 @@
     <SlotType>10</SlotType>
     <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
     <Sound>use_potion</Sound>
-    <Activate id="Crystalized Worm Spellblade">UnlockForgeBlueprint</Activate>
+    <Activate id="Crystallized Worm Spellblade">UnlockForgeBlueprint</Activate>
     <Consumable />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
@@ -49377,35 +49429,6 @@
     <Soulbound />
     <Labels>MARK,TAB_ALL</Labels>
   </Object>
-  <Object type="0x87f1" id="MOTMG Title Unlocker">
-    <Class>Equipment</Class>
-    <Item />
-    <Texture xOffset="-2" yOffset="0">
-      <File>lofiObj2</File>
-      <Index>0xf6</Index>
-    </Texture>
-    <SlotType>10</SlotType>
-    <Description>A small potion that restores health points.</Description>
-    <Sound>use_potion</Sound>
-    <Activate titleType="0x9a0c">UnlockTitle</Activate>
-    <Activate titleType="0x9a0d">UnlockTitle</Activate>
-    <Activate titleType="0x9a0e">UnlockTitle</Activate>
-    <Activate titleType="0x9a0f">UnlockTitle</Activate>
-    <Activate titleType="0x9a10">UnlockTitle</Activate>
-    <Activate titleType="0x9a11">UnlockTitle</Activate>
-    <Activate titleType="0x9a12">UnlockTitle</Activate>
-    <Activate titleType="0x9a13">UnlockTitle</Activate>
-    <Activate titleType="0x9a14">UnlockTitle</Activate>
-    <Activate titleType="0x9a15">UnlockTitle</Activate>
-    <Activate titleType="0x9a16">UnlockTitle</Activate>
-    <Consumable />
-    <Potion />
-    <BagType>0</BagType>
-    <feedPower>5</feedPower>
-    <DropTradable />
-    <QuickslotAllowed maxstack="6" />
-    <Labels>EQUIPMENT,CONSUMABLE,UT,TAB_UT,TRADEABLE</Labels>
-  </Object>
   <Object type="0x924f" id="InterregnumLore_1">
     <Class>Equipment</Class>
     <DisplayId>Shrouded Summons</DisplayId>
@@ -49419,6 +49442,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Shrouded Summons" text="Greetings,\n \nI have heard of your plight and believe we have similar goals; to bring about the downfall of Oryx.\nTo this end I have devised a plan, but I need trusted comrades to carry it out.\nI offer no power nor riches, but I can promise you the Mad God's end.\nShould you wish to join me, take the coin enclosed within this letter and speak unto it.\nYou will know what to do from there.\n \n{i}-A Friend{/i}">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49436,6 +49460,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Intercepted Letter 1" text="My dearest companions,\n \nYou are among my most trusted and capable allies, and I have a task only you are capable of.\nI would have you return to the realm and hunt the most powerful of the realm's denizens to siphon their strength.\nWe will need an incredibly high volume of power to perform the ritual that will mark the culmination of our efforts.\nShould you find the heroes of the nexus as I have before, shift your target unto them.\nIt is a regrettable outcome as they fall on the same side as us.\nHowever, we need all the power we can get and they are not ones so easy to work with, trust me, I've tried.\nRemember, if you are to return you must bring the coins with you, they are your only way back.\n \n{i}-W.{/i}">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49453,6 +49478,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Intercepted Letter 2" text="Members of the Syndicate,\n \nOur goal is on the horizon. \nSoon I will rip the Mad God Himself from the realm and bring him here, to a place where his influence cannot reach.\nThis dimension shall be his tomb, no longer able to return to the realm, all the power he has will be meaningless.\nHowever, this ritual is hardly accurate, unfortunately I have a high chance of taking a large chunk of the realm with him. \nThe damage could be heavy, but sacrifices must be made.\nIn time the realm will heal, and you all will be there to help it grow once again.\n \n{i}-W.{/i}">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49470,6 +49496,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Vagrant's Journal" text="I can't follow through with this anymore.\nI joined early on to support the cause, but things have gone awry since then.\nThe executives are all blinded by their own goals, their desire for revenge.\nThey have lost sight of the true goal of the organization, to free the realm, and yet they call it a &quot;necessary sacrifice&quot;? \nWe are talking about ripping a hole in the world, destroying part of the very realm they are freeing.\nThere has to be another way.\nI'm planning on sneaking out of here and finding someone, anyone, to help me stop this before it gets out of hand.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49487,6 +49514,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Captain's Log" text="Years, we've been stranded on this Island, years.\nThere is a whole world to plunder out there but here we are unable to leave this glorified rock.\nThat damnable sea beast roams the waters taking down any ships that try to tread too far from shore.\nWe've managed to take care of him before, but that bloody tyrant wont let him stay gone.\nMy men are at their wit's end, if this continues I expect many to leave for the Mad God's armies, or worse, a Mutiny.\nI need to figure something out before then...">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49504,6 +49532,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Izel's Prayer" text="{i}I beseech the spirits, grant me strength.\nTo ascend beyond the limits of my flesh.\nI beseech the spirits, grant me leadership.\nTo unite the tribes against our true foe.\nI beseech the spirits, grant me courage.\nTo oppose the False God and his stolen powers.\nI beseech the spirits, grant me purpose.\nTo restore order to our chaotic lands.{/i}">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49521,6 +49550,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Nefret's Journal" text="I used to rule the desert, outranked by none. I was destined to become the next god of our people, but now? \nMy people and my lands are gone, taken over by the Mad God without struggle.\nHe made our own gods subservient to him, for many of our people there wasn't even a second thought about taking him as their new ruler.\nFor me, I was simply pushed aside, no longer worshiped, no longer needed, left with only a small group of loyal followers. \nRobbed of my birthright I lack purpose, I need to reclaim my place, but I fear I lack the capability to do so.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49538,6 +49568,7 @@
     <Sound>use_potion</Sound>
     <Activate title="Ozuchi's Vow" text="Our war is over, we've lost.\nThe strength, the pride, of the great Oni clans is in shambles.\nWe were holding fast against his forces but it all came down to a single battle.\n20 to 1, the greatest of our clan, the strongest warriors this realm has ever seen, all lost to a single man. \nHis strength was overwhelming, presenting the battle more as an inconvenience than a fight for survival.\nOur slaughter was quick, and with it, the largest remaining threat to his forces was no more.\nI've thrown away my pride as a samurai, fleeing, so that at least one of us may survive.\nI vow I will not let this humiliation go unpunished.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49555,6 +49586,7 @@
     <Sound>use_potion</Sound>
     <Activate title="The Wanderer's Journal Page 1" text="I am plagued by recurring nightmares.\nThey all reflect the same thing, my home, its peaceful atmosphere quickly morphing to one of utter chaos.\nThe warning bells ring out as an army marches on the horizon, thousands of soldiers armed to the teeth surge forth.\nThey rip apart our guards within mere moments, and from there they start butchering civilians without impunity. \nI hide in the sewers, watching from the grates as my entire world is set on fire.\nAmid it all stands a figure clad in obsidian commanding his minions to destroy everything I have ever known.\nIt was then that I awoke to my power. Many would call it a gift, but to me it's a reminder.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49572,6 +49604,7 @@
     <Sound>use_potion</Sound>
     <Activate title="The Wanderer's Journal Page 2" text="I have been in search of greater strength almost all my life, working towards the singular goal of enacting revenge against the Mad God.\nUnfortunately I feel myself reaching the limit of my physical power. \nIt seems to be time to explore other potential avenues, starting with my &quot;gift&quot;.\nThis power allows me to rip open holes in our reality, creating passage from one place within the realm to another.\nThus far I have simply willed it to happen, and it did. \nI used it to travel the lands, seeking anyone willing to train me, but never have I tried to attain a deeper understanding into its limits.\nShortsighted as it may have been to miss it before, this is probably my only other option for dealing with a being that seemingly cannot die.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49589,6 +49622,7 @@
     <Sound>use_potion</Sound>
     <Activate title="The Wanderer's Journal Page 3" text="Great strides have been made in experimentation with my powers.\nI have found that I am capable of imbuing fragments of my power into objects, allowing a rift to be opened by any I grant one to.\nThat alone isn't very useful, but I have also found something...\nInteresting...\nA place akin to the nexus those heroes reside in, another dimension separate from the realm itself. It has eternally dark skies and no signs of any living creatures.\nWithin this place I can feel it, or rather a lack of it. Oryx's influence is nowhere to be found.\nI think I am beginning to come up with a plan involving this place.\nFor this I am going to need a lot more strength, and despite my apprehension to leaving my fate in the hands of others, I'll need allies as well.">ShowInfoPopup</Activate>
     <BagType>2</BagType>
+    <Treasure />
     <feedPower>5</feedPower>
     <DropTradable />
     <Labels>MISC,TRADEABLE</Labels>
@@ -49638,7 +49672,7 @@
     <SlotType>6</SlotType>
     <Description>Stained by sea salt and equipped with bandoliers - the armor of a captain who fights at the forefront of her crew.</Description>
     <ActivateOnEquip stat="DEF" amount="17">IncrementStat</ActivateOnEquip>
-    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
     <BagType>4</BagType>
     <feedPower>231</feedPower>
     <XPBonus>7</XPBonus>
@@ -49699,38 +49733,38 @@
     <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
-  <Object type="0x9531" id="Conspirator Title Unlocker">
+  <Object type="0x953e" id="Assassin Black Coin">
+    <DisplayId>Knock-off Black Coin</DisplayId>
     <Class>Equipment</Class>
     <Item />
-    <Texture xOffset="-1" yOffset="0">
-      <File>interregnumObjects8x8</File>
-      <Index>0x4b</Index>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1186</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>You can use this item in the Vault to unlock the title 'Conspirator'.</Description>
-    <Activate titleType="0x9a17">UnlockTitle</Activate>
+    <Description>The Assassin gains more information using these knock-off Black Coins.</Description>
+    <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
-    <BagType>7</BagType>
+    <BagType>8</BagType>
     <Track />
-    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
-  <Object type="0x9532" id="Vindicator Title Unlocker">
+  <Object type="0x953f" id="Sorcerer Black Coin">
+    <DisplayId>Knock-off Black Coin</DisplayId>
     <Class>Equipment</Class>
     <Item />
-    <Texture xOffset="-1" yOffset="0">
-      <File>interregnumObjects8x8</File>
-      <Index>0x4b</Index>
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1186</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>You can use this item in the Vault to unlock the title 'Vindicator'.</Description>
-    <Activate titleType="0x9a18">UnlockTitle</Activate>
+    <Description>The Sorcerer gains more information using these knock-off Black Coins.</Description>
+    <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />
-    <BagType>7</BagType>
+    <BagType>8</BagType>
     <Track />
-    <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
 </Objects>

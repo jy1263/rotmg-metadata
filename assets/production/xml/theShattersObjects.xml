@@ -10161,6 +10161,7 @@
     </Projectile>
     <BleedMax>1</BleedMax>
     <Labels>ENEMY,GROTESQUE,GOD</Labels>
+    <HideFromClient />
     <Presentation>
       <Style id="NoVis">
         <StyleStep altTextureId="6">SetAltTexture</StyleStep>

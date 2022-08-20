@@ -1991,4 +1991,60 @@
     </RandomTexture>
     <Speed>1.5</Speed>
   </Ground>
+  <Ground type="0xCCb1" id="IntN CL Tl 22">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 22</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa5</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb2" id="IntN CL Tl 23">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 23</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb3" id="IntN CL Tl 24">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 24</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb4" id="IntN CL Tl 25">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 25</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0xa8</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb5" id="IntN CL Tl 22 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 22 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a5</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb6" id="IntN CL Tl 23 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 23 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a6</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb7" id="IntN CL Tl 24 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 24 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a7</Index>
+    </Texture>
+  </Ground>
+  <Ground type="0xCCb8" id="IntN CL Tl 25 Sd">
+    <DisplayId>Interregnum Nexus Cursed Library Tile 25 Sand</DisplayId>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x1a8</Index>
+    </Texture>
+  </Ground>
 </GroundTypes>

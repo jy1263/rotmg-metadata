@@ -12931,7 +12931,7 @@
     <Activate skinType="30701">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>1000</feedPower>
+    <feedPower>500</feedPower>
     <Track />
     <UniqueID />
   </Object>
@@ -16673,7 +16673,7 @@
       <Index>837</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
-    <Description>This little prince is on a quest to build themselves the largest icy kingdom the realm have ever seen.\n\nSkin Class: Summoner</Description>
+    <Description>This little prince is on a quest to build themselves the largest icy kingdom the realm has ever seen.\n\nSkin Class: Summoner</Description>
     <Activate skinType="31384">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
@@ -16815,6 +16815,450 @@
     <BagType>7</BagType>
     <Soulbound />
     <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aa9" id="Town Scholar Wizard Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>845</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A small group of people, all from various backgrounds have joined The Resistance to try and stop the Syndicate. Meet the scholar of the town. Always eager to help those in need with random and obscure facts, he's read. While he is odd, you would be foolish to underestimate his capabilities when it comes to fighting with magic. \n\nSkin Class: Wizard</Description>
+    <Activate skinType="31402">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aab" id="Sneaky Scallywag Trickster Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>846</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The only bounty this pirate hunts is treasure and she has a knack for snagging booty off pirates. You can say this lady is more thief than pirate. \n\nSkin Class: Trickster</Description>
+    <Activate skinType="31404">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aad" id="Heretic Priest Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>847</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This eccentric fellow was drawn to the forbidden jungle. This priest would discover the inhabitants that lived deeper within the forest and from their teaching the priest would learn a new way of healing in the art of electricity. \n\nSkin Class: Priest</Description>
+    <Activate skinType="31406">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7aaf" id="Syndicate Infiltration Assassin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>848</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Elves come from many different factions from across the lands all specializing in different roles. This elf in particular comes from a family of elven assassins that specialize in assassination and infiltrating any group but their own. \n\nSkin Class: Assassin</Description>
+    <Activate skinType="31408">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7ab1" id="Syndicate Infiltration Sorcerer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>849</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This witch prefers living deep within the forests of the realm. Although they may seem aloof their actions speak volume, willing to leave their secluded home to face off the fiends who threaten the land and it's mystical forests. \n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="31410">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7ab3" id="Syndicate Brute Assassin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The secret weapon of the Syndicate. A myriad of experiments were done to this brute to make him as big, powerful and menacing as he is; there are even rumors that his body was spliced with parts of other dead mercenaries.\n\nSkin Class: Assassin</Description>
+    <Activate skinType="31412">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7ab5" id="Syndicate Henchman Bard Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>865</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Bard</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31414">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ab7" id="Syndicate Henchman Knight Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>855</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Knight</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31416">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ab9" id="Syndicate Henchman Assassin Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>857</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Assassin</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31418">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7abb" id="Syndicate Henchman Samurai Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>864</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Samurai</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31420">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7abd" id="Syndicate Henchman Archer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>851</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Archer</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31422">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7abf" id="Syndicate Henchman Mystic Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>860</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Mystic</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31424">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ac1" id="Syndicate Henchman Priest Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>853</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Priest</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31426">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ac3" id="Syndicate Henchman Necromancer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>858</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Necromancer</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31428">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ac5" id="Syndicate Henchman Trickster Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>861</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Trickster</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31430">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ac7" id="Syndicate Henchman Summoner Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>866</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Summoner</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31432">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ac9" id="Syndicate Henchman Huntress Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>859</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Huntress</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31434">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7acb" id="Syndicate Henchman Ninja Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>863</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Ninja</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31436">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7acd" id="Syndicate Henchman Rogue Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>850</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Rogue</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31438">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7acf" id="Syndicate Henchman Wizard Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>852</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Wizard</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31440">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ad1" id="Syndicate Henchman Sorcerer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>862</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Sorcerer</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31442">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ad3" id="Syndicate Henchman Warrior Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>854</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Warrior</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31444">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ad5" id="Syndicate Henchman Paladin Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>856</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Paladin</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31446">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x7ad7" id="Syndicate Henchman Kensei Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>867</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Syndicate, too, has its unsung rank-and-file enforcers.\n\nSkin Class: Kensei</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Collection" description="Vindication Skins" />
+    </ExtraTooltipData>
+    <Activate skinType="31448">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
     <UniqueID />
   </Object>
 </Objects>

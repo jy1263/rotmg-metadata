@@ -2530,7 +2530,7 @@
       <LifetimeMS>6200</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb0c6" id="LH Marble Colossus Laser B">
     <DisplayId>Marble Colossus</DisplayId>
@@ -2552,7 +2552,7 @@
       <LifetimeMS>6200</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb033" id="LH Colossus Pillar">
     <DisplayId>Marble Colossus Pillar</DisplayId>
@@ -2624,7 +2624,7 @@
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>35</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Projectile id="0">
       <ObjectId>Purple Spiral</ObjectId>
       <Size>100</Size>
@@ -2889,7 +2889,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb036" id="LH Colossus Rock 2">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -2923,7 +2923,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb037" id="LH Colossus Rock 3">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -2957,7 +2957,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb038" id="LH Colossus Rock 4">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -2991,7 +2991,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb039" id="LH Colossus Rock 5">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3025,7 +3025,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb03a" id="LH Colossus Rock 6">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3059,7 +3059,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb041" id="LH Colossus Rock 7">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3093,7 +3093,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb042" id="LH Colossus Rock 8">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3127,7 +3127,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb043" id="LH Colossus Rock 9">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3161,7 +3161,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb044" id="LH Colossus Rock 10">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3304,7 +3304,7 @@
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb045" id="LH Colossus Rock 11">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3447,7 +3447,7 @@
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb052" id="LH Colossus Rock 12">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3590,7 +3590,7 @@
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb04e" id="LH Colossus Rock 13">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3733,7 +3733,7 @@
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb04f" id="LH Colossus Rock 14">
     <DisplayId>Marble Colossus Rock</DisplayId>
@@ -3876,7 +3876,7 @@
         <StyleStep altTextureId="7">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
   </Object>
   <Object type="0xb137" id="LH Marble Core 1">
     <Class>Character</Class>
@@ -3892,7 +3892,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -3913,7 +3913,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -3934,7 +3934,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -3955,7 +3955,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -3976,7 +3976,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -3997,7 +3997,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -4018,7 +4018,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -4039,7 +4039,7 @@
     <MaxHitPoints>18750</MaxHitPoints>
     <Defense>10</Defense>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Z>0.2</Z>
     <Flying />
     <ParalyzeImmune />
@@ -6464,7 +6464,7 @@
     <Size>200</Size>
     <MaxHitPoints>75000</MaxHitPoints>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Defense>60</Defense>
     <HitSound>weapon/wand_of_dark_magic</HitSound>
     <DeathSound>weapon/wand_of_dark_magic</DeathSound>
@@ -6735,7 +6735,7 @@
     <Size>200</Size>
     <MaxHitPoints>75000</MaxHitPoints>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Defense>60</Defense>
     <HitSound>weapon/wand_of_dark_magic</HitSound>
     <DeathSound>weapon/wand_of_dark_magic</DeathSound>
@@ -7006,7 +7006,7 @@
     <Size>200</Size>
     <MaxHitPoints>75000</MaxHitPoints>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Defense>60</Defense>
     <HitSound>weapon/wand_of_dark_magic</HitSound>
     <DeathSound>weapon/wand_of_dark_magic</DeathSound>
@@ -7277,7 +7277,7 @@
     <Size>200</Size>
     <MaxHitPoints>75000</MaxHitPoints>
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,HUMANOID,MINION_STRONG</Labels>
+    <Labels>ENEMY,BOSS_SPAWNED,HUMANOID</Labels>
     <Defense>60</Defense>
     <HitSound>weapon/wand_of_dark_magic</HitSound>
     <DeathSound>weapon/wand_of_dark_magic</DeathSound>

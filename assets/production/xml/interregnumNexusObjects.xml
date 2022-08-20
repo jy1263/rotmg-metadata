@@ -1256,7 +1256,7 @@
       </Texture>
     </AltTexture>
     <NoMiniMap />
-    <Animation period="0" prob="0.6" id="Anim">
+    <Animation period="0.6" prob="1" id="Anim">
       <Frame time="0.1">
         <Texture>
           <File>interregnumNexusObjects8x8</File>
@@ -2128,10 +2128,6 @@
         <File>interregnumNexusObjects8x8</File>
         <Index>0x351</Index>
       </Texture>
-      <Texture>
-        <File>interregnumNexusObjects8x8</File>
-        <Index>0x352</Index>
-      </Texture>
     </RandomTexture>
     <Top>
       <RandomTexture>
@@ -2150,14 +2146,6 @@
         <Texture>
           <File>interregnumNexusObjects8x8</File>
           <Index>0x35c</Index>
-        </Texture>
-        <Texture>
-          <File>interregnumNexusObjects8x8</File>
-          <Index>0x35d</Index>
-        </Texture>
-        <Texture>
-          <File>interregnumNexusObjects8x8</File>
-          <Index>0x35e</Index>
         </Texture>
       </RandomTexture>
     </Top>
@@ -2634,6 +2622,16 @@
     <Texture>
       <File>interregnumNexusObjects16x16</File>
       <Index>0x5c</Index>
+    </Texture>
+    <Size>100</Size>
+    <Static />
+  </Object>
+  <Object type="0xCEc2" id="IntN Abs Obj 11">
+    <DisplayId>Interregnum Nexus Abyss Object 11</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x61</Index>
     </Texture>
     <Size>100</Size>
     <Static />
@@ -4814,5 +4812,214 @@
         </Texture>
       </Frame>
     </Animation>
+  </Object>
+  <Object type="0xCEc3" id="IntN SP Wl 2">
+    <DisplayId>Interregnum Nexus Snake Pit Wall 2</DisplayId>
+    <Class>Wall</Class>
+    <Texture>
+      <File>interregnumNexusObjects8x8</File>
+      <Index>0x352</Index>
+    </Texture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x359</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35c</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCEc4" id="IntN SP Wl 3">
+    <DisplayId>Interregnum Nexus Snake Pit Wall 3</DisplayId>
+    <Class>Wall</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x353</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x354</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x355</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x356</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x357</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects8x8</File>
+        <Index>0x358</Index>
+      </Texture>
+    </RandomTexture>
+    <Top>
+      <RandomTexture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x359</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35a</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35b</Index>
+        </Texture>
+        <Texture>
+          <File>interregnumNexusObjects8x8</File>
+          <Index>0x35c</Index>
+        </Texture>
+      </RandomTexture>
+    </Top>
+    <Static />
+    <FullOccupy />
+    <OccupySquare />
+    <EnemyOccupySquare />
+    <BlocksSight />
+  </Object>
+  <Object type="0xCEc5" id="IntN Flg Spw">
+    <DisplayId>Interregnum Nexus Flag Spawner</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x250</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xCEc6" id="IntN Flg 1">
+    <DisplayId>Interregnum Nexus Flag 1</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x250</Index>
+    </Texture>
+    <Animation prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x250</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x251</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x252</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x253</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+  </Object>
+  <Object type="0xCEc7" id="IntN Flg 2">
+    <DisplayId>Interregnum Nexus Flag 2</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>interregnumNexusObjects16x16</File>
+      <Index>0x254</Index>
+    </Texture>
+    <Animation prob="1" period=".4">
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x254</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x255</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x256</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>interregnumNexusObjects16x16</File>
+          <Index>0x257</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Static />
+  </Object>
+  <Object type="0xCEc8" id="IntN Wep">
+    <DisplayId>Interregnum Nexus Weapons</DisplayId>
+    <Class>GameObject</Class>
+    <RandomTexture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25e</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x259</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25a</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25b</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25c</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25d</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x258</Index>
+      </Texture>
+      <Texture>
+        <File>interregnumNexusObjects16x16</File>
+        <Index>0x25f</Index>
+      </Texture>
+    </RandomTexture>
+    <MaxSize>100</MaxSize>
+    <MinSize>80</MinSize>
+    <SizeStep>10</SizeStep>
+    <Static />
   </Object>
 </Objects>

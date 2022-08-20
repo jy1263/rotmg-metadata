@@ -287,6 +287,7 @@
     <StasisImmune />
     <TrackLoot />
     <EventChestBoss />
+    <AlwaysPositiveHealth />
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
@@ -597,6 +598,7 @@
     <Exp>156</Exp>
     <StasisImmune />
     <TrackLoot />
+    <AlwaysPositiveHealth />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <Labels>CHEST</Labels>

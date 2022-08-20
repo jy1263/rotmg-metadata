@@ -21162,8 +21162,8 @@
     <Family>Humanoid</Family>
     <Rarity>Divine</Rarity>
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>105</Index>
+      <File>petsDivine</File>
+      <Index>227</Index>
     </AnimatedTexture>
   </Object>
   <Object type="0x7968" id="Dimensional Wanderer Pet Stone">
@@ -21172,8 +21172,8 @@
     <ItemTier>5</ItemTier>
     <Item />
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>105</Index>
+      <File>petsDivine</File>
+      <Index>227</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
     <Description>A Wanderer from another dimension. Instead of forming a shadowy Syndicate, this one has chosen to accompany the Heroes of the Nexus against Oryx. As long as she gets a share in the loot!\n\nUnlocks Dimensional Wanderer Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>

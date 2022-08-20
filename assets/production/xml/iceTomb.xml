@@ -274,6 +274,7 @@
     <Size>160</Size>
     <Exp>1000</Exp>
     <TrackLoot />
+    <AlwaysPositiveHealth />
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>

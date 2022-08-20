@@ -10928,4 +10928,250 @@
     <PlayerClassType>0x0325</PlayerClassType>
     <NoSkinSelect />
   </Object>
+  <Object type="0x7aaa" id="Town Scholar Wizard">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>845</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aac" id="Sneaky Scallywag Trickster">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>846</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aae" id="Heretic Priest">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>847</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ab0" id="Syndicate Infiltration Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>848</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ab2" id="Syndicate Infiltration Sorcerer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>849</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ab4" id="Syndicate Brute Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>5</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ab6" id="Syndicate Henchman Bard">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>865</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031c</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ab8" id="Syndicate Henchman Knight">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>855</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aba" id="Syndicate Henchman Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>857</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7abc" id="Syndicate Henchman Samurai">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>864</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0311</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7abe" id="Syndicate Henchman Archer">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>851</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0307</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ac0" id="Syndicate Henchman Mystic">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>860</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ac2" id="Syndicate Henchman Priest">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>853</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0310</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ac4" id="Syndicate Henchman Necromancer">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>858</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ac6" id="Syndicate Henchman Trickster">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>861</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ac8" id="Syndicate Henchman Summoner">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>866</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x331</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aca" id="Syndicate Henchman Huntress">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>859</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7acc" id="Syndicate Henchman Ninja">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>863</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0326</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ace" id="Syndicate Henchman Rogue">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>850</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0300</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ad0" id="Syndicate Henchman Wizard">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>852</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ad2" id="Syndicate Henchman Sorcerer">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>862</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ad4" id="Syndicate Henchman Warrior">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>854</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ad6" id="Syndicate Henchman Paladin">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>856</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ad8" id="Syndicate Henchman Kenseii">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>867</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x332</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
 </Objects>

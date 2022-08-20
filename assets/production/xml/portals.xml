@@ -1631,8 +1631,9 @@
     <DungeonName>Hidden Interregnum</DungeonName>
     <Texture>
       <File>interregnumObjects16x16</File>
-      <Index>111</Index>
+      <Index>133</Index>
     </Texture>
+    <Size>1</Size>
     <Animation prob="1" id="A1">
       <Frame time="0.085">
         <Texture>
