@@ -3772,13 +3772,10 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>A key for opening the Hidden Interregnum, the lair of the Wanderer's Syndicate.</Description>
-    <ExtraTooltipData>
-      <EffectInfo name="Restricted Area" description="This item can only be used near the Shady Vagrant in the Realm." />
-    </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate color="-1" newId="Interregnum Portal" onlyIn="realm" radius="25" targetId="MotMG Invisible Rift" customString="Hidden Interregnum unlocked by" amount="1" predefinedDungeonMods="S|;INTERREGNUMS" readonlymods="true">ChangeObject</Activate>
+    <Activate id="Interregnum Portal" predefinedDungeonMods="S|;INTERREGNUMS" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />

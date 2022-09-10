@@ -64,6 +64,9 @@
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
@@ -84,6 +87,9 @@
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
+    </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
@@ -103,6 +109,9 @@
   <RefineTemplate id="Sprite World">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
@@ -126,6 +135,9 @@
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
@@ -191,6 +203,9 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCA</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
@@ -235,6 +250,9 @@
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
@@ -283,6 +301,9 @@
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
@@ -309,6 +330,9 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
@@ -333,6 +357,9 @@
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
@@ -405,6 +432,9 @@
   <RefineTemplate id="Haunted Cemetery">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
@@ -580,6 +610,9 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -701,6 +734,9 @@
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -808,6 +844,9 @@
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -832,6 +871,9 @@
   <RefineTemplate id="Parasite Chambers">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -861,6 +903,9 @@
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>DDOCKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1284,6 +1329,9 @@
       <ApplyModifierWithLabel>SHATTERS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -1311,6 +1359,9 @@
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1342,6 +1393,9 @@
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -1369,6 +1423,9 @@
     </Condition>
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1403,6 +1460,9 @@
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -1427,6 +1487,9 @@
   <RefineTemplate id="Lost Halls">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1458,6 +1521,9 @@
       <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">
@@ -1482,6 +1548,9 @@
   <RefineTemplate id="The Void">
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>

@@ -20305,4 +20305,364 @@
     <BagType>2</BagType>
     <Treasure />
   </Object>
+  <Object type="0x88cf" id="Pirate Hat x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d0" id="Pirate Hat x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d1" id="Pirate Hat x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d2" id="Pirate Hat x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d3" id="Pirate Hat x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d4" id="Pirate Hat x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d5" id="Pirate Hat x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d6" id="Pirate Hat x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d7" id="Pirate Hat x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88d8" id="Pirate Hat x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1187</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A fit only for a true captain!</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88da" id="Golden Tooth x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88db" id="Golden Tooth x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88dc" id="Golden Tooth x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88dd" id="Golden Tooth x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88de" id="Golden Tooth x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88df" id="Golden Tooth x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88e0" id="Golden Tooth x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88e1" id="Golden Tooth x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88e2" id="Golden Tooth x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88e3" id="Golden Tooth x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1188</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Gold ingots tend to be very heavy, so why not melt them down into something easier to carry and maybe trade with.</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
 </Objects>

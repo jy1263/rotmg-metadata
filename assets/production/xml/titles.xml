@@ -298,4 +298,22 @@
     <UnlockRequirement>Unlocked in MOTMG 2022 Battle Pass.</UnlockRequirement>
     <TitleType>Suffix</TitleType>
   </Object>
+  <Object type="0x9a19" id="Title__Syndicate_Infiltrator">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Syndicate Infiltrator</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Syndicate Infiltration Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a1a" id="Title__Master_of_Disguise">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Master Of Disguise</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Syndicate Infiltration Event Reward.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
 </Objects>

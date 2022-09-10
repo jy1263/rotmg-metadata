@@ -10254,9 +10254,7 @@
     <Size>0</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <SpawnProb>1</SpawnProb>
     <PerRealmMax>1</PerRealmMax>
-    <Terrain>Mountains</Terrain>
   </Object>
   <Object type="0x7098" id="Wanderer or Merc D Spawner">
     <Class>GameObject</Class>

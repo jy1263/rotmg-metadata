@@ -11164,7 +11164,7 @@
     <PlayerClassType>0x031f</PlayerClassType>
     <NoSkinSelect />
   </Object>
-  <Object type="0x7ad8" id="Syndicate Henchman Kenseii">
+  <Object type="0x7ad8" id="Syndicate Henchman Kensei">
     <Skin />
     <Class>Skin</Class>
     <AnimatedTexture>
@@ -11172,6 +11172,81 @@
       <Index>867</Index>
     </AnimatedTexture>
     <PlayerClassType>0x332</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ada" id="Oni Clan Warrior">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>868</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031d</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7adc" id="Desert Occultist Summoner">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>869</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x331</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ade" id="Bark Bark Bard">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>870</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031c</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ae0" id="Sharpshooter Archer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>871</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0307</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ae2" id="Rattle Bones Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>872</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ae4" id="Tiny Captain Summoner">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>873</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x331</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ae6" id="Boatswain Necromancer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>2</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>874</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
     <NoSkinSelect />
   </Object>
 </Objects>

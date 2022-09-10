@@ -3499,8 +3499,8 @@
     <Projectile id="0">
       <ObjectId>Magenta Long Arrow</ObjectId>
       <Speed>160</Speed>
-      <MinDamage>75</MinDamage>
-      <MaxDamage>80</MaxDamage>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>70</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
     <BagType>2</BagType>
@@ -3551,8 +3551,8 @@
     <Projectile id="0">
       <ObjectId>Gold Long Arrow</ObjectId>
       <Speed>160</Speed>
-      <MinDamage>65</MinDamage>
-      <MaxDamage>70</MaxDamage>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>80</MaxDamage>
       <LifetimeMS>440</LifetimeMS>
     </Projectile>
     <BagType>2</BagType>
@@ -3919,7 +3919,7 @@
       <DefaultAngle>-2</DefaultAngle>
     </Subattack>
     <Projectile id="0">
-      <ObjectId>Jade Long Arrow</ObjectId>
+      <ObjectId>Garnet Long Arrow</ObjectId>
       <Speed>160</Speed>
       <MinDamage>120</MinDamage>
       <MaxDamage>150</MaxDamage>
@@ -30130,7 +30130,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
   </Object>
   <Object type="0x4BA2" id="2SorcererST2" setType="0x4BA0" setName="Court Magician Sorcerer Set" collectionIcon="2">
     <DisplayId>Magician's Robe</DisplayId>
@@ -31049,7 +31049,7 @@
     <MpCost>70</MpCost>
     <feedPower>4</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T0,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff2" id="Oakwood Lute">
     <Class>Equipment</Class>
@@ -31074,7 +31074,7 @@
     <MpCost>75</MpCost>
     <feedPower>8</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T1,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T1,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff3" id="Iron Lute">
     <Class>Equipment</Class>
@@ -31099,7 +31099,7 @@
     <MpCost>80</MpCost>
     <feedPower>15</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T2,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T2,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff4" id="Silver Lute">
     <Class>Equipment</Class>
@@ -31126,7 +31126,7 @@
     <feedPower>34</feedPower>
     <DropTradable />
     <XPBonus>1</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T3,MPCOST,XPBONUS,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff5" id="Battle Lute">
     <Class>Equipment</Class>
@@ -31153,7 +31153,7 @@
     <feedPower>68</feedPower>
     <DropTradable />
     <XPBonus>2</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T4,MPCOST,XPBONUS,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T4,MPCOST,XPBONUS,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff6" id="Regal Lute">
     <Class>Equipment</Class>
@@ -31179,7 +31179,7 @@
     <MpCost>95</MpCost>
     <feedPower>139</feedPower>
     <XPBonus>4</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T5,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T5,MPCOST,XPBONUS,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff7" id="Skyward Lute">
     <Class>Equipment</Class>
@@ -31207,7 +31207,7 @@
     <MpCost>100</MpCost>
     <feedPower>380</feedPower>
     <XPBonus>6</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T6,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T6,MPCOST,XPBONUS,APPLY_STAT_EFF,TRADEABLE</Labels>
   </Object>
   <Object type="0xcff8" id="Nebular Lute">
     <Class>Equipment</Class>
@@ -31236,7 +31236,7 @@
     <feedPower>570</feedPower>
     <Soulbound />
     <XPBonus>8</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T7,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T7,MPCOST,XPBONUS,APPLY_STAT_EFF</Labels>
   </Object>
   <Object type="0xcffc" id="Nether Lute">
     <Class>Equipment</Class>
@@ -31265,7 +31265,7 @@
     <feedPower>855</feedPower>
     <Soulbound />
     <XPBonus>9</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T8,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T8,MPCOST,XPBONUS,APPLY_STAT_EFF</Labels>
   </Object>
   <Object id="BardST0" type="0x4df9" setType="0x4dfd" setName="Angelic Bard Set" collectionIcon="1">
     <DisplayId>Harmonious Harp</DisplayId>
@@ -37442,7 +37442,7 @@
     <MpCost>30</MpCost>
     <feedPower>4</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3844" id="Ritual Mace">
     <Class>Equipment</Class>
@@ -37476,7 +37476,7 @@
     <MpCost>45</MpCost>
     <feedPower>8</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T1,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T1,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3845" id="Disciple Mace">
     <Class>Equipment</Class>
@@ -37511,7 +37511,7 @@
     <MpCost>60</MpCost>
     <feedPower>15</feedPower>
     <DropTradable />
-    <Labels>EQUIPMENT,TIERED,T2,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T2,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3846" id="Specialist Mace">
     <Class>Equipment</Class>
@@ -37547,7 +37547,7 @@
     <feedPower>34</feedPower>
     <DropTradable />
     <XPBonus>1</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T3,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T3,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3847" id="Adept Mace">
     <Class>Equipment</Class>
@@ -37583,7 +37583,7 @@
     <feedPower>68</feedPower>
     <DropTradable />
     <XPBonus>2</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T4,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T4,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3848" id="Monarch Mace">
     <Class>Equipment</Class>
@@ -37618,7 +37618,7 @@
     <MpCost>100</MpCost>
     <feedPower>139</feedPower>
     <XPBonus>4</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T5,NUMPROJ_1,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T5,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3849" id="Sovereign Mace">
     <Class>Equipment</Class>
@@ -37656,7 +37656,7 @@
     <MpCost>110</MpCost>
     <feedPower>380</feedPower>
     <XPBonus>6</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T6,NUMPROJ_1,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T6,NUMPROJ_1,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x384a" id="Grandmaster Mace">
     <Class>Equipment</Class>
@@ -37695,7 +37695,7 @@
     <Soulbound />
     <feedPower>570</feedPower>
     <XPBonus>8</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T7,NUMPROJ_1,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T7,NUMPROJ_1,MPCOST,XPBONUS</Labels>
   </Object>
   <Object type="0x384b" id="Overlord Mace">
     <Class>Equipment</Class>
@@ -37734,7 +37734,7 @@
     <Soulbound />
     <feedPower>855</feedPower>
     <XPBonus>9</XPBonus>
-    <Labels>EQUIPMENT,TIERED,T8,NUMPROJ_1,MPCOST,XPBONUS</Labels>
+    <Labels>EQUIPMENT,ABILITY,MACE,TIERED,T8,NUMPROJ_1,MPCOST,XPBONUS</Labels>
   </Object>
   <Object type="0x2833" id="Mace of the Celestial Forest">
     <Description>Limon's power of nature restoration are infused into this mace for her children to wield, traversing the realm and planting seeds of new life in the wake of wanton destruction.</Description>
@@ -40417,7 +40417,7 @@
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustNotWearOR="0x42e4;0x42f3;0x42f4" objectId="Daeva Decoy" duration="4" creep="true">Decoy</OnPlayerAbilityActivate>
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42e4" mustNotWearOR="0x42f3;0x42f4" objectId="Daeva Decoy W" duration="4" creep="true">Decoy</OnPlayerAbilityActivate>
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42f3" mustNotWearOR="0x42e4;0x42f4" objectId="Daeva Decoy A" duration="4" creep="true">Decoy</OnPlayerAbilityActivate>
-    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42f4" mustNotWearOR="0x42e4;0x42f3" objectId="Daeva Decoy R" duration="4" creep="true">Decoy</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42f4" mustNotWearOR="0x42e4;0x42f3" objectId="Daeva Decoy R" duration="6" creep="true">Decoy</OnPlayerAbilityActivate>
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42e4;0x42f3" mustNotWearOR="0x42f4" objectId="Daeva Decoy WA" duration="4" creep="true">Decoy</OnPlayerAbilityActivate>
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42e4;0x42f4" mustNotWearOR="0x42f3" objectId="Daeva Decoy WR" duration="6" creep="true">Decoy</OnPlayerAbilityActivate>
     <OnPlayerAbilityActivate targetMouse="true" proc="1" mustWear="0x42f3;0x42f4" mustNotWearOR="0x42e4" objectId="Daeva Decoy AR" duration="6" creep="true">Decoy</OnPlayerAbilityActivate>
@@ -43571,6 +43571,7 @@
     </EndUse>
     <feedPower>4</feedPower>
     <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3911" id="Timber Sheath">
     <Class>Equipment</Class>
@@ -43612,6 +43613,7 @@
     </EndUse>
     <feedPower>8</feedPower>
     <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T1,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3912" id="Vineland Sheath">
     <Class>Equipment</Class>
@@ -43653,6 +43655,7 @@
     </EndUse>
     <feedPower>15</feedPower>
     <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T2,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
   </Object>
   <Object type="0x3913" id="Haze Sheath">
     <Class>Equipment</Class>
@@ -43697,6 +43700,7 @@
     <feedPower>34</feedPower>
     <XPBonus>1</XPBonus>
     <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T3,NUMPROJ_2,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3914" id="Ichor Sheath">
     <Class>Equipment</Class>
@@ -43741,6 +43745,7 @@
     <feedPower>68</feedPower>
     <XPBonus>2</XPBonus>
     <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T4,NUMPROJ_2,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3915" id="Serpentine Sheath">
     <Class>Equipment</Class>
@@ -43784,6 +43789,7 @@
     </EndUse>
     <feedPower>139</feedPower>
     <XPBonus>4</XPBonus>
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T5,NUMPROJ_2,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3916" id="Great Shinobi Sheath">
     <Class>Equipment</Class>
@@ -43829,6 +43835,7 @@
     </EndUse>
     <feedPower>380</feedPower>
     <XPBonus>6</XPBonus>
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T6,NUMPROJ_3,MPCOST,XPBONUS,TRADEABLE</Labels>
   </Object>
   <Object type="0x3917" id="Sonic Wave Sheath">
     <Class>Equipment</Class>
@@ -43875,6 +43882,7 @@
     <feedPower>570</feedPower>
     <XPBonus>8</XPBonus>
     <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T7,NUMPROJ_3,MPCOST,XPBONUS</Labels>
   </Object>
   <Object type="0x3918" id="Asura Sheath">
     <Class>Equipment</Class>
@@ -43921,6 +43929,7 @@
     <feedPower>855</feedPower>
     <XPBonus>9</XPBonus>
     <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T8,NUMPROJ_3,MPCOST,XPBONUS</Labels>
   </Object>
   <Object type="0x39e2" id="Volcanic Sheath">
     <Class>Equipment</Class>
@@ -44014,7 +44023,7 @@
   <Object type="0x39e3" id="Labyrinth Dweller's Sheath">
     <Class>Equipment</Class>
     <Item />
-    <Texture>
+    <Texture xOffset="0" yOffset="-1">
       <File>lofiObj6</File>
       <Index>0x12b</Index>
     </Texture>
@@ -45762,7 +45771,7 @@
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Book of Water</DisplayId>
-    <Texture xOffset="-2" yOffset="0">
+    <Texture xOffset="-2.5" yOffset="0">
       <File>d2LofiObjEmbed</File>
       <Index>1113</Index>
     </Texture>
@@ -45780,7 +45789,7 @@
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Book of Air</DisplayId>
-    <Texture xOffset="-2" yOffset="0">
+    <Texture xOffset="1" yOffset="0">
       <File>d2LofiObjEmbed</File>
       <Index>1114</Index>
     </Texture>
@@ -45798,7 +45807,7 @@
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Book of Fire</DisplayId>
-    <Texture xOffset="-2" yOffset="0">
+    <Texture xOffset="1" yOffset="0">
       <File>d2LofiObjEmbed</File>
       <Index>1116</Index>
     </Texture>
@@ -45816,7 +45825,7 @@
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Book of Earth</DisplayId>
-    <Texture xOffset="-2" yOffset="0">
+    <Texture xOffset="1" yOffset="0">
       <File>d2LofiObjEmbed</File>
       <Index>1115</Index>
     </Texture>
@@ -47655,7 +47664,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Bow Shot 2" type="0x386c">
     <Class>Equipment</Class>
@@ -47680,7 +47689,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Bow Shot 3" type="0x386d">
     <Class>Equipment</Class>
@@ -47703,7 +47712,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3870" id="Interregnum Longbow">
     <DisplayId>Frangible Longbow</DisplayId>
@@ -47828,7 +47837,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Magic Shot 2" type="0x386a">
     <Class>Equipment</Class>
@@ -47853,7 +47862,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Magic Shot 3" type="0x386b">
     <Class>Equipment</Class>
@@ -47876,7 +47885,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3871" id="Interregnum Spellblade">
     <DisplayId>Royal Sekhem</DisplayId>
@@ -47972,7 +47981,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Morning Shot 2" type="0x3885">
     <Class>Equipment</Class>
@@ -47997,7 +48006,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Morning Shot 3" type="0x3780">
     <Class>Equipment</Class>
@@ -48019,7 +48028,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3872" id="Interregnum Morning Star">
     <DisplayId>Obsidian Macuahuitl</DisplayId>
@@ -48143,7 +48152,7 @@
       <ProtectFromSink />
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Flail Ball 2" type="0x3876">
     <Class>Equipment</Class>
@@ -48165,7 +48174,7 @@
       <ProtectFromSink />
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Flail Ball 1" type="0x3877">
     <Class>Equipment</Class>
@@ -48189,7 +48198,7 @@
       <ProtectFromSink />
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3873" id="Interregnum Flail">
     <DisplayId>Gilded Chain Scythe</DisplayId>
@@ -48299,7 +48308,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Tachi Shot 2" type="0x387c">
     <Class>Equipment</Class>
@@ -48324,7 +48333,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Tachi Shot 3" type="0x387d">
     <Class>Equipment</Class>
@@ -48347,7 +48356,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3874" id="Interregnum Tachi">
     <DisplayId>Ritual Khopesh</DisplayId>
@@ -48479,7 +48488,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Dagger Shot 2" type="0x387f">
     <Class>Equipment</Class>
@@ -48504,7 +48513,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object id="Enhanced Dagger Shot 3" type="0x3883">
     <Class>Equipment</Class>
@@ -48526,7 +48535,7 @@
       <Size>90</Size>
     </Projectile>
     <Soulbound />
-    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
   </Object>
   <Object type="0x3875" id="Interregnum Blades">
     <DisplayId>Pirate's Sidearms</DisplayId>
@@ -48774,6 +48783,7 @@
     <Description>Gain extra +20% BXP from enemies. Lasts 1.5 hours.</Description>
     <ExtraTooltipData>
       <EffectInfo name="BXP Bonus" description="+20% BXP (90 min)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
     </ExtraTooltipData>
     <Sound>use_potion</Sound>
     <Consumable />
@@ -48797,6 +48807,7 @@
     <Description>Gain extra +33% BXP from enemies. Lasts 1.5 hours.</Description>
     <ExtraTooltipData>
       <EffectInfo name="BXP Bonus" description="+33% BXP (90 min)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
     </ExtraTooltipData>
     <Sound>use_potion</Sound>
     <Consumable />
@@ -48820,6 +48831,7 @@
     <Description>Gain extra +50% BXP from enemies. Lasts 1.5 hours.</Description>
     <ExtraTooltipData>
       <EffectInfo name="BXP Bonus" description="+50% BXP (90 min)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
     </ExtraTooltipData>
     <Sound>use_potion</Sound>
     <Consumable />
@@ -48843,6 +48855,7 @@
     <Description>Extra 33% chance of obtaining a Stat Potion from enemies that drop it. Lasts 1.5 hours.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Loot Bonus" description="+33% drop rate (Stat Potions)" />
+      <EffectInfo name="Caution" description="The timer is not paused by leaving the Realm or going offline." />
     </ExtraTooltipData>
     <Sound>use_potion</Sound>
     <Consumable />
@@ -49760,6 +49773,22 @@
     </Texture>
     <SlotType>10</SlotType>
     <Description>The Sorcerer gains more information using these knock-off Black Coins.</Description>
+    <Activate>MysteryDyes</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>8</BagType>
+    <Track />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x9542" id="Buried Treasure">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1189</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Usually pirate treasure is marked with an X on the map but it seems like The Tinkerer already found all of them!</Description>
     <Activate>MysteryDyes</Activate>
     <Consumable />
     <Soulbound />

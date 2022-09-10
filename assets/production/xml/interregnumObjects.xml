@@ -29,8 +29,6 @@
     <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Terrain>MidPlains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
     <PerRealmMax>1</PerRealmMax>
   </Object>
   <Object type="0xc230" id="Syndicate Fighter A">
@@ -6610,6 +6608,7 @@
     <MaxHitPoints>100000</MaxHitPoints>
     <HealthBarBoss radius="30" />
     <Defense>45</Defense>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Wanderer Purple Axe Projectile</ObjectId>
       <Speed>70</Speed>
@@ -10142,6 +10141,7 @@
     <Defense>30</Defense>
     <Exp>15000</Exp>
     <BXP>75000</BXP>
+    <TrackLoot />
     <Projectile id="0">
       <ObjectId>Abyss Sword Projectile</ObjectId>
       <Damage>80</Damage>

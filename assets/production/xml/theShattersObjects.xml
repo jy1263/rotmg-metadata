@@ -15065,6 +15065,7 @@
     <StasisImmune />
     <StunImmune />
     <ParalyzeImmune />
+    <DazedImmune />
     <TrackLoot />
     <KeepDamageRecord />
     <Projectile id="0">

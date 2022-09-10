@@ -21183,4 +21183,46 @@
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
   </Object>
+  <Object id="Syndicate Hellhound" type="0x7969">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Syndicate Hellhound Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x796a" id="Syndicate Hellhound Pet Skin">
+    <PetSkin />
+    <DisplayId>Syndicate Hellhound</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>228</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x796b" id="Syndicate Hellhound Pet Stone">
+    <DisplayId>Syndicate Hellhound Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>228</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This hellhound was captured by the Syndicate during one of their missions in the Abyss. Despite many attempts to train it as a vicious and menacing guardian for the organization, the true nature of this canine is revealed outside of battle. !\n\nUnlocks Syndicate Hellhound Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31082">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
 </Objects>

@@ -17261,4 +17261,117 @@
     <Track />
     <UniqueID />
   </Object>
+  <Object type="0x7ad9" id="Oni Clan Warrior Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>868</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Beasts, demons, terrorizer of the weak, folks of the nexus claim the members of the Oni clan to be nothing good. But the clans actions over time against Oryx and his minions have left people to believe that even monsters of the realm can have a good heart and follow a sense of justice. \n\nSkin Class: Warrior</Description>
+    <Activate skinType="31450">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7adb" id="Desert Occultist Summoner Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>869</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>There exists a group of occultists that worship entities beyond the gods of this realm, towards higher powers that hardly anyone knows about. Deep within the temples of the desert there might still be hieroglyphics of hidden knowledge that speak of these supposed higher powers. \n\nSkin Class: Summoner</Description>
+    <Activate skinType="31452">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7adf" id="Bark Bark Bard Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>870</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A canine bard companion whos cheerful barks inspire all those around them! \n\nSkin Class: Bard\nSprite Credits: BLOODQWEN</Description>
+    <Activate skinType="31454">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7ae1" id="Sharpshooter Archer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>871</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pirate that prefers to venture out in style both in fashion and weaponry, her weapon of choice being an expensive golden blunderbuss. \n\nSkin Class: Archer</Description>
+    <Activate skinType="31456">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7ae3" id="Rattle Bones Assassin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>872</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Some call it a blessing others call it a curse, this skeleton gets another chance to adventure beyond. Having no clothes or skin is no problem for this skeleton! \n\nSkin Class: Assassin</Description>
+    <Activate skinType="31458">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7ae5" id="Tiny Captain Summoner Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>873</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>With their hat and hook secured, and a crew ready to follow this feisty little captain, they're ready to sail the open seas and discover treasures of the realm! \n\nSkin Class: Summoner</Description>
+    <Activate skinType="31460">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7ae7" id="Boatswain Necromancer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>2</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>874</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Don't let their appearance fool you, this pirates manager of the ship and a clean freak. Cleaning up everything in their path keeping things nice and tidy. \n\nSkin Class: Necromancer</Description>
+    <Activate skinType="31462">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
 </Objects>
