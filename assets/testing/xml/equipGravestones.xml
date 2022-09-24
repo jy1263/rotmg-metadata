@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x3a5b" id="Alien Gravestone Unlocker 1">
+    <Class>Equipment</Class>
+    <DisplayId>Level 1 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>0xc2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14928">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a5c" id="Alien Gravestone Unlocker 2">
+    <Class>Equipment</Class>
+    <DisplayId>Level 2-19 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>0xc3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14929">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a66" id="Alien Gravestone Unlocker 3">
+    <Class>Equipment</Class>
+    <DisplayId>Level 20 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>0xc4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14930">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a67" id="Alien Gravestone Unlocker 4">
+    <Class>Equipment</Class>
+    <DisplayId>1/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>0xc5</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14931">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a68" id="Alien Gravestone Unlocker 5">
+    <Class>Equipment</Class>
+    <DisplayId>2/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14932">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a69" id="Alien Gravestone Unlocker 6">
+    <Class>Equipment</Class>
+    <DisplayId>3/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x34</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14933">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a6a" id="Alien Gravestone Unlocker 7">
+    <Class>Equipment</Class>
+    <DisplayId>4/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14934">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a6b" id="Alien Gravestone Unlocker 8">
+    <Class>Equipment</Class>
+    <DisplayId>5/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x38</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14935">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a6c" id="Alien Gravestone Unlocker 9">
+    <Class>Equipment</Class>
+    <DisplayId>6/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x3a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14936">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a6d" id="Alien Gravestone Unlocker 10">
+    <Class>Equipment</Class>
+    <DisplayId>7/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x3c</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14937">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x3a5d" id="Alien Gravestone Unlocker 11">
+    <Class>Equipment</Class>
+    <DisplayId>8/8 Alien Grave Unlocker</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>0x3f</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlock a new Alien Gravestone for customizing your Graves!</Description>
+    <Activate gravestoneType="14938">UnlockGravestone</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+</Objects>
