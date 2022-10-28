@@ -9382,10 +9382,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>1</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9400,10 +9400,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>2</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9418,10 +9418,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>3</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9436,10 +9436,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>4</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9454,10 +9454,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>5</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9472,10 +9472,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>6</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9490,10 +9490,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>7</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9508,10 +9508,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>8</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9526,10 +9526,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>9</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9544,15 +9544,19 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>10</Quantity>
+    <Activate>MysteryDyes</Activate>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
+      <EffectInfo name="Status" description="Ready to use!" />
     </ExtraTooltipData>
     <Soulbound />
     <BagType>2</BagType>
+    <Consumable />
     <Treasure />
+    <Track />
   </Object>
   <Object type="0x7c0b" id="Food Voucher x11">
     <Class>Equipment</Class>
@@ -9562,10 +9566,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>11</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9580,10 +9584,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>12</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9598,10 +9602,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>13</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9616,10 +9620,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>14</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9634,10 +9638,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>15</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9652,10 +9656,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>16</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9670,10 +9674,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>17</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9688,10 +9692,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>18</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9706,10 +9710,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>19</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9724,15 +9728,19 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>20</Quantity>
+    <Activate>MysteryDyes</Activate>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
+      <EffectInfo name="Status" description="Ready to use!" />
     </ExtraTooltipData>
     <Soulbound />
     <BagType>2</BagType>
+    <Consumable />
     <Treasure />
+    <Track />
   </Object>
   <Object type="0x7c15" id="Food Voucher x21">
     <Class>Equipment</Class>
@@ -9742,10 +9750,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>21</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9760,10 +9768,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>22</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9778,10 +9786,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>23</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9796,10 +9804,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>24</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9814,10 +9822,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>25</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9832,10 +9840,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>26</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9850,10 +9858,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>27</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9868,10 +9876,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>28</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9886,10 +9894,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>29</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9904,15 +9912,19 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>30</Quantity>
+    <Activate>MysteryDyes</Activate>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
+      <EffectInfo name="Status" description="Ready to use!" />
     </ExtraTooltipData>
     <Soulbound />
     <BagType>2</BagType>
+    <Consumable />
     <Treasure />
+    <Track />
   </Object>
   <Object type="0x7c1f" id="Food Voucher x31">
     <Class>Equipment</Class>
@@ -9922,10 +9934,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>31</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9940,10 +9952,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>32</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9958,10 +9970,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>33</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9976,10 +9988,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>34</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -9994,10 +10006,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>35</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -10012,10 +10024,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>36</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -10030,10 +10042,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>37</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -10048,10 +10060,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>38</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -10066,10 +10078,10 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>39</Quantity>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
     </ExtraTooltipData>
     <Soulbound />
@@ -10084,11 +10096,11 @@
       <Index>0x2da</Index>
     </Texture>
     <SlotType>10</SlotType>
-    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 40 and use them to obtain a random pet food item.\n\nSprite Credits: Tyii</Description>
+    <Description>A voucher to treat your pet for free in a fancy Restaurant. Collect 10, 20, 30 or 40 and use them to obtain a random pet food item. The more vouchers, the tastier the food. \n\nSprite Credits: Tyii</Description>
     <Quantity>40</Quantity>
     <Activate>MysteryDyes</Activate>
     <ExtraTooltipData>
-      <EffectInfo name="Stack limit" description="40" />
+      <EffectInfo name="Stack limit" description="10,20,30,40" />
       <EffectInfo name="Event" description="The Appetizer" />
       <EffectInfo name="Status" description="Ready to use!" />
     </ExtraTooltipData>
@@ -20660,6 +20672,406 @@
     <ExtraTooltipData>
       <EffectInfo name="Stack limit" description="10" />
       <EffectInfo name="Event" description="Pirates!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88e5" id="Black Petunia x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="10">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88e6" id="Black Petunia x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="20">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88e7" id="Black Petunia x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="30">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88e8" id="Black Petunia x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="40">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88e9" id="Black Petunia x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="50">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88ea" id="Black Petunia x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="60">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88eb" id="Black Petunia x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="70">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88ec" id="Black Petunia x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="80">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88ed" id="Black Petunia x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="90">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88ee" id="Black Petunia x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1193</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>It is said that locals channel the energy of the plant for black magic...</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+      <EffectInfo name="Info" description="When consumed, wait for the notification popup!" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <Activate amount="100">GrantSupporterPoints</Activate>
+    <BagType>2</BagType>
+    <Treasure />
+    <Track />
+    <Consumable />
+  </Object>
+  <Object type="0x88f0" id="Raven Feather x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f1" id="Raven Feather x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f2" id="Raven Feather x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f3" id="Raven Feather x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f4" id="Raven Feather x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f5" id="Raven Feather x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f6" id="Raven Feather x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f7" id="Raven Feather x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f8" id="Raven Feather x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88f9" id="Raven Feather x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1194</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The tribes living by the swamps use these as currency. What they do with them after although, is a complete mystery...</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Hexes and Bones" />
     </ExtraTooltipData>
     <Soulbound />
     <BagType>2</BagType>

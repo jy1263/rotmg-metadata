@@ -29,8 +29,6 @@
     <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
-    <Terrain>MidPlains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
     <PerRealmMax>1</PerRealmMax>
   </Object>
   <Object type="0xc230" id="Syndicate Fighter A">
@@ -7355,6 +7353,7 @@
     <Exp>80000</Exp>
     <BXP>400000</BXP>
     <Quest />
+    <EventChestBoss />
     <God />
     <StasisImmune />
     <ParalyzeImmune />

@@ -1277,6 +1277,7 @@
     <Setpiece slot="1" itemtype="0x7ebb">Equipment</Setpiece>
     <Setpiece slot="2" itemtype="0x7ebc">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x7ebd">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x7ed4">Equipment</Setpiece>
     <ActivateOnEquipAll skinType="0x7a85" size="80" color="0xC80032" bulletType="Jagged Hatchet Large">ChangeSkin</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXMP" amount="25">IncrementStat</ActivateOnEquipAll>
@@ -1290,5 +1291,36 @@
     <ActivateOnEquip2 stat="MAXMP" amount="10">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="ATT" amount="10">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="DEF" amount="2">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x425a" id="Shaman Necromancer Set">
+    <Setpiece slot="0" itemtype="0x2250">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x2251">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x2252">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x2253">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x2258">Equipment</Setpiece>
+    <ActivateOnEquipCustom skinType="0x6863" size="80" color="0xd4c28e" bulletType="Shaman Fang" requiredItems="0x2250,0x2251,0x2252,0x2253">ChangeSkin</ActivateOnEquipCustom>
+    <ActivateOnEquipCustom skinType="0x6864" size="80" color="0x00c798" bulletType="Shaman Wisp Large" requiredItems="0x2250,0x2251,0x2252,0x2258">ChangeSkin</ActivateOnEquipCustom>
+    <ActivateOnEquipAll stat="DEX" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="4">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="VIT" amount="5">IncrementStat</ActivateOnEquip2>
+  </EquipmentSet>
+  <EquipmentSet type="0x425b" id="Alchemist Assassin Set">
+    <Setpiece slot="0" itemtype="0x2254">Equipment</Setpiece>
+    <Setpiece slot="1" itemtype="0x2255">Equipment</Setpiece>
+    <Setpiece slot="2" itemtype="0x2256">Equipment</Setpiece>
+    <Setpiece slot="3" itemtype="0x2257">Equipment</Setpiece>
+    <ActivateOnEquipAll skinType="0x6862" size="80" color="0xADC718" bulletType="Alchemist Dart Large">ChangeSkin</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="ATT" amount="5">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="DEF" amount="6">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
+    <ActivateOnEquip3 stat="ATT" amount="5">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="SPD" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip2 stat="DEF" amount="6">IncrementStat</ActivateOnEquip2>
+    <ActivateOnEquip2 stat="SPD" amount="4">IncrementStat</ActivateOnEquip2>
   </EquipmentSet>
 </EquipmentSets>

@@ -1309,7 +1309,7 @@
     </Projectile>
     <DamageBasedXP />
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">High Tech Terror Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare ???? Egg</SpecialSpawn>

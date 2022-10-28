@@ -1234,7 +1234,7 @@
     <KillStat stat="GodKills" />
     <DamageBasedXP />
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">Crystal Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Farm Egg</SpecialSpawn>

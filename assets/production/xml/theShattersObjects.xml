@@ -2191,8 +2191,8 @@
     <Size>115</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>15</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2205,7 +2205,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2246,7 +2246,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2264,8 +2264,8 @@
     <Size>115</Size>
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2329,7 +2329,7 @@
       <Size>90</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2347,8 +2347,8 @@
     <Size>115</Size>
     <MaxHitPoints>3500</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2401,7 +2401,7 @@
       <Size>90</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2419,8 +2419,8 @@
     <Size>115</Size>
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2464,7 +2464,7 @@
       <Size>110</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2482,8 +2482,8 @@
     <Size>115</Size>
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2527,7 +2527,7 @@
       <Size>110</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2545,8 +2545,8 @@
     <Size>115</Size>
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2568,7 +2568,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2586,8 +2586,8 @@
     <Size>115</Size>
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2611,7 +2611,7 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2629,8 +2629,8 @@
     <Size>115</Size>
     <MaxHitPoints>4250</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>600</Exp>
-    <BXP>2850</BXP>
+    <Exp>900</Exp>
+    <BXP>4800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2652,7 +2652,7 @@
       <LifetimeMS>0</LifetimeMS>
       <Size>0</Size>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2695,7 +2695,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8198" id="Shatters Gypsy Barrier Left Spell">
     <DisplayId>Hollow Gypsy</DisplayId>
@@ -2736,7 +2736,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8199" id="Shatters Gypsy Barrier Mid Spell">
     <DisplayId>Hollow Gypsy</DisplayId>
@@ -2779,7 +2779,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x819a" id="Shatters Gypsy Barrier Right Spell">
     <DisplayId>Hollow Gypsy</DisplayId>
@@ -2820,7 +2820,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8196" id="Shatters Hollow Oracle">
     <DisplayId>Hollow Oracle</DisplayId>
@@ -2836,8 +2836,8 @@
     <Size>115</Size>
     <MaxHitPoints>4250</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>600</Exp>
-    <BXP>2850</BXP>
+    <Exp>900</Exp>
+    <BXP>4800</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <StasisImmune />
@@ -2859,7 +2859,7 @@
       <LifetimeMS>0</LifetimeMS>
       <Size>0</Size>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -2902,7 +2902,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x819c" id="Shatters Oracle Barrier C Spell">
     <DisplayId>Hollow Oracle</DisplayId>
@@ -2943,7 +2943,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x819d" id="Shatters Oracle Barrier O Spell">
     <DisplayId>Hollow Oracle</DisplayId>
@@ -2983,7 +2983,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x819e" id="Shatters Hollow Outlaw">
     <DisplayId>Hollow Outlaw</DisplayId>
@@ -3011,8 +3011,8 @@
     <Size>115</Size>
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>1000</Exp>
-    <BXP>4750</BXP>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3065,7 +3065,7 @@
       <MultiHit />
       <ConditionEffect duration="4">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation from="hidingx" />
@@ -3097,8 +3097,8 @@
     <Size>115</Size>
     <MaxHitPoints>3750</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>1000</Exp>
-    <BXP>4750</BXP>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3151,7 +3151,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3170,7 +3170,7 @@
     <MaxHitPoints>2250</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>250</Exp>
-    <BXP>1187</BXP>
+    <BXP>1250</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3186,7 +3186,7 @@
       <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
     <Presentation from="hidingx" />
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3206,7 +3206,7 @@
     <MaxHitPoints>2750</MaxHitPoints>
     <Defense>30</Defense>
     <Exp>250</Exp>
-    <BXP>1187</BXP>
+    <BXP>1250</BXP>
     <KillStat stat="HumanoidKills" />
     <ShadowSize>0</ShadowSize>
     <StunImmune />
@@ -3221,7 +3221,7 @@
       <Boomerang />
       <ConditionEffect duration="4">Unstable</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3253,7 +3253,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3294,7 +3294,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3377,7 +3377,7 @@
       <Size>90</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3449,7 +3449,7 @@
       <Size>90</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3512,7 +3512,7 @@
       <Size>70</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3575,7 +3575,7 @@
       <Size>70</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3616,7 +3616,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3659,7 +3659,7 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3700,7 +3700,7 @@
       <LifetimeMS>0</LifetimeMS>
       <Size>0</Size>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3743,7 +3743,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85f4" id="Shatters Accursed Gypsy Barrier Left Spell">
     <DisplayId>Accursed Hollow Gypsy</DisplayId>
@@ -3784,7 +3784,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85f5" id="Shatters Accursed Gypsy Barrier Mid Spell">
     <DisplayId>Accursed Hollow Gypsy</DisplayId>
@@ -3827,7 +3827,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85f6" id="Shatters Accursed Gypsy Barrier Right Spell">
     <DisplayId>Accursed Hollow Gypsy</DisplayId>
@@ -3868,7 +3868,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85f7" id="Shatters Accursed Hollow Oracle">
     <DisplayId>Accursed Hollow Oracle</DisplayId>
@@ -3907,7 +3907,7 @@
       <LifetimeMS>0</LifetimeMS>
       <Size>0</Size>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -3950,7 +3950,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85f9" id="Shatters Accursed Oracle Barrier C Spell">
     <DisplayId>Accursed Hollow Oracle</DisplayId>
@@ -3991,7 +3991,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85fa" id="Shatters Accursed Oracle Barrier O Spell">
     <DisplayId>Accursed Hollow Oracle</DisplayId>
@@ -4031,7 +4031,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x85fb" id="Shatters Accursed Hollow Outlaw">
     <DisplayId>Accursed Hollow Outlaw</DisplayId>
@@ -4114,7 +4114,7 @@
       <MultiHit />
       <ConditionEffect duration="4">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -4199,7 +4199,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -4234,7 +4234,7 @@
       <Boomerang />
       <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -4269,7 +4269,7 @@
       <Boomerang />
       <ConditionEffect duration="4">Unstable</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -4284,7 +4284,7 @@
     <Size>0</Size>
     <Invincible />
     <NoMiniMap />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x710a" id="shtrs Titanum">
     <DisplayId>Stone Monolith</DisplayId>
@@ -4306,11 +4306,11 @@
     <Size>150</Size>
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>60</Defense>
-    <Exp>1200</Exp>
-    <BXP>6000</BXP>
+    <Exp>1800</Exp>
+    <BXP>9000</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
-    <Labels>ENEMY,MINION,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,SHATTERS</Labels>
   </Object>
   <Object type="0x715a" id="shtrs Paladin Obelisk">
     <DisplayId>Paladin Obelisk</DisplayId>
@@ -4326,11 +4326,11 @@
     <Size>150</Size>
     <MaxHitPoints>15000</MaxHitPoints>
     <Defense>65</Defense>
-    <Exp>2500</Exp>
-    <BXP>12500</BXP>
+    <Exp>3750</Exp>
+    <BXP>18750</BXP>
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
-    <Labels>ENEMY,MINION,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,SHATTERS</Labels>
   </Object>
   <Object type="0x710e" id="shtrs Stone Mage">
     <DisplayId>Stone Mage</DisplayId>
@@ -4362,8 +4362,8 @@
     <Size>140</Size>
     <MaxHitPoints>3000</MaxHitPoints>
     <Defense>50</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4386,7 +4386,7 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <Presentation from="camohiding">
@@ -4506,7 +4506,7 @@
     <Invincible />
     <NoMiniMap />
     <ShadowSize>0</ShadowSize>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x711d" id="shtrs Stone Knight">
     <DisplayId>Stone Knight</DisplayId>
@@ -4538,8 +4538,8 @@
     <Size>140</Size>
     <MaxHitPoints>4750</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4566,7 +4566,7 @@
       <PassesCover />
       <ParticleTrail />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation from="camohiding">
@@ -4606,8 +4606,8 @@
     <Size>140</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>65</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4628,7 +4628,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation from="camohiding">
@@ -4668,8 +4668,8 @@
     <Size>140</Size>
     <MaxHitPoints>4000</MaxHitPoints>
     <Defense>55</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4691,7 +4691,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation from="camohiding">
@@ -4731,8 +4731,8 @@
     <Size>140</Size>
     <MaxHitPoints>3250</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>400</Exp>
-    <BXP>1900</BXP>
+    <Exp>600</Exp>
+    <BXP>3000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4754,7 +4754,7 @@
       <ConditionEffect duration="3">Slowed</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation from="camohiding">
@@ -4813,8 +4813,8 @@
     <Size>140</Size>
     <MaxHitPoints>7000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="ConstructKills" />
     <ParalyzeImmune />
     <StasisImmune />
@@ -4838,7 +4838,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -4856,8 +4856,8 @@
     <Size>100</Size>
     <MaxHitPoints>25000</MaxHitPoints>
     <Defense>85</Defense>
-    <Exp>20000</Exp>
-    <BXP>100000</BXP>
+    <Exp>30000</Exp>
+    <BXP>150000</BXP>
     <KillStat stat="GodKills" />
     <KillStat stat="ConstructKills" />
     <StasisImmune />
@@ -5048,7 +5048,7 @@
       <ConditionEffect duration="1">Petrify</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,STASISIMMUNE,GOD,CONSTRUCT</Labels>
+    <Labels>ENEMY,STASISIMMUNE,GOD,CONSTRUCT,SHATTERS</Labels>
   </Object>
   <Object type="0x85ff" id="Shatters Accursed Stone Mage">
     <DisplayId>Accursed Stone Mage</DisplayId>
@@ -5090,7 +5090,7 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_MID,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5136,7 +5136,7 @@
       <PassesCover />
       <ParticleTrail />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5176,7 +5176,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5217,7 +5217,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5258,7 +5258,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5301,7 +5301,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,CONSTRUCT,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5319,8 +5319,8 @@
     <Size>125</Size>
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>600</Exp>
-    <BXP>2850</BXP>
+    <Exp>900</Exp>
+    <BXP>4500</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <Projectile id="0">
@@ -5404,7 +5404,7 @@
       <Frequency>0.5</Frequency>
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5524,7 +5524,7 @@
       <Size>115</Size>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,NATURE</Labels>
+    <Labels>ENEMY,NATURE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimDetonate">
         <StyleStep id="Detonate">SetAnimation</StyleStep>
@@ -5545,8 +5545,8 @@
     <Size>125</Size>
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>1000</Exp>
-    <BXP>4750</BXP>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <TrackLoot />
@@ -5579,7 +5579,7 @@
       <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5659,7 +5659,7 @@
       <ConditionEffect duration="4">Slowed</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,NATURE</Labels>
+    <Labels>ENEMY,NATURE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimOpen">
         <StyleStep id="Open">SetAnimation</StyleStep>
@@ -5683,8 +5683,8 @@
     <Size>125</Size>
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <Projectile id="0">
@@ -5779,7 +5779,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5885,7 +5885,7 @@
     <KillStat stat="StructureKills" />
     <NoMiniMap />
     <ShadowSize>0</ShadowSize>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimRise">
         <StyleStep id="Rise" loop="1">SetAnimation</StyleStep>
@@ -5915,8 +5915,8 @@
     <Size>125</Size>
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>600</Exp>
-    <BXP>2850</BXP>
+    <Exp>900</Exp>
+    <BXP>4500</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -5936,7 +5936,7 @@
       <LifetimeMS>1500</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -5954,8 +5954,8 @@
     <Size>125</Size>
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>1000</Exp>
-    <BXP>4750</BXP>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -5972,7 +5972,7 @@
       <Speed>90</Speed>
       <LifetimeMS>9000</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6053,7 +6053,7 @@
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,NATURE</Labels>
+    <Labels>ENEMY,NATURE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimOpen">
         <StyleStep id="Open">SetAnimation</StyleStep>
@@ -6077,8 +6077,8 @@
     <Size>125</Size>
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <ParalyzeImmune />
     <Projectile id="0">
@@ -6095,7 +6095,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6242,7 +6242,7 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x729b" id="shtrs S Archmage of Flame">
     <DisplayId>Pyro Warlock</DisplayId>
@@ -6268,8 +6268,8 @@
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>2000</Exp>
-    <BXP>10000</BXP>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Flying />
@@ -6357,7 +6357,7 @@
       <FaceDir />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6491,7 +6491,7 @@
     <Invincible />
     <Flying />
     <NoMiniMap />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x826b" id="Shatters Lightning Striker">
     <Class>GameObject</Class>
@@ -6516,8 +6516,8 @@
     <Size>100</Size>
     <MaxHitPoints>12000</MaxHitPoints>
     <Defense>45</Defense>
-    <Exp>2000</Exp>
-    <BXP>10000</BXP>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Flying />
@@ -6588,7 +6588,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6633,7 +6633,7 @@
       <Wavy />
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8606" id="Shatters Accursed Ice Mage">
     <DisplayId>Accursed Ice Mage</DisplayId>
@@ -6735,7 +6735,7 @@
       <Frequency>0.5</Frequency>
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6790,7 +6790,7 @@
       <ConditionEffect duration="2">Darkness</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,TRACKLOOT,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6911,7 +6911,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6952,7 +6952,7 @@
       <LifetimeMS>1500</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -6990,7 +6990,7 @@
       <Speed>90</Speed>
       <LifetimeMS>9000</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7028,7 +7028,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7145,7 +7145,7 @@
       <FaceDir />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7241,7 +7241,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7259,8 +7259,8 @@
     <Size>115</Size>
     <MaxHitPoints>6750</MaxHitPoints>
     <Defense>15</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7553,7 +7553,7 @@
       <PassesCover />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7587,8 +7587,8 @@
     <Size>115</Size>
     <MaxHitPoints>4500</MaxHitPoints>
     <Defense>10</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7661,7 +7661,7 @@
       <Size>120</Size>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation>
@@ -7684,8 +7684,8 @@
     <Size>115</Size>
     <MaxHitPoints>8500</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7844,7 +7844,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -7862,8 +7862,8 @@
     <Size>115</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>800</Exp>
-    <BXP>3800</BXP>
+    <Exp>1200</Exp>
+    <BXP>6000</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -7935,7 +7935,7 @@
       <ArmorPiercing />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -8005,8 +8005,8 @@
     <Size>90</Size>
     <MaxHitPoints>10500</MaxHitPoints>
     <Defense>80</Defense>
-    <Exp>1000</Exp>
-    <BXP>4750</BXP>
+    <Exp>1500</Exp>
+    <BXP>7500</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -8088,7 +8088,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Confused</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation>
@@ -8416,7 +8416,7 @@
       <PassesCover />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -8524,7 +8524,7 @@
       <Size>120</Size>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation>
@@ -8707,7 +8707,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Unstable</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -8798,7 +8798,7 @@
       <ArmorPiercing />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -8945,7 +8945,7 @@
       <PassesCover />
       <ConditionEffect duration="3">Confused</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <Presentation>
@@ -8971,8 +8971,8 @@
     <Size>100</Size>
     <MaxHitPoints>6000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9017,7 +9017,7 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x816b" id="Shatters King's Crossbowman">
     <DisplayId>King's Crossbowman</DisplayId>
@@ -9059,8 +9059,8 @@
     <Size>100</Size>
     <MaxHitPoints>5500</MaxHitPoints>
     <Defense>20</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9095,7 +9095,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimWarn">
         <StyleStep id="Warn" loop="1">SetAnimation</StyleStep>
@@ -9116,8 +9116,8 @@
     <Size>100</Size>
     <MaxHitPoints>9000</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9274,7 +9274,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x816d" id="Shatters King's Thaumaturge">
     <DisplayId>King's Thaumaturge</DisplayId>
@@ -9299,8 +9299,8 @@
     <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>25</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9323,7 +9323,7 @@
       <MultiHit />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x725c" id="Shatters Thaumaturge Cast Chase">
     <DisplayId>King's Thaumaturge</DisplayId>
@@ -9353,7 +9353,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x725f" id="Shatters Thaumaturge Cast LineA">
     <DisplayId>King's Thaumaturge</DisplayId>
@@ -9374,7 +9374,7 @@
     <KillStat stat="StructureKills" />
     <StunImmune />
     <ParalyzeImmune />
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x732c" id="Shatters Thaumaturge Cast LineB">
     <DisplayId>King's Thaumaturge</DisplayId>
@@ -9404,7 +9404,7 @@
       <Size>120</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x816e" id="Shatters King's Cavalry">
     <DisplayId>King's Cavalry</DisplayId>
@@ -9427,8 +9427,8 @@
     <ShadowSize>40</ShadowSize>
     <MaxHitPoints>8000</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="BeastKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9470,7 +9470,7 @@
       <LifetimeMS>1400</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,BEAST</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,BEAST,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -9498,8 +9498,8 @@
     <ShadowSize>20</ShadowSize>
     <MaxHitPoints>6500</MaxHitPoints>
     <Defense>15</Defense>
-    <Exp>500</Exp>
-    <BXP>2375</BXP>
+    <Exp>750</Exp>
+    <BXP>3750</BXP>
     <KillStat stat="HumanoidKills" />
     <StunImmune />
     <ParalyzeImmune />
@@ -9531,7 +9531,7 @@
       <MultiHit />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <Presentation from="hidingx" />
   </Object>
   <Object type="0x8618" id="Shatters Accursed King's Knight">
@@ -9594,7 +9594,7 @@
       <PassesCover />
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x8619" id="Shatters Accursed King's Crossbowman">
     <DisplayId>Accursed King's Crossbowman</DisplayId>
@@ -9672,7 +9672,7 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimWarn">
         <StyleStep id="Warn" loop="1">SetAnimation</StyleStep>
@@ -9851,7 +9851,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x861b" id="Shatters Accursed King's Thaumaturge">
     <DisplayId>Accursed King's Thaumaturge</DisplayId>
@@ -9900,7 +9900,7 @@
       <MultiHit />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x861c" id="Shatters Accursed King's Cavalry">
     <DisplayId>Accursed King's Cavalry</DisplayId>
@@ -9965,7 +9965,7 @@
       <LifetimeMS>1400</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,BEAST</Labels>
+    <Labels>ENEMY,STASISIMMUNE,BEAST,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -10025,7 +10025,7 @@
       <MultiHit />
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,HUMANOID</Labels>
+    <Labels>ENEMY,STASISIMMUNE,HUMANOID,SHATTERS</Labels>
     <Presentation from="hidingx" />
   </Object>
   <Object type="0x717f" id="Shatters Eye of the King">
@@ -10043,8 +10043,8 @@
     <Z>0.2</Z>
     <MaxHitPoints>10000</MaxHitPoints>
     <Defense>30</Defense>
-    <Exp>10000</Exp>
-    <BXP>50000</BXP>
+    <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -10069,7 +10069,7 @@
       <PassesCover />
       <ConditionEffect duration="5">Darkness</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,GROTESQUE</Labels>
+    <Labels>ENEMY,GROTESQUE,SHATTERS</Labels>
   </Object>
   <Object type="0x82a5" id="Shatters Void Phantasm">
     <DisplayId>Void Phantasm</DisplayId>
@@ -10123,8 +10123,8 @@
     <ShadowSize>0</ShadowSize>
     <MaxHitPoints>20000</MaxHitPoints>
     <Defense>5</Defense>
-    <Exp>10000</Exp>
-    <BXP>50000</BXP>
+    <Exp>15000</Exp>
+    <BXP>75000</BXP>
     <NoMiniMap />
     <AlwaysPositiveHealth />
     <StunImmune />
@@ -10160,7 +10160,7 @@
       <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,GROTESQUE,GOD</Labels>
+    <Labels>ENEMY,GROTESQUE,GOD,SHATTERS</Labels>
     <HideFromClient />
     <Presentation>
       <Style id="NoVis">
@@ -10286,7 +10286,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,GROTESQUE</Labels>
+    <Labels>ENEMY,GROTESQUE,SHATTERS</Labels>
   </Object>
   <Object type="0xb655" id="Shatters Bridge Horizontal Wall S">
     <Class>GameObject</Class>
@@ -10786,7 +10786,7 @@
       <SpeedClamp>100</SpeedClamp>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb660" id="Shatters Sentinel Claymore Summoner">
     <Class>GameObject</Class>
@@ -10817,7 +10817,7 @@
       <SpeedClamp>100</SpeedClamp>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb65f" id="Shatters Sentinel Claymore Summoner Long">
     <Class>GameObject</Class>
@@ -10848,7 +10848,7 @@
       <SpeedClamp>80</SpeedClamp>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb65b" id="Shatters Bridge Center Anchor">
     <Class>GameObject</Class>
@@ -11042,7 +11042,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="1.6">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb65a" id="Shatters Bridge Obelisk Controller">
     <Class>GameObject</Class>
@@ -11781,8 +11781,8 @@
     <SlowImmune />
     <God />
     <Quest />
-    <Exp>30000</Exp>
-    <BXP>150000</BXP>
+    <Exp>45000</Exp>
+    <BXP>225000</BXP>
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
@@ -11885,7 +11885,7 @@
     </Projectile>
     <Projectile id="9">
       <ObjectId>Shatters Sentinel Bolt</ObjectId>
-      <Damage>225</Damage>
+      <Damage>195</Damage>
       <Speed>75</Speed>
       <Size>110</Size>
       <LifetimeMS>3000</LifetimeMS>
@@ -11893,7 +11893,7 @@
     </Projectile>
     <Projectile id="10">
       <ObjectId>Shatters Sentinel Bolt</ObjectId>
-      <Damage>225</Damage>
+      <Damage>195</Damage>
       <Speed>55</Speed>
       <Size>100</Size>
       <LifetimeMS>3000</LifetimeMS>
@@ -11901,7 +11901,7 @@
     </Projectile>
     <Projectile id="11">
       <ObjectId>Shatters Sentinel Bolt</ObjectId>
-      <Damage>225</Damage>
+      <Damage>195</Damage>
       <Speed>35</Speed>
       <Size>90</Size>
       <LifetimeMS>3000</LifetimeMS>
@@ -12014,7 +12014,8 @@
       <MultiHit />
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
+    <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
     <Presentation>
       <Style id="SetAnimSlumber">
         <StyleStep id="Slumber" loop="1">SetAnimation</StyleStep>
@@ -12126,13 +12127,13 @@
       <ObjectId>Shatters Blobomb Bullet</ObjectId>
       <Speed>100</Speed>
       <Damage>125</Damage>
-      <LifetimeMS>400</LifetimeMS>
+      <LifetimeMS>375</LifetimeMS>
       <Size>240</Size>
       <MultiHit />
       <ConditionEffect duration="4">Unstable</ConditionEffect>
       <ConditionEffect duration="4">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,NATURE</Labels>
+    <Labels>ENEMY,NATURE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -12474,7 +12475,7 @@
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
     <StunImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSleepIdle">
         <StyleStep id="SleepIdle">SetAnimation</StyleStep>
@@ -12837,7 +12838,7 @@
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
     <StunImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSleepIdle">
         <StyleStep id="SleepIdle">SetAnimation</StyleStep>
@@ -13200,7 +13201,7 @@
     <StasisImmune />
     <KillStat stat="StructureKills" />
     <KillStat stat="LesserGodKills" />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSleepIdle">
         <StyleStep id="SleepIdle">SetAnimation</StyleStep>
@@ -13563,7 +13564,7 @@
     <KillStat stat="LesserGodKills" />
     <StasisImmune />
     <StunImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSleepIdle">
         <StyleStep id="SleepIdle">SetAnimation</StyleStep>
@@ -15055,9 +15056,10 @@
     <MaxHitPoints>300000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>45</Defense>
-    <Exp>50000</Exp>
-    <BXP>250000</BXP>
+    <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <HealthBarBoss radius="25" />
+    <PowerUpAtt />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
@@ -15671,7 +15673,7 @@
     </Projectile>
     <Projectile id="50">
       <ObjectId>Frost Vortex</ObjectId>
-      <Damage>270</Damage>
+      <Damage>250</Damage>
       <Size>140</Size>
       <Speed>35</Speed>
       <LifetimeMS>7000</LifetimeMS>
@@ -15684,7 +15686,7 @@
     </Projectile>
     <Projectile id="51">
       <ObjectId>Frost Vortex</ObjectId>
-      <Damage>270</Damage>
+      <Damage>250</Damage>
       <Size>140</Size>
       <Speed>35</Speed>
       <LifetimeMS>7000</LifetimeMS>
@@ -16121,7 +16123,8 @@
       <ConditionEffect duration="2">Silenced</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
+    <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
+    <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
     <Presentation>
       <Style id="SetAnimChanneling">
         <StyleStep id="Channeling">SetAnimation</StyleStep>
@@ -16315,7 +16318,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x811e" id="Shatters Generator TL">
     <DisplayId>Magi-Generator</DisplayId>
@@ -16810,7 +16813,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="generator">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -17325,7 +17328,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="generator">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -17834,7 +17837,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="generator">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -18343,7 +18346,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="5">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="generator">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -18486,7 +18489,7 @@
       <MultiHit />
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,BEAST</Labels>
+    <Labels>ENEMY,STASISIMMUNE,BEAST,SHATTERS</Labels>
   </Object>
   <Object type="0x729e" id="shtrs Blizzard">
     <DisplayId>Blizzard</DisplayId>
@@ -18627,7 +18630,7 @@
       <MultiHit />
       <ConditionEffect duration="4">Silenced</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,BEAST</Labels>
+    <Labels>ENEMY,STASISIMMUNE,BEAST,SHATTERS</Labels>
   </Object>
   <Object type="0x730d" id="shtrs Ice Shield 2">
     <DisplayId>Ice Sphere</DisplayId>
@@ -18720,13 +18723,13 @@
     <Z>0.1</Z>
     <Projectile id="0">
       <ObjectId>Blue Shard</ObjectId>
-      <Damage>250</Damage>
+      <Damage>225</Damage>
       <Speed>55</Speed>
       <LifetimeMS>6000</LifetimeMS>
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimDetonate">
         <StyleStep id="Detonate">SetAnimation</StyleStep>
@@ -18917,7 +18920,7 @@
       <Size>130</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimOpen">
         <StyleStep id="Open">SetAnimation</StyleStep>
@@ -19035,7 +19038,7 @@
       <ConditionEffect duration="2.6">Bleeding</ConditionEffect>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimOpen">
         <StyleStep id="Open">SetAnimation</StyleStep>
@@ -19293,7 +19296,7 @@
       <ArmorPiercing />
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb66f" id="Shatters King Anchor C">
     <Class>GameObject</Class>
@@ -22282,11 +22285,11 @@
     <DeathSound>monster/archdemon_death</DeathSound>
     <Size>150</Size>
     <ShadowSize>30</ShadowSize>
-    <MaxHitPoints>550000</MaxHitPoints>
+    <MaxHitPoints>500000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>50</Defense>
-    <Exp>100000</Exp>
-    <BXP>500000</BXP>
+    <Exp>150000</Exp>
+    <BXP>750000</BXP>
     <Quest />
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />
@@ -23939,7 +23942,7 @@
       <FaceDir />
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="Bis">The Shatters</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Automaton Egg</SpecialSpawn>
@@ -23960,6 +23963,7 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
+    <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
     <Presentation from="forgottenBasic">
       <Style id="corruptTeleStart">
         <StyleStep visible="false">SetHud</StyleStep>
@@ -25079,7 +25083,7 @@
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,STASISIMMUNE</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -26128,7 +26132,7 @@
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,STASISIMMUNE</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -27177,7 +27181,7 @@
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,STASISIMMUNE</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -28226,7 +28230,7 @@
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,STASISIMMUNE</Labels>
+    <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn" loop="1">SetAnimation</StyleStep>
@@ -28611,7 +28615,7 @@
       <Size>100</Size>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,GROTESQUE</Labels>
+    <Labels>ENEMY,GROTESQUE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn">SetAnimation</StyleStep>
@@ -28722,7 +28726,7 @@
       <MultiHit />
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8379" id="Shatters King Bullet Split Alt">
     <DisplayId>The Forgotten King</DisplayId>
@@ -28744,7 +28748,7 @@
       <ConditionEffect duration="2">Slowed</ConditionEffect>
       <Boomerang />
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x733b" id="Shatters Guitar Hero Zones">
     <DisplayId>The Accursed King</DisplayId>
@@ -28769,7 +28773,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3.5">Sick</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0xb6ca" id="Shatters King DM Tendril N">
     <DisplayId>The Forgotten King</DisplayId>
@@ -28982,7 +28986,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn">SetAnimation</StyleStep>
@@ -29206,7 +29210,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn">SetAnimation</StyleStep>
@@ -29430,7 +29434,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn">SetAnimation</StyleStep>
@@ -29654,7 +29658,7 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimSpawn">
         <StyleStep id="Spawn">SetAnimation</StyleStep>
@@ -29839,7 +29843,7 @@
     <Invincible />
     <NoMiniMap />
     <ShadowSize>0</ShadowSize>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x731e" id="Shatters Green Crystal">
     <DisplayId>Green Crystal</DisplayId>
@@ -30014,7 +30018,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -30224,7 +30228,7 @@
       <MultiHit />
       <ConditionEffect duration="1.2">Exposed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -30758,7 +30762,7 @@
       <SpeedClamp>0</SpeedClamp>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -30948,7 +30952,7 @@
       <LifetimeMS>6000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -31122,7 +31126,7 @@
       <LifetimeMS>3500</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -31312,7 +31316,7 @@
       <LifetimeMS>8000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -31485,7 +31489,7 @@
       <MultiHit />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -31658,7 +31662,7 @@
       <MultiHit />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -31835,7 +31839,7 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32012,7 +32016,7 @@
       <ConditionEffect duration="2">Bleeding</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32170,7 +32174,7 @@
       <ConditionEffect duration="3">Exposed</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32345,7 +32349,7 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32520,7 +32524,7 @@
       <ConditionEffect duration="2" target="1">Stasis</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32712,7 +32716,7 @@
       <ConditionEffect duration="2">Slowed</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -32905,7 +32909,7 @@
       <ConditionEffect duration="3">Silenced</ConditionEffect>
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -33106,7 +33110,7 @@
       <MultiHit />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -33289,7 +33293,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Weak</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -33854,7 +33858,7 @@
       <SpeedClamp>0</SpeedClamp>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -34036,7 +34040,7 @@
       <LifetimeMS>8000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -34220,7 +34224,7 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -34433,7 +34437,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <MultiHit />
     </Projectile>
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -34617,7 +34621,7 @@
       <ArmorPiercing />
     </Projectile>
     <KillStat stat="ConstructKills" />
-    <Labels>ENEMY,CONSTRUCT</Labels>
+    <Labels>ENEMY,CONSTRUCT,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimAppear">
         <StyleStep id="Appear" loop="1">SetAnimation</StyleStep>
@@ -35094,7 +35098,7 @@
       <MultiHit />
       <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,GROTESQUE</Labels>
+    <Labels>ENEMY,GROTESQUE,SHATTERS</Labels>
   </Object>
   <Object type="0x731b" id="Shatters King Timer 25">
     <Class>GameObject</Class>
@@ -35169,7 +35173,7 @@
       <ConditionEffect duration="3">Sick</ConditionEffect>
       <ConditionEffect duration="3">Bleeding</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,HUMANOID</Labels>
+    <Labels>ENEMY,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x717c" id="shtrs Final Fight Check">
     <Class>GameObject</Class>
@@ -42115,13 +42119,13 @@
     <DeathSound>spell/magic_nova</DeathSound>
     <MaxHitPoints>5000</MaxHitPoints>
     <Defense>50</Defense>
-    <Exp>2000</Exp>
-    <BXP>10000</BXP>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
     <KillStat stat="StructureKills" />
     <ShadowSize>40</ShadowSize>
     <NoMiniMap />
     <StasisImmune />
-    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE</Labels>
+    <Labels>ENEMY,MINION_STRONG,MINION,STASISIMMUNE,SHATTERS</Labels>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
   </Object>
@@ -42151,7 +42155,7 @@
       <Size>0</Size>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x722e" id="Shatters Village Gate Watch">
     <Class>GameObject</Class>
@@ -42669,7 +42673,7 @@
       <MultiHit />
     </Projectile>
     <Effect color="0xbf1111" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8123" id="Shatters Payload Blue">
     <DisplayId>Untempered Blue Magic</DisplayId>
@@ -42760,7 +42764,7 @@
       <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
     </Projectile>
     <Effect color="0x1e90ff" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8124" id="Shatters Payload Yellow">
     <DisplayId>Untempered Yellow Magic</DisplayId>
@@ -42828,7 +42832,7 @@
     <Invincible />
     <Color>0xffff00</Color>
     <Effect color="0xffff00" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8125" id="Shatters Payload Green 1">
     <DisplayId>Untempered Green Magic</DisplayId>
@@ -42928,7 +42932,7 @@
       <MultiHit />
     </Projectile>
     <Effect color="0x00ff00" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8126" id="Shatters Payload Green 2">
     <DisplayId>Untempered Green Magic</DisplayId>
@@ -43028,7 +43032,7 @@
       <MultiHit />
     </Projectile>
     <Effect color="0x00ff00" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8127" id="Shatters Payload Green 3">
     <DisplayId>Untempered Green Magic</DisplayId>
@@ -43128,7 +43132,7 @@
       <MultiHit />
     </Projectile>
     <Effect color="0x00ff00" rate="20" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="6" rise="0" riseAcc="0" riseVariance="0" rangeX="4.5" rangeY="4.5">CustomParticles</Effect>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8128" id="Shatters Color Assign Red">
     <Class>GameObject</Class>
@@ -43214,7 +43218,7 @@
     <Size>100</Size>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -43268,7 +43272,7 @@
     <Size>100</Size>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -43322,7 +43326,7 @@
     <Size>100</Size>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -43376,7 +43380,7 @@
     <Size>100</Size>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimStartup">
         <StyleStep id="Startup">SetAnimation</StyleStep>
@@ -43433,7 +43437,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43487,7 +43491,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43541,7 +43545,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43595,7 +43599,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43649,7 +43653,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43703,7 +43707,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43757,7 +43761,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43811,7 +43815,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43865,7 +43869,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43919,7 +43923,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -43973,7 +43977,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44027,7 +44031,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44081,7 +44085,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44135,7 +44139,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44189,7 +44193,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44243,7 +44247,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44297,7 +44301,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44351,7 +44355,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44405,7 +44409,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44459,7 +44463,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44513,7 +44517,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44567,7 +44571,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44621,7 +44625,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44675,7 +44679,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44729,7 +44733,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44783,7 +44787,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44837,7 +44841,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44891,7 +44895,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44945,7 +44949,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -44999,7 +45003,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45053,7 +45057,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45107,7 +45111,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45161,7 +45165,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45215,7 +45219,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45269,7 +45273,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45323,7 +45327,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45377,7 +45381,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45431,7 +45435,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45485,7 +45489,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -45539,7 +45543,7 @@
     <ShadowSize>20</ShadowSize>
     <Color>0xFFFFFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="hiding">
       <Style id="SetAnimActive">
         <StyleStep id="Active">SetAnimation</StyleStep>
@@ -46556,7 +46560,7 @@
       <MultiHit />
       <ConditionEffect duration="10" target="1">Stasis</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x818e" id="Shatters Observatory Tower On">
     <Class>Character</Class>
@@ -46622,7 +46626,7 @@
       <MultiHit />
       <ConditionEffect duration="10" target="1">Stasis</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x818f" id="Shatters Observatory On2Off">
     <Class>GameObject</Class>
@@ -46899,7 +46903,7 @@
     <KillStat stat="StructureKills" />
     <ShadowSize>80</ShadowSize>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAlt1">
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
@@ -47020,8 +47024,8 @@
     </Animation>
     <MaxHitPoints>35000</MaxHitPoints>
     <Defense>35</Defense>
-    <Exp>4000</Exp>
-    <BXP>20000</BXP>
+    <Exp>6000</Exp>
+    <BXP>30000</BXP>
     <KillStat stat="StructureKills" />
     <Size>140</Size>
     <HitSound>monster/djinn_hit</HitSound>
@@ -47029,7 +47033,7 @@
     <ShadowSize>0</ShadowSize>
     <Color>0xE56DFF</Color>
     <StasisImmune />
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
     <Presentation>
       <Style id="SetAnimRise">
         <StyleStep id="Rise" loop="1">SetAnimation</StyleStep>
@@ -47510,8 +47514,8 @@
     <Size>100</Size>
     <MaxHitPoints>60000</MaxHitPoints>
     <Defense>40</Defense>
-    <Exp>10000</Exp>
-    <BXP>50000</BXP>
+    <Exp>20000</Exp>
+    <BXP>100000</BXP>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <StunImmune />
@@ -47754,7 +47758,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,MINION_STRONG,HUMANOID</Labels>
+    <Labels>ENEMY,MINION,MINION_STRONG,HUMANOID,SHATTERS</Labels>
   </Object>
   <Object type="0x444d" id="Shatters A14">
     <Class>GameObject</Class>
@@ -47885,7 +47889,7 @@
       <MultiHit />
       <ConditionEffect duration="1">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,STASISIMMUNE,BEAST</Labels>
+    <Labels>ENEMY,STASISIMMUNE,BEAST,SHATTERS</Labels>
   </Object>
   <Object type="0x4453" id="Shatters A18">
     <Class>GameObject</Class>
@@ -47910,6 +47914,7 @@
     <ShadowSize>0</ShadowSize>
     <Size>0</Size>
     <Invincible />
+    <Labels>SHATTERS</Labels>
   </Object>
   <Object type="0x4433" id="Shatters A21">
     <Class>GameObject</Class>
@@ -48551,8 +48556,8 @@
     <MaxHitPoints>100000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>35</Defense>
-    <Exp>50000</Exp>
-    <BXP>250000</BXP>
+    <Exp>75000</Exp>
+    <BXP>375000</BXP>
     <Quest />
     <HealthBarBoss radius="25" xOffset="1" yOffset="7" />
     <KillStat stat="HumanoidKills" />
@@ -48580,7 +48585,7 @@
         <StyleStep id="Dissipate" loop="1">SetAnimation</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINIBOSS,QUEST,TRACKLOOT</Labels>
+    <Labels>ENEMY,MINIBOSS,QUEST,TRACKLOOT,SHATTERS</Labels>
   </Object>
   <Object type="0x4457" id="Shatters A23">
     <Class>Character</Class>
@@ -48595,8 +48600,66 @@
     <ShadowSize>0</ShadowSize>
     <Size>0</Size>
     <Invincible />
+    <Labels>SHATTERS</Labels>
   </Object>
   <Object type="0x4458" id="Shatters A24">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <TrackLoot />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <Invincible />
+    <Labels>SHATTERS</Labels>
+  </Object>
+  <Object type="0x7382" id="Shatters A26">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <TrackLoot />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <Invincible />
+  </Object>
+  <Object type="0x7383" id="Shatters A27">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <TrackLoot />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <Invincible />
+  </Object>
+  <Object type="0x7384" id="Shatters A28">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <TrackLoot />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Exp>0</Exp>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <Invincible />
+  </Object>
+  <Object type="0x7385" id="Shatters Rehersal Closer">
     <Class>Character</Class>
     <Enemy />
     <NoMiniMap />
@@ -48613,9 +48676,35 @@
   <Object type="0x43fc" id="Shatters A25">
     <Class>GameObject</Class>
     <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
+      <File>theShattersObjects16x16</File>
+      <Index>0x59</Index>
     </Texture>
+    <Animation prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5c</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Animation prob="1" id="A1">
       <Frame time="0.1">
         <Texture>
@@ -48668,7 +48757,8 @@
         </Texture>
       </Frame>
     </Animation>
-    <ShadowSize>0</ShadowSize>
+    <ShadowColor>FFCE00</ShadowColor>
+    <ShadowSize>80</ShadowSize>
     <Size>100</Size>
     <Presentation>
       <Style id="A1">
@@ -51883,7 +51973,7 @@
       <Damage>0</Damage>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x823f" id="Shatters Dining Chair South">
     <DisplayId>Eye of the King</DisplayId>
@@ -51903,7 +51993,7 @@
       <Damage>0</Damage>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8240" id="Shatters Dining Chair East">
     <DisplayId>Eye of the King</DisplayId>
@@ -51923,7 +52013,7 @@
       <Damage>0</Damage>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8241" id="Shatters Dining Chair West">
     <DisplayId>Eye of the King</DisplayId>
@@ -51943,7 +52033,7 @@
       <Damage>0</Damage>
       <LifetimeMS>0</LifetimeMS>
     </Projectile>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x825c" id="Shatters Dining Table Centerpiece">
     <Enemy />
@@ -51952,7 +52042,7 @@
       <File>theShattersObjects16x16</File>
       <Index>0x101</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x825d" id="Shatters Dining Table Silver Bottom">
     <Enemy />
@@ -51961,7 +52051,7 @@
       <File>theShattersObjects8x8</File>
       <Index>0x198</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8261" id="Shatters Dining Table Gold Bottom">
     <Enemy />
@@ -51970,7 +52060,7 @@
       <File>theShattersObjects8x8</File>
       <Index>0x195</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8262" id="Shatters Dining Table Silver Top">
     <Enemy />
@@ -51979,7 +52069,7 @@
       <File>theShattersObjects8x8</File>
       <Index>0x198</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8263" id="Shatters Dining Table Gold Top">
     <Enemy />
@@ -51988,7 +52078,7 @@
       <File>theShattersObjects8x8</File>
       <Index>0x195</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8243" id="Shatters Living Quarters Table">
     <Class>GameObject</Class>
@@ -52100,7 +52190,7 @@
     <Size>100</Size>
     <NoMiniMap />
     <Static />
-    <Labels>CHEST</Labels>
+    <Labels>CHEST,SHATTERS</Labels>
   </Object>
   <Object type="0x830f" id="Shatters Living Quarters Portrait">
     <Class>GameObject</Class>
@@ -52666,7 +52756,7 @@
     <Color>0x1e90ff</Color>
     <HealthBar>1</HealthBar>
     <ShadowSize>70</ShadowSize>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
   </Object>
   <Object type="0x81d2" id="Shatters Red Vial">
     <Class>Character</Class>
@@ -52720,7 +52810,7 @@
     <Color>0xFF7761</Color>
     <HealthBar>1</HealthBar>
     <ShadowSize>70</ShadowSize>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
   </Object>
   <Object type="0x82be" id="Shatters Corruption Vial">
     <Class>Character</Class>
@@ -52768,7 +52858,7 @@
     <Color>0x4B0082</Color>
     <HealthBar>1</HealthBar>
     <ShadowSize>70</ShadowSize>
-    <Labels>ENEMY,STASISIMMUNE</Labels>
+    <Labels>ENEMY,STASISIMMUNE,SHATTERS</Labels>
   </Object>
   <Object type="0x827a" id="Shatters Vile Vial">
     <Class>GameObject</Class>
@@ -53019,7 +53109,7 @@
       <File>theShattersObjects16x16</File>
       <Index>0xbf</Index>
     </Texture>
-    <Labels>ENEMY</Labels>
+    <Labels>ENEMY,SHATTERS</Labels>
   </Object>
   <Object type="0x8201" id="Shatters Throne">
     <Class>GameObject</Class>

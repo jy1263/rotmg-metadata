@@ -21,6 +21,9 @@
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
+    <Condition prob="1">
+      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+    </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="Forest Maze">
     <GradeOption id="D" prob="0.21" />
@@ -435,11 +438,11 @@
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.5">
-      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>MERCB</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.5">
+      <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="1">
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
@@ -882,11 +885,11 @@
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1012,11 +1015,11 @@
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>MTEMPLE</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1083,11 +1086,11 @@
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>DDOCKS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCC</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1148,11 +1151,11 @@
     <GradeOption id="B" prob="0.25" />
     <GradeOption id="A" prob="0.1" />
     <GradeOption id="S" prob="0.1" />
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>DRACONIS</ApplyModifierWithLabel>
-    </Condition>
     <Condition group="R" prob="0.15">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>DRACONIS</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1592,11 +1595,11 @@
     <Condition group="R" prob="0.1">
       <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
-    </Condition>
     <Condition prob="0.4">
       <ApplyModifierWithLabel>SHATTERS</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.25">
+      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.6">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
@@ -1608,16 +1611,16 @@
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="Crystal Cavern">
@@ -1645,16 +1648,16 @@
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="Cultist Hideout">
@@ -1682,16 +1685,16 @@
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="Fungal Cavern">
@@ -1719,16 +1722,16 @@
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="The Nest">
@@ -1796,16 +1799,16 @@
       <ApplyModifierWithLabel>LOST_HALLS</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
   <DungeonModTemplate id="The Void">
@@ -1830,28 +1833,31 @@
       <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
     <Condition prob="1">
-      <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
     </Condition>
   </DungeonModTemplate>
-  <DungeonModTemplate id="The Void">
-    <GradeOption id="D" prob="0.05" />
-    <GradeOption id="C" prob="0.1" />
-    <GradeOption id="B" prob="0.15" />
-    <GradeOption id="A" prob="0.3" />
-    <GradeOption id="S" prob="0.2" />
-    <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+  <DungeonModTemplate id="Sulfurous Wetlands">
+    <GradeOption id="D" prob="0.1" />
+    <GradeOption id="C" prob="0.15" />
+    <GradeOption id="B" prob="0.25" />
+    <GradeOption id="A" prob="0.1" />
+    <GradeOption id="S" prob="0.1" />
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.6">
+    <Condition group="R" prob="0.15">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
+    </Condition>
+    <Condition group="R" prob="0.4">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.5">

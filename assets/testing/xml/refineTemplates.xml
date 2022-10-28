@@ -1545,12 +1545,12 @@
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
   </RefineTemplate>
-  <RefineTemplate id="The Void">
+  <RefineTemplate id="Sulfurous Wetlands">
     <Condition group="R" prob="0.1">
-      <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+      <ApplyModifierWithLabel>SKIN_HUNTER</ApplyModifierWithLabel>
     </Condition>
-    <Condition group="R" prob="0.25">
-      <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+    <Condition group="R" prob="0.1">
+      <ApplyModifierWithLabel>TROOM</ApplyModifierWithLabel>
     </Condition>
     <Condition group="R" prob="0.25">
       <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>

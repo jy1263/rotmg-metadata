@@ -10438,7 +10438,7 @@
   <Object type="0x7a56" id="Shattered Queen Mystic">
     <Skin />
     <Class>Skin</Class>
-    <ItemTier>6</ItemTier>
+    <ItemTier>5</ItemTier>
     <AnimatedTexture>
       <File>playerskins32</File>
       <Index>2</Index>
@@ -11247,6 +11247,147 @@
       <Index>874</Index>
     </AnimatedTexture>
     <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x6862" id="Alchemist Assassin Set Skin">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>95</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <UnlockSpecial>Set Skin</UnlockSpecial>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x6863" id="Shaman Necromancer Set Fang">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>96</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Set Skin</UnlockSpecial>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x6864" id="Shaman Necromancer Set Soul Gem">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins16</File>
+      <Index>97</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <UnlockSpecial>Set Skin</UnlockSpecial>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7ae8" id="Voodoo Queen Mystic">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>875</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0323</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aea" id="Voodoo Witcher Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>876</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aec" id="Voodoo Witch Necromancer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>877</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7aee" id="Witch Doctor Wizard">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>878</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x030e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x6865" id="Mini Alchemist Assassin">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>880</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0320</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x6866" id="Mini Shaman Necromancer">
+    <Skin />
+    <Class>Skin</Class>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>879</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0321</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7af0" id="Zombie Hunter Kensei">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>881</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x332</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7af2" id="Zombie Hunter Sorcerer">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>882</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0325</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7af4" id="Undead Knight">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>883</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031e</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7af6" id="Undead Samurai">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>884</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0311</PlayerClassType>
     <NoSkinSelect />
   </Object>
 </Objects>

@@ -792,7 +792,7 @@
     </Texture>
     <Size>140</Size>
     <ShadowSize>80</ShadowSize>
-    <Effect color="0xC3C315" rate="15" life=".5" lifeVariance="0" speed="0" speedVariance="0" size="8" rise="0" riseAcc="0" riseVariance="0" rangeX="4" rangeY="4">CustomParticles</Effect>
+    <Effect color="0x0079eb" rate="50" life=".3" lifeVariance=".1" speed="0" speedVariance="1" size="3" rise="0.5" riseVariance=".1" rangeX=".5" rangeY=".5">CustomParticles</Effect>
   </Object>
   <Object type="0x64c2" id="Exposed Tree">
     <Class>GameObject</Class>
@@ -3818,5 +3818,1340 @@
         <StyleStep id="anim">SetAnimation</StyleStep>
       </Style>
     </Presentation>
+  </Object>
+  <Object type="0x3ab0" id="Summon Royal Archer (Rehearsal)">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summon Royal Archer Projectile</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>480</MaxDamage>
+      <LifetimeMS>1100</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <FaceDir />
+    </Projectile>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3ab1" id="Summon Royal Raider (Rehearsal)">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>39</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <ShadowSize>50</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Summon Royal Raider Projectile</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>115</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <NoMiniMap />
+    <OrbitCreepMaster minRadius="1.3" maxRadius="1.6" speed="1" clockwiseProb="1" radiusVariability="0.0" speedVariability="0.0" speedUpCoef="0.5" />
+  </Object>
+  <Object type="0x3ab2" id="Summon Royal Knight (Rehearsal)">
+    <Class>Summon</Class>
+    <AnimatedTexture>
+      <File>theShattersChars16x16</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <ShadowSize>50</ShadowSize>
+    <RepulsionRadius>0.5f</RepulsionRadius>
+    <Projectile id="0">
+      <ObjectId>Summon Royal Knight Projectile</ObjectId>
+      <Speed>45</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Summon Royal Knight Projectile</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Summon Royal Knight Projectile</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>200</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Summon Royal Knight Projectile</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>160</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <FaceDir />
+    </Projectile>
+    <NoMiniMap />
+    <FollowMouse speed="1.25" />
+  </Object>
+  <Object type="0x3ab3" id="Sentinel Waki Object A (Rehearsal)">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Projectile id="2">
+      <ObjectId>Sentinel Sword</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>800</MaxDamage>
+      <ProtectFromSink />
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Sentinel Sword Spinning</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <ProtectFromSink />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3ab4" id="Sentinel Waki Object B (Rehearsal)">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Projectile id="2">
+      <ObjectId>Sentinel Sword</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>800</MaxDamage>
+      <ProtectFromSink />
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Sentinel Sword Spinning</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <ProtectFromSink />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3ab5" id="Sentinel Waki Object C (Rehearsal)">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Projectile id="2">
+      <ObjectId>Sentinel Sword</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>800</MaxDamage>
+      <ProtectFromSink />
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Sentinel Sword Spinning</ObjectId>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Speed>200</Speed>
+      <Size>150</Size>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <ProtectFromSink />
+      <Acceleration>-1000</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+    </Projectile>
+    <ShadowSize>0</ShadowSize>
+    <Size>-1</Size>
+    <NoMiniMap />
+  </Object>
+  <Object id="Polarity Poison Effect 1 (Rehearsal)" type="0x3ab6">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object id="Polarity Poison Effect 2 (Rehearsal)" type="0x3ab7">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object id="Polarity Poison Effect 3 (Rehearsal)" type="0x3ab8">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object id="Polarity Poison Effect 4 (Rehearsal)" type="0x3ab9">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x00</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <NoCollisionWhenMovement />
+  </Object>
+  <Object type="0x20cc" id="Ritual Circle Summoner">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20cd" id="Ritual Torch">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>131</Index>
+    </Texture>
+    <Animation prob="1" period="0">
+      <Frame time="0.15">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>131</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>132</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>133</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>134</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>60</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20ce" id="Ritual Circle 1">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>56</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>56</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>106</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>81</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20cf" id="Ritual Circle 2">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>57</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>57</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>107</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>82</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d0" id="Ritual Circle 3">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>58</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>58</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>108</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>83</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d1" id="Ritual Circle 4">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>59</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>109</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>84</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d2" id="Ritual Circle 5">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>60</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>110</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>85</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d3" id="Ritual Circle 6">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>61</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>61</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>111</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>86</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d4" id="Ritual Circle 7">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>62</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>62</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>112</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>87</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d5" id="Ritual Circle 8">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>63</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>63</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>113</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>88</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d6" id="Ritual Circle 9">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>64</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>64</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>114</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>89</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d7" id="Ritual Circle 10">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>65</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>65</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>90</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>115</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>90</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d8" id="Ritual Circle 11">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>66</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>66</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>91</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>116</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>91</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20d9" id="Ritual Circle 12">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>67</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>67</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>92</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>117</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>92</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20da" id="Ritual Circle 13">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>68</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>68</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>93</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>118</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>93</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20db" id="Ritual Circle 14">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>69</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>69</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>94</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>119</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>94</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20dc" id="Ritual Circle 15">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>70</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>70</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>95</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>120</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>95</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20dd" id="Ritual Circle 16">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>71</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>71</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>96</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>121</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>96</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20de" id="Ritual Circle 17">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>72</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>72</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>97</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>122</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>97</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20df" id="Ritual Circle 18">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>73</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>73</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>98</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>123</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>98</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e0" id="Ritual Circle 19">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>74</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>74</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>99</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>124</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>99</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e1" id="Ritual Circle 20">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>75</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>75</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>100</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>125</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>100</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e2" id="Ritual Circle 21">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>76</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>76</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>101</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>126</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>101</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e3" id="Ritual Circle 22">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>77</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>77</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>102</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>127</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>102</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e4" id="Ritual Circle 23">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>78</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>78</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>103</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>128</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>103</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e5" id="Ritual Circle 24">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>79</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>79</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>104</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>129</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>104</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e6" id="Ritual Circle 25">
+    <Class>GameObject</Class>
+    <DisplayId>Ritual Circle</DisplayId>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>80</Index>
+    </Texture>
+    <Animation prob="1" sync="true" period="0.3">
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>80</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>105</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>130</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.3">
+        <Texture>
+          <File>gen3SetObjects</File>
+          <Index>105</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <DrawOnGround />
+  </Object>
+  <Object type="0x20e7" id="Ritual Skull">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>136</Index>
+    </Texture>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x20e8" id="3NecroST2Heal">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20e9" id="Ritual Circle Helper 1">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20ea" id="Ritual Circle Helper 2">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20eb" id="Ritual Circle Helper 1 Summon">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20ec" id="Ritual Circle Helper 2 Summon">
+    <Class>Summon</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <NoMiniMap />
   </Object>
 </Objects>

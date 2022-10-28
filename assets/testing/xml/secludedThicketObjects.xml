@@ -2335,7 +2335,7 @@
     <KillStat stat="GodKills" />
     <DamageBasedXP />
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,STGEMDROP</Labels>
+    <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Secluded Thicket Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Avian Egg</SpecialSpawn>

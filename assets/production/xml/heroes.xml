@@ -307,6 +307,7 @@
       <LifetimeMS>2100</LifetimeMS>
       <Size>140</Size>
     </Projectile>
+    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />
@@ -469,6 +470,7 @@
       <Speed>60</Speed>
       <LifetimeMS>800</LifetimeMS>
     </Projectile>
+    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
     <KillStat stat="UndeadKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />
@@ -929,6 +931,7 @@
       <LifetimeMS>2000</LifetimeMS>
       <Size>40</Size>
     </Projectile>
+    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
     <KillStat stat="NatureKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />
@@ -1184,6 +1187,7 @@
       <Size>110</Size>
       <MultiHit />
     </Projectile>
+    <HelperDialog title="Heroes of Oryx" radius="6">This monster is a Hero of Oryx. When all of them are killed, everyone in the Realm will be brought to Oryx's Castle to face him directly!</HelperDialog>
     <KillStat stat="UndeadKills" />
     <KillStat stat="HeroKills" />
     <KillStat stat="GodKills" />

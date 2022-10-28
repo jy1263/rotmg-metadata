@@ -352,4 +352,38 @@
     <TitleType>Full</TitleType>
     <SecretTitle />
   </Object>
+  <Object type="0x9a1f" id="Title_Voodoo_Queen">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Voodoo Queen</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the second season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a20" id="Title_Witch_Doctor">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Witch Doctor</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked in the second season of the Battle Pass.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+  </Object>
+  <Object type="0x9a21" id="Title_Swamp">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Swamp</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Complete Sulfurous Wetlands 5 times</UnlockRequirement>
+    <TitleType>Prefix</TitleType>
+    <UnlockStatRequirement stat="SulfurousWetlandsCompleted" amount="5" />
+  </Object>
+  <Object type="0x9a22" id="Title_Monster">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>Monster</DisplayId>
+    <TitleTier>3</TitleTier>
+    <UnlockRequirement>Complete Sulfurous Wetlands 50 times</UnlockRequirement>
+    <TitleType>Suffix</TitleType>
+    <UnlockStatRequirement stat="SulfurousWetlandsCompleted" amount="50" />
+  </Object>
 </Objects>

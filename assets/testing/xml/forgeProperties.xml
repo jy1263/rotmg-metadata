@@ -1500,6 +1500,34 @@
     <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
     <RequireDismantleWithLabel amount="1">ST_ARMOR</RequireDismantleWithLabel>
   </ForgeProperties>
+  <ForgeProperties type="0x2250" id="3NecroST0">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=70] Shaman Necromancer Set Token and 1 Weapon</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="80" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="80" />
+    <RequiredItem quantity="1">0x7ed8</RequiredItem>
+    <ForgefireCost>500</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_WEAPON</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2254" id="3AssassinST0">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=69] Alchemist Assassin Set Token and 1 Weapon</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="80" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="80" />
+    <RequiredItem quantity="1">0x7ed9</RequiredItem>
+    <ForgefireCost>500</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_WEAPON</RequireDismantleWithLabel>
+  </ForgeProperties>
   <ForgeProperties type="0x6463" id="Warlord Wand">
     <CanDismantle />
     <Description />
@@ -3284,6 +3312,34 @@
     <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
     <RequireDismantleWithLabel amount="1">ST_RING</RequireDismantleWithLabel>
   </ForgeProperties>
+  <ForgeProperties type="0x2251" id="3NecroST1">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=70] Shaman Necromancer Set Token and 1 Ability</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="40" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="40" />
+    <RequiredItem quantity="1">0x7ed8</RequiredItem>
+    <ForgefireCost>400</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_ABILITY</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2255" id="3AssassinST1">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=69] Alchemist Assassin Set Token and 1 Ability</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="40" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="40" />
+    <RequiredItem quantity="1">0x7ed9</RequiredItem>
+    <ForgefireCost>400</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_ABILITY</RequireDismantleWithLabel>
+  </ForgeProperties>
   <ForgeProperties type="0x16d6" id="Enchanted Ice Blade">
     <CanDismantle />
     <Description />
@@ -3705,7 +3761,7 @@
     <ForgefireCost>400</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
   </ForgeProperties>
-  <ForgeProperties type="0x384c" id="Amulet of Frenzy">
+  <ForgeProperties type="0x445b" id="Amulet of Frenzy">
     <CanDismantle />
     <CanCraft />
     <Description />
@@ -4628,6 +4684,76 @@
     <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
     <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
     <RequireDismantleWithLabel amount="1">ST_ABILITY</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2252" id="3NecroST2">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=70] Shaman Necromancer Set Token and 1 Armor</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <RequiredItem quantity="1">0x7ed8</RequiredItem>
+    <ForgefireCost>200</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_ARMOR</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2256" id="3AssassinST2">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=69] Alchemist Assassin Set Token and 1 Armor</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <RequiredItem quantity="1">0x7ed9</RequiredItem>
+    <ForgefireCost>200</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_ARMOR</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2253" id="3NecroST3">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=70] Shaman Necromancer Set Token and 1 Ring</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <RequiredItem quantity="1">0x7ed8</RequiredItem>
+    <ForgefireCost>200</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_RING</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2258" id="3NecroST4">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=70] Shaman Necromancer Set Token and 1 Ring</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <RequiredItem quantity="1">0x7ed8</RequiredItem>
+    <ForgefireCost>200</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_RING</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x2257" id="3AssassinST3">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=69] Alchemist Assassin Set Token and 1 Ring</Description>
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="20" />
+    <RequiredItem quantity="1">0x7ed9</RequiredItem>
+    <ForgefireCost>200</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>1</ForgeTab>
+    <HideItemsWithLabels>TAB_UT</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ST</RequireDismantleWithLabel>
+    <RequireDismantleWithLabel amount="1">ST_RING</RequireDismantleWithLabel>
   </ForgeProperties>
   <ForgeProperties type="0x57f" id="Ronin's Wakizashi">
     <CanDismantle />
@@ -6766,6 +6892,24 @@
     <ForgefireDismantle>0</ForgefireDismantle>
     <Ingredient />
   </ForgeProperties>
+  <ForgeProperties type="0x7ed8" id="3NecroSTToken">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x7ed9" id="3AssassinSTToken">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
   <ForgeProperties type="0x21C3" id="Mystery ST Shard x1">
     <CanDismantle />
     <Description />
@@ -6893,6 +7037,71 @@
     <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
     <ForgefireCost>0</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
+  </ForgeProperties>
+  <ForgeProperties type="0x63f6" id="Brambletooth Tachi">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=79] Mark of the Wetlands</Description>
+    <DismantleRequirements common="40" rare="30" legendary="0" mythical="0" />
+    <CraftRequirements common="120" rare="90" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x65ca</RequiredItem>
+    <ForgefireCost>720</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <BlueprintRequired />
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+  </ForgeProperties>
+  <ForgeProperties type="0x4221" id="Bogwood Crook">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=79] Mark of the Wetlands</Description>
+    <DismantleRequirements common="40" rare="30" legendary="0" mythical="0" />
+    <CraftRequirements common="120" rare="90" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x65ca</RequiredItem>
+    <ForgefireCost>720</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <BlueprintRequired />
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+  </ForgeProperties>
+  <ForgeProperties type="0x65b4" id="Thistleleaf Necklace">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=79] Mark of the Wetlands</Description>
+    <DismantleRequirements common="40" rare="30" legendary="0" mythical="0" />
+    <CraftRequirements common="120" rare="90" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x65ca</RequiredItem>
+    <ForgefireCost>720</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <BlueprintRequired />
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+  </ForgeProperties>
+  <ForgeProperties type="0x65aa" id="Warped Mantle">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=79] Mark of the Wetlands</Description>
+    <DismantleRequirements common="20" rare="5" legendary="0" mythical="0" />
+    <CraftRequirements common="60" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x65ca</RequiredItem>
+    <ForgefireCost>120</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+  </ForgeProperties>
+  <ForgeProperties type="0x6611" id="Sulfuric Stone">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 [sprite='CollectionIcon' index=79] Mark of the Wetlands</Description>
+    <DismantleRequirements common="20" rare="5" legendary="0" mythical="0" />
+    <CraftRequirements common="60" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x65ca</RequiredItem>
+    <ForgefireCost>120</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
   </ForgeProperties>
   <ForgeProperties type="0xb8d0" id="Blueprint_1">
     <CanDismantle />
@@ -8992,6 +9201,60 @@
     <Ingredient />
   </ForgeProperties>
   <ForgeProperties type="0x87df" id="Blueprint_233">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x382a" id="Blueprint_234">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-60</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x3831" id="Blueprint_235">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-80</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x385d" id="Blueprint_236">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-60</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x3862" id="Blueprint_237">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-80</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0x3869" id="Blueprint_238">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-80</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc21c" id="Blueprint_239">
     <CanDismantle />
     <Description />
     <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />

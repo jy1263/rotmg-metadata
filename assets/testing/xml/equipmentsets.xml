@@ -1278,8 +1278,7 @@
     <Setpiece slot="2" itemtype="0x7ebc">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x7ebd">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x7ed4">Equipment</Setpiece>
-    <ActivateOnEquipCustom skinType="0x7a85" requiredItems="0x7eba,0x7ebb,0x7ebc,0x7ebd">ChangeSkin</ActivateOnEquipCustom>
-    <ActivateOnEquipCustom skinType="0x7a83" requiredItems="0x7eba,0x7ebb,0x7ebc,0x7ed4">ChangeSkin</ActivateOnEquipCustom>
+    <ActivateOnEquipAll skinType="0x7a85" size="80" color="0xC80032" bulletType="Jagged Hatchet Large">ChangeSkin</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXHP" amount="55">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXMP" amount="25">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="ATT" amount="25">IncrementStat</ActivateOnEquipAll>
@@ -1299,12 +1298,12 @@
     <Setpiece slot="2" itemtype="0x2252">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x2253">Equipment</Setpiece>
     <Setpiece slot="3" itemtype="0x2258">Equipment</Setpiece>
-    <ActivateOnEquipCustom skinType="0x6863" size="80" color="0x1a4a6b" bulletType="Shaman Wisp Large" requiredItems="0x2250,0x2251,0x2252,0x2253">ChangeSkin</ActivateOnEquipCustom>
-    <ActivateOnEquipCustom skinType="0x6864" size="80" color="0x9de4eb" bulletType="Shaman Wisp Large" requiredItems="0x2250,0x2251,0x2252,0x2258">ChangeSkin</ActivateOnEquipCustom>
+    <ActivateOnEquipCustom skinType="0x6863" size="80" color="0xd4c28e" bulletType="Shaman Fang" requiredItems="0x2250,0x2251,0x2252,0x2253">ChangeSkin</ActivateOnEquipCustom>
+    <ActivateOnEquipCustom skinType="0x6864" size="80" color="0x00c798" bulletType="Shaman Wisp Large" requiredItems="0x2250,0x2251,0x2252,0x2258">ChangeSkin</ActivateOnEquipCustom>
     <ActivateOnEquipAll stat="DEX" amount="4">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="ATT" amount="4">IncrementStat</ActivateOnEquipAll>
     <ActivateOnEquipAll stat="MAXHP" amount="50">IncrementStat</ActivateOnEquipAll>
-    <ActivateOnEquip3 stat="ATT" amount="4">IncrementStat</ActivateOnEquip3>
+    <ActivateOnEquip3 stat="ATT" amount="3">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip3 stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip3>
     <ActivateOnEquip2 stat="DEX" amount="3">IncrementStat</ActivateOnEquip2>
     <ActivateOnEquip2 stat="VIT" amount="5">IncrementStat</ActivateOnEquip2>

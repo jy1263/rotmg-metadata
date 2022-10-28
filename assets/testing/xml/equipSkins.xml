@@ -16082,7 +16082,7 @@
   </Object>
   <Object type="0x7a53" id="Shattered Queen Mystic Skin">
     <Class>Equipment</Class>
-    <ItemTier>6</ItemTier>
+    <ItemTier>5</ItemTier>
     <Item />
     <AnimatedTexture>
       <File>playerskins32</File>
@@ -17369,6 +17369,166 @@
     <SlotType>10</SlotType>
     <Description>Don't let their appearance fool you, this pirates manager of the ship and a clean freak. Cleaning up everything in their path keeping things nice and tidy. \n\nSkin Class: Necromancer</Description>
     <Activate skinType="31462">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7ae9" id="Voodoo Queen Mystic Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>875</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>An ominous priestess who partakes in ceremonies and rituals, this is one queen you don't want to cross paths with. \n\nSkin Class: Mystic</Description>
+    <Activate skinType="31464">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7aeb" id="Voodoo Witcher Assassin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>876</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Wild, eccentric and only doing as they please, underneath their mask lies a strong murderous glare. \n\nSkin Class: Assassin</Description>
+    <Activate skinType="31466">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7aed" id="Voodoo Witch Necromancer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>877</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>With their trusty modified broom in hand, this witch makes traveling through swampy forests a breeze! No more dirty robes, just the sweet air and bugs, so many bugs! \n\nSkin Class: Necromancer</Description>
+    <Activate skinType="31468">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7aef" id="Witch Doctor Wizard Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>878</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>With their questionable skills in medicine and magic stick, the doctor is ready to heal and destroy any friend or foe. \n\nSkin Class: Wizard</Description>
+    <Activate skinType="31470">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x6867" id="Mini Shaman Necromancer Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>879</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Wielder of souls, the Shaman utilizes their control over the dead for many a wicked ritual. \n\nSkin Class: Necromancer</Description>
+    <Activate skinType="26726">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x6868" id="Mini Alchemist Assassin Skin">
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>880</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Wandering the swamps with their companion, the Alchemist is always looking for new ingredients to experiment with. \n\nSkin Class: Assassin</Description>
+    <Activate skinType="26725">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <UniqueID />
+  </Object>
+  <Object type="0x7af1" id="Zombie Hunter Kensei Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>881</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This infamous hunter is in constant threat at night due to their vendetta towards all that is undead. \n\nSkin Class: Kensei</Description>
+    <Activate skinType="31472">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7af3" id="Zombie Hunter Sorcerer Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>882</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This Hunter likes to play dress up as some futuristic hero, using stolen parts left behind from Commander Calbrik's crew as a makeshift costume. This Sorcerer's alter ego is ready for action. \n\nSkin Class: Sorcerer</Description>
+    <Activate skinType="31474">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7af5" id="Undead Knight Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>883</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A fallen knight rises once more with cold hands gripping their rusted blade. This dark knight presses forward hoping to get their revenge, and some delicious brains along the way. \n\nSkin Class: Knight</Description>
+    <Activate skinType="31476">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object type="0x7af7" id="Undead Samurai Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>884</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Despite being slow in the head, prone to walking aimlessly and a craving for delicious brains, at least their cold heart is in the right place so long as they aren't hungry. \n\nSkin Class: Samurai</Description>
+    <Activate skinType="31478">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />

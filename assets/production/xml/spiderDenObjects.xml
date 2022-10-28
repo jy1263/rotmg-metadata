@@ -102,7 +102,7 @@
     <MultiPhase />
     <Activate>ShurikenAbility</Activate>
     <feedPower>170</feedPower>
-    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,POWERTIER_D,TRADEABLE,MPCOST</Labels>
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,UT,POWERTIER_D,TRADEABLE,MPCOST,TAB_UT</Labels>
   </Object>
   <Object type="0x1732" id="Arachna Summoner">
     <Class>GameObject</Class>

@@ -3078,7 +3078,7 @@
     <KillStat stat="GodKills" />
     <DamageBasedXP />
     <BleedMax>1</BleedMax>
-    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,TRACKLOOT</Labels>
+    <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,TRACKLOOT,STGEMDROP</Labels>
     <SpecialSpawn category="Bis">GC Gigantic Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
     <SpecialSpawn category="PetCollector">Rare Penguin Egg</SpecialSpawn>
@@ -3099,6 +3099,7 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Hard</SpecialSpawn>
     <SpecialSpawn category="Mercenary_D">Mercenary D Dungeon</SpecialSpawn>
     <SpecialSpawn category="Wanderer_or_D">Wanderer or Merc D Spawner</SpecialSpawn>
+    <SpecialSpawn category="Token">3STToken</SpecialSpawn>
   </Object>
   <Object type="0xb291" id="GC Boss Body">
     <DisplayId>Crystal Worm Mother</DisplayId>

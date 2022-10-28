@@ -2825,11 +2825,12 @@
     <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Malus in the Cultist Hideout." />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Consumable />
     <Soulbound />
-    <Activate id="Lost Halls Portal" predefinedDungeonMods="S|;TOKENDROPA" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <Activate id="Lost Halls Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="true" onlyIn="vault">CreatePortal</Activate>
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
@@ -2871,6 +2872,7 @@
     <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
     <ExtraTooltipData>
       <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from the Crystal Worm Mother in the Fungal Cavern." />
     </ExtraTooltipData>
     <Sound>use_key</Sound>
     <Soulbound />
@@ -3779,6 +3781,324 @@
     <feedPower>200</feedPower>
     <BagType>7</BagType>
     <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3a20" id="Sentinel Practice Key">
+    <DisplayId>The Shatters Bridge Sentinel Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters Sentinel Portal" predefinedDungeonMods="S|;SHATTERS_SENTINEL_REHERSAL" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3a21" id="Archmage Practice Key">
+    <DisplayId>The Shatters Twilight Archmage Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters Archmage Portal" predefinedDungeonMods="S|;SHATTERS_ARCHMAGE_REHERSAL" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3a22" id="King Practice Key">
+    <DisplayId>The Shatters Forgotten King Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters King Portal" predefinedDungeonMods="S|;SHATTERS_KING_REHERSAL" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x385f" id="Sentinel Practice Key Encore">
+    <DisplayId>The Shatters Bridge Sentinel Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters Sentinel Portal" predefinedDungeonMods="S|;SHATTERS_SENTINEL_REHERSAL;SHATTERS_ENCORE" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3860" id="Archmage Practice Key Encore">
+    <DisplayId>The Shatters Twilight Archmage Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters Archmage Portal" predefinedDungeonMods="S|;SHATTERS_ARCHMAGE_REHERSAL;SHATTERS_ENCORE" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3861" id="King Practice Key Encore">
+    <DisplayId>The Shatters Forgotten King Rehearsal Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x06</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to The Shatters. The gloomy and abandoned ruins, enveloped by twilight, are now the shelter of the shadows. Once a legendary kingdom, its walls are broken, its dwellers are forgotten. No living souls have entered these grounds, no noble creatures have stepped into it. The immense kingdom has fallen, its sentinels have turned to dust. No one remembers its name, and no one will.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Shatters King Portal" predefinedDungeonMods="S|;SHATTERS_KING_REHERSAL;SHATTERS_ENCORE" readonlymods="true" inheritableMods="false">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3863" id="Solo Puppet Master's Encore Key">
+    <DisplayId>Solo Puppet Master's Encore Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1191</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <Track />
+    <BagType>7</BagType>
+    <Consumable />
+    <feedPower>200</feedPower>
+    <Activate id="Puppet Encore Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <UniqueID />
+  </Object>
+  <Object type="0x3864" id="Solo Reef Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1192</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Cnidarian Reef Portal" predefinedDungeonMods="S|;TOKENDROPB" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3865" id="Solo Lost Halls Key 2">
+    <DisplayId>Solo Lost Halls Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1125</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a passage to the Lost Halls. Forgotten for centuries, those long identical halls are said to house evil itself. All that is truly known is that hope, reason and purpose are no more within those walls.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Malus in the Cultist Hideout." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Lost Halls Portal" predefinedDungeonMods="S|;TOKENDROPA;TAMEBOSS_4;WEAKBOSS_2;TAMEMINIONS_3" readonlymods="true" inheritableMods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object type="0x3866" id="Solo Fungal Cavern Key 2">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <DisplayId>Solo Fungal Cavern Key</DisplayId>
+    <Texture xOffset="-2" yOffset="0">
+      <File>d2LofiObjEmbed</File>
+      <Index>1124</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Fungal Cavern. This forgotten mine has been taken over by mushroom tribes over the years.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from the Crystal Worm Mother in the Fungal Cavern." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <Consumable />
+    <Activate id="GC Gigantic Cave Portal" predefinedDungeonMods="S|;TOKENDROPA;TAMEBOSS_4;WEAKBOSS_2;TAMEMINIONS_3" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <UniqueID />
+  </Object>
+  <Object type="0x3867" id="Solo Puppet Master's Encore Key 2">
+    <DisplayId>Solo Puppet Master's Encore Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1191</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Puppet Master's Encore. The confines of this workshop are where the most powerful souls are bonded to puppets.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <Track />
+    <BagType>7</BagType>
+    <Consumable />
+    <feedPower>200</feedPower>
+    <Activate id="Puppet Encore Portal" predefinedDungeonMods="S|;TOKENDROPA;TAMEBOSS_4;WEAKBOSS_2;TAMEMINIONS_3" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <UniqueID />
+  </Object>
+  <Object type="0x3868" id="Solo Reef Key 2">
+    <DisplayId>Solo Reef Key</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1192</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens a passage to the Cnidarian Reef. Oryx's Master of the Depths awaits mortals foolish enough to stumble upon its lair in the deep reaches of the ocean.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Cnidarian Reef Portal" predefinedDungeonMods="S|;TOKENDROPA;TAMEBOSS_4;WEAKBOSS_2;TAMEMINIONS_3" readonlymods="true" inheritableMods="false" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+  </Object>
+  <Object id="Sulfurous Wetlands Key" type="0x6399">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x78</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="SulfW Portal">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object id="Sulfurous Wetlands Enchanted Key" type="0x3926">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>761</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="SulfW Portal">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object type="0x3927" id="Sulfurous Wetlands Guild Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Key />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>760</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Sulfurous Wetlands, a desolate village once bustling with human activity. Corruption has ravaged the land, and culled its denizens. The buildings and roadways many once called home are now dominated by vicious flora and fauna and a seemingly endless corrosive swamp.\n\nKeys can only be used once you have 10 or more stars!</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Guild Key" description="This key can only be used in the Guild Hall. Once used, a chest with rewards will spawn for all players in the Guild Hall." />
+    </ExtraTooltipData>
+    <Sound>use_key</Sound>
+    <Soulbound />
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+    <Consumable />
+    <Activate id="SulfW Portal" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">CreatePortal</Activate>
+    <Activate id="Sulfurous Wetlands Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
     <UniqueID />
   </Object>
 </Objects>

@@ -294,7 +294,7 @@
     <DisplayId>Weak Minions I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions have 20% less HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.80" reqLabels="MINION" />
@@ -304,7 +304,7 @@
     <DisplayId>Weak Minions II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions have 30% less HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="MINION" />
@@ -314,7 +314,7 @@
     <DisplayId>Weak Minions III</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions have 40% less HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.60" reqLabels="MINION" />
@@ -324,7 +324,7 @@
     <DisplayId>Weak Boss I</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Boss enemies have 15% less HP</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="BOSS" />
@@ -336,7 +336,7 @@
     <DisplayId>Weak Boss II</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Boss enemies have 30% less HP</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.70" reqLabels="BOSS" />
@@ -348,7 +348,7 @@
     <DisplayId>Weak Boss III</DisplayId>
     <PowerLevel>5</PowerLevel>
     <Description>Boss enemies have 45% less HP</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="0.55" reqLabels="BOSS" />
@@ -360,7 +360,7 @@
     <DisplayId>Tame Minions I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions deal 16% less DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="MINION" />
@@ -370,7 +370,7 @@
     <DisplayId>Tame Minions II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions deal 24% less DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="MINION" />
@@ -380,7 +380,7 @@
     <DisplayId>Tame Minions III</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions deal 32% less DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="MINION" />
@@ -390,7 +390,7 @@
     <DisplayId>Tame Boss I</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Boss enemies deal 8% less DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.92" reqLabels="BOSS" />
@@ -402,7 +402,7 @@
     <DisplayId>Tame Boss II</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Boss enemies deal 16% less DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.84" reqLabels="BOSS" />
@@ -414,7 +414,7 @@
     <DisplayId>Tame Boss III</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Boss enemies deal 24% less DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.76" reqLabels="BOSS" />
@@ -426,7 +426,7 @@
     <DisplayId>Tame Boss IV</DisplayId>
     <PowerLevel>5</PowerLevel>
     <Description>Boss enemies deal 32% less DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="0.68" reqLabels="BOSS" />
@@ -438,7 +438,7 @@
     <DisplayId>Feeble Minions I</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions have 8% less DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="MINION" />
@@ -448,7 +448,7 @@
     <DisplayId>Feeble Minions II</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions have 16% less DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="MINION" />
@@ -458,7 +458,7 @@
     <DisplayId>Feeble Minions III</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Minions have 24% less DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="MINION" />
@@ -468,7 +468,7 @@
     <DisplayId>Feeble Minions IV</DisplayId>
     <PowerLevel>5</PowerLevel>
     <Description>Minions have 32% less DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="MINION" />
@@ -478,7 +478,7 @@
     <DisplayId>Feeble Boss I</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Boss enemies have 8% less DEF</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.92" reqLabels="BOSS" />
@@ -490,7 +490,7 @@
     <DisplayId>Feeble Boss II</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Boss enemies have 16% less DEF</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.84" reqLabels="BOSS" />
@@ -502,7 +502,7 @@
     <DisplayId>Feeble Boss III</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Boss enemies have 24% less DEF</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.76" reqLabels="BOSS" />
@@ -514,7 +514,7 @@
     <DisplayId>Feeble Boss IV</DisplayId>
     <PowerLevel>5</PowerLevel>
     <Description>Boss enemies have 32% less DEF</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="0.68" reqLabels="BOSS" />
@@ -526,7 +526,7 @@
     <DisplayId>Dull Minions I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions' projectiles travel 10% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="0.90" reqLabels="MINION" />
@@ -536,7 +536,7 @@
     <DisplayId>Dull Minions II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions' projectiles travel 15% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="0.85" reqLabels="MINION" />
@@ -546,7 +546,7 @@
     <DisplayId>Dull Minions III</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions' projectiles travel 30% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="0.70" reqLabels="MINION" />
@@ -556,7 +556,7 @@
     <DisplayId>Dull Minions IV</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Minions' projectiles travel 45% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="0.55" reqLabels="MINION" />
@@ -566,7 +566,7 @@
     <DisplayId>Bored Minions I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions' projectiles have 10% less lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="0.90" reqLabels="MINION" />
@@ -576,7 +576,7 @@
     <DisplayId>Bored Minions II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions' projectiles have 20% less lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="0.80" reqLabels="MINION" />
@@ -586,7 +586,7 @@
     <DisplayId>Bored Minions III</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions' projectiles have 30% less lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="0.70" reqLabels="MINION" />
@@ -596,7 +596,7 @@
     <DisplayId>Lazy Minions I</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions attack 10% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="1.10" reqLabels="MINION" />
@@ -606,7 +606,7 @@
     <DisplayId>Lazy Minions II</DisplayId>
     <PowerLevel>3</PowerLevel>
     <Description>Minions attack 20% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="1.20" reqLabels="MINION" />
@@ -616,7 +616,7 @@
     <DisplayId>Lazy Minions III</DisplayId>
     <PowerLevel>4</PowerLevel>
     <Description>Minions attack 30% slower</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="1.30" reqLabels="MINION" />
@@ -626,7 +626,7 @@
     <DisplayId>XP Boost (Minions)  I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions give 50% more XP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,XP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
     <IncompatibleLabels>XP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="XP" amount="1.50" reqLabels="MINION" />
@@ -636,7 +636,7 @@
     <DisplayId>XP Boost (Minions)  II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions give 100% more XP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,XP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
     <IncompatibleLabels>XP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="XP" amount="2.00" reqLabels="MINION" />
@@ -646,7 +646,7 @@
     <DisplayId>Rewards Boost (Minions) I</DisplayId>
     <PowerLevel>1</PowerLevel>
     <Description>Minions give 50% more loot</Description>
-    <Labels>ANY,ENTITY,MINION,LOOT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
     <IncompatibleLabels>LOOT</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="1.50" reqLabels="MINION" />
@@ -656,7 +656,7 @@
     <DisplayId>Rewards Boost (Minions) II</DisplayId>
     <PowerLevel>2</PowerLevel>
     <Description>Minions give 100% more loot</Description>
-    <Labels>ANY,ENTITY,MINION,LOOT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
     <IncompatibleLabels>LOOT</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="2.00" reqLabels="MINION" />
@@ -666,7 +666,7 @@
     <DisplayId>Bulky Minions I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions have 25% more HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="1.25" reqLabels="MINION" />
@@ -676,7 +676,7 @@
     <DisplayId>Bulky Minions II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions have 50% more HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="1.50" reqLabels="MINION" />
@@ -686,7 +686,7 @@
     <DisplayId>Bulky Minions III</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions have 100% more HP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,HP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,HP</Labels>
     <IncompatibleLabels>HP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="MaxHitPoints" amount="2.00" reqLabels="MINION" />
@@ -732,7 +732,7 @@
     <DisplayId>Ferocious Minions I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions deal 16% more DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="MINION" />
@@ -742,7 +742,7 @@
     <DisplayId>Ferocious Minions II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions deal 24% more DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="MINION" />
@@ -752,7 +752,7 @@
     <DisplayId>Ferocious Minions III</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions deal 32% more DMG</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="MINION" />
@@ -762,7 +762,7 @@
     <DisplayId>Ferocious Boss I</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Boss enemies deal 8% more DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.08" reqLabels="BOSS" />
@@ -774,7 +774,7 @@
     <DisplayId>Ferocious Boss II</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Boss enemies deal 16% more DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.16" reqLabels="BOSS" />
@@ -786,7 +786,7 @@
     <DisplayId>Ferocious Boss III</DisplayId>
     <PowerLevel>-4</PowerLevel>
     <Description>Boss enemies deal 24% more DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.24" reqLabels="BOSS" />
@@ -798,7 +798,7 @@
     <DisplayId>Ferocious Boss IV</DisplayId>
     <PowerLevel>-5</PowerLevel>
     <Description>Boss enemies deal 32% more DMG</Description>
-    <Labels>ANY,ENTITY,BOSS,STAT,DMG</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,BOSS,STAT,DMG</Labels>
     <IncompatibleLabels>DMG</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Damage" amount="1.32" reqLabels="BOSS" />
@@ -810,7 +810,7 @@
     <DisplayId>Tough Minions I</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions have 8% more DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="1.08" reqLabels="MINION" />
@@ -820,7 +820,7 @@
     <DisplayId>Tough Minions II</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions have 16% more DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="1.16" reqLabels="MINION" />
@@ -830,7 +830,7 @@
     <DisplayId>Tough Minions III</DisplayId>
     <PowerLevel>-4</PowerLevel>
     <Description>Minions have 24% more DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="1.24" reqLabels="MINION" />
@@ -840,7 +840,7 @@
     <DisplayId>Tough Minions IV</DisplayId>
     <PowerLevel>-5</PowerLevel>
     <Description>Minions have 32% more DEF</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,DEF</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,DEF</Labels>
     <IncompatibleLabels>DEF</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Defense" amount="1.32" reqLabels="MINION" />
@@ -898,7 +898,7 @@
     <DisplayId>Keen Minions I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions' projectiles travel 8% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="1.08" reqLabels="MINION" />
@@ -908,7 +908,7 @@
     <DisplayId>Keen Minions II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions' projectiles travel 16% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="1.16" reqLabels="MINION" />
@@ -918,7 +918,7 @@
     <DisplayId>Keen Minions III</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions' projectiles travel 24% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="1.24" reqLabels="MINION" />
@@ -928,7 +928,7 @@
     <DisplayId>Keen Minions IV</DisplayId>
     <PowerLevel>-4</PowerLevel>
     <Description>Minions' projectiles travel 40% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJSPD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJSPD</Labels>
     <IncompatibleLabels>PROJSPD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileSpeed" amount="1.40" reqLabels="MINION" />
@@ -938,7 +938,7 @@
     <DisplayId>Energized Minions I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions' projectiles have 10% more lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="1.10" reqLabels="MINION" />
@@ -948,7 +948,7 @@
     <DisplayId>Energized Minions II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions' projectiles have 20% more lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="1.20" reqLabels="MINION" />
@@ -958,7 +958,7 @@
     <DisplayId>Energized Minions III</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions' projectiles have 30% more lifetime</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,PROJLT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,PROJLT</Labels>
     <IncompatibleLabels>PROJLT</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ProjectileLifetime" amount="1.30" reqLabels="MINION" />
@@ -968,7 +968,7 @@
     <DisplayId>Skilled Minions I</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions attack 10% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="0.90" reqLabels="MINION" />
@@ -978,7 +978,7 @@
     <DisplayId>Skilled Minions II</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Minions attack 20% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="0.80" reqLabels="MINION" />
@@ -988,7 +988,7 @@
     <DisplayId>Skilled Minions III</DisplayId>
     <PowerLevel>-4</PowerLevel>
     <Description>Minions attack 30% faster</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SHOTCD</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SHOTCD</Labels>
     <IncompatibleLabels>SHOTCD</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="ShootCooldown" amount="0.70" reqLabels="MINION" />
@@ -998,7 +998,7 @@
     <DisplayId>XP Decrease (Minions)  I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions give 25% less XP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,XP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
     <IncompatibleLabels>XP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="XP" amount="0.75" reqLabels="MINION" />
@@ -1008,7 +1008,7 @@
     <DisplayId>XP Decrease (Minions)  II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions give 50% less XP</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,XP</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,XP</Labels>
     <IncompatibleLabels>XP</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="XP" amount="0.50" reqLabels="MINION" />
@@ -1018,7 +1018,7 @@
     <DisplayId>Rewards Decrease (Minions) I</DisplayId>
     <PowerLevel>-1</PowerLevel>
     <Description>Minions give 25% less loot</Description>
-    <Labels>ANY,ENTITY,MINION,LOOT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
     <IncompatibleLabels>LOOT</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="0.75" reqLabels="MINION" />
@@ -1028,7 +1028,7 @@
     <DisplayId>Rewards Decrease (Minions) II</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Minions give 50% less loot</Description>
-    <Labels>ANY,ENTITY,MINION,LOOT</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,LOOT</Labels>
     <IncompatibleLabels>LOOT</IncompatibleLabels>
     <Mutators>
       <EntityDropMultiplier amount="0.50" reqLabels="MINION" />
@@ -1038,7 +1038,7 @@
     <DisplayId>Small Minions</DisplayId>
     <PowerLevel>999</PowerLevel>
     <Description>Minions are 34% smaller</Description>
-    <Labels>ANY,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
     <IncompatibleLabels>SIZE</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Size" amount="0.66" reqLabels="MINION" />
@@ -1048,7 +1048,7 @@
     <DisplayId>Big Minions</DisplayId>
     <PowerLevel>999</PowerLevel>
     <Description>Minions are 33% bigger</Description>
-    <Labels>ANY,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,SIZE,ARTIFICIAL</Labels>
     <IncompatibleLabels>SIZE</IncompatibleLabels>
     <Mutators>
       <EntityStatMultiplier stat="Size" amount="1.33" reqLabels="MINION" />
@@ -1293,7 +1293,7 @@
     <DisplayId>Spider Swarm I</DisplayId>
     <PowerLevel>-2</PowerLevel>
     <Description>Enemies have a 10% chance to split into multiple spiders that drop ichors on death.</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
     <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
     <Mutators>
       <SpecialSpawnOnDeath category="Swarm_Spider_Low_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.10" />
@@ -1305,7 +1305,7 @@
     <DisplayId>Spider Swarm II</DisplayId>
     <PowerLevel>-3</PowerLevel>
     <Description>Enemies have a 15% chance to split into multiple spiders that drop ichors on death.</Description>
-    <Labels>ANY,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
+    <Labels>ANY,ANY_ELITE,ENTITY,MINION,STAT,SPAWNONDEATH</Labels>
     <IncompatibleLabels>SPAWNONDEATH</IncompatibleLabels>
     <Mutators>
       <SpecialSpawnOnDeath category="Swarm_Spider_Low_Spawner" reqLabels="MINION_WEAK" excludeLabels="SPECIAL" prob="0.15" />
@@ -1354,17 +1354,7 @@
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="TOKENDROPA" type="0x012c">
-    <DisplayId>Mythical ST Gem</DisplayId>
-    <PowerLevel>999</PowerLevel>
-    <Description>Boss has a 10% chance of dropping a Mythical ST Gem.</Description>
-    <Labels />
-    <IncompatibleLabels />
-    <Mutators>
-      <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.10" perPlayer="true" />
-    </Mutators>
-  </DungeonModifier>
-  <DungeonModifier id="TOKENDROPB" type="0x012d">
-    <DisplayId>Mythical ST Gem</DisplayId>
+    <DisplayId>Mythical ST Gem I</DisplayId>
     <PowerLevel>999</PowerLevel>
     <Description>Boss has a 5% chance of dropping a Mythical ST Gem.</Description>
     <Labels />
@@ -1373,14 +1363,24 @@
       <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.05" perPlayer="true" />
     </Mutators>
   </DungeonModifier>
-  <DungeonModifier id="TOKENDROPC" type="0x012e">
-    <DisplayId>Mythical ST Gem</DisplayId>
+  <DungeonModifier id="TOKENDROPB" type="0x012d">
+    <DisplayId>Mythical ST Gem II</DisplayId>
     <PowerLevel>999</PowerLevel>
     <Description>Boss has a 10% chance of dropping a Mythical ST Gem.</Description>
     <Labels />
     <IncompatibleLabels />
     <Mutators>
       <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.10" perPlayer="true" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="TOKENDROPC" type="0x012e">
+    <DisplayId>Mythical ST Gem III</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 15% chance of dropping a Mythical ST Gem.</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <SpecialSpawnOnDeath category="Token" reqLabels="STGEMDROP" excludeLabels="SPECIAL" prob="0.15" perPlayer="true" />
     </Mutators>
   </DungeonModifier>
   <DungeonModifier id="INTERREGNUMS" type="0x0133">
@@ -1441,6 +1441,62 @@
     <IncompatibleLabels>EXTRABOSS</IncompatibleLabels>
     <Mutators>
       <SpecialSpawnOnDeath category="Wanderer_or_D" reqLabels="BOSS" excludeLabels="SPECIAL" prob="1" />
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_SENTINEL_REHERSAL" type="0x0139">
+    <DisplayId>The Bridge Sentinel Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Bridge Sentinel!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_ARCHMAGE_REHERSAL" type="0x013a">
+    <DisplayId>The Twilight Archmage Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Twilight Archmage!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_KING_REHERSAL" type="0x013b">
+    <DisplayId>The Forgotten King Rehearsal</DisplayId>
+    <PowerLevel>0</PowerLevel>
+    <Description>Hone your skills against The Forgotten King!</Description>
+    <Labels />
+    <IncompatibleLabels />
+    <Mutators>
+      <EntityDropMultiplier amount="0.0" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="Damage" amount="0.80" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="MaxHitPoints" amount="0.85" reqLabels="SHATTERS" />
+      <EntityStatMultiplier stat="XP" amount="0.70" reqLabels="SHATTERS" />
+      <NoExaltStat />
+      <GlobalFlag>REHERSAL</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
+  <DungeonModifier id="SHATTERS_ENCORE" type="0x013c">
+    <DisplayId>The Shatters Encore</DisplayId>
+    <PowerLevel>999</PowerLevel>
+    <Description>Boss has a 25% chance of dropping a portal to The Shatters.</Description>
+    <Labels>REWARD,BOSS,LOOT,PORTAL,REWARD_HIGH</Labels>
+    <IncompatibleLabels>REWARD</IncompatibleLabels>
+    <Mutators>
+      <SpecialSpawnOnDeath category="ShattersEncore" reqLabels="BOSS" excludeLabels="SPECIAL" prob="0.25" />
+      <SpecialSpawnOnDeath category="ShattersEncore" reqLabels="MINIBOSS" excludeLabels="SPECIAL" prob="0.25" />
     </Mutators>
   </DungeonModifier>
 </DungeonModifiers>

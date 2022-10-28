@@ -180,19 +180,19 @@
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0x90</Index>
+      <Index>0x82</Index>
     </Texture>
     <Animation prob="1" period="0.8">
       <Frame time="0.4">
         <Texture>
           <File>lofiGravestone8x8</File>
-          <Index>0x90</Index>
+          <Index>0x82</Index>
         </Texture>
       </Frame>
       <Frame time="0.4">
         <Texture>
           <File>lofiGravestone8x8</File>
-          <Index>0x91</Index>
+          <Index>0x83</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -207,19 +207,19 @@
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0x82</Index>
+      <Index>0x90</Index>
     </Texture>
     <Animation prob="1" period="0.8">
       <Frame time="0.4">
         <Texture>
           <File>lofiGravestone8x8</File>
-          <Index>0x82</Index>
+          <Index>0x90</Index>
         </Texture>
       </Frame>
       <Frame time="0.4">
         <Texture>
           <File>lofiGravestone8x8</File>
-          <Index>0x83</Index>
+          <Index>0x91</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -440,234 +440,290 @@
       </Frame>
     </Animation>
   </Object>
-  <Object type="0x3a50" id="Alien Gravestone 1">
+  <Object type="0x3abf" id="Voodoo Gravestone 1">
     <Gravestone />
     <ItemTier>0</ItemTier>
-    <ThemeName>Alien</ThemeName>
-    <DisplayId>Level 1 Alien Gravestone</DisplayId>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
+    <DisplayId>Level 1 Voodoo Gravestone</DisplayId>
     <Class>Gravestone</Class>
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0xc2</Index>
+      <Index>0xD2</Index>
     </Texture>
   </Object>
-  <Object type="0x3a51" id="Alien Gravestone 2">
+  <Object type="0x3ac0" id="Voodoo Gravestone 2">
     <Gravestone />
     <ItemTier>1</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>Level 2-19 Alien Gravestone</DisplayId>
+    <DisplayId>Level 2-19 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0xc3</Index>
+      <Index>0xD3</Index>
     </Texture>
   </Object>
-  <Object type="0x3a52" id="Alien Gravestone 3">
+  <Object type="0x3ac1" id="Voodoo Gravestone 3">
     <Gravestone />
     <ItemTier>2</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>Level 20 Alien Gravestone</DisplayId>
+    <DisplayId>Level 20 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0xc4</Index>
+      <Index>0xD4</Index>
     </Texture>
   </Object>
-  <Object type="0x3a53" id="Alien Gravestone 4">
+  <Object type="0x3ac2" id="Voodoo Gravestone 4">
     <Gravestone />
     <ItemTier>3</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>1/8 Alien Gravestone</DisplayId>
+    <DisplayId>1/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone8x8</File>
-      <Index>0xc5</Index>
+      <Index>0xD5</Index>
     </Texture>
   </Object>
-  <Object type="0x3a54" id="Alien Gravestone 5">
+  <Object type="0x3ac3" id="Voodoo Gravestone 5">
     <Gravestone />
     <ItemTier>4</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>2/8 Alien Gravestone</DisplayId>
+    <DisplayId>2/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x32</Index>
+      <Index>0x4E</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x32</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x33</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a55" id="Alien Gravestone 6">
+  <Object type="0x3ac4" id="Voodoo Gravestone 6">
     <Gravestone />
     <ItemTier>5</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>3/8 Alien Gravestone</DisplayId>
+    <DisplayId>3/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x34</Index>
+      <Index>0x4F</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x34</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x35</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a56" id="Alien Gravestone 7">
+  <Object type="0x3ac5" id="Voodoo Gravestone 7">
     <Gravestone />
     <ItemTier>6</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>4/8 Alien Gravestone</DisplayId>
+    <DisplayId>4/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x36</Index>
+      <Index>0x50</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x36</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x37</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a57" id="Alien Gravestone 8">
+  <Object type="0x3ac6" id="Voodoo Gravestone 8">
     <Gravestone />
     <ItemTier>7</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>5/8 Alien Gravestone</DisplayId>
+    <DisplayId>5/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x38</Index>
+      <Index>0x51</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x38</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x39</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a58" id="Alien Gravestone 9">
+  <Object type="0x3ac7" id="Voodoo Gravestone 9">
     <Gravestone />
     <ItemTier>8</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>6/8 Alien Gravestone</DisplayId>
+    <DisplayId>6/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x3a</Index>
+      <Index>0x52</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3a</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3b</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a59" id="Alien Gravestone 10">
+  <Object type="0x3ac8" id="Voodoo Gravestone 10">
     <Gravestone />
     <ItemTier>9</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>7/8 Alien Gravestone</DisplayId>
+    <DisplayId>7/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x3c</Index>
+      <Index>0x53</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3c</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3d</Index>
-        </Texture>
-      </Frame>
-    </Animation>
   </Object>
-  <Object type="0x3a5a" id="Alien Gravestone 11">
+  <Object type="0x3ac9" id="Voodoo Gravestone 11">
     <Gravestone />
     <ItemTier>10</ItemTier>
-    <ThemeName>Alien</ThemeName>
+    <ThemeName>Voodoo</ThemeName>
+    <Description>This Voodoo Gravestone is part of the "Voodoo" Gravestone Set.</Description>
     <Class>Gravestone</Class>
-    <DisplayId>8/8 Alien Gravestone</DisplayId>
+    <DisplayId>8/8 Voodoo Gravestone</DisplayId>
     <ShowName />
     <Texture>
       <File>lofiGravestone16x16</File>
-      <Index>0x3f</Index>
+      <Index>0x54</Index>
     </Texture>
-    <Animation prob="1" period="0.8">
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3e</Index>
-        </Texture>
-      </Frame>
-      <Frame time="0.4">
-        <Texture>
-          <File>lofiGravestone16x16</File>
-          <Index>0x3f</Index>
-        </Texture>
-      </Frame>
-    </Animation>
+  </Object>
+  <Object type="0x3aca" id="Rosy Gravestone 1">
+    <Gravestone />
+    <ItemTier>0</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <DisplayId>Level 1 Rosy Gravestone</DisplayId>
+    <Class>Gravestone</Class>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>202</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3acb" id="Rosy Gravestone 2">
+    <Gravestone />
+    <ItemTier>1</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>Level 2-19 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>203</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3acc" id="Rosy Gravestone 3">
+    <Gravestone />
+    <ItemTier>2</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>Level 20 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>204</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3acd" id="Rosy Gravestone 4">
+    <Gravestone />
+    <ItemTier>3</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>1/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone8x8</File>
+      <Index>205</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ace" id="Rosy Gravestone 5">
+    <Gravestone />
+    <ItemTier>4</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>2/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>17</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3acf" id="Rosy Gravestone 6">
+    <Gravestone />
+    <ItemTier>5</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>3/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>18</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ad0" id="Rosy Gravestone 7">
+    <Gravestone />
+    <ItemTier>6</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>4/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>19</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ad1" id="Rosy Gravestone 8">
+    <Gravestone />
+    <ItemTier>7</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>5/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>20</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ad2" id="Rosy Gravestone 9">
+    <Gravestone />
+    <ItemTier>8</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>6/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>21</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ad3" id="Rosy Gravestone 10">
+    <Gravestone />
+    <ItemTier>9</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>7/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>22</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3ad4" id="Rosy Gravestone 11">
+    <Gravestone />
+    <ItemTier>10</ItemTier>
+    <ThemeName>Rosy</ThemeName>
+    <Description>This Rosy Gravestone is part of the "Rosy" Gravestone Set.</Description>
+    <Class>Gravestone</Class>
+    <DisplayId>8/8 Rosy Gravestone</DisplayId>
+    <ShowName />
+    <Texture>
+      <File>lofiGravestone16x16</File>
+      <Index>23</Index>
+    </Texture>
   </Object>
 </Objects>

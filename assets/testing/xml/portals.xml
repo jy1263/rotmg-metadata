@@ -1850,4 +1850,184 @@
       </Style>
     </Presentation>
   </Object>
+  <Object id="SulfW Portal" type="0x6392">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Sulfurous Wetlands</DisplayId>
+    <DungeonName>Sulfurous Wetlands</DungeonName>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc6</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>807</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>808</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>809</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>810</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>811</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>812</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>813</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>814</Index>
+        </Texture>
+      </Frame>
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>815</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>816</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>817</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>818</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>819</Index>
+        </Texture>
+      </Frame>
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>820</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>821</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>822</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>823</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>824</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>825</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>826</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>827</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>828</Index>
+        </Texture>
+      </Frame>
+      <Frame time="45">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+  </Object>
+  <Object type="0x74e0" id="KSW Encounter Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>KSW Encounter</DisplayId>
+    <DungeonName>KSW Encounter</DungeonName>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x36</Index>
+    </Texture>
+  </Object>
 </Objects>

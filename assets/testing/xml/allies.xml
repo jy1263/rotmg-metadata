@@ -3819,6 +3819,22 @@
       </Style>
     </Presentation>
   </Object>
+  <Object type="0xc221" id="Brain Cube Effect 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc24a" id="Brain Cube Effect 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
   <Object type="0x3ab0" id="Summon Royal Archer (Rehearsal)">
     <Class>Summon</Class>
     <AnimatedTexture>
@@ -5153,5 +5169,20 @@
     <ShadowSize>0</ShadowSize>
     <Size>0</Size>
     <NoMiniMap />
+  </Object>
+  <Object type="0x20f0" id="Brain Cube Seeker">
+    <Class>Character</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Presentation>
+      <Style id="Animate">
+        <StyleStep id="anim">SetAnimation</StyleStep>
+      </Style>
+    </Presentation>
   </Object>
 </Objects>

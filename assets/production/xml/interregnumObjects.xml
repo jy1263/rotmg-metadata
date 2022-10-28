@@ -7353,6 +7353,7 @@
     <Exp>80000</Exp>
     <BXP>400000</BXP>
     <Quest />
+    <EventChestBoss />
     <God />
     <StasisImmune />
     <ParalyzeImmune />

@@ -674,6 +674,8 @@
   <PlayerStat id="WineCellarsCompleted" index="76" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Wine Cellar" />
   <PlayerStat id="ThirdDimensionsCompleted" index="90" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="The Third Dimension" />
   <PlayerStat id="BeachzonesCompleted" index="91" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Beachzone" />
+  <PlayerStat id="SulfurousWetlandsCompleted" index="93" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Sulfurous Wetlands" />
+  <PlayerStat id="InterregnumsCompleted" index="92" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Hidden Interregnum" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -1818,6 +1820,7 @@
     <Condition stat="OryxsSanctuarysCompleted" threshold="1">StatValue</Condition>
     <Condition stat="AncientRuinsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="HighTechTerrorsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
   </FameBonus>
   <FameBonus id="FirstSteps" code="123">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
@@ -1849,6 +1852,7 @@
     <Condition stat="HauntedCemeteriesCompleted" threshold="1">StatValue</Condition>
     <Condition stat="CursedLibrariesCompleted" threshold="1">StatValue</Condition>
     <Condition stat="AncientRuinsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
   </FameBonus>
   <FameBonus id="ConqueroroftheRealm" code="125">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
@@ -4773,5 +4777,103 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="BeachzonesCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsScout" code="422">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Scout</DisplayName>
+    <AbsoluteBonus>100</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsExplorer" code="423">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Explorer</DisplayName>
+    <AbsoluteBonus>200</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsAdventurer" code="424">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Adventurer</DisplayName>
+    <AbsoluteBonus>400</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsConqueror" code="425">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Conqueror</DisplayName>
+    <AbsoluteBonus>800</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsMaster" code="426">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>2000</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="HiddenInterregnumScout" code="422">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Hidden Interregnum</DisplayCategory>
+    <DisplayName>Hidden Interregnum Scout</DisplayName>
+    <AbsoluteBonus>5</AbsoluteBonus>
+    <Description>Complete Hidden Interregnum 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="InterregnumsCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="HiddenInterregnumExplorer" code="423">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Hidden Interregnum</DisplayCategory>
+    <DisplayName>Hidden Interregnum Explorer</DisplayName>
+    <AbsoluteBonus>10</AbsoluteBonus>
+    <Description>Complete Hidden Interregnum 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="InterregnumsCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="HiddenInterregnumAdventurer" code="424">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Hidden Interregnum</DisplayCategory>
+    <DisplayName>Hidden Interregnum Adventurer</DisplayName>
+    <AbsoluteBonus>20</AbsoluteBonus>
+    <Description>Complete Hidden Interregnum 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="InterregnumsCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="HiddenInterregnumConqueror" code="425">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Hidden Interregnum</DisplayCategory>
+    <DisplayName>Hidden Interregnum Conqueror</DisplayName>
+    <AbsoluteBonus>40</AbsoluteBonus>
+    <Description>Complete Hidden Interregnum 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <MaxRepeatCount>1</MaxRepeatCount>
+    <Condition stat="InterregnumsCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="HiddenInterregnumMaster" code="426">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Hidden Interregnum</DisplayCategory>
+    <DisplayName>Hidden Interregnum Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>100</AbsoluteBonus>
+    <Description>Complete Hidden Interregnum 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="InterregnumsCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
 </Objects>

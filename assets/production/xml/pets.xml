@@ -21218,11 +21218,264 @@
       <Index>228</Index>
     </AnimatedTexture>
     <SlotType>10</SlotType>
-    <Description>This hellhound was captured by the Syndicate during one of their missions in the Abyss. Despite many attempts to train it as a vicious and menacing guardian for the organization, the true nature of this canine is revealed outside of battle. !\n\nUnlocks Syndicate Hellhound Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Description>This hellhound was captured by the Syndicate during one of their missions in the Abyss. Despite many attempts to train it as a vicious and menacing guardian for the organization, the true nature of this canine is revealed outside of battle.\n\nUnlocks Syndicate Hellhound Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
     <Activate skinType="31082">UnlockPetSkin</Activate>
     <Consumable />
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Voodoo Doll" type="0x796c">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Voodoo Doll Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x796d" id="Voodoo Doll Pet Skin">
+    <PetSkin />
+    <DisplayId>Voodoo Doll</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>229</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x796e" id="Voodoo Doll Pet Stone">
+    <DisplayId>Voodoo Doll Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>229</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This creepy doll was used by many masters of the art of Voodoo. It originally served as a method to indirectly attack Oryx but a failed ritual granted this doll with a life of its own. It now makes for a very faithful companion.\n\nUnlocks Voodoo Doll Skin of the Spooky family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31085">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Voodoo Bat" type="0x796f">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Voodoo Bat Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7970" id="Voodoo Bat Pet Skin">
+    <PetSkin />
+    <DisplayId>Voodoo Bat</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Spooky</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>230</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7971" id="Voodoo Bat Pet Stone">
+    <DisplayId>Voodoo Bat Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>230</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Cute and affectionate, this little critter showers their friends and foes with love bites.\n\nUnlocks Voodoo Bat Skin of the Spooky family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31088">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Chibi Bridge Sentinel" type="0x7972">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Bridge Sentinel Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7973" id="Chibi Bridge Sentinel Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Bridge Sentinel</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>231</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7974" id="Chibi Bridge Sentinel Pet Stone">
+    <DisplayId>Chibi Bridge Sentinel Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>231</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>With his tiny blade and battle armor this hero is ready for adventure! He'll take on any monster whether its pirates or gelatinous cubes no foe can withstand his tiny power, protecting the sandy shores from danger.\n\nUnlocks Chibi Bridge Sentinel Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31091">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Chibi Twilight Archmage" type="0x7975">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Twilight Archmage Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7976" id="Chibi Twilight Archmage Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Twilight Archmage</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>232</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x797b" id="Chibi Twilight Archmage Pet Stone">
+    <DisplayId>Chibi Twilight Archmage Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>232</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This little mage is never seen without their orb, taking it everywhere they go from the realms to even sleeping with it, they're inseparable.\n\nUnlocks Chibi Twilight Archmage Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31094">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Chibi Forgotten King" type="0x797c">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Forgotten King Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x797d" id="Chibi Forgotten King Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Forgotten King</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>233</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x797e" id="Chibi Forgotten King Pet Stone">
+    <DisplayId>Chibi Forgotten King Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>233</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The King leaves his baby throne to see what new changes the realms have gone through over the years.\n\nUnlocks Chibi Forgotten King Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31101">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Swamped Panda" type="0x7244">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Exotic</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Swamped Panda Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object id="Swamped Panda Pet Stone" type="0x6382">
+    <DisplayId>Swamped Panda Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <ScaleValue>10</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A native to the Sulfurous Wetlands, this panda doesn't seem all too bothered by the change to its home.\n\nUnlocks Swamped Panda Skin of the Exotic family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="25473">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Swamped Panda Pet Skin" type="0x6381">
+    <PetSkin />
+    <DisplayId>Swamped Panda</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>wetlandsChars16x16</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <Family>Exotic</Family>
+    <Rarity>Divine</Rarity>
   </Object>
 </Objects>

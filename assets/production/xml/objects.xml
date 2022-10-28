@@ -45,6 +45,7 @@
       <File>lofiChar216x16</File>
       <Index>0x3f</Index>
     </Texture>
+    <HelperDialog title="The Realm">Enter to begin exploring the Realm of the Mad God. Team up with other players to defeat dangerous monsters, conquer Dungeons, acquire precious loot, and more! Death is permanent, but remember: you can return to safety any time using your Escape to Nexus key.</HelperDialog>
   </Object>
   <Object type="0x7f33" id="Cowardice Portal Maker 1">
     <Class>GameObject</Class>
@@ -81,6 +82,7 @@
       <File>lofiEnvironment3</File>
       <Index>0xf8</Index>
     </Texture>
+    <HelperDialog title="The Vault">Your personal storage space and saferoom. You can store items in here for safekeeping.</HelperDialog>
     <ShadowSize>0</ShadowSize>
   </Object>
   <Object type="0x075b" id="Arena Portal">
@@ -191,6 +193,7 @@
       <Index>0x54</Index>
     </Texture>
     <ShadowSize>0</ShadowSize>
+    <HelperDialog title="Guild hall">This is the home of your guild, where you can meet with fellow guildmates. Try chatting with the friendly Guill, or even asking him for 'potions'!</HelperDialog>
   </Object>
   <Object type="0x0736" id="Guild Hall Upgrade 1">
     <DisplayId>Guild Hall Upgrade</DisplayId>
@@ -355,6 +358,7 @@
         </Texture>
       </Frame>
     </Animation>
+    <HelperDialog title="The Grand Bazaar">Colorful wares, useful and pretty! You can also use the Shop menu to see a full catalogue and latest discounts.</HelperDialog>
   </Object>
   <Object type="0x0751" id="Cloth Bazaar Portal Maker">
     <Class>Character</Class>
@@ -374,6 +378,7 @@
       <Index>0x0d</Index>
     </Texture>
     <DisplayId>{objects.Pet_Yard_Portal}</DisplayId>
+    <HelperDialog title="The Pet Yard">Here you can hatch Eggs into Pets, and raise them to become capable allies in battle. Eggs drop from Realm and Dungeon monsters. To learn more about Pets, talk to the knowledgeable Yard Caretaker.</HelperDialog>
     <Size>100</Size>
     <ShadowSize>100</ShadowSize>
   </Object>
@@ -531,6 +536,7 @@
     <IntergamePortal />
     <SafeZonePortal />
     <DungeonName>Daily Quest Room</DungeonName>
+    <HelperDialog title="Daily Quests" radius="4">You can get rewards for simply playing the game![br]Visit Login Seer to be rewarded for daily logins.[br]Bring quest items to The Tinkerer to get special potions and chests. The Tinkerer especially loves Marks that are dropped from Dungeon bosses.</HelperDialog>
     <Texture>
       <File>lofiObj3</File>
       <Index>0x4f7</Index>
@@ -897,6 +903,23 @@
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
+  <Object type="0x3925" id="Sulfurous Wetlands Guild Chest">
+    <DisplayId>Sulfurous Wetlands Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
   <Object type="0x64c6" id="Guild Present Chest">
     <DisplayId>Guild Present Chest</DisplayId>
     <Class>Character</Class>
@@ -1135,6 +1158,7 @@
   <Object type="0x7e94" id="Blacksmith">
     <Class>Blacksmith</Class>
     <DisplayId>The Blacksmith</DisplayId>
+    <HelperDialog title="Blacksmith">The Blacksmith will forge new items for you by dismantling others. Unlock new item recipes by using Blueprints that you find while out in the realm.</HelperDialog>
     <ShadowSize>50</ShadowSize>
     <Size>100</Size>
     <Texture>

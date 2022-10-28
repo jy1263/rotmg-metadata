@@ -352,4 +352,38 @@
     <UniqueID />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
+  <Object type="0x9547" id="Voodoo Queen Title Unlocker">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>interregnumObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item to unlock the title 'the Voodoo Queen'.</Description>
+    <Activate titleType="0x9a1f">UnlockTitle</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x9548" id="Witch Doctor Title Unlocker">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>interregnumObjects8x8</File>
+      <Index>0x4b</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>You can use this item to unlock the title 'the Witch Doctor'.</Description>
+    <Activate titleType="0x9a20">UnlockTitle</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <Track />
+    <UniqueID />
+    <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
 </Objects>

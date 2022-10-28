@@ -10268,4 +10268,112 @@
     <ShadowSize>0</ShadowSize>
     <NoMiniMap />
   </Object>
+  <Object type="0x38ac" id="Sentinel Rehearsal Initiator">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Terrain>Mountains</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x38ab" id="Sentinel Rehearsal Statue">
+    <DisplayId>Monument to the Bridge Sentinel</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>theShattersObjects32x32</File>
+      <Index>930</Index>
+    </Texture>
+    <Quest />
+    <Level>20</Level>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>spell/magic_nova</DeathSound>
+    <MaxHitPoints>70000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
+    <KillStat stat="StructureKills" />
+    <ShadowSize>40</ShadowSize>
+    <Size>150</Size>
+    <NoMiniMap />
+    <StasisImmune />
+  </Object>
+  <Object type="0x38ad" id="Archmage Rehearsal Initiator">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Terrain>Mountains</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x38ae" id="Archmage Rehearsal Statue">
+    <DisplayId>Monument to the Twilight Archmage</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>theShattersObjects32x32</File>
+      <Index>931</Index>
+    </Texture>
+    <Quest />
+    <Level>20</Level>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>spell/magic_nova</DeathSound>
+    <MaxHitPoints>70000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
+    <KillStat stat="StructureKills" />
+    <ShadowSize>40</ShadowSize>
+    <Size>150</Size>
+    <NoMiniMap />
+    <StasisImmune />
+  </Object>
+  <Object type="0x38af" id="King Rehearsal Initiator">
+    <Class>GameObject</Class>
+    <Enemy />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+    <Terrain>Mountains</Terrain>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x38b0" id="King Rehearsal Statue">
+    <DisplayId>Monument to the Forgotten King</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>theShattersObjects32x32</File>
+      <Index>932</Index>
+    </Texture>
+    <Quest />
+    <Level>20</Level>
+    <HitSound>monster/stone_walls_hit</HitSound>
+    <DeathSound>spell/magic_nova</DeathSound>
+    <MaxHitPoints>70000</MaxHitPoints>
+    <Defense>50</Defense>
+    <Exp>3000</Exp>
+    <BXP>15000</BXP>
+    <KillStat stat="StructureKills" />
+    <ShadowSize>40</ShadowSize>
+    <Size>150</Size>
+    <NoMiniMap />
+    <StasisImmune />
+  </Object>
 </Objects>

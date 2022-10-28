@@ -99,6 +99,7 @@
       <File>spiderDenObjects8x8</File>
       <Index>0xb0</Index>
     </Texture>
+    <HelperDialog title="Dungeon Portals">Dungeons offer a unique environment where you can fight your way through enemies and bosses for loot. The loot you find within will generally be of a higher grade than the surrounding realm area. Harder dungeons will yield better rewards and Stat Potions.</HelperDialog>
   </Object>
   <Object type="0x5f34" id="Forest Maze Portal">
     <Class>Portal</Class>
@@ -111,6 +112,7 @@
       <Index>0x3dd</Index>
     </Texture>
     <ShadowSize>0</ShadowSize>
+    <HelperDialog title="Dungeon Portals">Dungeons offer a unique environment where you can fight your way through enemies and bosses for loot. The loot you find within will generally be of a higher grade than the surrounding realm area. Harder dungeons will yield better rewards and Stat Potions.</HelperDialog>
   </Object>
   <Object type="0x0718" id="Snake Pit Portal">
     <Class>Portal</Class>
@@ -1623,6 +1625,39 @@
     </Texture>
     <ShadowSize>0</ShadowSize>
   </Object>
+  <Object type="0x3a23" id="Shatters Sentinel Portal">
+    <DisplayId>The Shatters</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DungeonName>The Bridge Sentinel Rehearsal</DungeonName>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3a24" id="Shatters Archmage Portal">
+    <DisplayId>The Shatters</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DungeonName>The Twilight Archmage Rehearsal</DungeonName>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+  </Object>
+  <Object type="0x3a25" id="Shatters King Portal">
+    <DisplayId>The Shatters</DisplayId>
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DungeonName>The Forgotten King Rehearsal</DungeonName>
+    <Texture>
+      <File>theShattersObjects8x8</File>
+      <Index>0x00</Index>
+    </Texture>
+  </Object>
   <Object type="0xc268" id="Interregnum Portal">
     <Class>Portal</Class>
     <IntergamePortal />
@@ -1814,5 +1849,174 @@
         <StyleStep id="A2">SetAnimation</StyleStep>
       </Style>
     </Presentation>
+  </Object>
+  <Object id="SulfW Portal" type="0x6392">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>Sulfurous Wetlands</DisplayId>
+    <DungeonName>Sulfurous Wetlands</DungeonName>
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc6</Index>
+    </Texture>
+    <Animation period="0" prob="1">
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>807</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>808</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>809</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>810</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>811</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>812</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>813</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.125">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>814</Index>
+        </Texture>
+      </Frame>
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>815</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>816</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>817</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>818</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.16">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>819</Index>
+        </Texture>
+      </Frame>
+      <Frame time="2">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>820</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>821</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>822</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>823</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>824</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>825</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>826</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>827</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.12">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>828</Index>
+        </Texture>
+      </Frame>
+      <Frame time="45">
+        <Texture>
+          <File>wetlandsObjects8x8</File>
+          <Index>0xc6</Index>
+        </Texture>
+      </Frame>
+    </Animation>
   </Object>
 </Objects>

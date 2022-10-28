@@ -48676,9 +48676,35 @@
   <Object type="0x43fc" id="Shatters A25">
     <Class>GameObject</Class>
     <Texture>
-      <File>invisible</File>
-      <Index>0</Index>
+      <File>theShattersObjects16x16</File>
+      <Index>0x59</Index>
     </Texture>
+    <Animation prob="1">
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x59</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5a</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5b</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.1">
+        <Texture>
+          <File>theShattersObjects16x16</File>
+          <Index>0x5c</Index>
+        </Texture>
+      </Frame>
+    </Animation>
     <Animation prob="1" id="A1">
       <Frame time="0.1">
         <Texture>
@@ -48731,7 +48757,8 @@
         </Texture>
       </Frame>
     </Animation>
-    <ShadowSize>0</ShadowSize>
+    <ShadowColor>FFCE00</ShadowColor>
+    <ShadowSize>80</ShadowSize>
     <Size>100</Size>
     <Presentation>
       <Style id="A1">

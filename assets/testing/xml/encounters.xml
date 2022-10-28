@@ -2670,11 +2670,12 @@
     <KillStat stat="HumanoidKills" />
   </Object>
   <Object type="0x0d54" id="Grand Sphinx">
+    <DisplayId>Withered Sphinx</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>4</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>37</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -2788,7 +2789,6 @@
     <Quest />
     <HealthBarBoss />
     <God />
-    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2878,6 +2878,7 @@
     <Hero />
     <Quest />
     <God />
+    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2943,9 +2944,10 @@
   </Object>
   <Object type="0x0d59" id="Cube God">
     <Class>Character</Class>
+    <DisplayId>Calcium God</DisplayId>
     <Texture>
-      <File>lofiChar216x16</File>
-      <Index>0x37</Index>
+      <File>d3LofiObjEmbed16</File>
+      <Index>0x58</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -2982,11 +2984,12 @@
     <DamageBasedXP />
   </Object>
   <Object type="0x0d5a" id="Cube Overseer">
+    <DisplayId>Bone Overseer</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>lofiChar28x8</File>
-      <Index>0x40</Index>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x17d</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3010,12 +3013,13 @@
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5b" id="Cube Defender">
+    <DisplayId>Bone Defender</DisplayId>
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>lofiChar28x8</File>
-      <Index>0x41</Index>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x17c</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3034,12 +3038,13 @@
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5c" id="Cube Blaster">
+    <DisplayId>Bone Blaster</DisplayId>
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>lofiChar28x8</File>
-      <Index>0x42</Index>
+      <File>d3LofiObjEmbed</File>
+      <Index>0x17b</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3394,7 +3399,7 @@
     <Size>0</Size>
   </Object>
   <Object type="0x0d61" id="Hermit God">
-    <DisplayId>Hermit God</DisplayId>
+    <DisplayId>Reanimated Hermit God</DisplayId>
     <Group>Hermit God Encounter</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3409,13 +3414,13 @@
     <PerRealmMax>2</PerRealmMax>
     <KeepDamageRecord />
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>11</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>38</Index>
     </AnimatedTexture>
     <Portrait>
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>11</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>38</Index>
       </AnimatedTexture>
     </Portrait>
     <AltTexture id="1">
@@ -3426,8 +3431,8 @@
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>13</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>46</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="3">
@@ -3438,8 +3443,8 @@
     </AltTexture>
     <AltTexture id="4">
       <AnimatedTexture>
-        <File>chars16x16dEncounters2</File>
-        <Index>14</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>39</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/skeletons_hit</HitSound>
@@ -3497,6 +3502,7 @@
     </Presentation>
   </Object>
   <Object type="0x0d62" id="Hermit Minion">
+    <DisplayId>Reanimated Hermit Minion</DisplayId>
     <Class>Character</Class>
     <Group>Hermit God Encounter</Group>
     <Enemy />
@@ -3510,7 +3516,7 @@
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>21</Index>
+      <Index>145</Index>
     </AnimatedTexture>
     <Projectile id="0">
       <ObjectId>Snake Shot Yellow</ObjectId>
@@ -3556,19 +3562,20 @@
     <KillStat stat="NatureKills" />
   </Object>
   <Object type="0x0d64" id="Hermit God Tentacle">
+    <DisplayId>Reanimated Hermit God Tentacle</DisplayId>
     <Group>Hermit God Encounter</Group>
     <Enemy />
     <Class>Character</Class>
     <ShadowSize>100</ShadowSize>
     <TrackLoot />
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>11</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>40</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>12</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>41</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/dwarves_death</HitSound>
@@ -3811,10 +3818,10 @@
   <Object type="0x0e4f" id="Water Mine">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Water Mine</DisplayId>
+    <DisplayId>Ghost Mine</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>38</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>45</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3835,10 +3842,10 @@
   <Object type="0x0e4e" id="Water Mine Path">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Water Mine</DisplayId>
+    <DisplayId>Ghost Mine</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>38</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>45</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3859,10 +3866,10 @@
   <Object type="0x0e3d" id="Beach Spectre">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Beach Spectre</DisplayId>
+    <DisplayId>Sea Spectre</DisplayId>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>35</Index>
+      <Index>146</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
@@ -4000,10 +4007,10 @@
   </Object>
   <Object type="0x0e39" id="Vengeful Spirit">
     <Class>Character</Class>
-    <DisplayId>Vengeful Spirit</DisplayId>
+    <DisplayId>Dutchman Spirit</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>39</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>44</Index>
     </AnimatedTexture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -4053,21 +4060,21 @@
   <Object type="0x0e37" id="Ghost Ship">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Ghost Ship</DisplayId>
+    <DisplayId>The Flying Dutchman</DisplayId>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>37</Index>
+      <File>d3Chars16x16rEmbed</File>
+      <Index>43</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>36</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>42</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>chars16x16rEncounters</File>
-        <Index>37</Index>
+        <File>d3Chars16x16rEmbed</File>
+        <Index>43</Index>
       </AnimatedTexture>
       <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
     </AltTexture>
@@ -4130,5 +4137,3081 @@
     <SpawnProb>0.0</SpawnProb>
     <Size>0</Size>
     <KillStat stat="StructureKills" />
+  </Object>
+  <Object type="0x3983" id="Train Point 1">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3984" id="Train Point 2">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3985" id="Train Point 3">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3986" id="Train Point 4">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3970" id="Train Point 5">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3971" id="Train Point 6">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3972" id="Train Point 7">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3973" id="Train Point 8">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a93" id="Train Point 9">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a94" id="Train Point 10">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>130</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3994" id="Train Helper">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>50</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc113" id="Train Helper 2">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>50</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc112" id="Train Invulnerability Helper">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>50</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc111" id="Train Transition Helper">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>50</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc110" id="Train Invulnerability Teleporter">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>80</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x399a" id="Segment Invulnerability Chooser">
+    <Enemy />
+    <Class>Character</Class>
+    <TrackLoot />
+    <Invincible />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x13c</Index>
+    </Texture>
+    <Size>80</Size>
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+    <StasisImmune />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc10e" id="Train Smoke">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>steamworksObjects32x32</File>
+      <Index>2</Index>
+    </Texture>
+    <Animation period="0.0" prob="1">
+      <Frame time="0.15">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.15">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>6</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.25">
+        <Texture>
+          <File>steamworksObjects32x32</File>
+          <Index>0</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>120</Size>
+    <ShadowSize>50</ShadowSize>
+    <Z>1.0</Z>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x3987" id="Train Encounter">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>steamworksChars32x32</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Hero />
+    <Quest />
+    <HealthBarBoss />
+    <Level>20</Level>
+    <HitSound>monster/lizard_god_hit</HitSound>
+    <DeathSound>monster/ogres_death</DeathSound>
+    <Size>120</Size>
+    <ShadowSize>75</ShadowSize>
+    <MaxHitPoints>140000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>800</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <SlowImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Blue Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Sun Explosion</ObjectId>
+      <Speed>40</Speed>
+      <Size>200</Size>
+      <Damage>250</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="30">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>40</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>1800</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="31">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>40</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>1800</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="32">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>50</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>130</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="33">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>125</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="34">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>80</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>120</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="35">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>90</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>115</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="36">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>100</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>110</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="37">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>110</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>105</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="38">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>120</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>-15</CircleTurnAngle>
+      <CircleTurnDelay>700</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="39">
+      <ObjectId>Shatters Lute Projectile</ObjectId>
+      <Speed>20</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>5</CircleTurnAngle>
+      <CircleTurnDelay>600</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="40">
+      <ObjectId>Shatters Lute Projectile</ObjectId>
+      <Speed>80</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <TurnRate>15</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="43">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>2200</CircleTurnDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="60">
+      <ObjectId>AoO Exalted Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="61">
+      <ObjectId>AoO Exalted Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="62">
+      <ObjectId>AoO Exalted Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="74">
+      <ObjectId>Snowy God Bullet 2</ObjectId>
+      <Damage>140</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="75">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <CircleTurnDelay>3000</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="76">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>60</CircleTurnAngle>
+      <CircleTurnDelay>2500</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="77">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>180</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>30</CircleTurnAngle>
+      <CircleTurnDelay>2000</CircleTurnDelay>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="80">
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="81">
+      <ObjectId>AoO Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="82">
+      <ObjectId>AoO Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="97">
+      <ObjectId>Fire Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="98">
+      <ObjectId>Fire Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="108">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>5</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="109">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>10</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="110">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>15</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="111">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>20</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="112">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>25</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="113">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>30</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="114">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>35</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="115">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>40</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="116">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>45</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_MID</Labels>
+  </Object>
+  <Object type="0x3909" id="Train Encounter Body">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>steamworksChars32x32</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>steamworksChars32x32</File>
+        <Index>45</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <Size>120</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <SlowImmune />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Blue Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Sun Explosion</ObjectId>
+      <Speed>40</Speed>
+      <Size>200</Size>
+      <Damage>250</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+      <ConditionEffect duration="2.5">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="30">
+      <ObjectId>Cultist Dirge Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+    </Projectile>
+    <Projectile id="31">
+      <ObjectId>Balaam Blue Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>1500</TurnRateDelay>
+      <TurnAcceleration>0.5</TurnAcceleration>
+      <TurnAccelerationDelay>1800</TurnAccelerationDelay>
+      <TurnClamp>135</TurnClamp>
+    </Projectile>
+    <Projectile id="32">
+      <ObjectId>Balaam Blue Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>1500</TurnRateDelay>
+      <TurnAcceleration>0.5</TurnAcceleration>
+      <TurnAccelerationDelay>1800</TurnAccelerationDelay>
+      <TurnClamp>-135</TurnClamp>
+    </Projectile>
+    <Projectile id="33">
+      <ObjectId>Balaam Red Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <TurnRate>90</TurnRate>
+      <TurnRateDelay>1500</TurnRateDelay>
+      <TurnAcceleration>0.5</TurnAcceleration>
+      <TurnAccelerationDelay>1800</TurnAccelerationDelay>
+      <TurnClamp>135</TurnClamp>
+    </Projectile>
+    <Projectile id="34">
+      <ObjectId>Balaam Red Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <TurnRate>-90</TurnRate>
+      <TurnRateDelay>1500</TurnRateDelay>
+      <TurnAcceleration>0.5</TurnAcceleration>
+      <TurnAccelerationDelay>1800</TurnAccelerationDelay>
+      <TurnClamp>-135</TurnClamp>
+    </Projectile>
+    <Projectile id="43">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>6000</LifetimeMS>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>2200</CircleTurnDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="60">
+      <ObjectId>AoO Exalted Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="61">
+      <ObjectId>AoO Exalted Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="62">
+      <ObjectId>AoO Exalted Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="74">
+      <ObjectId>Snowy God Bullet 2</ObjectId>
+      <Damage>140</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="75">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <CircleTurnDelay>3000</CircleTurnDelay>
+      <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="76">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>60</CircleTurnAngle>
+      <CircleTurnDelay>2500</CircleTurnDelay>
+      <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="77">
+      <ObjectId>Colossal Blast</ObjectId>
+      <Speed>60</Speed>
+      <Damage>180</Damage>
+      <LifetimeMS>3500</LifetimeMS>
+      <Size>100</Size>
+      <CircleTurnAngle>30</CircleTurnAngle>
+      <CircleTurnDelay>2000</CircleTurnDelay>
+      <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="80">
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="81">
+      <ObjectId>AoO Beam Body</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="82">
+      <ObjectId>AoO Beam Head</ObjectId>
+      <Speed>1</Speed>
+      <Damage>1</Damage>
+      <LifetimeMS>400</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>200</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+    </Projectile>
+    <Projectile id="91">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>2200</LifetimeMS>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+    </Projectile>
+    <Projectile id="97">
+      <ObjectId>Fire Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="98">
+      <ObjectId>Fire Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <ConditionEffect duration="2">Stunned</ConditionEffect>
+    </Projectile>
+    <Projectile id="108">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>5</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="109">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>10</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="110">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>15</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="111">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>20</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="112">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>25</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="113">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>30</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="114">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>35</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="115">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>40</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="116">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>45</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="117">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>50</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="118">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>55</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="119">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>60</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="120">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>65</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="121">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>70</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="122">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>75</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="123">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>80</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="124">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>85</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="125">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>90</Speed>
+      <LifetimeMS>8850</LifetimeMS>
+      <CircleTurnAngle>45</CircleTurnAngle>
+      <CircleTurnDelay>1850</CircleTurnDelay>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x390a" id="Train Encounter Tail">
+    <Class>Character</Class>
+    <Enemy />
+    <AnimatedTexture>
+      <File>steamworksChars32x32</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <Size>120</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <SlowImmune />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>0.5</Frequency>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>30</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <PassesCover />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="15">
+      <ObjectId>Blue Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3200</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>9000</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="16">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="17">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="18">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="19">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <TurnRateDelay>1000</TurnRateDelay>
+      <TurnAcceleration>0.2</TurnAcceleration>
+      <TurnAccelerationDelay>1200</TurnAccelerationDelay>
+      <TurnClamp>-90</TurnClamp>
+    </Projectile>
+    <Projectile id="20">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="21">
+      <ObjectId>Sun Explosion</ObjectId>
+      <Speed>40</Speed>
+      <Size>200</Size>
+      <Damage>250</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Projectile id="91">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>2200</LifetimeMS>
+      <Speed>0</Speed>
+      <Size>100</Size>
+      <MultiHit />
+      <Acceleration>20</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>120</SpeedClamp>
+    </Projectile>
+    <Projectile id="108">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>5</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="109">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>10</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="110">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>15</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="111">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>20</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="112">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>25</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="113">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>30</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="114">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>35</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="115">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>40</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="116">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>105</Damage>
+      <Size>80</Size>
+      <MultiHit />
+      <Speed>45</Speed>
+      <LifetimeMS>4650</LifetimeMS>
+      <CircleTurnAngle>15</CircleTurnAngle>
+      <CircleTurnDelay>1650</CircleTurnDelay>
+    </Projectile>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x39a3" id="Train Shot">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <DisplayId>Train Encounter</DisplayId>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>GC Blue Worm Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>GC Blue Worm Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0xc10f" id="Train Shot Curved">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <DisplayId>Train Encounter</DisplayId>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>GC Blue Worm Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <TurnRate>60</TurnRate>
+      <CircleTurnDelay>800</CircleTurnDelay>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>GC Blue Worm Shot</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <TurnRate>60</TurnRate>
+      <CircleTurnDelay>800</CircleTurnDelay>
+    </Projectile>
+    <Labels>ENEMY,MINION</Labels>
+  </Object>
+  <Object type="0x392a" id="Train Encounter Bullet Split">
+    <DisplayId>Oryx the Mad God</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xb4</Index>
+    </Texture>
+    <Size>0</Size>
+    <Enemy />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Sun Bullet</ObjectId>
+      <Damage>100</Damage>
+      <Speed>65</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>60</TurnRate>
+      <CircleTurnDelay>800</CircleTurnDelay>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x5298" id="Train Encounter Bullet Split 2">
+    <DisplayId>Oryx the Mad God</DisplayId>
+    <Class>GameObject</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xb4</Index>
+    </Texture>
+    <Size>100</Size>
+    <Enemy />
+    <Invincible />
+    <Projectile id="0">
+      <ObjectId>Sun Bullet</ObjectId>
+      <Damage>100</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>20000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <TurnRate>-30</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+    </Projectile>
+    <Labels>ENEMY</Labels>
+  </Object>
+  <Object type="0x3976" id="Train Encounter Body 2">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Malus Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1400</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3977" id="Train Encounter Body 3">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Argus Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1600</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3978" id="Train Encounter Body 4">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Basaran Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>1800</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3979" id="Train Encounter Body 5">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Cultist Dirge Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x397a" id="Train Encounter Body 6">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Balaam Blue Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>2300</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x397b" id="Train Encounter Body 7">
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0xa7</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0xa8</Index>
+      </Texture>
+    </AltTexture>
+    <Size>140</Size>
+    <HitSound>monster/flayers_hit</HitSound>
+    <DeathSound>monster/flayers_death</DeathSound>
+    <MaxHitPoints>25000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Exp>0</Exp>
+    <ParalyzeImmune />
+    <StunImmune />
+    <StasisImmune />
+    <Projectile id="0">
+      <ObjectId>Cultist Gaius Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Purple Mystic Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>1600</LifetimeMS>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Damage>60</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <MultiHit />
+      <ArmorPiercing />
+      <PassesCover />
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2.5</Frequency>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Balaam Red Shot</ObjectId>
+      <Damage>110</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Speed>50</Speed>
+      <Size>120</Size>
+      <MultiHit />
+      <Acceleration>-9000</Acceleration>
+      <AccelerationDelay>2800</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,BEAST,STASISIMMUNE,MINION_WEAK</Labels>
+    <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a41" id="KSW Tinkerer 1">
+    <Enemy />
+    <Class>Character</Class>
+    <NoCollisionWhenMovement />
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>steamworksChars16x16</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <Projectile id="0">
+      <ObjectId>2KenseiST Sheath Projectile 1</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>180</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Blue Storm</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a42" id="KSW Tinkerer Turret 1">
+    <Class>Character</Class>
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Battlesmith</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <Exp>80</Exp>
+  </Object>
+  <Object type="0x3a43" id="KSW Tinkerer 2">
+    <Enemy />
+    <Class>Character</Class>
+    <NoCollisionWhenMovement />
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>steamworksChars16x16</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <Projectile id="0">
+      <ObjectId>2KenseiST Sheath Projectile 1</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>180</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Blue Storm</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0x3a45" id="KSW Tinkerer Turret 2">
+    <Class>Character</Class>
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Battlesmith</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <Exp>80</Exp>
+  </Object>
+  <Object type="0x3a46" id="KSW Tinkerer 3">
+    <Enemy />
+    <Class>Character</Class>
+    <NoCollisionWhenMovement />
+    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <Color>0xFF9800</Color>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>steamworksChars16x16</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <Projectile id="0">
+      <ObjectId>2KenseiST Sheath Projectile 1</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>180</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Blue Storm</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc10d" id="KSW Tinkerer Turret 3">
+    <Class>Character</Class>
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Battlesmith</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <Exp>80</Exp>
+  </Object>
+  <Object type="0xc10c" id="KSW Tinkerer 4">
+    <Enemy />
+    <Class>Character</Class>
+    <NoCollisionWhenMovement />
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Tinkerer</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <AnimatedTexture>
+        <File>steamworksChars16x16</File>
+        <Index>11</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>30</Defense>
+    <Exp>80</Exp>
+    <Projectile id="0">
+      <ObjectId>2KenseiST Sheath Projectile 1</ObjectId>
+      <Damage>140</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>180</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>LOD Blue Storm</ObjectId>
+      <Damage>90</Damage>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>110</Size>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>2000</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>2KenseiST Sheath Projectile 2</ObjectId>
+      <Damage>120</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ArmorPiercing />
+      <Size>140</Size>
+      <Acceleration>-15</Acceleration>
+      <AccelerationDelay>1500</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+    </Projectile>
+    <Presentation>
+      <Style id="SetAlt1">
+        <StyleStep altTextureId="1">SetAltTexture</StyleStep>
+      </Style>
+    </Presentation>
+    <KillStat stat="GrotesqueKills" />
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_STRONG</Labels>
+    <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
+    <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
+  </Object>
+  <Object type="0xc10b" id="KSW Tinkerer Turret 4">
+    <Class>Character</Class>
+    <Color>0xFF9800</Color>
+    <DisplayId>Kogbold Battlesmith</DisplayId>
+    <AnimatedTexture>
+      <File>steamworksChars16x16</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <HitSound>monster/abyss_brutes_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+    <Size>100</Size>
+    <Exp>80</Exp>
   </Object>
 </Objects>

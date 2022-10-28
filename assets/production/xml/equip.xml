@@ -14317,10 +14317,14 @@
     </Texture>
     <SlotType>6</SlotType>
     <Description>A festive piece of armor, complete with bells. Try not to get too crazy.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Gain +10 WIS while firing if your health is above 85%" name="On shoot" />
+    </ExtraTooltipData>
     <ActivateOnEquip stat="DEF" amount="14">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="WIS" amount="5">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
     <ActivateOnEquip stat="MAXMP" amount="80">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate amount="10" color="-1" cooldown="0" duration="1.6" hpRequiredRelative="0.85" channel="noStackItm" proc="1" stat="WIS">StatBoostSelf</OnPlayerShootActivate>
     <BagType>6</BagType>
     <feedPower>700</feedPower>
     <XPBonus>6</XPBonus>
@@ -22274,7 +22278,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,STGEN_1,POWERTIER_C,XPBONUS,MPCOST,COOLDOWN</Labels>
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,ST,TAB_ST,ST_ABILITY,STGEN_1,POWERTIER_C,XPBONUS,MPCOST,COOLDOWN</Labels>
   </Object>
   <Object type="0xbbe" id="SorcererST2" setType="0x000d" setName="Horrific Sorcerer Set" collectionIcon="1">
     <Class>Equipment</Class>
@@ -43301,7 +43305,7 @@
     <XPBonus>8</XPBonus>
     <UniqueID />
   </Object>
-  <Object id="2BardST0" type="0x3811" setType="0x3816" setName="Storm Caller Bard Set">
+  <Object id="2BardST0" type="0x3811" setType="0x3816" setName="Storm Caller Bard Set" collectionIcon="2">
     <DisplayId>Hailstorm</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -43335,7 +43339,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,BOW,ST,TAB_ST,ST_WEAPON,XPBONUS</Labels>
   </Object>
-  <Object id="2BardST1" type="0x3812" setType="0x3816" setName="Storm Caller Bard Set">
+  <Object id="2BardST1" type="0x3812" setType="0x3816" setName="Storm Caller Bard Set" collectionIcon="2">
     <DisplayId>Thundering Chorus</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -43366,7 +43370,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,ABILITY,LUTE,ST,TAB_ST,ST_ABILITY,XPBONUS</Labels>
   </Object>
-  <Object id="2BardST2" type="0x3813" setType="0x3816" setName="Storm Caller Bard Set">
+  <Object id="2BardST2" type="0x3813" setType="0x3816" setName="Storm Caller Bard Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Wind Dancer Robe</DisplayId>
@@ -43389,7 +43393,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,XPBONUS</Labels>
   </Object>
-  <Object id="2BardST3" type="0x3814" setType="0x3816" setName="Storm Caller Bard Set">
+  <Object id="2BardST3" type="0x3814" setType="0x3816" setName="Storm Caller Bard Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <DisplayId>Augur of the Tempest</DisplayId>
@@ -43413,7 +43417,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,XPBONUS</Labels>
   </Object>
-  <Object type="0x378a" id="2SummonerST0" setType="0x378f" setName="Earthen Bulwark Summoner Set">
+  <Object type="0x378a" id="2SummonerST0" setType="0x378f" setName="Earthen Bulwark Summoner Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <Texture>
@@ -43445,7 +43449,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,WAND,ST,TAB_ST,ST_WEAPON,XPBONUS</Labels>
   </Object>
-  <Object type="0x378b" id="2SummonerST1" setType="0x378f" setName="Earthen Bulwark Summoner Set">
+  <Object type="0x378b" id="2SummonerST1" setType="0x378f" setName="Earthen Bulwark Summoner Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <Usable />
@@ -43485,7 +43489,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,ABILITY,MACE,ST,TAB_ST,ST_ABILITY,XPBONUS</Labels>
   </Object>
-  <Object type="0x378c" id="2SummonerST2" setType="0x378f" setName="Earthen Bulwark Summoner Set">
+  <Object type="0x378c" id="2SummonerST2" setType="0x378f" setName="Earthen Bulwark Summoner Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <Texture>
@@ -43509,7 +43513,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,XPBONUS</Labels>
   </Object>
-  <Object type="0x378d" id="2SummonerST3" setType="0x378f" setName="Earthen Bulwark Summoner Set">
+  <Object type="0x378d" id="2SummonerST3" setType="0x378f" setName="Earthen Bulwark Summoner Set" collectionIcon="2">
     <Class>Equipment</Class>
     <Item />
     <Texture>
@@ -45068,7 +45072,7 @@
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
   </Object>
-  <Object type="0x382b" id="2KenseiST0" setType="0x382a" setName="Fiery Kensei Set">
+  <Object type="0x382b" id="2KenseiST0" setType="0x382a" setName="Fiery Kensei Set" collectionIcon="2">
     <DisplayId>Fiery Katana</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -45139,7 +45143,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,WEAPON,KATANA,ST,TAB_ST,ST_WEAPON,XPBONUS</Labels>
   </Object>
-  <Object type="0x382c" id="2KenseiST1" setType="0x382a" setName="Fiery Kensei Set">
+  <Object type="0x382c" id="2KenseiST1" setType="0x382a" setName="Fiery Kensei Set" collectionIcon="2">
     <DisplayId>Pyro Sheath</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -45499,7 +45503,7 @@
     </Projectile>
     <UniqueID />
   </Object>
-  <Object type="0x382d" id="2KenseiST2" setType="0x382a" setName="Fiery Kensei Set">
+  <Object type="0x382d" id="2KenseiST2" setType="0x382a" setName="Fiery Kensei Set" collectionIcon="2">
     <DisplayId>Flame Guard</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -45524,7 +45528,7 @@
     <UniqueID />
     <Labels>EQUIPMENT,ARMOR,HEAVY,ST,TAB_ST,ST_ARMOR,XPBONUS</Labels>
   </Object>
-  <Object type="0x382e" id="2KenseiST3" setType="0x382a" setName="Fiery Kensei Set">
+  <Object type="0x382e" id="2KenseiST3" setType="0x382a" setName="Fiery Kensei Set" collectionIcon="2">
     <DisplayId>Firelight Necklace</DisplayId>
     <Class>Equipment</Class>
     <Item />
@@ -45905,7 +45909,7 @@
     <Soulbound />
     <XPBonus>7</XPBonus>
     <UniqueID />
-    <Labels>EQUIPMENT,ABILITY,TRAP,ST,TAB_ST,MPCOST,XPBONUS,COOLDOWN</Labels>
+    <Labels>EQUIPMENT,ABILITY,TRAP,ST,TAB_ST,ST_ABILITY,MPCOST,XPBONUS,COOLDOWN</Labels>
   </Object>
   <Object type="0x7eb7" id="3HuntressST2" setType="0x382b" setName="Resurrected Huntress Set" collectionIcon="3">
     <DisplayId>Wedding Dress</DisplayId>
@@ -49795,5 +49799,1408 @@
     <BagType>8</BagType>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,UT</Labels>
+  </Object>
+  <Object type="0x3a30" id="Peacekeeper (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiProjs</File>
+      <Index>419</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Description>A veritable artifact from the forgotten splendor of a kingdom none wish to remember. No matter the craftsmanship of its gilded design, this unwelcome sight is now only a sobering reminder of a mistake without regret.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Summons" description="Royal Guards" />
+      <EffectInfo name="Lifetime" description="12 seconds" />
+      <EffectInfo name="Archer's Bow" description="400-480 Damage" />
+      <EffectInfo name="Raider's Spear" description="80-120 Damage" />
+      <EffectInfo name="Knight's Slash" description="80-200 Damage" />
+      <EffectInfo name="Knight's Flurry" description="80-160 Damage" />
+    </ExtraTooltipData>
+    <Sound>spell/magic_nova</Sound>
+    <Activate objectId="Summon Royal Knight (Rehearsal)" maxSpawnDistance="8.0">SpawnCreep</Activate>
+    <Activate objectId="Summon Royal Archer (Rehearsal)" maxSpawnDistance="8.0">SpawnCreep</Activate>
+    <Activate objectId="Summon Royal Raider (Rehearsal)" maxSpawnDistance="8.0">SpawnCreep</Activate>
+    <ActivateOnEquip stat="DEX" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="30">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>135</MpCost>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,MACE,UT,XPBONUS,REHEARSAL,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x3a31" id="Vanguard's Visage (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>415</Index>
+    </Texture>
+    <SlotType>16</SlotType>
+    <Description>A dreadfully heavy barbute, prominently featuring inward curving horns. Such a trait has been considered taboo for eons, further marking the age of this design.</Description>
+    <Projectile>
+      <ObjectId>Shatters Helm Projectile</ObjectId>
+      <Speed>115</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ProtectFromSink />
+      <Size>75</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <ExtraTooltipData>
+      <EffectInfo description="Fires a sword of projectiles towards your cursor." name="Eternal Defender" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="VIT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="9">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <MpCost>115</MpCost>
+    <Activate duration="3" effect="Berserk" range="4.5" wisMin="30">ConditionEffectAura</Activate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.5" manaCost="0" manaRequired="0" maxDistance="0.5" minDistance="0.5" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.5" manaCost="0" manaRequired="0" maxDistance="1.0" minDistance="1.0" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.5" manaCost="0" manaRequired="0" maxDistance="1.5" minDistance="1.5" numShots="5" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.5" manaCost="0" manaRequired="0" maxDistance="2.0" minDistance="2.0" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="2.5" minDistance="2.5" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="3.0" minDistance="3.0" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="3.5" minDistance="3.5" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="4.0" minDistance="4.0" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="4.5" minDistance="4.5" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="1" manaCost="0" manaRequired="0" maxDistance="5.0" minDistance="5.0" numShots="2" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate arcGap="0" gapAngle="270" gapTiles="0.0" manaCost="0" manaRequired="0" maxDistance="5.5" minDistance="5.5" targetMouse="true" offsetAngle="0" proc="1" type="0x3a31">BulletCreate</OnPlayerAbilityActivate>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,HELM,UT,XPBONUS,REHEARSAL,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object id="Vanguard's Visage Proc (Rehearsal)" type="0x3a32">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x1a5</Index>
+    </Texture>
+    <Rotation>360</Rotation>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>Shatters Helm Projectile</ObjectId>
+      <Speed>115</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <ProtectFromSink />
+      <Size>75</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,RING,RING</Labels>
+  </Object>
+  <Object type="0x3a33" id="Noble Mandolin (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>420</Index>
+    </Texture>
+    <Projectile>
+      <ObjectId>Shatters Lute Projectile</ObjectId>
+      <Speed>50</Speed>
+      <LifetimeMS>3200</LifetimeMS>
+      <MinDamage>320</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Size>100</Size>
+      <TurnRate>150</TurnRate>
+      <TurnRateDelay>0</TurnRateDelay>
+      <CircleTurnAngle>90</CircleTurnAngle>
+      <CircleTurnDelay>600</CircleTurnDelay>
+      <FaceDir />
+      <ProtectFromSink />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <SlotType>28</SlotType>
+    <Description>Endless melodies from this fine instrument once filled the halls of the castle. It is without any apparent wear, yet even the most upbeat tune sounds somber when it is played.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="On use, lowers your shot speed by half for 4 seconds." name="Self Only" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="30" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <Activate amount="10" duration="4.5" stat="ATT" channel="noStackItm">StatBoostSelf</Activate>
+    <Activate duration="4" lifeBoost="1.99" speedBoost="0.5" color="0x484344" selfOnly="true">BoostRange</Activate>
+    <Activate effect="Damaging" duration="4.5" range="5">ConditionEffectAura</Activate>
+    <Activate>Shoot</Activate>
+    <NumProjectiles>8</NumProjectiles>
+    <ArcGap>45</ArcGap>
+    <BagType>6</BagType>
+    <MpCost>110</MpCost>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,LUTE,UT,XPBONUS,REHEARSAL,MPCOST</Labels>
+  </Object>
+  <Object type="0x3a34" id="Polarity Poison (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>18</SlotType>
+    <Usable />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>418</Index>
+    </Texture>
+    <Description>A perfectly concentrated blend of elemental forces, primed to diverge into an explosive result if the seal is ever broken. This flawless balance is believed to be the key to a still greater power.</Description>
+    <MpCost>120</MpCost>
+    <ActivateOnEquip stat="WIS" amount="8">IncrementStat</ActivateOnEquip>
+    <Activate objectId="Polarity Poison Effect 1 (Rehearsal)" color="-1" throwTime="0">ObjectToss</Activate>
+    <Activate objectId="Polarity Poison Effect 2 (Rehearsal)" color="-1" throwTime="0">ObjectToss</Activate>
+    <Activate objectId="Polarity Poison Effect 3 (Rehearsal)" color="-1" throwTime="0">ObjectToss</Activate>
+    <Activate objectId="Polarity Poison Effect 4 (Rehearsal)" color="-1" throwTime="0">ObjectToss</Activate>
+    <Activate radius="3" totalDamage="1000" impactDamage="0" duration="10" color="0xFFA500" throwTime="1.2" damageBoost="1.05" scalingStat="WIS" statModScalingMin="50" statModDamage="150" statModImpactDamage="0" statModRadius="0.02" statModDamageBoost="0.002">PoisonGrenade</Activate>
+    <Activate radius="3" totalDamage="360" impactDamage="360" duration="0" color="0x5ef4fe" condEffect="Slowed" condDuration="3" throwTime="1.2">PoisonGrenade</Activate>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,UT,XPBONUS,REHEARSAL,MPCOST</Labels>
+  </Object>
+  <Object id="Sentinel's Sidearm (Rehearsal)" type="0x3a35">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>416</Index>
+    </Texture>
+    <SlotType>27</SlotType>
+    <Description>Use of magical weapons is typically reserved for the king's mage units. For a swordsman to receive such a fine piece of craft was considered a great honor, and perhaps still is.</Description>
+    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ExtraTooltipData>
+      <EffectInfo description="Fire 3 swords that pause and target the nearest enemy." name="Effect" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Sentinel Sword</ObjectId>
+      <Speed>200</Speed>
+      <MinDamage>800</MinDamage>
+      <MaxDamage>800</MaxDamage>
+      <LifetimeMS>250</LifetimeMS>
+      <Amplitude>0</Amplitude>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <MultiHit />
+      <PassesCover />
+      <ArmorPiercing />
+      <ProtectFromSink />
+    </Projectile>
+    <Activate maxSpawnDistance="0.0" objectId="Sentinel Waki Object A (Rehearsal)">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0.0" objectId="Sentinel Waki Object B (Rehearsal)">SpawnCreep</Activate>
+    <Activate maxSpawnDistance="0.0" objectId="Sentinel Waki Object C (Rehearsal)">SpawnCreep</Activate>
+    <Usable />
+    <BagType>6</BagType>
+    <XPBonus>7</XPBonus>
+    <MpCost>100</MpCost>
+    <feedPower>900</feedPower>
+    <Cooldown>0.8</Cooldown>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,WAKIZASHI,UT,XPBONUS,REHEARSAL,MPCOST,COOLDOWN</Labels>
+  </Object>
+  <Object type="0x3a36" id="Primal Arcana (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>417</Index>
+    </Texture>
+    <SlotType>21</SlotType>
+    <Description>This deeply profaned magitech haunts those who bear it with distant, unending screams. One's conscience must be far beyond all reason to use its tremendous and varied powers without vacillation.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Your weapon fires two more bullets, each dealing 50-65 damage." name="Effect" />
+    </ExtraTooltipData>
+    <Usable />
+    <ActivateOnEquip stat="DEX" amount="8">IncrementStat</ActivateOnEquip>
+    <Projectile>
+      <ObjectId>Primal Arcana Projectile Blue</ObjectId>
+      <Speed>250</Speed>
+      <LifetimeMS>300</LifetimeMS>
+      <MinDamage>240</MinDamage>
+      <MaxDamage>320</MaxDamage>
+      <ProtectFromSink />
+      <ConditionEffect duration="5">Curse</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+      <Size>150</Size>
+    </Projectile>
+    <Activate ignoreOnTooltip="true" minDistance="3.25" maxDistance="3.25" offsetAngle="0" numShots="8" gapAngle="270" gapTiles="0.5">BulletCreate</Activate>
+    <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0" minDistance="7.8" maxDistance="7.8" offsetAngle="6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3a37">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0" minDistance="7.8" maxDistance="7.8" offsetAngle="-6.088528154195175" numShots="1" gapAngle="0" gapTiles="0" arcGap="0" type="0x3a37">BulletCreate</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <MpCost>105</MpCost>
+    <feedPower>900</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,ORB,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object id="Primal Arcana Proc (Rehearsal)" type="0x3a37">
+    <DisplayId>Color Orb Red Projectile</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>oryxHordeObjects8x8</File>
+      <Index>0x1a0</Index>
+    </Texture>
+    <SlotType>21</SlotType>
+    <Projectile>
+      <ObjectId>Primal Arcana Projectile Red</ObjectId>
+      <Speed>400</Speed>
+      <LifetimeMS>350</LifetimeMS>
+      <Acceleration>-2147483648</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>250</SpeedClamp>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>65</MaxDamage>
+      <ProtectFromSink />
+      <ArmorPiercing />
+      <Size>90</Size>
+    </Projectile>
+    <Soulbound />
+    <Labels>EQUIPMENT,ABILITY,ORB</Labels>
+  </Object>
+  <Object type="0x3a38" id="Valor (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>426</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>Exceedingly large and challenging to handle, this titanic blade embodies the stoic might of its true owner.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="On Shoot" description="When in combat, reduces your attack by 10." />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="5" stat="SPD">IncrementStat</ActivateOnEquip>
+    <RateOfFire>0.45</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Shatters Katana Projectile</ObjectId>
+      <Speed>195</Speed>
+      <MinDamage>425</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>244</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <OnPlayerShootActivate cooldown="0.0" proc="1" amount="-10" duration="1" stat="ATT" requiredConditions="In Combat" channel="noStackItm">StatBoostSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,KATANA,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a39" id="Dusky Catalyst (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>424</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>An untempered casting wand brought forth to tap into distant powers, but an imbalance rendered it too unreliable for most to dare use.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="On Shoot" description="When in combat, silences you for 0.4 seconds." />
+    </ExtraTooltipData>
+    <RateOfFire>1.0</RateOfFire>
+    <Sound>weapon/missile_wand</Sound>
+    <Projectile>
+      <ObjectId>Shatters Wand Projectile</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>80</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <Wavy />
+      <Size>75</Size>
+    </Projectile>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>9</ArcGap>
+    <ActivateOnEquip stat="WIS" amount="5">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate cooldown="0.0" proc="1" requiredConditions="In Combat" effect="Silenced" duration="0.4" color="-1">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3a" id="Warmonger (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>422</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>Rarely brandished and in pristine condition, the old monarchy deemed this exquisite recurve too dignified for all but royalty to handle. Though it remains unproven in practical combat, this bow's raw potential is unmatched, waiting to be drawn out through pure focus.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="On Shoot" description="When in combat, reduces your dexterity by 10." />
+    </ExtraTooltipData>
+    <RateOfFire>1.2</RateOfFire>
+    <Sound>weapon/double_bow</Sound>
+    <Projectile>
+      <ObjectId>Shatters Bow Projectile</ObjectId>
+      <Speed>171</Speed>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>468</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <BagType>6</BagType>
+    <ArcGap>7</ArcGap>
+    <NumProjectiles>2</NumProjectiles>
+    <ActivateOnEquip stat="VIT" amount="5">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate cooldown="0.0" proc="1" amount="-10" duration="1" stat="DEX" requiredConditions="In Combat" channel="noStackItm">StatBoostSelf</OnPlayerShootActivate>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,BOW,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3b" id="Mantle of the Monarchy (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>421</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>The lavish robes of the kingdom's royalty, outfitted with pauldrons on both shoulders for a more distinguished appearance. A sinister presence remains channeled through the draping fabric.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="40">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="40">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="10">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3c" id="Vest of Abandoned Shadows (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Description>Formerly a nobleman's uniform, now workshopped by the court magician into a gloomy coat befitting of his accursed company.</Description>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>423</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <ActivateOnEquip stat="MAXHP" amount="50">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="15">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="15">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3d" id="Royal Guard's Cuirass (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>425</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>Armor of the bridge sentinel, adorned with honors which now serve only as a bitter reminder of what once was.</Description>
+    <ActivateOnEquip stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="VIT" amount="10">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="20">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,HEAVY,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3e" id="The Forgotten Crown (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiProjs</File>
+      <Index>427</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An eerie reminder of what lies in the depths of the Shatters.</Description>
+    <ActivateOnEquip stat="DEX" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="100">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>1200</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a3f" id="The Twilight Gemstone (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiProjs</File>
+      <Index>428</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A peculiar stone, tremendously heavy for its size and seemingly not of this world. Its very presence in the realm raises a great deal more questions than answers, yet the uncanny energy it emanates provides only one haunting clue.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Reduces the Magic casting cost of your Ability by 20%" />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="WIS" amount="3">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="3">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="80">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip multiplier="0.80">AbilityUseDiscount</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x3a40" id="Bracer of the Guardian (Rehearsal)">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiProjs</File>
+      <Index>502</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A colossal gauntlet of masterful composition. Its sheer size is disproportionate for most warriors, only able to be worn on one's forearm as a bracer. A once glossy exterior faded from battle long ago, yet the sturdiness of its make is as resolute as it ever was.</Description>
+    <ActivateOnEquip stat="DEF" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXHP" amount="60">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="60">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,XPBONUS,REHEARSAL</Labels>
+  </Object>
+  <Object type="0x2250" id="3NecroST0" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
+    <DisplayId>Shaman's Staff</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>135</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>A staff of grisly, warped wood cradling a luminous green gemstone. It is said to be powered by souls trapped within the gem.</Description>
+    <OldSound>magicShoot</OldSound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.80</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.55</RateOfFire>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Shaman Wisp Small</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>130</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <LifetimeMS>800</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1</Frequency>
+      <Acceleration>100</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>200</SpeedClamp>
+      <Size>95</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Shaman Pierce</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>675</LifetimeMS>
+      <Amplitude>1.0</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>175</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>300</SpeedClamp>
+      <Size>70</Size>
+      <MultiHit />
+    </Projectile>
+    <BagType>8</BagType>
+    <XPBonus>6</XPBonus>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,STAFF,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2251" id="3NecroST1" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
+    <DisplayId>Ritual Skull</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>136</Index>
+    </Texture>
+    <SlotType>19</SlotType>
+    <Description>The skull of an alligator, used to house spirits summoned through wicked rituals.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Summon a Ritual Circle for 6 seconds" />
+      <EffectInfo name="Ritual Effect" />
+      <EffectInfo description="Within 3 sqrs, 225-275 Damage at the radius, scaling up to 1350-1650 Damage at the center, every 1 second" />
+      <EffectInfo description="Damage decreases over time" />
+      <EffectInfo description="Healing within 3 sqrs" />
+      <EffectInfo name="With" description="" />
+      <EffectInfo name="Fang Necklace" description="The Ritual Circle gives Berserk within 3 sqrs" />
+      <EffectInfo name="Soul Gem Amulet" description="The Ritual Circle inflicts Slowed within 3 sqrs" />
+    </ExtraTooltipData>
+    <Usable />
+    <BagType>8</BagType>
+    <MpCost>150</MpCost>
+    <OnPlayerAbilityActivate proc="1" mustWear="0x2253" objectId="Ritual Circle Helper 1" cooldown="6.0" maxSpawnDistance="10.0" targetMouse="true">SpawnCreep</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate proc="1" mustWear="0x2258" objectId="Ritual Circle Helper 2" cooldown="6.0" maxSpawnDistance="10.0" targetMouse="true">SpawnCreep</OnPlayerAbilityActivate>
+    <Activate objectId="Ritual Circle Summoner" targetMouse="true" cooldown="6.0" maxSpawnDistance="8.0">SpawnCreep</Activate>
+    <ActivateOnEquip amount="2" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="ATT">IncrementStat</ActivateOnEquip>
+    <feedPower>850</feedPower>
+    <Cooldown>6</Cooldown>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SKULL,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_A,XPBONUS,MPCOST,COOLDOWN</Labels>
+  </Object>
+  <Object type="0x2252" id="3NecroST2" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
+    <DisplayId>Ragged Robes</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>137</Index>
+    </Texture>
+    <SlotType>14</SlotType>
+    <Description>Robes pieced together from coarse, ragged cloth, adorned with decorative bones and cursed trinkets.</Description>
+    <ActivateOnEquip amount="11" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="3" stat="ATT">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <feedPower>850</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,ROBE,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2253" id="3NecroST3" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
+    <DisplayId>Fang Necklace</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1" yOffset="0">
+      <File>gen3SetObjects</File>
+      <Index>138</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>A necklace of fangs stolen from vicious swamp creatures. The predatory strength of the beasts empowers the wearer.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Blood Offering" description="Ritual Circle now also gives Berserk" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="4" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <feedPower>850</feedPower>
+    <BagType>8</BagType>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2258" id="3NecroST4" setType="0x425a" setName="Shaman Necromancer Set" collectionIcon="3">
+    <DisplayId>Soul Gem Amulet</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>139</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An amulet housing a powerful soul. It calls out and draws wandering spirits towards the wearer.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Soul Offering" description="Ritual Circle now also inflicts Slowed" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="4" stat="DEX">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="VIT">IncrementStat</ActivateOnEquip>
+    <feedPower>850</feedPower>
+    <BagType>8</BagType>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_C,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2254" id="3AssassinST0" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
+    <DisplayId>Toxic Toad</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>148</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <Description>It croaks, you croak.</Description>
+    <RateOfFire>0.4</RateOfFire>
+    <OldSound />
+    <Projectile>
+      <ObjectId>Alchemist Dart Large</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>0</MinDamage>
+      <MaxDamage>0</MaxDamage>
+      <LifetimeMS>0</LifetimeMS>
+      <Amplitude>0</Amplitude>
+      <Frequency>1</Frequency>
+      <Size>0</Size>
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <OnPlayerShootActivate proc="1" targetMouse="true" cooldown="0.4" numShots="1" radius="2" impactDamage="350" totalDamage="750" duration="1.0" throwTime=".5" color="0x1B4B0B" damageBoost="1.15" scalingStat="ATT" statModScalingMin="50" statModDamage="100" statModImpactDamage="12" statModRadius="0.025" statModDamageBoost="0.015">PoisonGrenade</OnPlayerShootActivate>
+    <OnPlayerShootActivate proc="0.2" mustWear="0x2257" targetMouse="true" cooldown="0.4" numShots="1" radius="2" impactDamage="350" totalDamage="750" duration="1.0" throwTime=".5" color="0x1B4B0B" damageBoost="1.15" scalingStat="ATT" statModScalingMin="50" statModDamage="100" statModImpactDamage="12" statModRadius="0.025" statModDamageBoost="0.015">PoisonGrenade</OnPlayerShootActivate>
+    <Activate cooldown="0.4" numShots="0" radius="2" impactDamage="350" totalDamage="750" duration="1.0" throwTime=".5" color="0x1B4B0B" damageBoost="1.15" scalingStat="ATT" statModScalingMin="50" statModDamage="100" statModImpactDamage="12" statModRadius="0.025" statModDamageBoost="0.015">PoisonGrenade</Activate>
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>900</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DAGGER,ST,TAB_ST,ST_WEAPON,STGEN_3,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2255" id="3AssassinST1" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
+    <DisplayId>Makeshift Blowpipe</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>18</SlotType>
+    <Description>Fully functional, but barely keeping itself together, users of this blowpipe benefit greatly from its powerful sting.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Darts" description="Fires additional shots based on how many pieces of the Alchemist Assassin Set currently worn, each dealing 275-325 damage" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Alchemist Dart Large</ObjectId>
+      <Speed>180</Speed>
+      <MinDamage>320</MinDamage>
+      <MaxDamage>320</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+      <MultiHit />
+      <ParticleTrail>0x1B4B0B</ParticleTrail>
+      <Size>130</Size>
+      <ArmorPiercing />
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <Usable />
+    <BagType>8</BagType>
+    <MpCost>60</MpCost>
+    <Activate numShots="0" offsetAngle="0" gapAngle="90" gapTiles="0.3" ignoreOnTooltip="false">Shoot</Activate>
+    <OnPlayerAbilityActivate mustWear="0x2254" mustNotWearOR="0x2256;0x2257" targetMouse="true" proc="1" arcGap="-1.5" numShots="1" offsetAngle="0" gapAngle="90" gapTiles="0.0" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2256" mustNotWearOR="0x2254;0x2257" targetMouse="true" proc="1" arcGap="-1.5" numShots="1" offsetAngle="0" gapAngle="90" gapTiles="0.0" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2257" mustNotWearOR="0x2254;0x2256" targetMouse="true" proc="1" arcGap="-1.5" numShots="1" offsetAngle="0" gapAngle="90" gapTiles="0.0" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2254;0x2256" mustNotWear="0x2257" targetMouse="true" proc="1" arcGap="-1" numShots="2" offsetAngle="0" gapAngle="90" gapTiles="0.5" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2254;0x2257" mustNotWear="0x2256" targetMouse="true" proc="1" arcGap="-1" numShots="2" offsetAngle="0" gapAngle="90" gapTiles="0.5" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2256;0x2257" mustNotWear="0x2254" targetMouse="true" proc="1" arcGap="-1" numShots="2" offsetAngle="0" gapAngle="90" gapTiles="0.5" ignoreOnTooltip="true" minDistance="3.3" maxDistance="3.3" type="0x2259">BulletCreate</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate mustWear="0x2254;0x2256;0x2257" targetMouse="true" proc="1" arcGap="-1" numShots="3" offsetAngle="0" gapAngle="90" gapTiles="0.4" ignoreOnTooltip="false" minDistance="3.3" maxDistance="3.3" type="0x225a">BulletCreate</OnPlayerAbilityActivate>
+    <ActivateOnEquip amount="6" stat="ATT">IncrementStat</ActivateOnEquip>
+    <feedPower>850</feedPower>
+    <Soulbound />
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_3,POWERTIER_B,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0x2256" id="3AssassinST2" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
+    <DisplayId>Alchemist's Disheveled Garbs</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Description>This garb is worse for wear, but users have reported a significant decrease in excruciating chemical burns.</Description>
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>150</Index>
+    </Texture>
+    <SlotType>6</SlotType>
+    <ActivateOnEquip amount="6" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="12" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="SPD">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>850</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ARMOR,LEATHER,ST,TAB_ST,ST_ARMOR,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2257" id="3AssassinST3" setType="0x425b" setName="Alchemist Assassin Set" collectionIcon="3">
+    <DisplayId>Protective Gloves</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>151</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Thick leather gloves allowing the user to handle the most toxic of materials, but harsh words still hurt the same.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Toxicity" description="Toxic Toad has a 20% chance to release another Poison Grenade" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="6" stat="ATT">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="4" stat="SPD">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="50" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <BagType>8</BagType>
+    <Soulbound />
+    <feedPower>850</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,ST,TAB_ST,ST_RING,STGEN_3,POWERTIER_B,XPBONUS</Labels>
+  </Object>
+  <Object type="0x2259" id="Alchemist Dart Proc">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>Alchemist Dart Small</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>275</MinDamage>
+      <MaxDamage>325</MaxDamage>
+      <LifetimeMS>420</LifetimeMS>
+      <MultiHit />
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>350</SpeedClamp>
+      <ParticleTrail>0x1B4B0B</ParticleTrail>
+      <Size>70</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x225a" id="Alchemist Dart Proc 2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>149</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>Alchemist Dart Large</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>275</MinDamage>
+      <MaxDamage>325</MaxDamage>
+      <LifetimeMS>420</LifetimeMS>
+      <MultiHit />
+      <Acceleration>300</Acceleration>
+      <AccelerationDelay>0</AccelerationDelay>
+      <SpeedClamp>350</SpeedClamp>
+      <ParticleTrail>0x1B4B0B</ParticleTrail>
+      <Size>130</Size>
+    </Projectile>
+    <Labels>EQUIPMENT,RING</Labels>
+  </Object>
+  <Object type="0x7ed8" id="3NecroSTToken">
+    <DisplayId>Shaman Necromancer Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>154</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Shaman Necromancer Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object type="0x7ed9" id="3AssassinSTToken">
+    <DisplayId>Alchemist Assassin Set Token</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>gen3SetObjects</File>
+      <Index>155</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Can be used in the Forge to craft Alchemist Assassin Items.</Description>
+    <BagType>5</BagType>
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>TAB_ST</Labels>
+  </Object>
+  <Object id="Brambletooth Tachi" type="0x63f6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>831</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>A heavily serrated blade set studded with thorns from the many ravenous plants of the Sulfurous Wetlands. The accursed magic used to mutate the native flora has been likewise imbued to these blades, enabling for a unique yet precise slashing technique.</Description>
+    <Sound>weapon/long_sword</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.30</RateOfFire>
+      <PosOffset>1.25,4.75</PosOffset>
+      <DefaultAngle>225</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.30</RateOfFire>
+      <PosOffset>-1,4.75</PosOffset>
+      <DefaultAngle>135</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>SulfW Tachi Shot</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>550</LifetimeMS>
+      <PassesCover />
+      <FaceDir />
+      <MultiHit />
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Tachi Shot</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>550</LifetimeMS>
+      <PassesCover />
+      <MultiHit />
+      <FaceDir />
+      <Size>100</Size>
+      <Boomerang />
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>800</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+  </Object>
+  <Object id="Bogwood Crook" type="0x4221">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>749</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>This ornate herding staff composed of an old willow branch has been warped beyond mortal comprehension due to prolonged influence of the twisted beings of the Sulfurous Wetlands.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.00</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.00</RateOfFire>
+      <DefaultAngle>10</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.00</RateOfFire>
+      <DefaultAngle>-10</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>SulfW Crook Leaf</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>75</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>578</LifetimeMS>
+      <Size>110</Size>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>SulfW Crook Leaf</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>578</LifetimeMS>
+      <PassesCover />
+      <FaceDir />
+      <ArmorPiercing />
+      <Size>85</Size>
+      <TurnRate>-45</TurnRate>
+      <TurnRateDelay>425</TurnRateDelay>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>SulfW Crook Leaf</ObjectId>
+      <Speed>135</Speed>
+      <MinDamage>30</MinDamage>
+      <MaxDamage>50</MaxDamage>
+      <LifetimeMS>578</LifetimeMS>
+      <PassesCover />
+      <FaceDir />
+      <ArmorPiercing />
+      <Size>85</Size>
+      <TurnRate>45</TurnRate>
+      <TurnRateDelay>425</TurnRateDelay>
+    </Projectile>
+    <BagType>6</BagType>
+    <Sound>weapon/wand_of_death</Sound>
+    <Soulbound />
+    <feedPower>800</feedPower>
+    <XPBonus>7</XPBonus>
+  </Object>
+  <Object id="Warped Mantle" type="0x65aa">
+    <DisplayId>Warped Mantle</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xca</Index>
+    </Texture>
+    <SlotType>7</SlotType>
+    <Description>A sickly piece of armor, grown from the twisted bark from one of the few remaining Ent Ancients that still populate the Sulfurous Wetlands.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Shooting while in combat grants healing for 4 seconds." name="On player shoot" />
+      <EffectInfo description="10 seconds" name="Cooldown" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="18" stat="DEF">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="6" stat="VIT">IncrementStat</ActivateOnEquip>
+    <OnPlayerShootActivate cooldown="10.0" duration="4" effect="Healing" proc="1" requiredConditions="In Combat">ConditionEffectSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <feedPower>750</feedPower>
+    <XPBonus>5</XPBonus>
+  </Object>
+  <Object id="Thistleleaf Necklace" type="0x65b4">
+    <DisplayId>Thistleleaf Necklace</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xd9</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo description="Retaliates with a lingering spore." name="On Hit" />
+      <EffectInfo description="Retaliates with a chomp" name="On Hit while In Combat" />
+      <EffectInfo description="2 seconds" name="Chomp Cooldown" />
+    </ExtraTooltipData>
+    <Description>This necklace once signified the everlasting bond between two people. As if alive, this necklace carries with it an aura of spite and anguish.</Description>
+    <Projectile>
+      <ObjectId>SulfW Darker Root Proj</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <LifetimeMS>5000</LifetimeMS>
+      <Magnitude>0.75</Magnitude>
+      <Size>110</Size>
+      <Parametric />
+      <ArmorPiercing />
+      <PassesCover />
+    </Projectile>
+    <ActivateOnEquip amount="90" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="5" stat="DEF">IncrementStat</ActivateOnEquip>
+    <OnPlayerHitActivate requiredConditions="In Combat" cooldown="2" arcGap="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="6.0" minDistance="6.0" numShots="2" offsetAngle="0" proc="1" type="0x65b9">BulletCreate</OnPlayerHitActivate>
+    <OnPlayerHitActivate requiredConditions="In Combat" cooldown="2" arcGap="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="4.8" minDistance="4.8" numShots="2" offsetAngle="0" proc="1" type="0x65b5">BulletCreate</OnPlayerHitActivate>
+    <OnPlayerHitActivate requiredConditions="In Combat" cooldown="2" arcGap="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="3.6" minDistance="3.6" numShots="2" offsetAngle="0" proc="1" type="0x65b6">BulletCreate</OnPlayerHitActivate>
+    <OnPlayerHitActivate requiredConditions="In Combat" cooldown="2" arcGap="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="2.4" minDistance="2.4" numShots="2" offsetAngle="0" proc="1" type="0x65b7">BulletCreate</OnPlayerHitActivate>
+    <OnPlayerHitActivate requiredConditions="In Combat" cooldown="2" arcGap="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="1.2" minDistance="1.2" numShots="2" offsetAngle="0" proc="1" type="0x65b8">BulletCreate</OnPlayerHitActivate>
+    <OnPlayerHitActivate arcGap="0" cooldown="0" damageThreshold="0" gapAngle="0" gapTiles="0" maxDistance="0.001" minDistance="0.001" numShots="1" offsetAngle="0" proc="1" type="0x65b4">BulletCreate</OnPlayerHitActivate>
+    <BagType>6</BagType>
+    <XPBonus>6</XPBonus>
+    <Soulbound />
+    <feedPower>800</feedPower>
+  </Object>
+  <Object id="SulfW Ring A" type="0x65b9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Amplitude>2.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>-25000</Acceleration>
+      <AccelerationDelay>397</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="SulfW Ring B" type="0x65b5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Amplitude>2.125</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>-25000</Acceleration>
+      <AccelerationDelay>398</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="SulfW Ring C" type="0x65b6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>90</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Amplitude>1.75</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>-25000</Acceleration>
+      <AccelerationDelay>398</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="SulfW Ring D" type="0x65b7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>60</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Amplitude>1.375</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>-25000</Acceleration>
+      <AccelerationDelay>398</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="SulfW Ring E" type="0x65b8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Soulbound />
+    <Projectile>
+      <ObjectId>SulfW Chomper Proj</ObjectId>
+      <Speed>30</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <Amplitude>1</Amplitude>
+      <Frequency>0.5</Frequency>
+      <Acceleration>-25000</Acceleration>
+      <AccelerationDelay>398</AccelerationDelay>
+      <SpeedClamp>0</SpeedClamp>
+      <LifetimeMS>800</LifetimeMS>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+      <ProtectFromSink />
+      <ArmorPiercing />
+    </Projectile>
+  </Object>
+  <Object id="SulfW Potion 1" type="0x63e7">
+    <DisplayId>Sulfuric Concoction</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A vial of purified bog water from the Sulfurous Wetlands. Though safe to drink, erratic magic has befouled this liquid to an unsavable state.</Description>
+    <Sound>use_potion</Sound>
+    <Activate duration="4" effect="Berserk">ConditionEffectSelf</Activate>
+    <Activate duration="3" effect="Sick">ConditionEffectSelf</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <feedPower>75</feedPower>
+    <QuickslotAllowed maxstack="3" />
+  </Object>
+  <Object id="SulfW Potion 2" type="0x6400">
+    <DisplayId>Bloodroot Extract</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0xc8</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A bottle containing a mixture of ground Bloodflower petals and cleansed swamp water. Those who drink it feel rather invigorated yet feel chased by an ever-growing, ominous aura.</Description>
+    <Sound>use_potion</Sound>
+    <Activate heal="50" ignoreDef="50" wisPerRad="15" radius="3.0" totalDamage="50" wisDamageBase="15" healRange="2" wisMin="35">VampireBlast</Activate>
+    <Activate amount="20" duration="5" stat="VIT">StatBoostSelf</Activate>
+    <Activate duration="3" effect="Curse">ConditionEffectSelf</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+    <feedPower>75</feedPower>
+    <QuickslotAllowed maxstack="5" />
+  </Object>
+  <Object id="SulfW Trap Bubble" type="0x6612">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>wetlandsObjects16x16</File>
+      <Index>0xb0</Index>
+    </Texture>
+    <Animation period="0.001" prob="1">
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb0</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb1</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb2</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb3</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb4</Index>
+        </Texture>
+      </Frame>
+      <Frame time="0.4">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb5</Index>
+        </Texture>
+      </Frame>
+      <Frame time="5">
+        <Texture>
+          <File>wetlandsObjects16x16</File>
+          <Index>0xb5</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <Size>90</Size>
+    <ShadowSize>15</ShadowSize>
+  </Object>
+  <Object id="Sulfuric Stone" type="0x6611">
+    <DisplayId>Sulfuric Stone</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>wetlandsObjects8x8</File>
+      <Index>0x8f</Index>
+    </Texture>
+    <SlotType>20</SlotType>
+    <Description>A peculiarly weathered rock with runes burned into it from generations of being submurged in the acidic bog. This makeshift snare is unmatched in power, but it activates on its own terms.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Spawn a Sulfuric Stone that deals 250 impact damage." name="Trap" />
+      <EffectInfo description="Deals 750 damage over 3.0 tiles after 2 seconds have passed." name="Sulfuric Stone" />
+    </ExtraTooltipData>
+    <ActivateOnEquip amount="25" stat="MAXHP">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip amount="25" stat="MAXMP">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>4</BagType>
+    <MpCost>100</MpCost>
+    <Activate color="0x75ff9c" objectId="SulfW Trap Bubble" throwTime="1">ObjectToss</Activate>
+    <Activate color="9D9D9D" duration="0" impactDamage="250" radius="3.0" throwTime="1" totalDamage="0">PoisonGrenade</Activate>
+    <feedPower>650</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+  </Object>
+  <Object id="Mark of the Wetlands" type="0x65ca">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>wetlandsObjects8x8</File>
+      <Index>0xd8</Index>
+    </Texture>
+    <Description>A medallion infused with the essence of the Heart of the Wetlands.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Quest item" name="Type" />
+      <EffectInfo description="Obtained by defeating the Heart of the Wetlands in the Sulfurous Wetlands." name="Drop location" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_nova</Sound>
+    <BagType>2</BagType>
+    <Treasure />
+    <Mark />
+    <feedPower>50</feedPower>
+    <Soulbound />
+  </Object>
+  <Object type="0x382a" id="Blueprint_234">
+    <DisplayId>Sulfuric Stone Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Sulfuric Stone">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x3831" id="Blueprint_235">
+    <DisplayId>Thistleleaf Necklace Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Thistleleaf Necklace">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x385d" id="Blueprint_236">
+    <DisplayId>Warped Mantle Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b2</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Warped Mantle">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x3862" id="Blueprint_237">
+    <DisplayId>Bogwood Crook Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Bogwood Crook">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
+  </Object>
+  <Object type="0x3869" id="Blueprint_238">
+    <DisplayId>Brambletooth Tachi Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b3</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Brambletooth Tachi">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL</Labels>
   </Object>
 </Objects>

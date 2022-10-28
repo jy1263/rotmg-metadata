@@ -903,6 +903,23 @@
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
+  <Object type="0x3925" id="Sulfurous Wetlands Guild Chest">
+    <DisplayId>Sulfurous Wetlands Guild Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x466</Index>
+    </Texture>
+    <MaxHitPoints>15000</MaxHitPoints>
+    <KeepDamageRecord />
+    <TrackLoot />
+    <Defense>0</Defense>
+    <Size>160</Size>
+    <Exp>0</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
   <Object type="0x64c6" id="Guild Present Chest">
     <DisplayId>Guild Present Chest</DisplayId>
     <Class>Character</Class>
