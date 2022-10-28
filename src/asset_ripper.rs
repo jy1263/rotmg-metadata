@@ -4,6 +4,26 @@ use zip::ZipArchive;
 
 use crate::ASSET_RIPPER_PLATFORM;
 
+#[cfg(test)]
+mod tests {
+    #[tokio::test]
+    async fn it_works() {
+        let octocrab = octocrab::instance();
+        let release = octocrab
+        .repos("AssetRipper", "AssetRipper")
+        .releases()
+        .get_by_tag("0.2.1.0")
+        .await.unwrap();
+        let release_asset = release
+            .assets
+            .iter()
+            .find(|e| e.name.contains(crate::ASSET_RIPPER_PLATFORM))
+            .unwrap();
+            
+    }
+}
+
+
 pub async fn download_asset_ripper_to(output_path: PathBuf) -> Result<(), Box<dyn std::error::Error>> {
     let octocrab = octocrab::instance();
     // let releases = octocrab
@@ -18,10 +38,10 @@ pub async fn download_asset_ripper_to(output_path: PathBuf) -> Result<(), Box<dy
     // let release = releases
     //     .first()
     //     .ok_or_else(|| anyhow::anyhow!(unfound_err))?;
-    let release = octocrab::instance()
+    let release = octocrab
         .repos("AssetRipper", "AssetRipper")
         .releases()
-        .get_by_tag("0.2.1.0")
+        .get_by_tag("0.2.2.0")
         .await
         .or_else(|_| Err(anyhow::anyhow!(unfound_err)))?;
     let release_asset = release
