@@ -41,7 +41,7 @@ pub async fn download_asset_ripper_to(output_path: PathBuf) -> Result<(), Box<dy
     let release = octocrab
         .repos("AssetRipper", "AssetRipper")
         .releases()
-        .get_by_tag("0.2.1.0")
+        .get_by_tag("0.2.1.1")
         .await
         .or_else(|_| Err(anyhow::anyhow!(unfound_err)))?;
     let release_asset = release
