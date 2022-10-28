@@ -6,18 +6,24 @@ use crate::ASSET_RIPPER_PLATFORM;
 
 pub async fn download_asset_ripper_to(output_path: PathBuf) -> Result<(), Box<dyn std::error::Error>> {
     let octocrab = octocrab::instance();
-    let releases = octocrab
-        .repos("AssetRipper", "AssetRipper")
-        .releases()
-        .list()
-        .send()
-        .await?
-        .take_items();
+    // let releases = octocrab
+    //     .repos("AssetRipper", "AssetRipper")
+    //     .releases()
+    //     .list()
+    //     .send()
+    //     .await?
+    //     .take_items();
 
     let unfound_err = "No Releases Found for AssetRipper";
-    let release = releases
-        .first()
-        .ok_or_else(|| anyhow::anyhow!(unfound_err))?;
+    // let release = releases
+    //     .first()
+    //     .ok_or_else(|| anyhow::anyhow!(unfound_err))?;
+    let release = octocrab::instance()
+        .repos("AssetRipper", "AssetRipper")
+        .releases()
+        .get_by_tag("0.2.1.0")
+        .await
+        .or_else(|_| Err(anyhow::anyhow!(unfound_err)))?;
     let release_asset = release
         .assets
         .iter()
