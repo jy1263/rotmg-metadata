@@ -135,7 +135,6 @@
     <Invincible />
     <PerRealmMax>3</PerRealmMax>
     <Terrain>Mountains</Terrain>
-    <SpawnProb>1.0</SpawnProb>
     <Labels>ENEMY,MINION</Labels>
   </Object>
   <Object type="0x7460" id="Totalia Death">
@@ -419,7 +418,6 @@
       <ArmorPiercing />
     </Projectile>
     <Color>0x00ff00</Color>
-    <BleedMax>5</BleedMax>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>

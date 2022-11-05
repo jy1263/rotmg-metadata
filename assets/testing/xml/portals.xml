@@ -2019,15 +2019,4 @@
       </Frame>
     </Animation>
   </Object>
-  <Object type="0x74e0" id="KSW Encounter Portal">
-    <Class>Portal</Class>
-    <IntergamePortal />
-    <DungeonPortal />
-    <DisplayId>KSW Encounter</DisplayId>
-    <DungeonName>KSW Encounter</DungeonName>
-    <Texture>
-      <File>lofiEnvironment2</File>
-      <Index>0x36</Index>
-    </Texture>
-  </Object>
 </Objects>

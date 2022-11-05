@@ -3761,7 +3761,7 @@
     <ForgefireCost>400</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
   </ForgeProperties>
-  <ForgeProperties type="0x445b" id="Amulet of Frenzy">
+  <ForgeProperties type="0x384c" id="Amulet of Frenzy">
     <CanDismantle />
     <CanCraft />
     <Description />
@@ -9252,15 +9252,6 @@
     <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
     <ForgefireCost>0</ForgefireCost>
     <ForgefireDismantle>-80</ForgefireDismantle>
-    <Ingredient />
-  </ForgeProperties>
-  <ForgeProperties type="0xc21c" id="Blueprint_239">
-    <CanDismantle />
-    <Description />
-    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
-    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
-    <ForgefireCost>0</ForgefireCost>
-    <ForgefireDismantle>-120</ForgefireDismantle>
     <Ingredient />
   </ForgeProperties>
 </Objects>
