@@ -3342,6 +3342,7 @@
     <BagType>7</BagType>
     <DisplayId>Marid Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Sir Bagston" type="0x6103">
     <Pet />
@@ -3384,6 +3385,7 @@
     <BagType>7</BagType>
     <DisplayId>Bagston Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Goldy" type="0x6106">
     <Pet />
@@ -3425,6 +3427,7 @@
     <BagType>7</BagType>
     <DisplayId>Goldy Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Jaco" type="0x6109">
     <Pet />
@@ -3468,6 +3471,7 @@
     <BagType>7</BagType>
     <DisplayId>Jaco Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Giant Vampire Bat" type="0x7ffb">
     <Pet />
@@ -3513,6 +3517,7 @@
     <BagType>7</BagType>
     <DisplayId>Giant Vampire Bat Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7f8b" id="Pumpkin Head">
     <Pet />
@@ -3561,6 +3566,7 @@
     <BagType>7</BagType>
     <DisplayId>Pumpkin Head Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7f9c" id="Christmas Tree">
     <Pet />
@@ -3601,6 +3607,7 @@
     <BagType>7</BagType>
     <DisplayId>Christmas Tree Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7f9e" id="Red Nose">
     <Pet />
@@ -3643,6 +3650,7 @@
     <BagType>7</BagType>
     <DisplayId>Red Nosed Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Bagston" type="0x7fbf">
     <Pet />
@@ -3683,6 +3691,7 @@
     <BagType>7</BagType>
     <DisplayId>Red Bagston Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Helper Bagston" type="0x7fc2">
     <Pet />
@@ -3723,6 +3732,7 @@
     <BagType>7</BagType>
     <DisplayId>Helper Bagston Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Helper Bagston" type="0x7fc5">
     <Pet />
@@ -3763,6 +3773,7 @@
     <BagType>7</BagType>
     <DisplayId>Red Helper Bagston Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Muddy Tidechaser" type="0x7fc9">
     <Pet />
@@ -3805,6 +3816,7 @@
     <BagType>7</BagType>
     <DisplayId>Muddy Tidechaser Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x8090" id="Disabled Pet Skin">
     <PetSkin />
@@ -4018,6 +4030,7 @@
     <BagType>7</BagType>
     <DisplayId>Turtle Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x1998" id="Peppermint Snail Pet Stone">
     <Class>Equipment</Class>
@@ -4034,6 +4047,7 @@
     <BagType>7</BagType>
     <DisplayId>Peppermint Snail Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x1999" id="Golden Crab Pet Stone">
     <Class>Equipment</Class>
@@ -4051,6 +4065,7 @@
     <BagType>7</BagType>
     <DisplayId>Golden Crab Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x199a" id="Robobuddy Pet Stone">
     <Class>Equipment</Class>
@@ -4067,6 +4082,7 @@
     <BagType>7</BagType>
     <DisplayId>Robobuddy Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x199b" id="Redbot Pet Stone">
     <Class>Equipment</Class>
@@ -4083,6 +4099,7 @@
     <BagType>7</BagType>
     <DisplayId>Redbot Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x199c" id="Gutsbot Pet Stone">
     <Class>Equipment</Class>
@@ -4100,6 +4117,7 @@
     <BagType>7</BagType>
     <DisplayId>Gutsbot Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x199d" id="Cardinal Pet Stone">
     <Class>Equipment</Class>
@@ -4116,6 +4134,7 @@
     <BagType>7</BagType>
     <DisplayId>Cardinal Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x199e" id="USA Eagle Pet Stone">
     <Class>Equipment</Class>
@@ -4133,6 +4152,7 @@
     <BagType>7</BagType>
     <DisplayId>USA Eagle Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x199f" id="Griffin Pet Stone">
     <Class>Equipment</Class>
@@ -4150,6 +4170,7 @@
     <BagType>7</BagType>
     <DisplayId>Griffin Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a0" id="Sheepdog Pet Stone">
     <Class>Equipment</Class>
@@ -4166,6 +4187,7 @@
     <BagType>7</BagType>
     <DisplayId>Sheepdog Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a1" id="Gold Bulldog Pet Stone">
     <Class>Equipment</Class>
@@ -4182,6 +4204,7 @@
     <BagType>7</BagType>
     <DisplayId>Gold Bulldog Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a2" id="Golden Hyena Pet Stone">
     <Class>Equipment</Class>
@@ -4199,6 +4222,7 @@
     <BagType>7</BagType>
     <DisplayId>Golden Hyena Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a3" id="Elephant Pet Stone">
     <Class>Equipment</Class>
@@ -4215,6 +4239,7 @@
     <BagType>7</BagType>
     <DisplayId>Elephant Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a4" id="Panda Pet Stone">
     <Class>Equipment</Class>
@@ -4231,6 +4256,7 @@
     <BagType>7</BagType>
     <DisplayId>Panda Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a5" id="King Gorilla Pet Stone">
     <Class>Equipment</Class>
@@ -4248,6 +4274,7 @@
     <BagType>7</BagType>
     <DisplayId>King Gorilla Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a6" id="Duck Pet Stone">
     <Class>Equipment</Class>
@@ -4264,6 +4291,7 @@
     <BagType>7</BagType>
     <DisplayId>Duck Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a7" id="Mallard Pet Stone">
     <Class>Equipment</Class>
@@ -4280,6 +4308,7 @@
     <BagType>7</BagType>
     <DisplayId>Mallard Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a8" id="Enraged Yack Pet Stone">
     <Class>Equipment</Class>
@@ -4297,6 +4326,7 @@
     <BagType>7</BagType>
     <DisplayId>Enraged Yak Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19a9" id="Tan Cat Pet Stone">
     <Class>Equipment</Class>
@@ -4313,6 +4343,7 @@
     <BagType>7</BagType>
     <DisplayId>Tan Cat Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19aa" id="White Lion Pet Stone">
     <Class>Equipment</Class>
@@ -4329,6 +4360,7 @@
     <BagType>7</BagType>
     <DisplayId>White Lion Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19ab" id="Tiger Pet Stone">
     <Class>Equipment</Class>
@@ -4346,6 +4378,7 @@
     <BagType>7</BagType>
     <DisplayId>Tiger Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19ac" id="Leprechaun Pet Stone">
     <Class>Equipment</Class>
@@ -4362,6 +4395,7 @@
     <BagType>7</BagType>
     <DisplayId>Leprechaun Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19ad" id="Red Ant Pet Stone">
     <Class>Equipment</Class>
@@ -4378,6 +4412,7 @@
     <BagType>7</BagType>
     <DisplayId>Red Ant Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19ae" id="Bee Pet Stone">
     <Class>Equipment</Class>
@@ -4394,6 +4429,7 @@
     <BagType>7</BagType>
     <DisplayId>Bee Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19af" id="Beetleman Pet Stone">
     <Class>Equipment</Class>
@@ -4411,6 +4447,7 @@
     <BagType>7</BagType>
     <DisplayId>Beetleman Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b0" id="Penguin Pet Stone">
     <Class>Equipment</Class>
@@ -4427,6 +4464,7 @@
     <BagType>7</BagType>
     <DisplayId>Penguin Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b1" id="Karate Purple Pet Stone">
     <Class>Equipment</Class>
@@ -4443,6 +4481,7 @@
     <BagType>7</BagType>
     <DisplayId>Karate Purple Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b2" id="Tank Penguin Pet Stone">
     <Class>Equipment</Class>
@@ -4460,6 +4499,7 @@
     <BagType>7</BagType>
     <DisplayId>Tank Penguin Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b3" id="Dino Pet Stone">
     <Class>Equipment</Class>
@@ -4476,6 +4516,7 @@
     <BagType>7</BagType>
     <DisplayId>Dino Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Frilled Lizard" type="0x19b4">
     <Pet />
@@ -4516,6 +4557,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b7" id="Poison Drake Pet Stone">
     <Class>Equipment</Class>
@@ -4533,6 +4575,7 @@
     <BagType>7</BagType>
     <DisplayId>Poison Drake Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b8" id="Spirit Pet Stone">
     <Class>Equipment</Class>
@@ -4550,6 +4593,7 @@
     <BagType>7</BagType>
     <DisplayId>Spirit Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19b9" id="Werewolf Cub Pet Stone">
     <Class>Equipment</Class>
@@ -4567,6 +4611,7 @@
     <BagType>7</BagType>
     <DisplayId>Werewolf Cub Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19ba" id="Hamster Pet Stone">
     <Class>Equipment</Class>
@@ -4583,6 +4628,7 @@
     <BagType>7</BagType>
     <DisplayId>Hamster Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19bb" id="Snowy Owl Pet Stone">
     <Class>Equipment</Class>
@@ -4599,6 +4645,7 @@
     <BagType>7</BagType>
     <DisplayId>Snowy Owl Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19bc" id="Sprite Star Pet Stone">
     <Class>Equipment</Class>
@@ -4616,6 +4663,7 @@
     <BagType>7</BagType>
     <DisplayId>Sprite Star Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x19bd" id="Gummy Bear Pet Stone">
     <Class>Equipment</Class>
@@ -4632,6 +4680,7 @@
     <BagType>7</BagType>
     <DisplayId>Gummy Bear Pet Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Fire Rooster" type="0x19be">
     <Pet />
@@ -4673,6 +4722,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Rooster of Good Fortune" type="0x19c1">
     <Pet />
@@ -4714,6 +4764,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Chinese Dragon" type="0x19c4">
     <Pet />
@@ -4759,6 +4810,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Gingerbread Man" type="0x19c7">
     <Pet />
@@ -4800,6 +4852,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Polaris" type="0x19ca">
     <Pet />
@@ -4839,6 +4892,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Paper Lantern" type="0x19cd">
     <Pet />
@@ -4884,6 +4938,7 @@
     <BagType>7</BagType>
     <DisplayId>Mini Paper Lantern Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Paper Lantern" type="0x19d0">
     <Pet />
@@ -4930,6 +4985,7 @@
     <BagType>7</BagType>
     <DisplayId>Paper Lantern Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chinese Dragon" type="0x19d3">
     <Pet />
@@ -4976,6 +5032,7 @@
     <BagType>7</BagType>
     <DisplayId>Chinese Dragon Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Desert Cobra" type="0x19d6">
     <Pet />
@@ -5017,6 +5074,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="White Bounsheep" type="0x2aa0">
     <Pet />
@@ -5058,6 +5116,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Grey Bounsheep" type="0x2aa3">
     <Pet />
@@ -5097,6 +5156,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Brown Bounsheep" type="0x2aa6">
     <Pet />
@@ -5136,6 +5196,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Bes' Artifact" type="0x2aa9">
     <Pet />
@@ -5178,6 +5239,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Geb's Artifact" type="0x2aac">
     <Pet />
@@ -5220,6 +5282,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Nut's Artifact" type="0x2aaf">
     <Pet />
@@ -5262,6 +5325,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Sphinx" type="0x4af0">
     <Pet />
@@ -5304,6 +5368,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Crystal Steed" type="0x4af1">
     <Pet />
@@ -5346,6 +5411,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Carnivorous Plant" type="0x4af2">
     <Pet />
@@ -5387,6 +5453,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Knight Companion" type="0x4af3">
     <Pet />
@@ -5426,6 +5493,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mr Cactus Jr." type="0x4af4">
     <Pet />
@@ -5467,6 +5535,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mr Cactus" type="0x4af5">
     <Pet />
@@ -5508,6 +5577,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Limon" type="0x4bb6">
     <Pet />
@@ -5550,6 +5620,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x08ae" id="Killer Bee Queen">
     <Pet />
@@ -5597,6 +5668,7 @@
     <BagType>7</BagType>
     <DisplayId>Killer Bee Queen Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Stone Oryx" type="0x4c05">
     <Pet />
@@ -5636,6 +5708,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Gigacorn" type="0x4c08">
     <Pet />
@@ -5678,6 +5751,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Creampuff" type="0x4c0b">
     <Pet />
@@ -5720,6 +5794,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Desire Troll" type="0x4c0e">
     <Pet />
@@ -5762,6 +5837,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Rototo" type="0x4c11">
     <Pet />
@@ -5804,6 +5880,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Flying Stheno" type="0x4c14">
     <Pet />
@@ -5845,6 +5922,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Surfing Bro" type="0x4c17">
     <Pet />
@@ -5886,6 +5964,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Ghost King" type="0x4c2e">
     <Pet />
@@ -5927,6 +6006,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Robo Brain" type="0x4c31">
     <Pet />
@@ -5966,6 +6046,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Orange Drake" type="0x4c34">
     <Pet />
@@ -6007,6 +6088,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Yellow Drake" type="0x4c37">
     <Pet />
@@ -6048,6 +6130,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby White Drake" type="0x4c3a">
     <Pet />
@@ -6087,6 +6170,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Green Drake" type="0x4c3d">
     <Pet />
@@ -6126,6 +6210,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Leviathan" type="0x4c40">
     <Pet />
@@ -6168,6 +6253,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Blue Drake" type="0x4c43">
     <Pet />
@@ -6209,6 +6295,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Purple Drake" type="0x4c46">
     <Pet />
@@ -6250,6 +6337,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pet HP Pot" type="0x4c4d">
     <Pet />
@@ -6291,6 +6379,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pet MP Pot" type="0x4c50">
     <Pet />
@@ -6332,6 +6421,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Crowned Penguin" type="0x4c8b">
     <Pet />
@@ -6371,6 +6461,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Void Entity" type="0x4c8e">
     <Pet />
@@ -6413,6 +6504,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Hoverbot" type="0x4c91">
     <Pet />
@@ -6454,6 +6546,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Zombie Dog" type="0x4c94">
     <Pet />
@@ -6495,6 +6588,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Green Whale" type="0x4c97">
     <Pet />
@@ -6536,6 +6630,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pumpking's Head" type="0x4c9a">
     <Pet />
@@ -6577,6 +6672,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Manticore" type="0x4ca9">
     <Pet />
@@ -6616,6 +6712,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Flying Pig" type="0x4cac">
     <Pet />
@@ -6657,6 +6754,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Double Viper" type="0x4caf">
     <Pet />
@@ -6696,6 +6794,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Black Hellhound" type="0x4cb2">
     <Pet />
@@ -6737,6 +6836,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Deerigator" type="0x4cb5">
     <Pet />
@@ -6776,6 +6876,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Moon Bunny" type="0x4cb8">
     <Pet />
@@ -6817,6 +6918,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Hungry Pumpkin" type="0x4cbb">
     <Pet />
@@ -6858,6 +6960,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Evil Ghost" type="0x4cbe">
     <Pet />
@@ -6899,6 +7002,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Spooky Boi" type="0x4cc1">
     <Pet />
@@ -6940,6 +7044,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Walking Grave" type="0x4cc4">
     <Pet />
@@ -6981,6 +7086,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Autumn Hedgehog" type="0x17a5">
     <Pet />
@@ -7022,6 +7128,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x17a8" id="Mini Ghost Ship">
     <Pet />
@@ -7066,6 +7173,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x17b1" id="Mini Model Ship">
     <Pet />
@@ -7107,6 +7215,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Healbot" type="0x17b4">
     <Pet />
@@ -7146,6 +7255,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x17b7" id="Sugar Skull">
     <Pet />
@@ -7192,6 +7302,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x17c0" id="Senor Skeleton">
     <Pet />
@@ -7238,6 +7349,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x17c3" id="Flying Eyeball">
     <Pet />
@@ -7286,6 +7398,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Cauldron" type="0x17c6">
     <Pet />
@@ -7327,6 +7440,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Doom's Steed" type="0x17c9">
     <Pet />
@@ -7368,6 +7482,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lichwyrm" type="0x17d2">
     <Pet />
@@ -7409,6 +7524,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cauldron" type="0x17d5">
     <Pet />
@@ -7450,6 +7566,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="King Skin of the Toys" type="0x601a">
     <Pet />
@@ -7491,6 +7608,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Festive Slurp" type="0x601d">
     <Pet />
@@ -7532,6 +7650,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Holiday Penguin" type="0x6021">
     <Pet />
@@ -7573,6 +7692,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Young Elk" type="0x6024">
     <Pet />
@@ -7614,6 +7734,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Krampus" type="0x6027">
     <Pet />
@@ -7655,6 +7776,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Egg Monster" type="0x6048">
     <Pet />
@@ -7694,6 +7816,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Peacock" type="0x604b">
     <Pet />
@@ -7733,6 +7856,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Tricycle Bot" type="0x604e">
     <Pet />
@@ -7774,6 +7898,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Candy Gnome" type="0x6051">
     <Pet />
@@ -7815,6 +7940,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Mummy" type="0x6054">
     <Pet />
@@ -7855,6 +7981,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Parasaurolophus" type="0x6057">
     <Pet />
@@ -7896,6 +8023,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lambeosaurus" type="0x605a">
     <Pet />
@@ -7937,6 +8065,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Guiding Spirit" type="0x6071">
     <Pet />
@@ -7978,6 +8107,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Heart" type="0x6093">
     <Pet />
@@ -8019,6 +8149,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pink Heart" type="0x6096">
     <Pet />
@@ -8058,6 +8189,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Pegasus" type="0x6099">
     <Pet />
@@ -8099,6 +8231,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Prince Frog" type="0x609c">
     <Pet />
@@ -8140,6 +8273,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Goldfish" type="0x6205">
     <Pet />
@@ -8181,6 +8315,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lovebird" type="0x609f">
     <Pet />
@@ -8222,6 +8357,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Rat" type="0x6202">
     <Pet />
@@ -8262,6 +8398,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Giant Monarch" type="0x6208">
     <Pet />
@@ -8301,6 +8438,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Zodiac Dog" type="0x620b">
     <Pet />
@@ -8342,6 +8480,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Floomp" type="0x23ca">
     <Pet />
@@ -8383,6 +8522,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Vermilion Dragon" type="0x23cd">
     <Pet />
@@ -8424,6 +8564,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Golden Capricorn" type="0x23d2">
     <Pet />
@@ -8465,6 +8606,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Golden Sagittarius" type="0x23d5">
     <Pet />
@@ -8506,6 +8648,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Golden Aquarius" type="0x23d8">
     <Pet />
@@ -8547,6 +8690,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Capricorn" type="0x23db">
     <Pet />
@@ -8588,6 +8732,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Sagittarius" type="0x23de">
     <Pet />
@@ -8629,6 +8774,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Aquarius" type="0x23e2">
     <Pet />
@@ -8670,6 +8816,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Bouncing Slime" type="0x23e5">
     <Pet />
@@ -8709,6 +8856,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Pot Of Gold" type="0x23e8">
     <Pet />
@@ -8750,6 +8898,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Leprechaun's Walking Hat" type="0x23eb">
     <Pet />
@@ -8791,6 +8940,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Rainbow Rocketeer" type="0x23ee">
     <Pet />
@@ -8832,6 +8982,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Tuxedo Bird" type="0x2423">
     <Pet />
@@ -8873,6 +9024,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Flamingo" type="0x2426">
     <Pet />
@@ -8912,6 +9064,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Heron" type="0x2429">
     <Pet />
@@ -8953,6 +9106,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Angelic Drake" type="0x242c">
     <Pet />
@@ -8994,6 +9148,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Demonic Drake" type="0x242f">
     <Pet />
@@ -9033,6 +9188,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Fusion Golem" type="0x2432">
     <Pet />
@@ -9074,6 +9230,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Vibrant Seadragon" type="0x2435">
     <Pet />
@@ -9113,6 +9270,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Arthro-bot" type="0x2438">
     <Pet />
@@ -9154,6 +9312,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Biff" type="0x243b">
     <Pet />
@@ -9195,6 +9354,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Newborn Chick" type="0x243e">
     <Pet />
@@ -9236,6 +9396,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Amazon" type="0x2441">
     <Pet />
@@ -9277,6 +9438,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Party Crow" type="0x2444">
     <Pet />
@@ -9318,6 +9480,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Honey-bot Ant" type="0x2447">
     <Pet />
@@ -9359,6 +9522,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Fountain Child" type="0x244a">
     <Pet />
@@ -9401,6 +9565,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Desert Scorpion" type="0x244d">
     <Pet />
@@ -9442,6 +9607,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Giant Centipede" type="0x2450">
     <Pet />
@@ -9483,6 +9649,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Silver Sky Serpent" type="0x2453">
     <Pet />
@@ -9524,6 +9691,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Twilight Angler" type="0x2458">
     <Pet />
@@ -9565,6 +9733,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Abyss Goliath" type="0x245b">
     <Pet />
@@ -9606,6 +9775,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Axolotl" type="0x25d">
     <Pet />
@@ -9648,6 +9818,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Ladybug" type="0x16fd">
     <Pet />
@@ -9689,6 +9860,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Morpho" type="0x708c">
     <Pet />
@@ -9730,6 +9902,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Zebra Spider" type="0xe65">
     <Pet />
@@ -9769,6 +9942,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Violet Larva" type="0xe68">
     <Pet />
@@ -9809,6 +9983,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Verdant Larva" type="0x16fa">
     <Pet />
@@ -9849,6 +10024,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Platypus" type="0xbc3">
     <Pet />
@@ -9890,6 +10066,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Seal" type="0xe0c">
     <Pet />
@@ -9930,6 +10107,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Walrus" type="0xbc6">
     <Pet />
@@ -9971,6 +10149,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Blue Jay" type="0xdba">
     <Pet />
@@ -10013,6 +10192,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Vulture" type="0xdbd">
     <Pet />
@@ -10054,6 +10234,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cockatoo" type="0x76b">
     <Pet />
@@ -10095,6 +10276,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Brown Bulldog" type="0x2190">
     <Pet />
@@ -10136,6 +10318,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="White Bulldog" type="0x2193">
     <Pet />
@@ -10177,6 +10360,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Dingo" type="0x2196">
     <Pet />
@@ -10218,6 +10402,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Kiwi" type="0xe4b">
     <Pet />
@@ -10260,6 +10445,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Parrot" type="0x21d5">
     <Pet />
@@ -10301,6 +10487,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cow" type="0x17ba">
     <Pet />
@@ -10342,6 +10529,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="White Duck" type="0x17bd">
     <Pet />
@@ -10383,6 +10571,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cheetah" type="0x2204">
     <Pet />
@@ -10424,6 +10613,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Jaguar" type="0x2207">
     <Pet />
@@ -10465,6 +10655,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Little Tiger" type="0x17ca">
     <Pet />
@@ -10506,6 +10697,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Worm" type="0x17cd">
     <Pet />
@@ -10548,6 +10740,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Blue Butterfly" type="0xffa">
     <Pet />
@@ -10589,6 +10782,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pink Butterfly" type="0xffd">
     <Pet />
@@ -10630,6 +10824,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Bear" type="0x18ea">
     <Pet />
@@ -10669,6 +10864,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Moose" type="0x18ed">
     <Pet />
@@ -10710,6 +10906,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pigboot" type="0x94d">
     <Pet />
@@ -10751,6 +10948,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pillbug" type="0x20c4">
     <Pet />
@@ -10792,6 +10990,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x2806" id="Demon Frog Pet Stone">
     <Class>Equipment</Class>
@@ -10809,6 +11008,7 @@
     <BagType>7</BagType>
     <DisplayId>Demon Frog Skin</DisplayId>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object type="0x8085" id="Pink Lion Pet Stone">
     <Class>Equipment</Class>
@@ -10826,6 +11026,7 @@
     <BagType>7</BagType>
     <DisplayId>Pink Lion Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8086" id="Midnight Wolf Pet Stone">
     <Class>Equipment</Class>
@@ -10844,6 +11045,7 @@
     <BagType>7</BagType>
     <DisplayId>Midnight Wolf Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8087" id="Phoenix Pet Stone">
     <Class>Equipment</Class>
@@ -10861,6 +11063,7 @@
     <BagType>7</BagType>
     <DisplayId>Phoenix Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8088" id="War Elephant Pet Stone">
     <Class>Equipment</Class>
@@ -10878,6 +11081,7 @@
     <BagType>7</BagType>
     <DisplayId>War Elephant Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8089" id="Night Mare Pet Stone">
     <Class>Equipment</Class>
@@ -10895,6 +11099,7 @@
     <BagType>7</BagType>
     <DisplayId>Night Mare Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808a" id="Silver Doe Pet Stone">
     <Class>Equipment</Class>
@@ -10912,6 +11117,7 @@
     <BagType>7</BagType>
     <DisplayId>Silver Doe Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808b" id="Solar Owl Pet Stone">
     <Class>Equipment</Class>
@@ -10929,6 +11135,7 @@
     <BagType>7</BagType>
     <DisplayId>Solar Owl Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808c" id="Tandem Cobra Pet Stone">
     <Class>Equipment</Class>
@@ -10946,6 +11153,7 @@
     <BagType>7</BagType>
     <DisplayId>Tandem Cobra Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808d" id="Ultrawasp Pet Stone">
     <Class>Equipment</Class>
@@ -10963,6 +11171,7 @@
     <BagType>7</BagType>
     <DisplayId>Ultrawasp Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808e" id="Battle Penguin Pet Stone">
     <Class>Equipment</Class>
@@ -10980,6 +11189,7 @@
     <BagType>7</BagType>
     <DisplayId>Battle Penguin Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x808f" id="Great Shark Pet Stone">
     <Class>Equipment</Class>
@@ -10997,6 +11207,7 @@
     <BagType>7</BagType>
     <DisplayId>Great Shark Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8091" id="Blue Landfish Pet Stone">
     <Class>Equipment</Class>
@@ -11014,6 +11225,7 @@
     <BagType>7</BagType>
     <DisplayId>Blue Landfish Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8092" id="Glowing Skull Pet Stone">
     <Class>Equipment</Class>
@@ -11031,6 +11243,7 @@
     <BagType>7</BagType>
     <DisplayId>Glowing Skull Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8093" id="Monkey Head Pet Stone">
     <Class>Equipment</Class>
@@ -11048,6 +11261,7 @@
     <BagType>7</BagType>
     <DisplayId>Monkey Head Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8094" id="Reaper Pet Stone">
     <Class>Equipment</Class>
@@ -11065,6 +11279,7 @@
     <BagType>7</BagType>
     <DisplayId>Reaper Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8095" id="Battle God Pet Stone">
     <Class>Equipment</Class>
@@ -11082,6 +11297,7 @@
     <BagType>7</BagType>
     <DisplayId>Battle God Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8096" id="Centaur Pet Stone">
     <Class>Equipment</Class>
@@ -11099,6 +11315,7 @@
     <BagType>7</BagType>
     <DisplayId>Centaur Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8097" id="Forest Fairy Pet Stone">
     <Class>Equipment</Class>
@@ -11116,6 +11333,7 @@
     <BagType>7</BagType>
     <DisplayId>Forest Fairy Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8098" id="Lil' Oryx Pet Stone">
     <Class>Equipment</Class>
@@ -11133,6 +11351,7 @@
     <BagType>7</BagType>
     <DisplayId>Lil' Oryx Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x8099" id="Shroom Pet Stone">
     <Class>Equipment</Class>
@@ -11150,6 +11369,7 @@
     <BagType>7</BagType>
     <DisplayId>Shroom Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x809a" id="Great Jelly Pet Stone">
     <Class>Equipment</Class>
@@ -11167,6 +11387,7 @@
     <BagType>7</BagType>
     <DisplayId>Great Jelly Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x809b" id="Spiderbot Pet Stone">
     <Class>Equipment</Class>
@@ -11184,6 +11405,7 @@
     <BagType>7</BagType>
     <DisplayId>Spiderbot Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x809c" id="Cylindron Pet Stone">
     <Class>Equipment</Class>
@@ -11201,6 +11423,7 @@
     <BagType>7</BagType>
     <DisplayId>Cylindron Pet Skin</DisplayId>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Living Tree" type="0x72a0">
     <Pet />
@@ -11243,6 +11466,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chinchilla" type="0x72a3">
     <Pet />
@@ -11285,6 +11509,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Golden Chess Piece" type="0x72a6">
     <Pet />
@@ -11327,6 +11552,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="World Turtles" type="0x6408">
     <Pet />
@@ -11370,6 +11596,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Skelly Penguin" type="0x370f">
     <Pet />
@@ -11412,6 +11639,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Reticulated Longuin" type="0x3712">
     <Pet />
@@ -11455,6 +11683,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Transcendent Penguin" type="0x3715">
     <Pet />
@@ -11498,6 +11727,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Aeronautical Penguin" type="0x3718">
     <Pet />
@@ -11545,6 +11775,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Sprout Slime" type="0x72a9">
     <Pet />
@@ -11588,6 +11819,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a30" id="Mini Medusa">
     <Pet />
@@ -11630,6 +11862,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a33" id="Mini Djinn">
     <Pet />
@@ -11672,6 +11905,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a36" id="Mini Ghost God">
     <Pet />
@@ -11718,6 +11952,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a39" id="Mini Flying Brain">
     <Pet />
@@ -11764,6 +11999,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a3c" id="Mini Beholder">
     <Pet />
@@ -11810,6 +12046,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a3f" id="Mini Sprite God">
     <Pet />
@@ -11856,6 +12093,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a42" id="Mini Ent God">
     <Pet />
@@ -11898,6 +12136,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a45" id="Mini Slime God">
     <Pet />
@@ -11940,6 +12179,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x1a48" id="Mini White Demon">
     <Pet />
@@ -11982,6 +12222,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x5b0c" id="Mini Lord">
     <Pet />
@@ -12024,6 +12265,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Tornado" type="0x5b0f">
     <Pet />
@@ -12067,6 +12309,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Wooden Burrito" type="0x5b12">
     <Pet />
@@ -12109,6 +12352,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Nikao" type="0x5b15">
     <Pet />
@@ -12151,6 +12395,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Davy" type="0x5b18">
     <Pet />
@@ -12193,6 +12438,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Good Mask Spirit" type="0x3d5f">
     <Pet />
@@ -12240,6 +12486,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Evil Mask Spirit" type="0x3d62">
     <Pet />
@@ -12287,6 +12534,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Little Fox" type="0x260c">
     <Pet />
@@ -12329,6 +12577,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Beer God" type="0x260f">
     <Pet />
@@ -12371,6 +12620,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Titanium Rex" type="0x2612">
     <Pet />
@@ -12414,6 +12664,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Panda" type="0x2615">
     <Pet />
@@ -12457,6 +12708,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Gargantua" type="0x2618">
     <Pet />
@@ -12500,6 +12752,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Maneki-neko" type="0x5b1b">
     <Pet />
@@ -12540,6 +12793,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Autumn Ent" type="0x7f02">
     <Pet />
@@ -12583,6 +12837,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Ivory Narwhal" type="0x756a">
     <Pet />
@@ -12626,6 +12881,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Armored Orc" type="0x756d">
     <Pet />
@@ -12669,6 +12925,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Enchanted Broom" type="0x7570">
     <Pet />
@@ -12712,6 +12969,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Hollow Wendigo" type="0x7573">
     <Pet />
@@ -12755,6 +13013,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Tree Sparrow" type="0x7576">
     <Pet />
@@ -12801,6 +13060,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="White Eyed" type="0x7579">
     <Pet />
@@ -12847,6 +13107,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Polar Bear" type="0x757c">
     <Pet />
@@ -12890,6 +13151,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Snow Monster" type="0x757f">
     <Pet />
@@ -12933,6 +13195,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Longtailed Tit" type="0x7582">
     <Pet />
@@ -12977,6 +13240,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Searing Soul" type="0x7585">
     <Pet />
@@ -13020,6 +13284,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Zodiac Pig" type="0x7588">
     <Pet />
@@ -13061,6 +13326,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Swan" type="0x7596">
     <Pet />
@@ -13104,6 +13370,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Green Hat Bunny" type="0x7599">
     <Pet />
@@ -13146,6 +13413,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cultured Bookwyrm" type="0x759c">
     <Pet />
@@ -13189,6 +13457,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Whale" type="0x759f">
     <Pet />
@@ -13231,6 +13500,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Champion Spirit" type="0x75a2">
     <Pet />
@@ -13274,6 +13544,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Vicious Phantom" type="0x75a5">
     <Pet />
@@ -13317,6 +13588,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Toaster" type="0x75a8">
     <Pet />
@@ -13360,6 +13632,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Warrior Duck" type="0x75ab">
     <Pet />
@@ -13403,6 +13676,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Infested Bagston" type="0x75ae">
     <Pet />
@@ -13446,6 +13720,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Crystal Cobra" type="0x75b1">
     <Pet />
@@ -13489,6 +13764,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Possessed Lantern" type="0x75b4">
     <Pet />
@@ -13532,6 +13808,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Malogian Saucer" type="0x75b7">
     <Pet />
@@ -13573,6 +13850,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Untarian Saucer" type="0x75ba">
     <Pet />
@@ -13616,6 +13894,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Foraxian Saucer" type="0x75bd">
     <Pet />
@@ -13659,6 +13938,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Katalonian Saucer" type="0x75c0">
     <Pet />
@@ -13702,6 +13982,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>500</feedPower>
+    <Track />
   </Object>
   <Object id="Chill Chickey" type="0x75c3">
     <Pet />
@@ -13745,6 +14026,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Sir Wumple" type="0x75c6">
     <Pet />
@@ -13785,6 +14067,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Shiba Inu" type="0x75c9">
     <Pet />
@@ -13827,6 +14110,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Blue Turtle Shell" type="0x75cc">
     <Pet />
@@ -13870,6 +14154,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Green Turtle Shell" type="0x75cf">
     <Pet />
@@ -13912,6 +14197,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red Turtle Shell" type="0x75d2">
     <Pet />
@@ -13954,6 +14240,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Skelephant" type="0x75d5">
     <Pet />
@@ -13997,6 +14284,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Phantom Tea Set" type="0x75d8">
     <Pet />
@@ -14040,6 +14328,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Fool's Penguin" type="0x75db">
     <Pet />
@@ -14083,6 +14372,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Phantom Ghost" type="0x75de">
     <Pet />
@@ -14126,6 +14416,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="UFO Bot" type="0x75e1">
     <Pet />
@@ -14168,6 +14459,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cyberpenguin" type="0x75e4">
     <Pet />
@@ -14211,6 +14503,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Blue Flaming Pumpkin" type="0x75e7">
     <Pet />
@@ -14254,6 +14547,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Orange Flaming Pumpkin" type="0x75ea">
     <Pet />
@@ -14297,6 +14591,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Flying Penguin" type="0x75ed">
     <Pet />
@@ -14339,6 +14634,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Fire Spirit" type="0x75f0">
     <Pet />
@@ -14382,6 +14678,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Earth Spirit" type="0x75f3">
     <Pet />
@@ -14425,6 +14722,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Water Spirit" type="0x75f6">
     <Pet />
@@ -14468,6 +14766,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Santa's Penguin" type="0x75f9">
     <Pet />
@@ -14511,6 +14810,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Auroral Sprite God" type="0x75ff">
     <Pet />
@@ -14552,6 +14852,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cursed Blade" type="0x7602">
     <Pet />
@@ -14595,6 +14896,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Marble Colossus" type="0x7605">
     <Pet />
@@ -14637,6 +14939,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Majestic Moose" type="0x7608">
     <Pet />
@@ -14680,6 +14983,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Winter Guide" type="0x760b">
     <Pet />
@@ -14723,6 +15027,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Air Spirit" type="0x760e">
     <Pet />
@@ -14766,6 +15071,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Zodiac Rat" type="0x7611">
     <Pet />
@@ -14807,6 +15113,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Blessed Blade" type="0x7614">
     <Pet />
@@ -14850,6 +15157,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Suntanned Snowman" type="0x7617">
     <Pet />
@@ -14892,6 +15200,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Pet Wardrobe" type="0x761a">
     <Pet />
@@ -14935,6 +15244,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Compact Enforcer" type="0x761d">
     <Pet />
@@ -14978,6 +15288,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Ferret" type="0x7620">
     <Pet />
@@ -15021,6 +15332,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Grub" type="0x7623">
     <Pet />
@@ -15064,6 +15376,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Ascended Guardian" type="0x7626">
     <Pet />
@@ -15111,6 +15424,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Music Box" type="0x7629">
     <Pet />
@@ -15154,6 +15468,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Void Hound" type="0x762c">
     <Pet />
@@ -15197,6 +15512,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Autumn Guide" type="0x762f">
     <Pet />
@@ -15240,6 +15556,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Time Traveling Phonebox" type="0x7632">
     <Pet />
@@ -15283,6 +15600,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Summer Guide" type="0x7635">
     <Pet />
@@ -15326,6 +15644,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Old Nexus Orc" type="0x7638">
     <Pet />
@@ -15369,6 +15688,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="TV Buddy" type="0x763b">
     <Pet />
@@ -15411,6 +15731,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Demon Cat" type="0x763e">
     <Pet />
@@ -15453,6 +15774,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="House Cat" type="0x7641">
     <Pet />
@@ -15495,6 +15817,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Husky" type="0x7644">
     <Pet />
@@ -15537,6 +15860,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Floating Eye Bot" type="0x7647">
     <Pet />
@@ -15580,6 +15904,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Enchanted Sea Turtle" type="0x764a">
     <Pet />
@@ -15623,6 +15948,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Giant Worm" type="0x764d">
     <Pet />
@@ -15666,6 +15992,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Bulldozer Penguin" type="0x7650">
     <Pet />
@@ -15709,6 +16036,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mobile Crane Penguin" type="0x7653">
     <Pet />
@@ -15752,6 +16080,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Excavator Penguin" type="0x7656">
     <Pet />
@@ -15795,6 +16124,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Road Roller Penguin" type="0x7659">
     <Pet />
@@ -15836,6 +16166,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Traffic Controller Penguin" type="0x765c">
     <Pet />
@@ -15878,6 +16209,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Hungry Toolbox" type="0x765f">
     <Pet />
@@ -15920,6 +16252,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Janus the Fategazer" type="0x7662">
     <Pet />
@@ -15961,6 +16294,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini Guill" type="0x7665">
     <Pet />
@@ -16001,6 +16335,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Nexus Sheep" type="0x7668">
     <Pet />
@@ -16041,6 +16376,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Stone Brothers" type="0x766b">
     <Pet />
@@ -16082,6 +16418,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Oryx the Exalted" type="0x766e">
     <Pet />
@@ -16123,6 +16460,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Sapling Buddy" type="0x7671">
     <Pet />
@@ -16165,6 +16503,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Scallywag Slurp" type="0x7674">
     <Pet />
@@ -16207,6 +16546,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Baby Basilisk" type="0x7677">
     <Pet />
@@ -16249,6 +16589,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Horned Wyrm" type="0x767a">
     <Pet />
@@ -16292,6 +16633,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Possessed Staff" type="0x767d">
     <Pet />
@@ -16335,6 +16677,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Eggshell Spider" type="0x7680">
     <Pet />
@@ -16377,6 +16720,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7683" id="Blizzard">
     <Pet />
@@ -16420,6 +16764,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7686" id="Fiery Phylactery">
     <Pet />
@@ -16463,6 +16808,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7689" id="Giant Zombie Feet">
     <Pet />
@@ -16506,6 +16852,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x768c" id="Skeleton Drake">
     <Pet />
@@ -16549,6 +16896,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x768f" id="Zombie Drake">
     <Pet />
@@ -16592,6 +16940,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7692" id="Witch Hat Rat">
     <Pet />
@@ -16635,6 +16984,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7695" id="Spectral Skeledragon">
     <Pet />
@@ -16678,6 +17028,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7698" id="King Rarthur">
     <Pet />
@@ -16721,6 +17072,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Red-Nosed Friend" type="0x769b">
     <Pet />
@@ -16763,6 +17115,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mouse Prince" type="0x769e">
     <Pet />
@@ -16805,6 +17158,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76a1" id="Aerodynamical Penguin">
     <Pet />
@@ -16848,6 +17202,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76a4" id="Big Pingus">
     <Pet />
@@ -16891,6 +17246,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76a7" id="Zodiac Ox">
     <Pet />
@@ -16932,6 +17288,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mini 'Odonna" type="0x76aa">
     <Pet />
@@ -16972,6 +17329,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Forest Harpy" type="0x76ad">
     <Pet />
@@ -17014,6 +17372,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76b0" id="Valentine Cupcake">
     <Pet />
@@ -17057,6 +17416,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76b3" id="Lovey Teddy">
     <Pet />
@@ -17100,6 +17460,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76b6" id="Android Companion">
     <Pet />
@@ -17143,6 +17504,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76b9" id="Nightray Pegasus">
     <Pet />
@@ -17186,6 +17548,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76bc" id="Glorious Pegasus">
     <Pet />
@@ -17229,6 +17592,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76bf" id="Forest Harpy">
     <Pet />
@@ -17272,6 +17636,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76c2" id="Helicopter Penguin">
     <Pet />
@@ -17315,6 +17680,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76c5" id="Infernal Archdragon">
     <Pet />
@@ -17358,6 +17724,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76c8" id="Sakura Deer">
     <Pet />
@@ -17401,6 +17768,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76cb" id="Lucky Fourleaf">
     <Pet />
@@ -17444,6 +17812,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76ce" id="Golden Lucky Fourleaf">
     <Pet />
@@ -17487,6 +17856,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chocolate Bunny" type="0x76d1">
     <Pet />
@@ -17529,6 +17899,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76d4" id="Battlebot MK1">
     <Pet />
@@ -17572,6 +17943,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mystery Rare Pet" type="0x76d7">
     <Pet />
@@ -17612,6 +17984,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mystery Epic Pet" type="0x76da">
     <Pet />
@@ -17652,6 +18025,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mystery Legendary Pet" type="0x76dd">
     <Pet />
@@ -17692,6 +18066,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76e0" id="Easter Island Head">
     <Pet />
@@ -17735,6 +18110,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76e3" id="Gazelle">
     <Pet />
@@ -17778,6 +18154,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Crystal Pony" type="0x76e6">
     <Pet />
@@ -17818,6 +18195,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Son of the Son of Arachna" type="0x76e9">
     <Pet />
@@ -17858,6 +18236,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Calamity Crab" type="0x76ec">
     <Pet />
@@ -17898,6 +18277,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76f0" id="Bananalien">
     <Pet />
@@ -17941,6 +18321,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76f3" id="Egg-bot">
     <Pet />
@@ -17982,6 +18363,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76f6" id="Malus?">
     <Pet />
@@ -18025,6 +18407,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76f9" id="Biard">
     <Pet />
@@ -18068,6 +18451,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Oryx the Baby God" type="0x76fc">
     <Pet />
@@ -18110,6 +18494,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x76ff" id="Sol the Energy Drink">
     <Pet />
@@ -18153,6 +18538,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7702" id="Skulking Skull King">
     <Pet />
@@ -18194,6 +18580,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7705" id="Octopus">
     <Pet />
@@ -18237,6 +18624,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Snail of the Juggernaut" type="0x7708">
     <Pet />
@@ -18279,6 +18667,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x770b" id="Fallen Protector">
     <Pet />
@@ -18322,6 +18711,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x770e" id="Redeemed Void Shade">
     <Pet />
@@ -18365,6 +18755,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7711" id="Duality">
     <Pet />
@@ -18408,6 +18799,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7714" id="Daeva Oryx">
     <Pet />
@@ -18451,6 +18843,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7717" id="Seraphim">
     <Pet />
@@ -18494,6 +18887,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x771a" id="Voided Oryx">
     <Pet />
@@ -18537,6 +18931,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Corrupted Tinkerer" type="0x771d">
     <Pet />
@@ -18579,6 +18974,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Corrupted Login Seer" type="0x7720">
     <Pet />
@@ -18621,6 +19017,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Ice Cream" type="0x7723">
     <Pet />
@@ -18663,6 +19060,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Fizzy Drink" type="0x7726">
     <Pet />
@@ -18705,6 +19103,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cured Tinkerer" type="0x7729">
     <Pet />
@@ -18747,6 +19146,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Cured Login Seer" type="0x772c">
     <Pet />
@@ -18789,6 +19189,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Eye of the Void" type="0x772f">
     <Pet />
@@ -18829,6 +19230,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Celestial Construct" type="0x7732">
     <Pet />
@@ -18869,6 +19271,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Dark Ambrosia" type="0x7735">
     <Pet />
@@ -18911,6 +19314,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7738" id="Corrupted Watering Can">
     <Pet />
@@ -18954,6 +19358,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x773b" id="Corrupted Penguin Explorer">
     <Pet />
@@ -18997,6 +19402,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x773e" id="Void Cleanser Penguin">
     <Pet />
@@ -19040,6 +19446,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7741" id="Sentinel Watchdog">
     <Pet />
@@ -19083,6 +19490,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7744" id="Shadow Stormbird">
     <Pet />
@@ -19126,6 +19534,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7747" id="Royal Void Cat">
     <Pet />
@@ -19169,6 +19578,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Keyper" type="0x774a">
     <Pet />
@@ -19211,6 +19621,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Angelic Blossom" type="0x774d">
     <Pet />
@@ -19253,6 +19664,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7750" id="Nurse Wheelie">
     <Pet />
@@ -19296,6 +19708,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7753" id="Sphenisciform Entity">
     <Pet />
@@ -19337,6 +19750,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7756" id="Cherubic Penguin">
     <Pet />
@@ -19378,6 +19792,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7759" id="Graylien">
     <Pet />
@@ -19421,6 +19836,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Carnage Cat" type="0x775c">
     <Pet />
@@ -19463,6 +19879,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x775f" id="Lil' Backpack">
     <Pet />
@@ -19506,6 +19923,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7762" id="Clipboard">
     <Pet />
@@ -19549,6 +19967,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7765" id="Floating Beer">
     <Pet />
@@ -19592,6 +20011,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7768" id="Garlic Buddy">
     <Pet />
@@ -19635,6 +20055,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7771" id="Spectral Bat">
     <Pet />
@@ -19678,6 +20099,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7774" id="Ghastly Penguin">
     <Pet />
@@ -19721,6 +20143,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7777" id="Cursed Portrait">
     <Pet />
@@ -19764,6 +20187,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x777a" id="Bloodthirsty Penguin">
     <Pet />
@@ -19807,6 +20231,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7792" id="Eldritch Clown">
     <Pet />
@@ -19850,6 +20275,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7795" id="Campfire">
     <Pet />
@@ -19893,6 +20319,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7900" id="George the Turkey">
     <Pet />
@@ -19934,6 +20361,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7903" id="Snowplow Penguin">
     <Pet />
@@ -19977,6 +20405,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7906" id="Movement Detector Doll">
     <Pet />
@@ -20020,6 +20449,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Festive Sprite" type="0x7909">
     <Pet />
@@ -20062,6 +20492,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Oryxmas Shiba" type="0x790c">
     <Pet />
@@ -20104,6 +20535,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x790f" id="Gift-wrapped Box">
     <Pet />
@@ -20147,6 +20579,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7912" id="Demon Mistress">
     <Pet />
@@ -20191,6 +20624,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object type="0x7915" id="Ice Skating Penguin">
     <Pet />
@@ -20234,6 +20668,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Oryxmas Tanuki" type="0x7918">
     <Pet />
@@ -20277,6 +20712,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Yau Gok" type="0x791b">
     <Pet />
@@ -20319,6 +20755,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Bouncy Companion" type="0x791e">
     <Pet />
@@ -20361,6 +20798,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Leprechaun Penguin" type="0x7921">
     <Pet />
@@ -20403,6 +20841,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Young Water Elemental" type="0x7924">
     <Pet />
@@ -20445,6 +20884,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Young Earth Elemental" type="0x7927">
     <Pet />
@@ -20487,6 +20927,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Playful Bunny" type="0x792a">
     <Pet />
@@ -20529,6 +20970,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Young Fire Elemental" type="0x792d">
     <Pet />
@@ -20571,6 +21013,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Young Air Elemental" type="0x7930">
     <Pet />
@@ -20613,6 +21056,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Perception of Guill" type="0x7933">
     <Pet />
@@ -20652,6 +21096,7 @@
     <Consumable />
     <Soulbound />
     <BagType>7</BagType>
+    <Track />
   </Object>
   <Object id="Elemental Beast" type="0x7936">
     <Pet />
@@ -20694,6 +21139,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Deep Sea Diva" type="0x7939">
     <Pet />
@@ -20734,6 +21180,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Mister Backstage" type="0x793c">
     <Pet />
@@ -20774,6 +21221,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Rad Raver" type="0x793f">
     <Pet />
@@ -20814,6 +21262,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Lil' Thunderbringer" type="0x7942">
     <Pet />
@@ -20854,6 +21303,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Deep Sea Diva Action Figure" type="0x7951">
     <Pet />
@@ -20894,6 +21344,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Mister Backstage Action Figure" type="0x7954">
     <Pet />
@@ -20934,6 +21385,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Rad Raver Action Figure" type="0x7957">
     <Pet />
@@ -20974,6 +21426,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="The Thunderbringer Action Figure" type="0x795a">
     <Pet />
@@ -21014,6 +21467,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="White Husky" type="0x795d">
     <Pet />
@@ -21056,6 +21510,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Arctic Fox" type="0x7960">
     <Pet />
@@ -21098,6 +21553,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Penguin Gunslinger" type="0x7963">
     <Pet />
@@ -21140,6 +21596,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Dimensional Wanderer" type="0x7966">
     <Pet />
@@ -21182,6 +21639,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Syndicate Hellhound" type="0x7969">
     <Pet />
@@ -21224,6 +21682,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Voodoo Doll" type="0x796c">
     <Pet />
@@ -21266,6 +21725,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Voodoo Bat" type="0x796f">
     <Pet />
@@ -21308,6 +21768,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chibi Bridge Sentinel" type="0x7972">
     <Pet />
@@ -21350,6 +21811,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chibi Twilight Archmage" type="0x7975">
     <Pet />
@@ -21392,6 +21854,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chibi Forgotten King" type="0x797c">
     <Pet />
@@ -21434,6 +21897,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Swamped Panda" type="0x7244">
     <Pet />
@@ -21465,6 +21929,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Swamped Panda Pet Skin" type="0x6381">
     <PetSkin />
@@ -21519,6 +21984,7 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
   <Object id="Chibi Heart of the Wetlands" type="0x7984">
     <Pet />
@@ -21561,5 +22027,6 @@
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>1000</feedPower>
+    <Track />
   </Object>
 </Objects>

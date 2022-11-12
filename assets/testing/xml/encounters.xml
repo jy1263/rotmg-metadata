@@ -3759,7 +3759,6 @@
     <HealthBarBoss radius="50" />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Beachzone Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>

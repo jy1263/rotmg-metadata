@@ -687,7 +687,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
       <Style id="SetAlt6">
@@ -4993,7 +4992,6 @@
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
       <Style id="SetAlt1">

@@ -386,4 +386,22 @@
     <TitleType>Suffix</TitleType>
     <UnlockStatRequirement stat="SulfurousWetlandsCompleted" amount="50" />
   </Object>
+  <Object type="0x9a23" id="Title_Sulfurous_Speedster">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Sulfurous Speedster</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked as part of a Wetlands Event.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
+  <Object type="0x9a24" id="Title_Slayer_of_Simulacrums">
+    <Title />
+    <Class>Title</Class>
+    <DisplayId>the Slayer of Simulacrums</DisplayId>
+    <TitleTier>1</TitleTier>
+    <UnlockRequirement>Unlocked as part of a seasonal community event.</UnlockRequirement>
+    <TitleType>Full</TitleType>
+    <SecretTitle />
+  </Object>
 </Objects>

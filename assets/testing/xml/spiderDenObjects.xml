@@ -179,7 +179,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">Spider Den Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Soft Drink</SpecialSpawn>

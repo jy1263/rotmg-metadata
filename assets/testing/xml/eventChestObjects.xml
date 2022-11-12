@@ -1678,7 +1678,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,STASISIMMUNE,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1773,7 +1772,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,STASISIMMUNE,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -2133,7 +2131,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x640e" id="Snowball Thrower">
@@ -3337,7 +3334,6 @@
     </Projectile>
     <HealthBarBoss radius="30" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -5544,9 +5540,7 @@
     <HealthBarBoss radius="30" />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,NATURE,GOD,QUEST,STASISIMMUNE</Labels>
   </Object>
   <Object id="RSM Melted Snowman Sand" type="0xb3de">
@@ -5968,7 +5962,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -6007,7 +6000,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -6046,7 +6038,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -6085,7 +6076,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -6116,7 +6106,6 @@
     </Spawn>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -6430,7 +6419,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -6761,7 +6749,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x80bb" id="AppetizerTeleportHelper">
@@ -7740,7 +7727,7 @@
     </Projectile>
       ​
       ​
-      <HealthBarBoss radius="30" /><KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><BleedMax>1</BleedMax><Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels></Object>
+      <HealthBarBoss radius="30" /><KillStat stat="HumanoidKills" /><KillStat stat="GodKills" /><Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels></Object>
   <Object type="0x8106" id="Bella Seed Encounter">
     <DisplayId>Bucket of Water</DisplayId>
     <Enemy />
@@ -9748,7 +9735,6 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD,BEAST</Labels>
   </Object>
   <Object type="0x7e23" id="Ice Tomb Spawner">

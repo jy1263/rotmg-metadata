@@ -346,7 +346,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0xb273" id="AI Alien UFO Event">
@@ -394,7 +393,6 @@
     <HealthBarBoss radius="30" />
     <KillStat stat="ConstructKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT</Labels>
   </Object>
   <Object type="0xb328" id="AI Alien UFO Bomb">
@@ -1186,7 +1184,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0xb305" id="AI Neo Znorgian Boss">
@@ -1229,7 +1226,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0xb2c4" id="AI Suesogian">
@@ -1273,7 +1269,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">AI Malogia Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
@@ -2531,7 +2526,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
   </Object>
   <Object type="0xb35b" id="AI Neo Waltan Head Boss">
@@ -2566,7 +2560,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0xb2f6" id="AI Tarul Controller">
@@ -2634,7 +2627,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">AI Untaris Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
@@ -3470,7 +3462,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
   </Object>
   <Object type="0xb35d" id="AI Neo Larveye Boss">
@@ -3525,7 +3516,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
   </Object>
   <Object type="0xb303" id="AI Acidus">
@@ -3580,7 +3570,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">AI Forax Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
@@ -4357,7 +4346,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0xb35f" id="AI Neo Iron Titan Boss">
@@ -4397,7 +4385,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0xb319" id="AI Golden Sphinx">
@@ -4449,7 +4436,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <SpecialSpawn category="Bis">AI Katalund Wormhole</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>

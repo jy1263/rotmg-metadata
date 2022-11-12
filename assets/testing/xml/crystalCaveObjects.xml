@@ -553,7 +553,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x2717" id="Crystal Wall Lead">
@@ -680,7 +679,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x2725" id="Crystallised Follower">
@@ -837,7 +835,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -951,7 +948,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x2716" id="Crystallised Scorpion">
@@ -1005,7 +1001,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
     <Presentation>
       <Style id="SetAlt2">
@@ -1233,7 +1228,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,CONSTRUCT,GOD,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">Crystal Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
@@ -2294,7 +2288,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,CONSTRUCT,GOD,TRACKLOOT,BOSS_SPAWNED</Labels>
   </Object>
   <Object type="0x650a" id="EarthWorm">

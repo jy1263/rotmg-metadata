@@ -955,7 +955,6 @@
       <ParticleTrail />
       <Boomerang />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1490,7 +1489,6 @@
       <Size>130</Size>
       <ArmorPiercing />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD</Labels>
     <SpecialSpawn category="Bis">Glowing Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

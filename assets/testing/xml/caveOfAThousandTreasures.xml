@@ -532,7 +532,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">Treasure Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

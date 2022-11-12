@@ -744,7 +744,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">The Epic Hive Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>
@@ -3261,7 +3260,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x08ad" id="EH Beekeeper Portal Checker">
@@ -3502,7 +3500,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,GOD,QUEST,STASISIMMUNE</Labels>
   </Object>
   <Object type="0x10e0" id="EH Fake Event Hive">
@@ -3923,7 +3920,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,BEAST,GOD,QUEST,STASISIMMUNE</Labels>
   </Object>
   <Object type="0x10e5" id="EH Red Guardian Bee">
@@ -3990,7 +3986,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,BEAST,GOD,QUEST,STASISIMMUNE</Labels>
   </Object>
   <Object type="0x10e6" id="EH Blue Guardian Bee">
@@ -4069,7 +4064,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,BEAST,GOD,QUEST,STASISIMMUNE</Labels>
   </Object>
   <Object type="0x10de" id="EH Ev Fat Bees">

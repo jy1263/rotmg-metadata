@@ -259,7 +259,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x6fe8" id="Totalia Bat">
@@ -437,7 +436,6 @@
     <God />
     <Level>20</Level>
     <HealthBarBoss radius="50" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST</Labels>
   </Object>
   <Object type="0xc0c" id="0Def">

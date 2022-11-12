@@ -161,7 +161,6 @@
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD</Labels>
   </Object>
   <Object type="0x4860" id="Heroic Lair Skeleton">

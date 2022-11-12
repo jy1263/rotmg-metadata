@@ -1401,7 +1401,6 @@
     <StunImmune />
     <StasisImmune />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,CUBE,GOD</Labels>
     <Presentation>
       <Style id="SetAlt4">
@@ -1983,7 +1982,6 @@
     <DazedImmune />
     <StasisImmune />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CUBE,GOD</Labels>
   </Object>
   <Object id="tD Hyper Cube" type="0x522a">
@@ -2440,7 +2438,6 @@
     <ParalyzeImmune />
     <SlowImmune />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CUBE,GOD</Labels>
   </Object>
   <Object type="0x422e" id="tD Shadow Target">
@@ -4545,7 +4542,6 @@
     <StasisImmune />
     <Sound id="0">monster/rocks_death</Sound>
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,CUBE,GOD</Labels>
     <SpecialSpawn category="Bis">The Third Dimension Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>

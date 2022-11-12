@@ -413,7 +413,6 @@
     <HealthBarBoss radius="30" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,BEAST,GOD</Labels>
     <DamageBasedXP />
     <Presentation>
@@ -1108,7 +1107,6 @@
     <HealthBarBoss radius="18" />
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,GOD</Labels>
     <DamageBasedXP />
   </Object>
@@ -1156,7 +1154,6 @@
     </AltTexture>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GOD,MINION_STRONG</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1212,7 +1209,6 @@
     </AltTexture>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GOD,MINION_STRONG</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1269,7 +1265,6 @@
     </AltTexture>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GOD,MINION_STRONG</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -2334,7 +2329,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Secluded Thicket Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>

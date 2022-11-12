@@ -21478,4 +21478,88 @@
     <Family>Exotic</Family>
     <Rarity>Divine</Rarity>
   </Object>
+  <Object id="Chibi Oryx" type="0x797f">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Oryx Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7982" id="Chibi Oryx Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Oryx</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Humanoid</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>234</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7983" id="Chibi Oryx Pet Stone">
+    <DisplayId>Chibi Oryx Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>234</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This puny mortal has dreams of becoming ruler of the realms, a dream so ridiculous and impossible one would have to be mad to even try, but something about the look in their eyes and powerful aura tells me this feisty brute will reach their goal one way or another.\n\nUnlocks Chibi Oryx Skin of the Humanoid family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31106">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
+  <Object id="Chibi Heart of the Wetlands" type="0x7984">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Woodland</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Chibi Heart of the Wetlands Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x7985" id="Chibi Heart of the Wetlands Pet Skin">
+    <PetSkin />
+    <DisplayId>Chibi Heart of the Wetlands</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Woodland</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>235</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7989" id="Chibi Heart of the Wetlands Pet Stone">
+    <DisplayId>Chibi Heart of the Wetlands Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>235</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>This bratty little tree has grown spoiled! Tired of the same old soil and water, this tree deserves better treatment! So they decided to search for a more luxurious resting spot that'll satisfy their taste for quality water and soil.\n\nUnlocks Chibi Heart of the Wetlands Skin of the Woodland family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31109">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+  </Object>
 </Objects>

@@ -748,7 +748,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <Projectile id="0">
       <ObjectId>Pink Orb</ObjectId>
@@ -1894,7 +1893,6 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0x6fca" id="Garnet Statue">
@@ -1964,7 +1962,6 @@
     <KillStat stat="EncounterKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0x6fc9" id="A helper">

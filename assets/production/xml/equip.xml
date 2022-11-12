@@ -50705,6 +50705,7 @@
     <feedPower>800</feedPower>
     <XPBonus>7</XPBonus>
     <Soulbound />
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
   </Object>
   <Object id="Bogwood Crook" type="0x4221">
     <Class>Equipment</Class>
@@ -50769,6 +50770,7 @@
     <Soulbound />
     <feedPower>800</feedPower>
     <XPBonus>7</XPBonus>
+    <Labels>EQUIPMENT,WEAPON,STAFF,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
   </Object>
   <Object id="Warped Mantle" type="0x65aa">
     <DisplayId>Warped Mantle</DisplayId>
@@ -50790,6 +50792,7 @@
     <BagType>6</BagType>
     <feedPower>750</feedPower>
     <XPBonus>5</XPBonus>
+    <Labels>EQUIPMENT,ARMOR,HEAVY,UT,TAB_UT,POWERTIER_B,TRADEABLE,XPBONUS</Labels>
   </Object>
   <Object id="Thistleleaf Necklace" type="0x65b4">
     <DisplayId>Thistleleaf Necklace</DisplayId>
@@ -50830,6 +50833,7 @@
     <XPBonus>6</XPBonus>
     <Soulbound />
     <feedPower>800</feedPower>
+    <Labels>EQUIPMENT,RING,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
   </Object>
   <Object id="SulfW Ring A" type="0x65b9">
     <Class>Equipment</Class>
@@ -51087,6 +51091,7 @@
     <feedPower>650</feedPower>
     <XPBonus>6</XPBonus>
     <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,TRAP,UT,TAB_UT,POWERTIER_B,XPBONUS,MPCOST</Labels>
   </Object>
   <Object id="Mark of the Wetlands" type="0x65ca">
     <Class>Equipment</Class>
@@ -51107,6 +51112,7 @@
     <Mark />
     <feedPower>50</feedPower>
     <Soulbound />
+    <Labels>MARK,TAB_ALL</Labels>
   </Object>
   <Object type="0x382a" id="Blueprint_234">
     <DisplayId>Sulfuric Stone Blueprint</DisplayId>

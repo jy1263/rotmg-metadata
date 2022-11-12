@@ -872,7 +872,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -960,7 +959,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1333,7 +1331,6 @@
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,STASISIMMUNE,UNDEAD,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>

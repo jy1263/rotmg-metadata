@@ -2670,12 +2670,11 @@
     <KillStat stat="HumanoidKills" />
   </Object>
   <Object type="0x0d54" id="Grand Sphinx">
-    <DisplayId>Withered Sphinx</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>37</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
     </AnimatedTexture>
     <HitSound>monster/ghost_god_hit</HitSound>
     <DeathSound>monster/ghost_god_death</DeathSound>
@@ -2789,6 +2788,7 @@
     <Quest />
     <HealthBarBoss />
     <God />
+    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2878,7 +2878,6 @@
     <Hero />
     <Quest />
     <God />
-    <Encounter />
     <TrackLoot />
     <StasisImmune />
     <Level>20</Level>
@@ -2944,10 +2943,9 @@
   </Object>
   <Object type="0x0d59" id="Cube God">
     <Class>Character</Class>
-    <DisplayId>Calcium God</DisplayId>
     <Texture>
-      <File>d3LofiObjEmbed16</File>
-      <Index>0x58</Index>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -2984,12 +2982,11 @@
     <DamageBasedXP />
   </Object>
   <Object type="0x0d5a" id="Cube Overseer">
-    <DisplayId>Bone Overseer</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x17d</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x40</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3013,13 +3010,12 @@
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5b" id="Cube Defender">
-    <DisplayId>Bone Defender</DisplayId>
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x17c</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x41</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3038,13 +3034,12 @@
     <KillStat stat="CubeKills" />
   </Object>
   <Object type="0x0d5c" id="Cube Blaster">
-    <DisplayId>Bone Blaster</DisplayId>
     <Group>Cube Minions</Group>
     <Class>Character</Class>
     <Enemy />
     <Texture>
-      <File>d3LofiObjEmbed</File>
-      <Index>0x17b</Index>
+      <File>lofiChar28x8</File>
+      <Index>0x42</Index>
     </Texture>
     <HitSound>monster/cubes_hit</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
@@ -3399,7 +3394,7 @@
     <Size>0</Size>
   </Object>
   <Object type="0x0d61" id="Hermit God">
-    <DisplayId>Reanimated Hermit God</DisplayId>
+    <DisplayId>Hermit God</DisplayId>
     <Group>Hermit God Encounter</Group>
     <Enemy />
     <Class>Character</Class>
@@ -3414,13 +3409,13 @@
     <PerRealmMax>2</PerRealmMax>
     <KeepDamageRecord />
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>38</Index>
+      <File>chars16x16dEncounters2</File>
+      <Index>11</Index>
     </AnimatedTexture>
     <Portrait>
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>38</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>11</Index>
       </AnimatedTexture>
     </Portrait>
     <AltTexture id="1">
@@ -3431,8 +3426,8 @@
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>46</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>13</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="3">
@@ -3443,8 +3438,8 @@
     </AltTexture>
     <AltTexture id="4">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>39</Index>
+        <File>chars16x16dEncounters2</File>
+        <Index>14</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/skeletons_hit</HitSound>
@@ -3502,7 +3497,6 @@
     </Presentation>
   </Object>
   <Object type="0x0d62" id="Hermit Minion">
-    <DisplayId>Reanimated Hermit Minion</DisplayId>
     <Class>Character</Class>
     <Group>Hermit God Encounter</Group>
     <Enemy />
@@ -3516,7 +3510,7 @@
     <DeathSound>monster/stone_walls_death</DeathSound>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>145</Index>
+      <Index>21</Index>
     </AnimatedTexture>
     <Projectile id="0">
       <ObjectId>Snake Shot Yellow</ObjectId>
@@ -3562,20 +3556,19 @@
     <KillStat stat="NatureKills" />
   </Object>
   <Object type="0x0d64" id="Hermit God Tentacle">
-    <DisplayId>Reanimated Hermit God Tentacle</DisplayId>
     <Group>Hermit God Encounter</Group>
     <Enemy />
     <Class>Character</Class>
     <ShadowSize>100</ShadowSize>
     <TrackLoot />
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>40</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>11</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>41</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>12</Index>
       </AnimatedTexture>
     </AltTexture>
     <HitSound>monster/dwarves_death</HitSound>
@@ -3818,10 +3811,10 @@
   <Object type="0x0e4f" id="Water Mine">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Ghost Mine</DisplayId>
+    <DisplayId>Water Mine</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>45</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>38</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3842,10 +3835,10 @@
   <Object type="0x0e4e" id="Water Mine Path">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Ghost Mine</DisplayId>
+    <DisplayId>Water Mine</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>45</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>38</Index>
     </AnimatedTexture>
     <HitSound>monster/traps_hit</HitSound>
     <DeathSound>monster/traps_death</DeathSound>
@@ -3866,10 +3859,10 @@
   <Object type="0x0e3d" id="Beach Spectre">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>Sea Spectre</DisplayId>
+    <DisplayId>Beach Spectre</DisplayId>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>146</Index>
+      <Index>35</Index>
     </AnimatedTexture>
     <HitSound>monster/dragons_hit</HitSound>
     <DeathSound>monster/dragons_death</DeathSound>
@@ -4007,10 +4000,10 @@
   </Object>
   <Object type="0x0e39" id="Vengeful Spirit">
     <Class>Character</Class>
-    <DisplayId>Dutchman Spirit</DisplayId>
+    <DisplayId>Vengeful Spirit</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>44</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -4060,21 +4053,21 @@
   <Object type="0x0e37" id="Ghost Ship">
     <Enemy />
     <Class>Character</Class>
-    <DisplayId>The Flying Dutchman</DisplayId>
+    <DisplayId>Ghost Ship</DisplayId>
     <AnimatedTexture>
-      <File>d3Chars16x16rEmbed</File>
-      <Index>43</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>37</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>42</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>36</Index>
       </AnimatedTexture>
     </AltTexture>
     <AltTexture id="2">
       <AnimatedTexture>
-        <File>d3Chars16x16rEmbed</File>
-        <Index>43</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>37</Index>
       </AnimatedTexture>
       <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
     </AltTexture>

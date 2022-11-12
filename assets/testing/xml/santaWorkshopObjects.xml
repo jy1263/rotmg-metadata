@@ -2962,7 +2962,6 @@
     <TrackLoot />
     <EventChestBoss />
     <KillStat stat="StructureKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">SW Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Christmas Tree Cupcake</SpecialSpawn>

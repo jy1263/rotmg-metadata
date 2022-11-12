@@ -273,7 +273,6 @@
     <HealthBarBoss radius="40" />
     <KillStat stat="HumanoidKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID</Labels>
     <SpecialSpawn category="Bis">Ice Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>

@@ -90,7 +90,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,NATURE,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">

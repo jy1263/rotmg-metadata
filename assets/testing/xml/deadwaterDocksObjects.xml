@@ -451,7 +451,6 @@
     </Projectile>
     <HealthBarBoss radius="20" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Deadwater Docks</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>
@@ -3471,7 +3470,6 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,GOD,BEAST</Labels>
   </Object>
   <Object type="0x4402" id="DWD Mini Krabs">
@@ -3633,7 +3631,6 @@
       <MultiHit />
       <PassesCover />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,GOD,BEAST</Labels>
   </Object>
   <Object type="0xb91d" id="DWD Breaking Sound">
