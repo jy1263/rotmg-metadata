@@ -4015,6 +4015,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="3">Manor of the Immortals</CommonDungeon>
+    <CommonDungeon diff="3.5">Puppet Master's Theatre</CommonDungeon>
   </Object>
   <Object type="0xa20" id="Potion of Defense">
     <Class>Equipment</Class>
@@ -4035,6 +4037,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="3.5">Toxic Sewers</CommonDungeon>
+    <CommonDungeon diff="3.5">Mad Lab</CommonDungeon>
   </Object>
   <Object type="0xa21" id="Potion of Speed">
     <Class>Equipment</Class>
@@ -4055,6 +4059,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="2.5">Snake Pit</CommonDungeon>
+    <CommonDungeon diff="2.5">Magic Woods</CommonDungeon>
   </Object>
   <Object type="0xa34" id="Potion of Vitality">
     <Class>Equipment</Class>
@@ -4075,6 +4081,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="3.5">Cursed Library</CommonDungeon>
+    <CommonDungeon diff="4">Abyss of Demons</CommonDungeon>
   </Object>
   <Object type="0xa35" id="Potion of Wisdom">
     <Class>Equipment</Class>
@@ -4095,6 +4103,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="3">Undead Lair</CommonDungeon>
+    <CommonDungeon diff="4.5">Davy Jones' Locker</CommonDungeon>
   </Object>
   <Object type="0xa4c" id="Potion of Dexterity">
     <Class>Equipment</Class>
@@ -4115,6 +4125,8 @@
     <feedPower>150</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="2.5">Sprite World</CommonDungeon>
+    <CommonDungeon diff="2.5">Magic Woods</CommonDungeon>
   </Object>
   <Object type="0xae9" id="Potion of Life">
     <Class>Equipment</Class>
@@ -4135,6 +4147,8 @@
     <feedPower>250</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="5.5">Woodland Labyrinth</CommonDungeon>
+    <CommonDungeon diff="5.5">Tomb of the Ancients</CommonDungeon>
   </Object>
   <Object type="0xaea" id="Potion of Mana">
     <Class>Equipment</Class>
@@ -4155,6 +4169,8 @@
     <feedPower>250</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="5.5">Parasite Chambers</CommonDungeon>
+    <CommonDungeon diff="5.5">Ocean Trench</CommonDungeon>
   </Object>
   <Object type="0x1559" id="Potion of Attack (SB)">
     <Class>Equipment</Class>
@@ -14600,6 +14616,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="5.5">Woodland Labyrinth</CommonDungeon>
+    <CommonDungeon diff="7">Crystal Cavern</CommonDungeon>
   </Object>
   <Object type="0x2369" id="Greater Potion of Defense">
     <Class>Equipment</Class>
@@ -14620,6 +14638,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="4.5">The Crawling Depths</CommonDungeon>
+    <CommonDungeon diff="5.5">Mountain Temple</CommonDungeon>
   </Object>
   <Object type="0x236A" id="Greater Potion of Speed">
     <Class>Equipment</Class>
@@ -14640,6 +14660,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="6">Deadwater Docks</CommonDungeon>
+    <CommonDungeon diff="7">Crystal Cavern</CommonDungeon>
   </Object>
   <Object type="0x236B" id="Greater Potion of Vitality">
     <Class>Equipment</Class>
@@ -14660,6 +14682,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="5.5">Woodland Labyrinth</CommonDungeon>
+    <CommonDungeon diff="7">Crystal Cavern</CommonDungeon>
   </Object>
   <Object type="0x236C" id="Greater Potion of Wisdom">
     <Class>Equipment</Class>
@@ -14680,6 +14704,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="4.5">The Crawling Depths</CommonDungeon>
+    <CommonDungeon diff="6">High Tech Terror</CommonDungeon>
   </Object>
   <Object type="0x236D" id="Greater Potion of Dexterity">
     <Class>Equipment</Class>
@@ -14700,6 +14726,8 @@
     <feedPower>200</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="7">The Nest</CommonDungeon>
+    <CommonDungeon diff="7">Crystal Cavern</CommonDungeon>
   </Object>
   <Object type="0x236E" id="Greater Potion of Life">
     <Class>Equipment</Class>
@@ -14719,6 +14747,8 @@
     <feedPower>350</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="8.5">The Shatters</CommonDungeon>
+    <CommonDungeon diff="9">Oryx's Sanctuary</CommonDungeon>
   </Object>
   <Object type="0x236F" id="Greater Potion of Mana">
     <Class>Equipment</Class>
@@ -14738,6 +14768,8 @@
     <feedPower>350</feedPower>
     <Track />
     <Labels>EQUIPMENT,CONSUMABLE,STATPOTION</Labels>
+    <CommonDungeon diff="8.5">The Shatters</CommonDungeon>
+    <CommonDungeon diff="9">Oryx's Sanctuary</CommonDungeon>
   </Object>
   <Object type="0x2375" id="Candy Corn">
     <Class>Equipment</Class>
@@ -51272,34 +51304,31 @@
     <Sound>use_potion</Sound>
     <Consumable />
     <Soulbound />
+    <SeasonalOnly />
     <BagType>7</BagType>
     <feedPower>100</feedPower>
     <Potion />
     <Activate>ExpandSeasonalVault</Activate>
     <Labels>EQUIPMENT,CONSUMABLE</Labels>
   </Object>
-  <Object type="0x689f" id="SeasonalPotionVaultExpansion">
+  <Object type="0x689f" id="Seasonal Potion Vault Expansion">
     <Class>Equipment</Class>
-    <DisplayId>Potion Vault Expansion</DisplayId>
+    <DisplayId>Seasonal Potion Vault Expansion</DisplayId>
     <Item />
     <Texture>
-      <File>lofiObj</File>
-      <Index>0x13</Index>
+      <File>lofiObj3</File>
+      <Index>1568</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>Expands your seasonal potion vault in 4 slots.If unused, it gets destroyed at the end of the season.</Description>
     <Sound>use_potion</Sound>
     <Consumable />
+    <SeasonalOnly />
     <Soulbound />
     <BagType>7</BagType>
     <feedPower>100</feedPower>
     <Potion />
     <Activate>ExpandSeasonalPotion</Activate>
     <Labels>EQUIPMENT,CONSUMABLE</Labels>
-  </Object>
-  <Object type="0x99aa" id="SeasonalCharBonus">
-    <DisplayId>Seasonal Character Bonus</DisplayId>
-    <Activate acceleratorId="BXPBOOST" duration="-1" mult="1.1" display="+10% BXP (Seasonal Character)">StartAccelerator</Activate>
-    <Duration>-1</Duration>
   </Object>
 </Objects>

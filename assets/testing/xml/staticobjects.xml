@@ -3172,7 +3172,7 @@
     <StasisImmune />
     <Enemy />
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,STASISIMMUNE</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x1807" id="Dummy Strong">
     <Class>GameObject</Class>
@@ -3186,7 +3186,7 @@
     <StasisImmune />
     <Enemy />
     <Exp>0</Exp>
-    <Labels>ENEMY,MINION,STASISIMMUNE</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x1808" id="Target Spawner">
     <Class>GameObject</Class>
@@ -3765,7 +3765,7 @@
     <Exp>0</Exp>
     <BlocksSight />
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY,MINION,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x181b" id="Death Grass">
     <Class>GameObject</Class>
@@ -3928,7 +3928,7 @@
     <DeathSound>monster/rocks_death</DeathSound>
     <MaxHitPoints>1000</MaxHitPoints>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY,MINION,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x1820" id="Egypt Plant">
     <Class>GameObject</Class>
@@ -4172,7 +4172,7 @@
     <Enemy />
     <Exp>0</Exp>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION,STASISIMMUNE</Labels>
+    <Labels>ENEMY,MINION,STASISIMMUNE,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x1831" id="Ghost Small Candle">
     <Class>GameObject</Class>
@@ -4875,7 +4875,7 @@
     <Static />
     <Exp>0</Exp>
     <KillStat stat="StructureKills" />
-    <Labels>ENEMY,MINION</Labels>
+    <Labels>ENEMY,MINION,NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x189c" id="Monster Tank1">
     <Class>GameObject</Class>

@@ -156,4 +156,1196 @@
     <Track />
     <Consumable />
   </Object>
+  <Object type="0xff3b" id="Trick Mace">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x10e</Index>
+    </Texture>
+    <SlotType>29</SlotType>
+    <Projectile>
+      <ObjectId>AoO Beam Base</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>200</MinDamage>
+      <MaxDamage>275</MaxDamage>
+      <LifetimeMS>375</LifetimeMS>
+      <Frequency>0</Frequency>
+      <Size>100</Size>
+      <FaceDir />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <NumProjectiles>1</NumProjectiles>
+    <Description>A wicked mace constructed by Dr. Terrible to impose the Mad God's will. It stands as one of Oryx's greatest attempts at merging magic and technology.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10d</Index>
+      </Texture>
+      <Activate objectId="AoO Summon" maxSpawnDistance="2.0">SpawnCreep</Activate>
+      <OnPlayerAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnPlayerAbilityActivate>
+      <OnSwitchAbilityActivate cooldown="30" damageThreshold="0" proc="1" objectId="AoO Summon Big">SpawnCreep</OnSwitchAbilityActivate>
+      <Cooldown>3</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <ExtraTooltipData>
+        <EffectInfo name="Summon" description="Orbiting Oryx Eye." />
+        <EffectInfo name="Lifetime" description="10.2 seconds" />
+        <EffectInfo name="On Ability Use" description="Summons an exalted Oryx Eye." />
+        <EffectInfo name="Cooldown" description="30 seconds." />
+        <EffectInfo name="Damage" description="375 - 525" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <SwitchTime>2</SwitchTime>
+      <OnSwitchAbilityActivate proc="1" duration="5" effect="Armored">ConditionEffectSelf</OnSwitchAbilityActivate>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <ActivateOnEquip stat="MAXHP" amount="80">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>100</MpCost>
+    <feedPower>700</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,MACE,UT,TAB_UT,POWERTIER_A,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3a" id="Trick Sheath">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x124</Index>
+    </Texture>
+    <SlotType>30</SlotType>
+    <Tier>10</Tier>
+    <Description>A standard, lightweight sheath fit for enabling quick draws in a forward dash.</Description>
+    <OnSwitchAbilityActivate proc="1" targetMouse="false" maxSpawnDistance="2.0" cooldown="0.0" objectId="Kensei ST Summon">SpawnCreep</OnSwitchAbilityActivate>
+    <ExtraTooltipData>
+      <EffectInfo name="Max Dash Distance" description="3.5 tiles" />
+      <EffectInfo name="Trail Damage" description="200" />
+      <EffectInfo name="Multiplier" description="1/5/10/16/23 % to ATT" />
+      <EffectInfo name="" description="Each stack lasts for 10 seconds" />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Tier 7 Sheath Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>450</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+      <Size>120</Size>
+    </Projectile>
+    <Ability>
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x137</Index>
+      </Texture>
+      <Activate amount="3" duration="20" channelTime="500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="3.5" damage="200" color="0x7A4646" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+      <EndUse>
+        <Activate>Shoot</Activate>
+      </EndUse>
+      <Cooldown>3</Cooldown>
+      <MpCost>60</MpCost>
+    </Ability>
+    <Ability name="Quick Dash">
+      <Texture>
+        <File>lofiObj6</File>
+        <Index>0x126</Index>
+      </Texture>
+      <Cooldown>3</Cooldown>
+      <MpCost>30</MpCost>
+      <Activate amount="5" duration="20" channelTime="1500">ChannelDash</Activate>
+      <StartUse>
+        <Activate speed="50" minDistance="1" maxDistance="5.5" damage="200" color="0x7AFF46" postCondDuration="0.16" effect="Multiplied" stat="ATT" amountPerEnemy="1,5,10,16,23" effectDuration="10" cooldown="0.4">Dash</Activate>
+      </StartUse>
+    </Ability>
+    <Usable />
+    <UniqueID />
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,SHEATH,TIERED,T0,NUMPROJ_1,MPCOST,TRADEABLE</Labels>
+  </Object>
+  <Object type="0xff3c" id="Trick Star">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x22e</Index>
+    </Texture>
+    <SlotType>25</SlotType>
+    <Tier>10</Tier>
+    <Description>A beautifully crafted shuriken.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile id="0">
+      <ObjectId>Ninja Star Silver</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>400</MinDamage>
+      <MaxDamage>500</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Ninja Star Wind</ObjectId>
+      <Speed>150</Speed>
+      <MinDamage>550</MinDamage>
+      <MaxDamage>650</MaxDamage>
+      <LifetimeMS>1000</LifetimeMS>
+      <Size>120</Size>
+      <PassesCover />
+    </Projectile>
+    <Subattack projectileId="0"></Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>2</NumProjectiles>
+    </Subattack>
+    <ActivateOnEquip stat="VIT" amount="6">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>2</BagType>
+    <Ability attackIndex="1">
+      <MpCost>0</MpCost>
+      <MpEndCost>60</MpEndCost>
+      <MultiPhase />
+      <Activate>ShurikenAbility</Activate>
+      <ExtraTooltipData>
+        <EffectInfo name="While Key Held" description="" />
+        <EffectInfo name="" description="Speedy on self" />
+        <EffectInfo name="" description="Drain 10 MP/sec" />
+        <EffectInfo name="When Key Released" description="" />
+      </ExtraTooltipData>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+    </Ability>
+    <feedPower>34</feedPower>
+    <DropTradable />
+    <XPBonus>1</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SHURIKEN,TIERED,T3,MPCOST,XPBONUS,TRADEABLE</Labels>
+  </Object>
+  <Object id="Trick Poison" type="0xff3d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>0x205</Index>
+    </Texture>
+    <SlotType>18</SlotType>
+    <Description>Exposure to this ferocious concoction is so intensely lethal that it acts instantaneously. Its deceptively small vial allows for easy use.</Description>
+    <Usable />
+    <BagType>8</BagType>
+    <Ability name="Jar Throw">
+      <MpCost>70</MpCost>
+      <Activate color="0xADC718" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</Activate>
+    </Ability>
+    <Ability name="Poison Counter">
+      <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x282</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo description="Throw a poison when hit" name="Toxic Terror" />
+        <EffectInfo description="1 seconds" name="Poison Cooldown" />
+      </ExtraTooltipData>
+      <OnPlayerHitActivate proc="1" manaCost="5" cooldown="1" duration="0" impactDamage="700" radius="3" throwTime="0.8" totalDamage="0" color="0xADC718" damageBoost="1" scalingStat="DEF" statModScalingMin="25" statModDamage="0" statModImpactDamage="180" statModRadius="0.025" statModDamageBoost="0">PoisonGrenade</OnPlayerHitActivate>
+    </Ability>
+    <feedPower>900</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,POISON,ST,TAB_ST,ST_ABILITY,STGEN_2,POWERTIER_B,XPBONUS,MPCOST</Labels>
+  </Object>
+  <Object type="0xff3e" id="Trick Lute">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>lofiObj6</File>
+      <Index>0xd0</Index>
+    </Texture>
+    <SlotType>28</SlotType>
+    <Tier>8</Tier>
+    <Description>A magical lute with multiple modes.</Description>
+    <Sound>spell/major_heal</Sound>
+    <Usable />
+    <UniqueID />
+    <Ability>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 3 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" speedBoost="1.25" lifeBoost="1" duration="3" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="DEF" amount="1" duration="2" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>70</MpCost>
+    </Ability>
+    <Ability>
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0xd5</Index>
+      </Texture>
+      <ExtraTooltipData>
+        <EffectInfo name="Party Effect" description=" Within 4.5 sqrs Inspired for 5.5 seconds." />
+        <EffectInfo name="Projectile Speed Multiplier" description="x1.25" />
+      </ExtraTooltipData>
+      <Activate radius="4.5" duration="5.5" speedBoost="1.25" lifeBoost="1" targeted="false">BoostRange</Activate>
+      <Activate range="4.5" stat="MAXHP" amount="80" duration="4.5" channel="maxStack">StatBoostAura</Activate>
+      <MpCost>90</MpCost>
+    </Ability>
+    <Ability name="Spawn Unicorns">
+      <Texture xOffset="2" yOffset="0">
+        <File>lofiObj6</File>
+        <Index>0x10f</Index>
+      </Texture>
+      <Activate objectId="Summon Steed" maxSpawnDistance="8.0">SpawnCreep</Activate>
+      <Cooldown>1</Cooldown>
+      <MpCost>100</MpCost>
+      <ExtraTooltipData>
+        <EffectInfo name="Summons" description="Wandering steed, click or hold your Summon Control button to move it." />
+        <EffectInfo name="Lifetime" description="10 seconds" />
+      </ExtraTooltipData>
+      <MpCost>110</MpCost>
+    </Ability>
+    <BagType>1</BagType>
+    <feedPower>4</feedPower>
+    <DropTradable />
+    <Labels>EQUIPMENT,ABILITY,LUTE,TIERED,T0,MPCOST,APPLY_STAT_EFF,TRADEABLE</Labels>
+  </Object>
+  <Object type="0x445b" id="Overclocking Amulet" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="1" yOffset="1">
+      <File>steamworksObjects8x8</File>
+      <Index>24</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>Placing this trinket into an appropriate slot found on Steamworks machines activates their overclock drastically increasing output. The increased speed causes a greater amount of wear on the parts of the machine, usage of this item is only authorized to higher ranking Kogbolds.</Description>
+    <ActivateOnEquip stat="DEX" amount="8">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="ATT" amount="8">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="DEF" amount="-8">IncrementStat</ActivateOnEquip>
+    <BagType>9</BagType>
+    <feedPower>450</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,RING,UT,XPBONUS</Labels>
+  </Object>
+  <Object type="0x445d" id="Steam Pipe" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>19</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>Efforts by lower workers of the kogbolds to arm themselves against invaders has resulted in various interesting crudely made armaments. Fashioned from the boiler of a steam generator, this staff projects its scalding vapors towards a target, cooking them alive.</Description>
+    <Sound>weapon/wand_of_dark_magic</Sound>
+    <RateOfFire>1</RateOfFire>
+    <ActivateOnEquip stat="MAXMP" amount="25">IncrementStat</ActivateOnEquip>
+    <Projectile id="0">
+      <ObjectId>Steam Blast Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Size>75</Size>
+      <CircleTurnDelay>600</CircleTurnDelay>
+      <CircleTurnAngle>40</CircleTurnAngle>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Steam Blast Projectile</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>1150</LifetimeMS>
+      <Size>75</Size>
+      <CircleTurnDelay>600</CircleTurnDelay>
+      <CircleTurnAngle>-40</CircleTurnAngle>
+      <MultiHit />
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <PosOffset>0.1,0.0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <PosOffset>-0.1,0.0</PosOffset>
+    </Subattack>
+    <feedPower>800</feedPower>
+    <BagType>8</BagType>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+  </Object>
+  <Object type="0xc21a" id="Kogbold Cower Shield" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="1" yOffset="0">
+      <File>steamworksObjects8x8</File>
+      <Index>22</Index>
+    </Texture>
+    <SlotType>5</SlotType>
+    <Description>A large sheet of plating intended to be used as a blast shield in explosives testing. When confronted with intruders some of the more cowardly Kogbolds choose to use them to protect themselves while fleeing.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="On Ability Use" description="Gain a 15 point Speed and Defense Boost for 4 seconds." />
+      <EffectInfo name="" description="6 seconds cooldown." />
+      <EffectInfo name="Overpressure" description="When the player's movement is affected by a negative condition (Slow, Confused, Paralyzed), the Cower Shield will emit clouds of steam when they shoot. These deal 325-400 damage." />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="VIT" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="5">IncrementStat</ActivateOnEquip>
+    <Projectile>
+      <ObjectId>Cower Shield Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>325</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>100</Size>
+      <Acceleration>-10000</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <ConditionEffect duration="2.5">Stunned</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>4</BagType>
+    <MpCost>100</MpCost>
+    <Activate>Shoot</Activate>
+    <OnPlayerAbilityActivate cooldown="6" duration="4" proc="1" amount="15" stat="SPD">StatBoostSelf</OnPlayerAbilityActivate>
+    <OnPlayerAbilityActivate cooldown="6" duration="4" proc="1" amount="15" stat="DEF">StatBoostSelf</OnPlayerAbilityActivate>
+    <OnPlayerShootActivate requiredConditions="Slowed" proc="1" targetMouse="true" cooldown="1.5" minDistance="4.5" maxDistance="4.5" offsetAngle="0" numShots="5" gapAngle="0" gapTiles="0" arcGap="5" type="0xc21b" ignoreOnTooltip="true">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate requiredConditions="Confused" proc="1" targetMouse="true" cooldown="1.5" minDistance="4.5" maxDistance="4.5" offsetAngle="0" numShots="5" gapAngle="0" gapTiles="0" arcGap="5" type="0xc21b" ignoreOnTooltip="true">BulletCreate</OnPlayerShootActivate>
+    <OnPlayerShootActivate requiredConditions="Paralyzed" proc="1" targetMouse="true" cooldown="1.5" minDistance="4.5" maxDistance="4.5" offsetAngle="0" numShots="5" gapAngle="0" gapTiles="0" arcGap="5" type="0xc21b" ignoreOnTooltip="true">BulletCreate</OnPlayerShootActivate>
+    <NumProjectiles>3</NumProjectiles>
+    <feedPower>380</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Usable />
+    <Labels>EQUIPMENT,ABILITY,SHIELD,UT,NUMPROJ_3,MPCOST,XPBONUS</Labels>
+  </Object>
+  <Object type="0xc21b" id="Cower Shield Shots">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>15</SlotType>
+    <Sound>spell/fire_spray</Sound>
+    <Projectile>
+      <ObjectId>Steam Blast Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>325</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>100</Size>
+      <Acceleration>-10000</Acceleration>
+      <AccelerationDelay>300</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <Labels>EQUIPMENT,ABILITY,EFFECT</Labels>
+  </Object>
+  <Object type="0xc21d" id="Scepter of Rust" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>21</Index>
+    </Texture>
+    <SlotType>23</SlotType>
+    <Description>This electrical rod is actually used to remove rust from machine parts through electrolysis. When used on a living or artificial creature however, the shock causes muscles to tense and circuits to go haywire, reducing the assailant's power.</Description>
+    <Sound>spell/magic_nova</Sound>
+    <ActivateOnEquip stat="WIS" amount="7">IncrementStat</ActivateOnEquip>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>75</MpCost>
+    <Activate totalDamage="300" decrDamage="25" wisDamageBase="55" maxTargets="3" wisPerTarget="6" condEffect="Weak" condDuration="4" color="0x78303d" aoeActivationCount="4" aoeTime="4" aoeDamage="90" aoeEffect="Weak" statModDamage="20" aoeRange="2" statModRadius="0.03" aoeMaxTargets="3" scalingStat="WIS" statModScalingMin="50" statModPerTarget="10">Lightning</Activate>
+    <feedPower>900</feedPower>
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,ABILITY,SCEPTER,UT,MPCOST,XPBONUS,CAUSE_STAT_EFF</Labels>
+  </Object>
+  <Object type="0xc21e" id="Brain Cube" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="0" yOffset="1">
+      <File>steamworksObjects8x8</File>
+      <Index>23</Index>
+    </Texture>
+    <SlotType>19</SlotType>
+    <ExtraTooltipData>
+      <EffectInfo name="On Use" description="Produces 3 explosions at the aim point." />
+      <EffectInfo name="" description="The first heals the player and allies, with subsequent bursts dealing decreasing damage over a wider area." />
+    </ExtraTooltipData>
+    <Description>The oldest forms of automatic computing built by the Kogbolds were a far cry from the self improving artificial intelligence of the modern Core designs. Though its computation capabilities are lost to time, the matrix remains conveniently effective at distributing powerful surges of energy.</Description>
+    <Usable />
+    <BagType>6</BagType>
+    <MpCost>135</MpCost>
+    <ActivateOnEquip stat="DEX" amount="6">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="MAXMP" amount="50">IncrementStat</ActivateOnEquip>
+    <Activate radius="2.25" totalDamage="350" heal="50" ignoreDef="50" wisDamageBase="75" color="0x4d201e">VampireBlast</Activate>
+    <Activate objectId="Brain Cube Object" throwTime="0" color="-1">ObjectToss</Activate>
+    <Activate objectId="Brain Cube Effect 1" throwTime="0.8" color="-1">ObjectToss</Activate>
+    <Activate objectId="Brain Cube Effect 2" throwTime="1.8" color="-1">ObjectToss</Activate>
+    <feedPower>1000</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+  </Object>
+  <Object type="0xc21f" id="Chain Dagger" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="1" yOffset="1">
+      <File>steamworksObjects8x8</File>
+      <Index>20</Index>
+    </Texture>
+    <SlotType>2</SlotType>
+    <Description>Of all the tools found on Kogbold excavation bots, none is more versatile than the KI225 Chain Cutter. Useful for cutting through unwanted obstructions ranging anything from stone to flesh.</Description>
+    <RateOfFire>0.7</RateOfFire>
+    <Sound>weapon/dirk</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <ExtraTooltipData>
+      <EffectInfo name="Rev Up" description="Gain a 1 point Dexterity Boost on shooting, with a maximum cap of 10 Dexterity from sustained fire." />
+    </ExtraTooltipData>
+    <Projectile>
+      <ObjectId>Chain Dagger Projectile</ObjectId>
+      <Speed>110</Speed>
+      <MinDamage>110</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>500</LifetimeMS>
+      <ConditionEffect duration="4.5" bleedDamage="50">Bleeding</ConditionEffect>
+    </Projectile>
+    <OnPlayerShootActivate cooldown="0.4" duration="4.4" proc="1" amount="1" stat="DEX">StatBoostSelf</OnPlayerShootActivate>
+    <BagType>6</BagType>
+    <feedPower>650</feedPower>
+    <Soulbound />
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+  </Object>
+  <Object type="0xc220" id="Laser Pointer" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="-1">
+      <File>steamworksObjects8x8</File>
+      <Index>37</Index>
+    </Texture>
+    <SlotType>8</SlotType>
+    <Description>Early prototype versions of the KI470 Laser pointing device came with no inbuilt limiter on their power output. First batch testing resulted in many schematics cut clean in half, as well as multiple layers of steel wall.</Description>
+    <Sound>weapon/wand_of_death</Sound>
+    <OldSound>magicShoot</OldSound>
+    <Projectile id="0">
+      <ObjectId>Laser Pointer Main</ObjectId>
+      <Speed>220</Speed>
+      <LifetimeMS>312</LifetimeMS>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <ArmorPiercing />
+      <Size>100</Size>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Laser Pointer Sub</ObjectId>
+      <Speed>100</Speed>
+      <LifetimeMS>718</LifetimeMS>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <MultiHit />
+      <Size>60</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <BagType>6</BagType>
+    <feedPower>970</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,WAND,UT,XPBONUS</Labels>
+  </Object>
+  <Object type="0xd228" id="Kogbold Cower Shield Boost" collectionIcon="19">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="1" yOffset="0">
+      <File>steamworksObjects8x8</File>
+      <Index>22</Index>
+    </Texture>
+    <SlotType>5</SlotType>
+    <Description>Kogbolds carry these shields around to hide behind. When threatened they release a blast of steam from the front before scampering to safety.</Description>
+    <Sound>spell/fire_spray</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="On Ability Use" description="Gain a 15 point Speed Boost for 4 seconds." />
+      <EffectInfo name="" description="5 seconds cooldown." />
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="VIT" amount="5">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="SPD" amount="4">IncrementStat</ActivateOnEquip>
+    <Projectile>
+      <ObjectId>Cower Shield Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>325</MinDamage>
+      <MaxDamage>400</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Size>100</Size>
+      <Acceleration>-10000</Acceleration>
+      <AccelerationDelay>200</AccelerationDelay>
+      <SpeedClamp>5</SpeedClamp>
+      <ConditionEffect duration="2.5">Stunned</ConditionEffect>
+      <MultiHit />
+      <ArmorPiercing />
+    </Projectile>
+    <BagType>4</BagType>
+    <MpCost>100</MpCost>
+    <Activate>Shoot</Activate>
+    <Activate cooldown="5" duration="4" noStack="true" proc="1" amount="15" stat="SPD">StatBoostSelf</Activate>
+    <NumProjectiles>3</NumProjectiles>
+    <feedPower>380</feedPower>
+    <XPBonus>7</XPBonus>
+    <UniqueID />
+    <Usable />
+    <Labels>EQUIPMENT,ABILITY,SHIELD,UT,NUMPROJ_3,MPCOST,XPBONUS</Labels>
+  </Object>
+  <Object type="0xd229" id="Boomerang Blades">
+    <DisplayId>Boomerang Blades</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x14a</Index>
+    </Texture>
+    <Sound>weapon/fire_dagger</Sound>
+    <OldSound>daggerSwing</OldSound>
+    <SlotType>2</SlotType>
+    <Description>This experimental set of dual blades dared to ask the question – what if both the blades were the big one?  Unfortunately, the curve of the second blade caused it to fly back towards the user.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.9</RateOfFire>
+      <PosOffset>0.25,0</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.45</RateOfFire>
+      <PosOffset>-0.25,0</PosOffset>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Boomerang Large Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>115</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Boomerang Returning Blade</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>90</MinDamage>
+      <MaxDamage>130</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <BagType>4</BagType>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,DUALBLADE,TIERED,UT,TRADEABLE,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xd23a" id="Hovering Spellblade">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x14d</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>The projectiles of this spellblade can achieve great speed when fired...after they spend a moment to get warmed up.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+      <PosOffset>0.0,0.3</PosOffset>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1.0</RateOfFire>
+      <PosOffset>0.0,0.3</PosOffset>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Hovering Spellbalde Tip</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>95</MaxDamage>
+      <LifetimeMS>1050</LifetimeMS>
+      <Size>100</Size>
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>150</SpeedClamp>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Hovering Spellbalde Bullet</ObjectId>
+      <Speed>1</Speed>
+      <MinDamage>55</MinDamage>
+      <MaxDamage>75</MaxDamage>
+      <LifetimeMS>1050</LifetimeMS>
+      <MultiHit />
+      <Size>100</Size>
+      <ArmorPiercing />
+      <Acceleration>1000</Acceleration>
+      <AccelerationDelay>250</AccelerationDelay>
+      <SpeedClamp>150</SpeedClamp>
+    </Projectile>
+    <BagType>4</BagType>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SPELLBLADE,TIERED,UT,NUMPROJ_2,XPBONUS,TRADEABLE,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xd23b" id="Seismic Flail">
+    <DisplayId>Seismic Flail</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x150</Index>
+    </Texture>
+    <Sound>weapon/mithril_sword</Sound>
+    <OldSound>bladeSwing</OldSound>
+    <SlotType>1</SlotType>
+    <Description>By welding a massive weight to a chain, you can make a flail so heavy barely anyone can use it.  But even if it misses, the impact alone will knock enemies flying.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Seismic Impact" description="The weapon has a 40% chance to cause an explosion which deal between 60 and 80 damage when fired." />
+    </ExtraTooltipData>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="2">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>0.5</RateOfFire>
+    </Subattack>
+    <OnPlayerShootActivate minDistance="6" maxDistance="6" throwTime="0.2" objectId="Seismic Flail Impact" targetMouse="true" proc="0.4" color="-1" cooldown="2">ObjectToss</OnPlayerShootActivate>
+    <Projectile id="0">
+      <ObjectId>Siesmic Flail Head</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>330</MinDamage>
+      <MaxDamage>395</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Siesmic Flail Chain</ObjectId>
+      <Speed>75</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Siesmic Flail Chain</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+      <Boomerang />
+      <ArmorPiercing />
+      <MultiHit />
+    </Projectile>
+    <BagType>4</BagType>
+    <feedPower>450</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,FLAIL,TIERED,UT,TRADEABLE,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xd23c" id="Hookblade Tachi">
+    <DisplayId>Hookblade Tachi</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x154</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>The unique shape of these Tachi mean that when the blades cross over, they pull back in a sweeping motion, slicing to either side of the user.</Description>
+    <Sound>weapon/long_sword</Sound>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>1,.75</PosOffset>
+      <DefaultAngle>-25</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="1">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>-1,.75</PosOffset>
+      <DefaultAngle>25</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Hookblade Tachi Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <CircleTurnDelay>275</CircleTurnDelay>
+      <CircleTurnAngle>-30</CircleTurnAngle>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Hookblade Tachi Slash</ObjectId>
+      <Speed>120</Speed>
+      <MinDamage>85</MinDamage>
+      <MaxDamage>120</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit />
+      <CircleTurnDelay>275</CircleTurnDelay>
+      <CircleTurnAngle>30</CircleTurnAngle>
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>800</feedPower>
+    <XPBonus>7</XPBonus>
+    <Soulbound />
+    <Labels>EQUIPMENT,WEAPON,TACHI,UT,TAB_UT,POWERTIER_A,XPBONUS</Labels>
+  </Object>
+  <Object type="0xd23d" id="Acidic Aspergillum">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x156</Index>
+    </Texture>
+    <Sound>weapon/wand_of_death</Sound>
+    <OldSound>magicShoot</OldSound>
+    <SlotType>8</SlotType>
+    <Description>This holy water dispenser has become corroded and rusty, with the only liquid it produces being a concentrated acid.</Description>
+    <ExtraTooltipData>
+      <EffectInfo name="Acid Pools" description="The weapon has a 20% chance to leave a puddle of acid behind when it shoots.." />
+      <EffectInfo name="" description="This acid deals 100 damage per second to enemies in contact with it." />
+    </ExtraTooltipData>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>3.3</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>6.6</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.60</RateOfFire>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.55</RateOfFire>
+      <DefaultAngle>-3.3</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.45</RateOfFire>
+      <DefaultAngle>-6.6</DefaultAngle>
+    </Subattack>
+    <OnPlayerShootActivate minDistance="6" maxDistance="6" throwTime="0.3" objectId="Acid Puddle" targetMouse="true" proc="0.2" color="-1" cooldown="2">ObjectToss</OnPlayerShootActivate>
+    <Projectile id="0">
+      <ObjectId>Acid Aspergillum Shot</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>65</MinDamage>
+      <MaxDamage>70</MaxDamage>
+      <LifetimeMS>380</LifetimeMS>
+      <Size>80</Size>
+    </Projectile>
+    <ArcGap>2.7</ArcGap>
+    <BagType>4</BagType>
+    <XPBonus>6</XPBonus>
+    <feedPower>450</feedPower>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,MORNINGSTAR,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xd23e" id="Harpoon Longbow">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x159</Index>
+    </Texture>
+    <Sound>weapon/golden_bow</Sound>
+    <SlotType>3</SlotType>
+    <Description>This bow fires arrows a little too fast, reducing them to ragged splinters in flight.</Description>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.96</RateOfFire>
+      <PosOffset>0,0</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>.92</RateOfFire>
+      <PosOffset>-.5,-.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>5</DefaultAngle>
+    </Subattack>
+    <Subattack projectileId="0">
+      <NumProjectiles>1</NumProjectiles>
+      <RateOfFire>1</RateOfFire>
+      <PosOffset>.5,.5</PosOffset>
+      <BurstCount>4</BurstCount>
+      <BurstDelay>1.8</BurstDelay>
+      <BurstMinDelay>0.8</BurstMinDelay>
+      <DefaultAngle>-5</DefaultAngle>
+    </Subattack>
+    <Projectile id="0">
+      <ObjectId>Harpoon Longbow Shot</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>95</MinDamage>
+      <MaxDamage>105</MaxDamage>
+      <LifetimeMS>440</LifetimeMS>
+      <ConditionEffect duration="1.0" bleedDamage="5">Bleeding</ConditionEffect>
+      <Amplitude>0.2</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <BagType>4</BagType>
+    <OldSound>arrowShoot</OldSound>
+    <XPBonus>6</XPBonus>
+    <feedPower>450</feedPower>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,LONGBOW,TIERED,UT,TRADEABLE,XPBONUS,SUBTYPE</Labels>
+  </Object>
+  <Object type="0xc13b" id="Blueprint_239" collectionIcon="19">
+    <DisplayId>Overclocking Amulet Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Overclocking Amulet">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc135" id="Blueprint_240" collectionIcon="19">
+    <DisplayId>Steam Pipe Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Steam Pipe">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc136" id="Blueprint_241" collectionIcon="19">
+    <DisplayId>Kogbold Cower Shield Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Kogbold Cower Shield">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc137" id="Blueprint_242" collectionIcon="19">
+    <DisplayId>Scepter of Rust Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Scepter of Rust">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc138" id="Blueprint_243" collectionIcon="19">
+    <DisplayId>Brain Cube Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Brain Cube">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc139" id="Blueprint_244" collectionIcon="19">
+    <DisplayId>Chain Dagger Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Chain Dagger">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object type="0xc13a" id="Blueprint_245" collectionIcon="19">
+    <DisplayId>Laser Pointer Blueprint</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture xOffset="2" yOffset="0">
+      <File>d3LofiObjEmbed</File>
+      <Index>0x01b4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Unlocks new items in the Item Forge. Also, one Blueprint can be dismantled for some Forgefire reduction.</Description>
+    <Sound>use_potion</Sound>
+    <Activate id="Laser Pointer">UnlockForgeBlueprint</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <feedPower>500</feedPower>
+    <Track />
+    <Soulbound />
+    <Labels>CONSUMABLE,TAB_ALL,ORG_KOGBOLD_S</Labels>
+  </Object>
+  <Object id="Clockwork Repeater" type="0xc13c">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>509</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>No mortal can fire this dreaded bow without resting in between shots. It requires tremendous skill to wield.</Description>
+    <RateOfFire>0.33</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Mech Doom Arrow</ObjectId>
+      <Speed>140</Speed>
+      <MinDamage>625</MinDamage>
+      <MaxDamage>700</MaxDamage>
+      <LifetimeMS>503</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>1</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>1400</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,BOW,UT,TAB_UT,POWERTIER_S,ORG_KOGBOLD_S,XPBONUS</Labels>
+  </Object>
+  <Object id="Mechanical Kogbold Limb" type="0xc13d">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>507</Index>
+    </Texture>
+    <SlotType>17</SlotType>
+    <Description>Adult male basilisks are apex predators, and at full maturity their tails gain the unique ability to release piercing acid from the tip.</Description>
+    <RateOfFire>0.33</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Projectile>
+      <ObjectId>Mech Tail Magic</ObjectId>
+      <Speed>225</Speed>
+      <MinDamage>220</MinDamage>
+      <MaxDamage>250</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <Amplitude>0.25</Amplitude>
+      <Frequency>1.5</Frequency>
+      <ArmorPiercing />
+      <FaceDir />
+      <Size>80</Size>
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>2</NumProjectiles>
+    <ArcGap>0</ArcGap>
+    <OldSound>magicShoot</OldSound>
+    <feedPower>1400</feedPower>
+    <Soulbound />
+    <XPBonus>8</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,STAFF,UT,TAB_UT,POWERTIER_S,ORG_KOGBOLD_S,XPBONUS</Labels>
+  </Object>
+  <Object id="A Really Strong Estoc" type="0xc13e">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>508</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A slow but powerful sword that is a relic of a long forgotten age.</Description>
+    <RateOfFire>0.6</RateOfFire>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile>
+      <ObjectId>Mech Stone Proj</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>420</MinDamage>
+      <MaxDamage>475</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+    </Projectile>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>1400</feedPower>
+    <XPBonus>8</XPBonus>
+    <Soulbound />
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,SWORD,UT,TAB_UT,POWERTIER_S,ORG_KOGBOLD_S,XPBONUS</Labels>
+  </Object>
+  <Object id="Voidier Blade" type="0xc13f">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>510</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>An astronomically heavy katana. It is forged from dark matter.</Description>
+    <RateOfFire>0.3</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Mech Void Gear</ObjectId>
+      <Speed>0</Speed>
+      <MinDamage>725</MinDamage>
+      <MaxDamage>875</MaxDamage>
+      <LifetimeMS>2100</LifetimeMS>
+      <Acceleration>200</Acceleration>
+      <AccelerationDelay>1250</AccelerationDelay>
+      <SpeedClamp>100</SpeedClamp>
+      <MultiHit />
+    </Projectile>
+    <ActivateOnEquip amount="-5" stat="DEX">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>1400</feedPower>
+    <XPBonus>6</XPBonus>
+    <UniqueID />
+    <Labels>EQUIPMENT,WEAPON,KATANA,UT,TAB_UT,POWERTIER_S,ORG_KOGBOLD_S,XPBONUS</Labels>
+  </Object>
+  <Object id="Mark of the Control Core" type="0xc140">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>spiderDenObjects8x8</File>
+      <Index>0xa4</Index>
+    </Texture>
+    <Description>A medallion infused with the essence of the Factory Control Core.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Quest item" name="Type" />
+      <EffectInfo description="Obtained by defeating the Factory Control Core in the Kogbold Steamworks" name="Drop location" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_nova</Sound>
+    <BagType>2</BagType>
+    <Treasure />
+    <Mark />
+    <feedPower>50</feedPower>
+    <Soulbound />
+    <Labels>MARK,TAB_ALL</Labels>
+  </Object>
+  <Object id="Kogbold Enhancement Core" type="0xc141">
+    <Class>Equipment</Class>
+    <Item />
+    <SlotType>10</SlotType>
+    <Texture xOffset="2" yOffset="0">
+      <File>steamworksObjects8x8</File>
+      <Index>523</Index>
+    </Texture>
+    <Description>A well machined object said to give the Kogbolds their strength.</Description>
+    <ExtraTooltipData>
+      <EffectInfo description="Use in the forge to upgrade some Untiered Weapons." name="Forge" />
+      <EffectInfo description="Obtained by defeating the Factory Control Core in the Kogbold Steamworks" name="Drop location" />
+    </ExtraTooltipData>
+    <Sound>spell/fire_nova</Sound>
+    <BagType>2</BagType>
+    <Treasure />
+    <UniqueID />
+    <Mark />
+    <feedPower>1200</feedPower>
+    <Soulbound />
+    <Labels>MARK,ORG_KOGBOLD_CORE,TAB_ALL</Labels>
+  </Object>
 </Objects>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
   <Object type="0x5e49" id="Candy Gnome">
+    <DisplayId>Kogbold Hoarder</DisplayId>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16dEncounters2</File>
-      <Index>44</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>171</Index>
     </AnimatedTexture>
     <HitSound>monster/goblins_hit</HitSound>
     <DeathSound>monster/goblins_death</DeathSound>
@@ -16,18 +17,20 @@
     <Exp>10000</Exp>
     <BXP>50000</BXP>
     <Terrain>MidPlains</Terrain>
-    <SpawnProb>0.04</SpawnProb>
+    <SpawnProb>1</SpawnProb>
+    <PerRealmMax>3</PerRealmMax>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="LesserGodKills" />
     <Labels>ENEMY,MINION,HUMANOID</Labels>
   </Object>
   <Object type="0x5e48" id="MegaRototo">
+    <DisplayId>Oil Slick</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>54</Index>
+      <Index>166</Index>
     </AnimatedTexture>
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/flaming_skulls_hit</DeathSound>
@@ -42,28 +45,28 @@
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
-      <ObjectId>Purple Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>160</Damage>
       <Speed>40</Speed>
       <LifetimeMS>1600</LifetimeMS>
       <Size>220</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Red Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>140</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1200</LifetimeMS>
       <Size>180</Size>
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Flame Breath</ObjectId>
+      <ObjectId>Sludge Breath</ObjectId>
       <Damage>100</Damage>
       <Speed>50</Speed>
       <LifetimeMS>1800</LifetimeMS>
       <Size>120</Size>
     </Projectile>
     <Projectile id="3">
-      <ObjectId>Flame Breath</ObjectId>
+      <ObjectId>Sludge Breath</ObjectId>
       <Damage>100</Damage>
       <Speed>55</Speed>
       <LifetimeMS>1800</LifetimeMS>
@@ -76,12 +79,13 @@
     <Labels>ENEMY,BEAST,GOD,QUEST,STASISIMMUNE,TRACKLOOT,MINIBOSS,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e47" id="Spoiled Creampuff">
+    <DisplayId>Wheely Gig Binbag</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>55</Index>
+      <Index>167</Index>
     </AnimatedTexture>
     <HitSound>monster/blobs_death</HitSound>
     <DeathSound>monster/blobs_hit</DeathSound>
@@ -96,14 +100,14 @@
     <TrackLoot />
     <StasisImmune />
     <Projectile id="0">
-      <ObjectId>Cream Shot</ObjectId>
+      <ObjectId>Garbage Shots</ObjectId>
       <Damage>160</Damage>
       <Speed>80</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>200</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cream Bullet</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>100</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -116,12 +120,13 @@
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e46" id="Desire Troll">
+    <DisplayId>Kogbold Salvager</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>56</Index>
+      <Index>170</Index>
     </AnimatedTexture>
     <HitSound>weapon/sprite_wand</HitSound>
     <DeathSound>monster/sprites_death</DeathSound>
@@ -136,7 +141,7 @@
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
-      <ObjectId>Troll Hair Whip</ObjectId>
+      <ObjectId>steamworks Spinning Wrench</ObjectId>
       <Damage>120</Damage>
       <Speed>70</Speed>
       <LifetimeMS>1600</LifetimeMS>
@@ -146,7 +151,7 @@
       <ConditionEffect duration="3">Stunned</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Pink Star</ObjectId>
+      <ObjectId>steamworks Thin Steam Shot</ObjectId>
       <Damage>90</Damage>
       <Speed>80</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -156,14 +161,14 @@
       <MultiHit />
     </Projectile>
     <Projectile id="2">
-      <ObjectId>Pink Slash</ObjectId>
+      <ObjectId>steamworks Wide Steam Shot</ObjectId>
       <Damage>110</Damage>
       <Speed>70</Speed>
       <LifetimeMS>1000</LifetimeMS>
       <Size>110</Size>
     </Projectile>
     <Projectile id="3">
-      <ObjectId>Pink Slash</ObjectId>
+      <ObjectId>steamworks Wide Steam Shot</ObjectId>
       <Damage>110</Damage>
       <Speed>90</Speed>
       <LifetimeMS>600</LifetimeMS>
@@ -176,12 +181,13 @@
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e45" id="Swoll Fairy">
+    <DisplayId>All-Seeing Eye</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>57</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/dwarf_god_hit</HitSound>
     <DeathSound>player/paladin_death</DeathSound>
@@ -196,7 +202,7 @@
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
-      <ObjectId>Magic Sparkle</ObjectId>
+      <ObjectId>Eyes in the Skies Shot</ObjectId>
       <Damage>90</Damage>
       <Speed>45</Speed>
       <LifetimeMS>3400</LifetimeMS>
@@ -207,7 +213,7 @@
       <ConditionEffect duration="2">Confused</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Magic Sparkle</ObjectId>
+      <ObjectId>Sharp Pink Star</ObjectId>
       <Damage>90</Damage>
       <Speed>35</Speed>
       <LifetimeMS>4400</LifetimeMS>
@@ -225,12 +231,13 @@
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x5e44" id="Gigacorn">
+    <DisplayId>Ultra Mechdusa</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>58</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>40</Index>
     </AnimatedTexture>
     <HitSound>spell/light_heal</HitSound>
     <DeathSound>spell/major_heal</DeathSound>
@@ -244,7 +251,7 @@
     <StasisImmune />
     <TrackLoot />
     <Projectile id="0">
-      <ObjectId>Unicorn Horn</ObjectId>
+      <ObjectId>Laser Pointer Main</ObjectId>
       <Damage>90</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -253,7 +260,7 @@
       <MultiHit />
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Rainbow Brick</ObjectId>
+      <ObjectId>Laser Pointer Sub</ObjectId>
       <Damage>70</Damage>
       <Speed>65</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -283,13 +290,13 @@
     <EnemyOccupySquare />
     <NoMiniMap />
     <Static />
-    <Texture>
-      <File>lofiObjBig</File>
-      <Index>0x7c</Index>
-    </Texture>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>168</Index>
+    </AnimatedTexture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
-    <Size>120</Size>
+    <Size>100</Size>
     <ShadowSize>0</ShadowSize>
     <TrackLoot />
     <MaxHitPoints>1000</MaxHitPoints>
@@ -309,12 +316,13 @@
     <Size>-1</Size>
   </Object>
   <Object type="0x5e41" id="Cupcake">
+    <DisplayId>Scrapped Core</DisplayId>
     <Group>Candy Boss</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>59</Index>
+      <Index>169</Index>
     </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
@@ -330,7 +338,7 @@
     <EventChestBoss />
     <TrackLoot />
     <Projectile id="0">
-      <ObjectId>happy magic</ObjectId>
+      <ObjectId>KSW Red Arrow</ObjectId>
       <Damage>100</Damage>
       <Speed>25</Speed>
       <LifetimeMS>10000</LifetimeMS>
@@ -341,7 +349,7 @@
       <ConditionEffect duration="3">Hallucinating</ConditionEffect>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>happy magic</ObjectId>
+      <ObjectId>KSW Blue Arrow</ObjectId>
       <Damage>100</Damage>
       <Speed>30</Speed>
       <LifetimeMS>10000</LifetimeMS>
@@ -373,30 +381,31 @@
     <SpecialSpawn category="Key_Fairy" perPlayer="true">Key Fairy Easy</SpecialSpawn>
   </Object>
   <Object type="0x5e40" id="Unicorn">
+    <DisplayId>Mechdusa</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>60</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>40</Index>
     </AnimatedTexture>
     <HitSound>monster/skull_shrine_hit</HitSound>
     <DeathSound>spell/light_heal</DeathSound>
-    <Size>140</Size>
+    <Size>100</Size>
     <MaxHitPoints>5000</MaxHitPoints>
     <AlwaysPositiveHealth />
     <Defense>25</Defense>
     <Exp>500</Exp>
     <BXP>2375</BXP>
     <Projectile id="0">
-      <ObjectId>Unicorn Horn</ObjectId>
+      <ObjectId>Laser Pointer Main</ObjectId>
       <Damage>70</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>100</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Rainbow Brick</ObjectId>
+      <ObjectId>Laser Pointer Sub</ObjectId>
       <Damage>50</Damage>
       <Speed>65</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -406,12 +415,13 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x5e3e" id="Hard Candy">
+    <DisplayId>Stray Cog</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>45</Index>
+      <Index>193</Index>
     </AnimatedTexture>
     <HitSound>monster/stone_walls_hit</HitSound>
     <DeathSound>monster/stone_walls_death</DeathSound>
@@ -422,7 +432,7 @@
     <Exp>150</Exp>
     <BXP>712</BXP>
     <Projectile id="0">
-      <ObjectId>Hard Candy Stake</ObjectId>
+      <ObjectId>steamworks Flame Shot</ObjectId>
       <Damage>50</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -433,16 +443,17 @@
     <Labels>ENEMY,MINION,CONSTRUCT</Labels>
   </Object>
   <Object type="0x5e39" id="Beefy Fairy">
+    <DisplayId>Eyes in the Sky</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars16x16rEncounters</File>
-      <Index>61</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/dwarves_hit</HitSound>
     <DeathSound>player/wizard_death</DeathSound>
-    <Size>140</Size>
+    <Size>100</Size>
     <ShadowSize>80</ShadowSize>
     <MaxHitPoints>5000</MaxHitPoints>
     <AlwaysPositiveHealth />
@@ -452,7 +463,7 @@
     <Flying />
     <Z>0.24</Z>
     <Projectile id="0">
-      <ObjectId>Magic Sparkle</ObjectId>
+      <ObjectId>Eyes in the Skies Shot</ObjectId>
       <Damage>50</Damage>
       <Speed>35</Speed>
       <LifetimeMS>2200</LifetimeMS>
@@ -465,16 +476,17 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x5e38" id="Fairy">
+    <DisplayId>Eyeballer</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>46</Index>
+      <File>chars16x16dMountains1</File>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/dwarves_hit</DeathSound>
-    <Size>120</Size>
+    <Size>70</Size>
     <ShadowSize>60</ShadowSize>
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>20</Defense>
@@ -483,7 +495,7 @@
     <Flying />
     <Z>0.25</Z>
     <Projectile id="0">
-      <ObjectId>Magic Star</ObjectId>
+      <ObjectId>Eyes in the Skies Shot</ObjectId>
       <Damage>55</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -497,12 +509,13 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5e37" id="Wishing Troll">
+    <DisplayId>Kogbold Scavenger</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>62</Index>
+      <Index>170</Index>
     </AnimatedTexture>
     <HitSound>monster/flaming_skulls_hit</HitSound>
     <DeathSound>monster/flaming_skulls_death</DeathSound>
@@ -514,7 +527,7 @@
     <Exp>500</Exp>
     <BXP>2375</BXP>
     <Projectile id="0">
-      <ObjectId>Troll Hair Whip</ObjectId>
+      <ObjectId>steamworks Spinning Wrench</ObjectId>
       <Damage>70</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -526,22 +539,23 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x5e36" id="Spilled Icecream">
+    <DisplayId>Junkyard Rat</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars8x8rEncounters</File>
-      <Index>47</Index>
+      <Index>194</Index>
     </AnimatedTexture>
     <HitSound>monster/slimes_hit</HitSound>
     <DeathSound>monster/slimes_death</DeathSound>
-    <Size>100</Size>
+    <Size>70</Size>
     <MaxHitPoints>1000</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
     <Projectile id="0">
-      <ObjectId>Icecream Bullet</ObjectId>
+      <ObjectId>steamworks Thin Water Bolt</ObjectId>
       <Damage>36</Damage>
       <Speed>70</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -554,12 +568,13 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5e35" id="Big Creampuff">
+    <DisplayId>Big Binbag</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>63</Index>
+      <Index>167</Index>
     </AnimatedTexture>
     <HitSound>monster/blobs_death</HitSound>
     <DeathSound>monster/blobs_hit</DeathSound>
@@ -571,14 +586,14 @@
     <Exp>500</Exp>
     <BXP>2375</BXP>
     <Projectile id="0">
-      <ObjectId>Cream Shot</ObjectId>
+      <ObjectId>Garbage Shots</ObjectId>
       <Damage>85</Damage>
       <Speed>60</Speed>
       <LifetimeMS>2000</LifetimeMS>
       <Size>120</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cream Bullet</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>60</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1000</LifetimeMS>
@@ -587,30 +602,31 @@
     <Labels>ENEMY</Labels>
   </Object>
   <Object type="0x5e34" id="Small Creampuff">
+    <DisplayId>Binbag</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>48</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>167</Index>
     </AnimatedTexture>
     <HitSound>monster/elves_death</HitSound>
     <DeathSound>monster/cubes_death</DeathSound>
-    <Size>100</Size>
+    <Size>75</Size>
     <ShadowSize>80</ShadowSize>
     <MaxHitPoints>700</MaxHitPoints>
     <Defense>20</Defense>
     <Exp>150</Exp>
     <BXP>712</BXP>
     <Projectile id="0">
-      <ObjectId>Cream Bullet</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>55</Damage>
       <Speed>50</Speed>
       <LifetimeMS>1400</LifetimeMS>
       <Size>80</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Cream Ball</ObjectId>
+      <ObjectId>Garbage Shots</ObjectId>
       <Damage>40</Damage>
       <Speed>50</Speed>
       <LifetimeMS>800</LifetimeMS>
@@ -623,12 +639,13 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
   <Object type="0x5e33" id="Tiny Rototo">
+    <DisplayId>Oily Glob</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>chars8x8rEncounters</File>
-      <Index>49</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>166</Index>
     </AnimatedTexture>
     <HitSound>monster/elves_hit</HitSound>
     <DeathSound>monster/hobbits_death</DeathSound>
@@ -639,14 +656,14 @@
     <Exp>80</Exp>
     <BXP>380</BXP>
     <Projectile id="0">
-      <ObjectId>Purple Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>40</Damage>
       <Speed>45</Speed>
       <LifetimeMS>500</LifetimeMS>
       <Size>90</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Red Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>40</Damage>
       <Speed>45</Speed>
       <LifetimeMS>500</LifetimeMS>
@@ -656,6 +673,7 @@
     <Labels>ENEMY,CRITTER</Labels>
   </Object>
   <Object type="0x5e32" id="Rototo">
+    <DisplayId>Oil Blob</DisplayId>
     <Group>Candy Creature</Group>
     <Enemy />
     <Class>Character</Class>
@@ -679,14 +697,14 @@
     <Exp>500</Exp>
     <BXP>2375</BXP>
     <Projectile id="0">
-      <ObjectId>Purple Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>120</Damage>
       <Speed>40</Speed>
       <LifetimeMS>1600</LifetimeMS>
       <Size>120</Size>
     </Projectile>
     <Projectile id="1">
-      <ObjectId>Red Rototo Blast</ObjectId>
+      <ObjectId>Slime God Sludge</ObjectId>
       <Damage>80</Damage>
       <Speed>60</Speed>
       <LifetimeMS>1200</LifetimeMS>
@@ -708,22 +726,23 @@
     <Size>0</Size>
   </Object>
   <Object type="0x5e2f" id="Butterfly">
+    <DisplayId>Bluebottle</DisplayId>
     <Class>Character</Class>
     <Texture>
       <File>lofiObj3</File>
-      <Index>0x2d9</Index>
+      <Index>0x62C</Index>
     </Texture>
     <Animation prob="1" period="0.4">
       <Frame time="0.2">
         <Texture>
           <File>lofiObj3</File>
-          <Index>0x2d9</Index>
+          <Index>0x62C</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
           <File>lofiObj3</File>
-          <Index>0x2da</Index>
+          <Index>0x621</Index>
         </Texture>
       </Frame>
     </Animation>

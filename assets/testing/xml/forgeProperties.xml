@@ -1272,6 +1272,156 @@
     <ForgeTab>0</ForgeTab>
     <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
   </ForgeProperties>
+  <ForgeProperties type="0x445b" id="Overclocking Amulet">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0x445d" id="Steam Pipe">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc21a" id="Kogbold Cower Shield">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc21d" id="Scepter of Rust">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc21e" id="Brain Cube">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc21f" id="Chain Dagger">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1 [sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc220" id="Laser Pointer">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 item [sprite='CollectionIcon' index=19] and 1[sprite='CollectionIcon' index=23] Marks of the Factory Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="135" rare="120" legendary="45" mythical="0" />
+    <RequiredItem quantity="1">0x1e35</RequiredItem>
+    <ForgefireCost>1560</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <BlueprintRequired />
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_S</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc13c" id="Clockwork Repeater">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 Doom Bow and 1 Enhancement Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0xc02</RequiredItem>
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_CORE</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc13d" id="Mechanical Kogbold Limb">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 Tezcacoatl's Tail and 1 Enhancement Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x36a2</RequiredItem>
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_CORE</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc13e" id="A Really Strong Estoc">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 Ancient Stone Sword and 1 Enhancement Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0xc05</RequiredItem>
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_CORE</RequireDismantleWithLabel>
+  </ForgeProperties>
+  <ForgeProperties type="0xc13f" id="Voidier Blade">
+    <CanDismantle />
+    <CanCraft />
+    <Description>Requires 1 Void Blade and 1 Enhancement Core</Description>
+    <DismantleRequirements common="45" rare="40" legendary="15" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <RequiredItem quantity="1">0x716d</RequiredItem>
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+    <ForgeTab>0</ForgeTab>
+    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
+    <RequireDismantleWithLabel amount="1">ORG_KOGBOLD_CORE</RequireDismantleWithLabel>
+  </ForgeProperties>
   <ForgeProperties type="0x2362" id="MysticST1">
     <CanDismantle />
     <Description />
@@ -3760,18 +3910,6 @@
     <CraftRequirements common="90" rare="45" legendary="0" mythical="0" />
     <ForgefireCost>400</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
-  </ForgeProperties>
-  <ForgeProperties type="0x384c" id="Amulet of Frenzy">
-    <CanDismantle />
-    <CanCraft />
-    <Description />
-    <DismantleRequirements common="30" rare="15" legendary="0" mythical="0" />
-    <CraftRequirements common="90" rare="45" legendary="0" mythical="0" />
-    <ForgefireCost>400</ForgefireCost>
-    <ForgefireDismantle>0</ForgefireDismantle>
-    <BlueprintRequired />
-    <ForgeTab>0</ForgeTab>
-    <HideItemsWithLabels>TAB_ST</HideItemsWithLabels>
   </ForgeProperties>
   <ForgeProperties type="0xc01" id="Demon Blade">
     <CanDismantle />
@@ -6882,6 +7020,22 @@
     <ForgefireCost>0</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
   </ForgeProperties>
+  <ForgeProperties type="0xc140" id="Mark of the Controll Core">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+  </ForgeProperties>
+  <ForgeProperties type="0xc141" id="Kogbold Enhancement Core">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+  </ForgeProperties>
   <ForgeProperties type="0x7ed2" id="3HuntressSTToken">
     <CanDismantle />
     <Description />
@@ -9260,6 +9414,69 @@
     <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
     <ForgefireCost>0</ForgefireCost>
     <ForgefireDismantle>-80</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc13b" id="Blueprint_239">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc135" id="Blueprint_240">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc136" id="Blueprint_241">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc137" id="Blueprint_242">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc138" id="Blueprint_243">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc139" id="Blueprint_244">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
+    <Ingredient />
+  </ForgeProperties>
+  <ForgeProperties type="0xc13a" id="Blueprint_240">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>-120</ForgefireDismantle>
     <Ingredient />
   </ForgeProperties>
 </Objects>

@@ -1573,5 +1573,34 @@
     <Condition prob="1">
       <ApplyModifierWithLabel>ANY</ApplyModifierWithLabel>
     </Condition>
+    <RefineTemplate id="Kogbold Steamworks">
+      <Condition group="R" prob="0.1">
+        <ApplyModifierWithLabel>EXALTATIONS</ApplyModifierWithLabel>
+      </Condition>
+      <Condition group="R" prob="0.25">
+        <ApplyModifierWithLabel>MERCD</ApplyModifierWithLabel>
+      </Condition>
+      <Condition group="R" prob="0.6">
+        <ApplyModifierWithLabel>REWARD_HIGH</ApplyModifierWithLabel>
+      </Condition>
+      <Condition group="R" prob="0.5">
+        <ApplyModifierWithLabel>REWARD_MID</ApplyModifierWithLabel>
+      </Condition>
+      <Condition group="R" prob="1">
+        <ApplyModifierWithLabel>REWARD_LOW</ApplyModifierWithLabel>
+      </Condition>
+      <Condition prob="1">
+        <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+      </Condition>
+      <Condition prob="1">
+        <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+      </Condition>
+      <Condition prob="1">
+        <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+      </Condition>
+      <Condition prob="1">
+        <ApplyModifierWithLabel>ANY_ELITE</ApplyModifierWithLabel>
+      </Condition>
+    </RefineTemplate>
   </RefineTemplate>
 </RefineTemplates>

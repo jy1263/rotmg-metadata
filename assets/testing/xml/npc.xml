@@ -163,6 +163,7 @@
       <Index>0x02</Index>
     </Texture>
     <KillStat stat="StructureKills" />
+    <Labels>NOMISSIONKILLCOUNT</Labels>
   </Object>
   <Object type="0x0c26" id="Craig Portal">
     <Class>GameObject</Class>

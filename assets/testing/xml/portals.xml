@@ -553,11 +553,11 @@
     <Class>Portal</Class>
     <IntergamePortal />
     <DungeonPortal />
-    <DisplayId>Candyland Hunting Grounds</DisplayId>
-    <DungeonName>Candyland Hunting Grounds</DungeonName>
+    <DisplayId>Steamworks Scrapyard</DisplayId>
+    <DungeonName>Steamworks Scrapyard</DungeonName>
     <Texture>
       <File>lofiObj3</File>
-      <Index>0x2a5</Index>
+      <Index>0x62B</Index>
     </Texture>
     <ShadowSize>0</ShadowSize>
   </Object>
@@ -2018,5 +2018,16 @@
         </Texture>
       </Frame>
     </Animation>
+  </Object>
+  <Object type="0x74e0" id="KSW Encounter Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonPortal />
+    <DisplayId>KSW Encounter</DisplayId>
+    <DungeonName>KSW Encounter</DungeonName>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x36</Index>
+    </Texture>
   </Object>
 </Objects>

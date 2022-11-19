@@ -1108,7 +1108,7 @@
     <ParalyzeImmune />
     <EventChestBoss />
     <TrackLoot />
-    <PowerUpVit />
+    <PowerUpWis />
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Size>100</Size>

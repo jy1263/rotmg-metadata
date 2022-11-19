@@ -417,6 +417,7 @@
       <ArmorPiercing />
     </Projectile>
     <Color>0x00ff00</Color>
+    <BleedMax>5</BleedMax>
     <KillStat stat="StructureKills" />
     <Labels>ENEMY,MINION,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
