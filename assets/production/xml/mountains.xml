@@ -35,7 +35,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -74,7 +73,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -134,7 +132,6 @@
     <Flying />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -170,7 +167,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -207,7 +203,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -252,7 +247,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -289,7 +283,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -326,7 +319,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -364,7 +356,6 @@
     </Projectile>
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -403,7 +394,6 @@
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,HUMANOID,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -440,7 +430,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -473,7 +462,6 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -505,7 +493,6 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -539,7 +526,6 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CONSTRUCT,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -572,7 +558,6 @@
     </Projectile>
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GOD,STASISIMMUNE,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -632,7 +617,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,HUMANOID,GOD,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x0942" id="Crystal Prisoner Clone">
@@ -740,7 +724,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -801,7 +784,6 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -907,7 +889,6 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -966,7 +947,6 @@
     </Projectile>
     <KillStat stat="CritterKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CRITTER,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1036,7 +1016,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1077,7 +1056,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1136,7 +1114,6 @@
     <Flying />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1176,7 +1153,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1214,7 +1190,6 @@
     </Projectile>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,NATURE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1253,7 +1228,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1286,7 +1260,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1338,7 +1311,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1374,7 +1346,6 @@
     </Projectile>
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,UNDEAD,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1423,7 +1394,6 @@
     </Projectile>
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,HUMANOID,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1460,7 +1430,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1494,7 +1463,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,BEAST,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>

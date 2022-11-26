@@ -2881,7 +2881,6 @@
     </Projectile>
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS_SPAWNED,BEAST,GOD,STASISIMMUNE,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -3077,7 +3076,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,BEAST,GOD,QUEST,TRACKLOOT,STGEMDROP</Labels>
     <SpecialSpawn category="Bis">GC Gigantic Cave Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Superburger</SpecialSpawn>

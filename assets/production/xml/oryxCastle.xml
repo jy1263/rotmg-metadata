@@ -337,7 +337,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -429,7 +428,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -520,7 +518,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -612,7 +609,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -641,7 +637,6 @@
     </Texture>
     <Size>0</Size>
     <EventChestBoss />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object type="0x0d7c" id="Oryx Guardian Sword">
@@ -1325,7 +1320,6 @@
     <HealthBarBoss radius="20" />
     <KillStat stat="GrotesqueKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE</Labels>
     <SpecialSpawn category="Bis">Wine Cellar Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>

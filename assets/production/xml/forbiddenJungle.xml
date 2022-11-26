@@ -92,7 +92,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Forbidden Jungle Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

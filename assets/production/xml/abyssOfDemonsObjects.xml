@@ -221,7 +221,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">Abyss of Demons Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
@@ -317,7 +316,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_WEAK</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
@@ -583,7 +581,6 @@
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">

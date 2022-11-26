@@ -6874,6 +6874,14 @@
     <ForgefireCost>0</ForgefireCost>
     <ForgefireDismantle>0</ForgefireDismantle>
   </ForgeProperties>
+  <ForgeProperties type="0x65ca" id="Mark of the Wetlands">
+    <CanDismantle />
+    <Description />
+    <DismantleRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <CraftRequirements common="0" rare="0" legendary="0" mythical="0" />
+    <ForgefireCost>0</ForgefireCost>
+    <ForgefireDismantle>0</ForgefireDismantle>
+  </ForgeProperties>
   <ForgeProperties type="0x7ed2" id="3HuntressSTToken">
     <CanDismantle />
     <Description />

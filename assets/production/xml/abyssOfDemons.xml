@@ -159,7 +159,6 @@
     <HealthBarBoss radius="50" />
     <KillStat stat="GrotesqueKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,GROTESQUE,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x20a2" id="Heroic Malphas Flamer">
@@ -445,7 +444,6 @@
     </Projectile>
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,CONSTRUCT,GOD,STASISIMMUNE,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>

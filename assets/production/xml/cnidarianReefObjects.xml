@@ -367,7 +367,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD,STGEMDROP</Labels>
     <SpecialSpawn category="Bis">Cnidarian Reef Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>

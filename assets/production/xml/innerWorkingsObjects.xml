@@ -4778,7 +4778,6 @@
       <MultiHit />
       <ConditionEffect duration="20">Unstable</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">The Inner Workings Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>

@@ -48,7 +48,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Mad Lab Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
@@ -766,7 +765,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">

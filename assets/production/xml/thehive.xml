@@ -158,7 +158,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
     <SpecialSpawn category="Bis">The Hive Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

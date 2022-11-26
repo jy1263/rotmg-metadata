@@ -64,7 +64,6 @@
         </Texture>
       </Frame>
     </Animation>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS</Labels>
   </Object>
   <Object type="0x7509" id="NM Blue Dragon Soul">
@@ -351,7 +350,6 @@
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -459,7 +457,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -666,7 +663,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -772,7 +768,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -964,7 +959,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1069,7 +1063,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1313,7 +1306,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1456,7 +1448,6 @@
     </Projectile>
     <HealthBarBoss radius="40" />
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,BEAST</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -1924,7 +1915,6 @@
       <ConditionEffect duration="3">Quiet</ConditionEffect>
     </Projectile>
     <KillStat stat="BeastKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,BEAST</Labels>
   </Object>
   <Object type="0x742e" id="lod Mirror Wyvern1">

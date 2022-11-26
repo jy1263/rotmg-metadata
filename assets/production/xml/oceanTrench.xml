@@ -65,7 +65,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
   </Object>
   <Object type="0x172f" id="Thessal Summoner">
@@ -229,7 +228,6 @@
     <KillStat stat="GodKills" />
     <HealthBarBoss radius="25" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,HUMANOID,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -336,7 +334,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Ocean Trench Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>

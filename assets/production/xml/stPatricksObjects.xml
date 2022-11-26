@@ -48,7 +48,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,QUEST,TRACKLOOT,HUMANOID,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -94,7 +93,6 @@
     <ParalyzeImmune />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,QUEST,HUMANOID,GOD,MINION_STRONG</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -239,7 +237,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,QUEST,TRACKLOOT,HUMANOID,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -476,7 +473,6 @@
     <ParalyzeImmune />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,QUEST,HUMANOID,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">
@@ -512,7 +508,6 @@
     <ParalyzeImmune />
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,QUEST,HUMANOID,GOD</Labels>
   </Object>
   <Object type="0x5b04" id="MotMG St Patricks Event Piece 1">

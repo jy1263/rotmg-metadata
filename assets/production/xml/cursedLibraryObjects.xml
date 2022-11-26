@@ -284,7 +284,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,GROTESQUE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -322,7 +321,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
@@ -944,7 +942,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
     <SpecialSpawn category="Bis">Cursed Library Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
@@ -1018,7 +1015,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
   </Object>
   <Object type="0xab9a" id="Library Corruption Phantom Wisp Charger">

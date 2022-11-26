@@ -81,7 +81,6 @@
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD</Labels>
     <SpecialSpawn category="Bis">Davy Jones' Locker Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>

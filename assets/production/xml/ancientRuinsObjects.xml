@@ -555,7 +555,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,HUMANOID,GOD</Labels>
   </Object>
   <Object type="0x70f4" id="Ruins Genie Path Waypoint">
@@ -702,7 +701,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,CONSTRUCT,GOD</Labels>
     <SpecialSpawn category="Bis">Ancient Ruins Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

@@ -92,7 +92,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0x0e25" id="Snakepit Dart Thrower">
@@ -197,7 +196,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
     <SpecialSpawn category="Bis">Snake Pit Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

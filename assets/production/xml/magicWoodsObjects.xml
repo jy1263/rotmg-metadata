@@ -1775,7 +1775,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD</Labels>
     <SpecialSpawn category="Bis">Magic Woods Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

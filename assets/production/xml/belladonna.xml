@@ -213,7 +213,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">Belladonna's Garden Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>

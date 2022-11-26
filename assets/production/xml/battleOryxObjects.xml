@@ -1064,7 +1064,6 @@
     <KillStat stat="HumanoidKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD</Labels>
   </Object>
   <Object type="0xf37" id="MOTMG Secret Fat Bees">
@@ -1255,7 +1254,6 @@
     </Projectile>
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINION,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD,MINION_STRONG</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_High_Spawner">Swarm Spider High Spawner</SpecialSpawn>
@@ -1436,7 +1434,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
   </Object>
   <Object type="0xf1d" id="MotMG pD Boss Support">
@@ -1559,7 +1556,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0xf1f" id="MotMG FrostLord">
@@ -1679,7 +1675,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD</Labels>
   </Object>
   <Object type="0x536" id="Battle Decaract">
@@ -1773,7 +1768,6 @@
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GOD</Labels>
     <SpecialSpawn category="Bis">oryxPandemonium Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
@@ -1931,7 +1925,6 @@
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,GOD</Labels>
   </Object>
   <Object type="0x53a" id="Oryx Tower Corpse">
@@ -1948,7 +1941,6 @@
     <God />
     <KillStat stat="StructureKills" />
     <KillStat stat="GodKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,GOD</Labels>
   </Object>
   <Object type="0x544" id="MotMG Decaract Helper">
@@ -2046,7 +2038,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <Presentation>
       <Style id="SetAlt2">

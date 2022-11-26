@@ -211,7 +211,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
     <SpecialSpawn category="Bis">Oryx Chicken Chamber Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>

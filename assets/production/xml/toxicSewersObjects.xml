@@ -505,7 +505,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">Toxic Sewers Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
@@ -1009,7 +1008,6 @@
       <AccelerationDelay>1000</AccelerationDelay>
       <SpeedClamp>100</SpeedClamp>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS</Labels>
   </Object>
   <Object type="0xb54f" id="DS Master Rat Anchor">
@@ -1035,7 +1033,6 @@
     <Exp>0</Exp>
     <Size>100</Size>
     <KillStat stat="StructureKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0xb54e" id="DS Master Rat Box Correct">
@@ -1053,7 +1050,6 @@
     <Exp>0</Exp>
     <Size>120</Size>
     <KillStat stat="StructureKills" />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x7159" id="DS Orange Turtle">

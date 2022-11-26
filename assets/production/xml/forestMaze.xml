@@ -50,7 +50,6 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,TRACKLOOT,BEAST,GOD</Labels>
     <SpecialSpawn category="Bis">Forest Maze Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Soft Drink</SpecialSpawn>

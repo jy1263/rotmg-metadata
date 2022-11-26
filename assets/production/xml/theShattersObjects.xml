@@ -5047,7 +5047,6 @@
       <PassesCover />
       <ConditionEffect duration="1">Petrify</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,STASISIMMUNE,GOD,CONSTRUCT,SHATTERS</Labels>
   </Object>
   <Object type="0x85ff" id="Shatters Accursed Stone Mage">
@@ -10159,7 +10158,6 @@
       <ArmorPiercing />
       <ConditionEffect duration="3">Curse</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,GROTESQUE,GOD,SHATTERS</Labels>
     <HideFromClient />
     <Presentation>
@@ -12013,7 +12011,6 @@
       <TurnStopTime>2000</TurnStopTime>
       <MultiHit />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
     <Presentation>
@@ -16122,7 +16119,6 @@
       <MultiHit />
       <ConditionEffect duration="2">Silenced</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="ShattersEncore">The Shatters</SpecialSpawn>
     <Presentation>
@@ -23941,7 +23937,6 @@
       <MultiHit />
       <FaceDir />
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,HUMANOID,GOD,SHATTERS</Labels>
     <SpecialSpawn category="Bis">The Shatters</SpecialSpawn>
     <SpecialSpawn category="Chef">Double Cheeseburger Deluxe</SpecialSpawn>
@@ -25082,7 +25077,6 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
@@ -26131,7 +26125,6 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
@@ -27180,7 +27173,6 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">
@@ -28229,7 +28221,6 @@
       <FaceDir />
       <ConditionEffect duration="2">Armor Broken</ConditionEffect>
     </Projectile>
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,STASISIMMUNE,SHATTERS</Labels>
     <Presentation from="forgottenBasic">
       <Style id="SetAnimSpawn">

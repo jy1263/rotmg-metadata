@@ -403,7 +403,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0x8a0" id="BB Bunny Girl W">
@@ -674,7 +673,6 @@
     <KillStat stat="GodKills" />
     <KillStat stat="EncounterKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,STASISIMMUNE,TRACKLOOT,BEAST,GOD</Labels>
   </Object>
   <Object type="0x7135" id="Alien Biff Old">

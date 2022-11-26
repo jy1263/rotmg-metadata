@@ -534,7 +534,6 @@
     </Texture>
     <Size>0</Size>
     <EventChestBoss />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS</Labels>
     <SpecialSpawn category="Bis">Ice Tomb Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Power Pizza</SpecialSpawn>
@@ -770,7 +769,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0x7fb5" id="Ice Tomb Attacker">
@@ -849,7 +847,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0x7fb6" id="Ice Tomb Defender">
@@ -920,7 +917,6 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,QUEST,TRACKLOOT,CONSTRUCT,GOD</Labels>
   </Object>
   <Object type="0x7fb8" id="Ice Tomb Portal">

@@ -147,7 +147,6 @@
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD</Labels>
     <SpecialSpawn category="Bis">Undead Lair Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Great Taco</SpecialSpawn>
@@ -259,7 +258,6 @@
     <KillStat stat="UndeadKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,MINIBOSS,STASISIMMUNE,TRACKLOOT,UNDEAD,GOD</Labels>
     <Presentation>
       <Style id="SetAlt1">

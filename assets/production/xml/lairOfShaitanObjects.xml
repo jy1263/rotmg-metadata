@@ -216,7 +216,6 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,NATURE,GOD</Labels>
     <SpecialSpawn category="Bis">Lair of Shaitan Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Grapes of Wrath</SpecialSpawn>

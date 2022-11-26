@@ -1653,7 +1653,6 @@
     <KillStat stat="GrotesqueKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
-    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,QUEST,STASISIMMUNE,TRACKLOOT,GROTESQUE,GOD</Labels>
     <SpecialSpawn category="Bis">Parasite Chambers Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Chocolate Cream Sandwich Cookie</SpecialSpawn>
