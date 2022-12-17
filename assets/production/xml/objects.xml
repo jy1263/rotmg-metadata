@@ -1433,4 +1433,20 @@
     <KillStat stat="StructureKills" />
     <Labels>CHEST</Labels>
   </Object>
+  <Object type="0xc181" id="Steampunk Epic Quest Chest">
+    <DisplayId>Steampunk Epic Quest Chest</DisplayId>
+    <Class>Character</Class>
+    <Enemy />
+    <TrackLoot />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>760</Index>
+    </Texture>
+    <MaxHitPoints>2500</MaxHitPoints>
+    <Defense>0</Defense>
+    <Size>140</Size>
+    <Exp>60000</Exp>
+    <KillStat stat="StructureKills" />
+    <Labels>CHEST</Labels>
+  </Object>
 </Objects>

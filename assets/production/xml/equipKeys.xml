@@ -4101,4 +4101,84 @@
     <Activate id="Sulfurous Wetlands Guild Chest" onlyInArea="Guild Hall,Guild Hall 2,Guild Hall 3,Guild Hall 4">Create</Activate>
     <UniqueID />
   </Object>
+  <Object id="Kogbold Steamworks Key" type="0xc17f">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>639</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object id="Kogbold Steamworks Enchanted Key" type="0xc176">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>640</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Enchanted Key" description="Once used, the owner will receive a Mystery ST Crate!" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
+    <Activate id="Mystery ST Crate">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object id="Kogbold Steamworks Augmented Key" type="0xc177">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>642</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Augmented Key" description="Once used, the owner will receive a Mythical ST Crate!" />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Kogbold Steamworks Portal">CreatePortal</Activate>
+    <Activate id="3STKeyMysteryChest">Exchange</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
+  <Object id="Kogbold Steamworks Solo Key" type="0xc178">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>643</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to the Kogbold Steamworks, home to an ancient race long thought to be extinct. \n\nKeys can only be used once you have 10 or more stars!</Description>
+    <Sound>use_key</Sound>
+    <ExtraTooltipData>
+      <EffectInfo name="Solo Key" description="This key can only be used in the Vault. Face the challenge alone for a chance at a ST crafting token." />
+      <EffectInfo name="Mythical ST Gem" description="The Gem will drop from Control Core in the Kogbold Steamworks." />
+    </ExtraTooltipData>
+    <Consumable />
+    <Soulbound />
+    <Activate id="Kogbold Steamworks Portal" predefinedDungeonMods="S|;TOKENDROPC" readonlymods="true" inheritableMods="true" onlyIn="vault">CreatePortal</Activate>
+    <feedPower>200</feedPower>
+    <BagType>7</BagType>
+    <Track />
+  </Object>
 </Objects>

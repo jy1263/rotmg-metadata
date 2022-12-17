@@ -11392,4 +11392,37 @@
     <PlayerClassType>0x0311</PlayerClassType>
     <NoSkinSelect />
   </Object>
+  <Object type="0x7af8" id="Steampunk Mechanic">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>885</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x031f</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7afa" id="Steampunk Pilot">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>3</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>886</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0322</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
+  <Object type="0x7afc" id="Steampunk Detective">
+    <Skin />
+    <Class>Skin</Class>
+    <ItemTier>4</ItemTier>
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>887</Index>
+    </AnimatedTexture>
+    <PlayerClassType>0x0324</PlayerClassType>
+    <NoSkinSelect />
+  </Object>
 </Objects>

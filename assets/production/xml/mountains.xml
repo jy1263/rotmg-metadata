@@ -137,12 +137,13 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
   <Object type="0x654" id="Medusa">
+    <DisplayId>Mechdusa</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>2</Index>
+      <Index>40</Index>
     </AnimatedTexture>
     <HitSound>monster/medusa_hit</HitSound>
     <DeathSound>monster/medusa_death</DeathSound>
@@ -160,7 +161,7 @@
     </Spawn>
     <God />
     <Projectile id="0">
-      <ObjectId>Medusa Slash</ObjectId>
+      <ObjectId>Laser Pointer Main</ObjectId>
       <Damage>100</Damage>
       <Speed>70</Speed>
       <LifetimeMS>2000</LifetimeMS>
@@ -208,12 +209,13 @@
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
   <Object type="0x656" id="Beholder">
+    <DisplayId>Eyes in the Sky</DisplayId>
     <Group>Gods</Group>
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
       <File>chars16x16dMountains1</File>
-      <Index>5</Index>
+      <Index>39</Index>
     </AnimatedTexture>
     <HitSound>monster/beholder_hit</HitSound>
     <DeathSound>monster/beholder_death</DeathSound>
@@ -232,7 +234,7 @@
     <Flying />
     <God />
     <Projectile id="0">
-      <ObjectId>Beholder Gaze</ObjectId>
+      <ObjectId>Eyes in the Skies Shot</ObjectId>
       <Damage>120</Damage>
       <Speed>50</Speed>
       <LifetimeMS>2700</LifetimeMS>

@@ -3819,6 +3819,22 @@
       </Style>
     </Presentation>
   </Object>
+  <Object type="0xc221" id="Brain Cube Effect 1">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
+  <Object type="0xc24a" id="Brain Cube Effect 2">
+    <Class>GameObject</Class>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Size>0</Size>
+  </Object>
   <Object type="0x3ab0" id="Summon Royal Archer (Rehearsal)">
     <Class>Summon</Class>
     <AnimatedTexture>
@@ -5153,5 +5169,48 @@
     <ShadowSize>0</ShadowSize>
     <Size>0</Size>
     <NoMiniMap />
+  </Object>
+  <Object type="0x20f0" id="Brain Cube Object">
+    <Class>Summon</Class>
+    <Texture>
+      <File>steamworksObjects8x8</File>
+      <Index>23</Index>
+    </Texture>
+    <Size>100</Size>
+    <ShadowSize>50</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20f1" id="Seismic Flail Impact">
+    <Class>GameObject</Class>
+    <NoCollisionWhenMovement />
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <Projectile>
+      <ObjectId>C Spellblade Slash</ObjectId>
+      <Speed>50</Speed>
+      <MinDamage>60</MinDamage>
+      <MaxDamage>80</MaxDamage>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+      <ConditionEffect duration="1.5">Stunned</ConditionEffect>
+    </Projectile>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x20f2" id="Acid Puddle">
+    <Class>GameObject</Class>
+    <DisplayId>Acid Pool</DisplayId>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x158</Index>
+    </Texture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <Enemy />
+    <Invincible />
   </Object>
 </Objects>

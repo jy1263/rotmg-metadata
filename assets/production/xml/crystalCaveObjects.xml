@@ -1108,7 +1108,7 @@
     <ParalyzeImmune />
     <EventChestBoss />
     <TrackLoot />
-    <PowerUpVit />
+    <PowerUpWis />
     <Projectile id="0">
       <ObjectId>Invisible</ObjectId>
       <Size>100</Size>
@@ -1939,13 +1939,13 @@
     </Presentation>
   </Object>
   <Object type="0x6500" id="GC Encounter Gauntlet Controller">
-    <DisplayId>Dwarf Miner</DisplayId>
+    <DisplayId>Candy Miner</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Invincible />
     <Texture>
       <File>crystalCaveObjects8x8</File>
-      <Index>0x0d</Index>
+      <Index>0x0e</Index>
     </Texture>
     <Size>120</Size>
     <Hero />
@@ -2182,12 +2182,12 @@
     <Flying />
   </Object>
   <Object type="0x6509" id="GC Enc Boss">
-    <DisplayId>Crystal Worm Father</DisplayId>
+    <DisplayId>Crystal Worm Rudolph</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <AnimatedTexture>
-      <File>fungalCavernChars16x16</File>
-      <Index>0</Index>
+      <File>oryxHordeChars16x16</File>
+      <Index>31</Index>
     </AnimatedTexture>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>
@@ -2388,12 +2388,12 @@
     <Size>0</Size>
   </Object>
   <Object type="0x650d" id="GC Death Morel">
-    <DisplayId>Death Morel</DisplayId>
+    <DisplayId>Living Tree</DisplayId>
     <Class>Character</Class>
     <Enemy />
     <Texture>
       <File>crystalCaveObjects16x16</File>
-      <Index>0x15</Index>
+      <Index>0x65</Index>
     </Texture>
     <HitSound>monster/lizard_god_hit</HitSound>
     <DeathSound>monster/ogres_death</DeathSound>

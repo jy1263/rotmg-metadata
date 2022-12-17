@@ -70,7 +70,7 @@
             <IconIndex>0x37</IconIndex>
         </Dungeon>
         <Dungeon>
-            <Name>Crystal Cavern</Name>
+            <Name>Kogbold Steamworks</Name>
             <PowerUp>VIT</PowerUp>
             <IconFile>lofiObj2</IconFile>
             <IconIndex>0x30</IconIndex>

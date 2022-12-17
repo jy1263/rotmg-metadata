@@ -46,7 +46,7 @@
       <PassesCover />
     </Projectile>
     <KillStat stat="BeastKills" />
-    <Labels>ENEMY,MINION,BEAST,QUEST,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,BEAST,QUEST,MINION_WEAK,GOD</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>
@@ -134,7 +134,7 @@
       <ConditionEffect duration="4">Silenced</ConditionEffect>
     </Projectile>
     <KillStat stat="GrotesqueKills" />
-    <Labels>ENEMY,MINION,GROTESQUE,MINION_MID</Labels>
+    <Labels>ENEMY,MINION,GROTESQUE,MINION_MID,GOD</Labels>
     <SpecialSpawn category="Heroic_Orb_Mid">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -363,7 +363,7 @@
       <ConditionEffect duration="3">Confused</ConditionEffect>
     </Projectile>
     <KillStat stat="UndeadKills" />
-    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK</Labels>
+    <Labels>ENEMY,MINION,UNDEAD,MINION_WEAK,GOD</Labels>
     <SpecialSpawn category="Heroic_Orb_Weak">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Low_Spawner">Swarm Spider Low Spawner</SpecialSpawn>
   </Object>

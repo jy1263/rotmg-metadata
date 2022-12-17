@@ -717,7 +717,7 @@
       <ConditionEffect duration="1.4">Silenced</ConditionEffect>
       <SpeedClamp>55</SpeedClamp>
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -763,7 +763,7 @@
       <LifetimeMS>5300</LifetimeMS>
       <ConditionEffect duration="2.0">Slowed</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -834,7 +834,7 @@
         <StyleStep altTextureId="2">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -885,7 +885,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -998,7 +998,7 @@
       <ArmorPiercing />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1068,7 +1068,7 @@
     <ParalyzeImmune />
     <KillStat stat="CritterKills" />
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1177,7 +1177,7 @@
         <StyleStep id="Awaken">SetAnimation</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1242,7 +1242,7 @@
         <StyleStep altTextureId="1">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1281,7 +1281,7 @@
       <LifetimeMS>1500</LifetimeMS>
       <ArmorPiercing />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1338,7 +1338,7 @@
       <LifetimeMS>1000</LifetimeMS>
       <ConditionEffect duration="2.0">Armor Broken</ConditionEffect>
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1374,7 +1374,7 @@
       <ArmorPiercing />
       <FaceDir />
     </Projectile>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1440,7 +1440,7 @@
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1460,7 +1460,7 @@
     <Defense>0</Defense>
     <Exp>100</Exp>
     <BXP>500</BXP>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1526,7 +1526,7 @@
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1546,7 +1546,7 @@
     <Exp>100</Exp>
     <BXP>500</BXP>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1612,7 +1612,7 @@
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1632,7 +1632,7 @@
     <Exp>100</Exp>
     <BXP>500</BXP>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1698,7 +1698,7 @@
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1718,7 +1718,7 @@
     <Exp>100</Exp>
     <BXP>500</BXP>
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1740,7 +1740,7 @@
     <BXP>10000</BXP>
     <Color>0xffff00</Color>
     <StasisImmune />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1752,7 +1752,7 @@
       <Index>0x55</Index>
     </Texture>
     <Color>0xffff00</Color>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1802,7 +1802,7 @@
         <StyleStep altTextureId="4">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1860,7 +1860,7 @@
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1941,7 +1941,7 @@
         <StyleStep altTextureId="3">SetAltTexture</StyleStep>
       </Style>
     </Presentation>
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1966,7 +1966,7 @@
     <Z>0.3</Z>
     <Flying />
     <NoMiniMap />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -1995,7 +1995,7 @@
     <Z>0.3</Z>
     <Flying />
     <NoMiniMap />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2053,7 +2053,7 @@
     <SlowImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2092,7 +2092,7 @@
     <SlowImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2128,7 +2128,7 @@
     <SlowImmune />
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2312,6 +2312,7 @@
     <SlowImmune />
     <KillStat stat="BeastKills" />
     <KillStat stat="NatureKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
   </Object>
   <Object id="SulfW Native God" type="0x6619">
     <Group>SulfW Big</Group>
@@ -2352,7 +2353,7 @@
     <ParalyzeImmune />
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2436,6 +2437,7 @@
     <SlowImmune />
     <ParalyzeImmune />
     <KillStat stat="BeastKills" />
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
   </Object>
   <Object id="SulfW Drake Baby" type="0x663f">
     <Enemy />
@@ -2474,7 +2476,7 @@
     <ParalyzeImmune />
     <SlowImmune />
     <KillStat stat="BeastKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>
@@ -2513,7 +2515,7 @@
     <SpawnProb>0.045</SpawnProb>
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
-    <Labels>ENEMY,MINION,NATURE,MINION_STRONG</Labels>
+    <Labels>ENEMY,MINION,NATURE,MINION_STRONG,MINION_MID,GOD</Labels>
     <SpecialSpawn category="Heroic_Orb_Strong">Heroic Orb</SpecialSpawn>
     <SpecialSpawn category="Swarm_Spider_Mid_Spawner">Swarm Spider Mid Spawner</SpecialSpawn>
   </Object>

@@ -676,6 +676,7 @@
   <PlayerStat id="BeachzonesCompleted" index="91" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Beachzone" />
   <PlayerStat id="SulfurousWetlandsCompleted" index="93" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Sulfurous Wetlands" />
   <PlayerStat id="InterregnumsCompleted" index="92" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Hidden Interregnum" />
+  <PlayerStat id="KogboldSteamworksCompleted" index="94" reportEvery="1" dungeon="true" displayName="" displayColor="" displayOnDeath="false" dungeonId="Kogbold Steamworks" />
   <FameBonus id="Ancestor" code="1">
     <DisplayGroup>Stats Bonuses</DisplayGroup>
     <DisplayCategory>Special</DisplayCategory>
@@ -1873,6 +1874,7 @@
     <Condition stat="FungalCavernsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="CrystalCavernsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="LostHallsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="KogboldSteamworksCompleted" threshold="1">StatValue</Condition>
   </FameBonus>
   <FameBonus id="EnemyoftheCourt" code="126">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
@@ -1956,6 +1958,8 @@
     <Condition stat="LostHallsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="CultistHideoutsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="TheVoidsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="KogboldSteamworksCompleted" threshold="1">StatValue</Condition>
     <Condition stat="OryxsCastlesCompleted" threshold="1">StatValue</Condition>
     <Condition stat="LairOfShaitansCompleted" threshold="1">StatValue</Condition>
     <Condition stat="PuppetMastersEncoresCompleted" threshold="1">StatValue</Condition>
@@ -2030,6 +2034,8 @@
     <Condition stat="LostHallsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="CultistHideoutsCompleted" threshold="1">StatValue</Condition>
     <Condition stat="TheVoidsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
+    <Condition stat="KogboldSteamworksCompleted" threshold="1">StatValue</Condition>
     <Condition stat="OryxsCastlesCompleted" threshold="1">StatValue</Condition>
     <Condition stat="LairOfShaitansCompleted" threshold="1">StatValue</Condition>
     <Condition stat="PuppetMastersEncoresCompleted" threshold="1">StatValue</Condition>
@@ -3133,6 +3139,53 @@
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="CrawlingDepthsCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
+  <FameBonus id="SulfurousWetlandsScout" code="422">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Scout</DisplayName>
+    <AbsoluteBonus>100</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsExplorer" code="423">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Explorer</DisplayName>
+    <AbsoluteBonus>200</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsAdventurer" code="424">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Adventurer</DisplayName>
+    <AbsoluteBonus>400</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsConqueror" code="425">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Conqueror</DisplayName>
+    <AbsoluteBonus>800</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="SulfurousWetlandsMaster" code="426">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
+    <DisplayName>Sulfurous Wetlands Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>2000</AbsoluteBonus>
+    <Description>Complete Sulfurous Wetlands 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="SulfurousWetlandsCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
   <FameBonus id="DavyJonesLockerScout" code="247">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
     <DisplayCategory>Davy Jones' Locker</DisplayCategory>
@@ -3790,6 +3843,53 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="TheVoidsCompleted" threshold="100">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="KogboldSteamworksScout" code="427">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Kogbold Steamworks Scout</DisplayName>
+    <AbsoluteBonus>400</AbsoluteBonus>
+    <Description>Complete Kogbold Steamworks 1 time</Description>
+    <ShortDisplayName>Scout</ShortDisplayName>
+    <Condition stat="KogboldSteamworksCompleted" threshold="1">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="KogboldSteamworksExplorer" code="428">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Kogbold Steamworks Explorer</DisplayName>
+    <AbsoluteBonus>800</AbsoluteBonus>
+    <Description>Complete Kogbold Steamworks 10 times</Description>
+    <ShortDisplayName>Explorer</ShortDisplayName>
+    <Condition stat="KogboldSteamworksCompleted" threshold="10">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="KogboldSteamworksAdventurer" code="429">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Kogbold Steamworks Adventurer</DisplayName>
+    <AbsoluteBonus>1600</AbsoluteBonus>
+    <Description>Complete Kogbold Steamworks 20 times</Description>
+    <ShortDisplayName>Adventurer</ShortDisplayName>
+    <Condition stat="KogboldSteamworksCompleted" threshold="20">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="KogboldSteamworksConqueror" code="430">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Kogbold Steamworks Conqueror</DisplayName>
+    <AbsoluteBonus>3200</AbsoluteBonus>
+    <Description>Complete Kogbold Steamworks 40 times</Description>
+    <ShortDisplayName>Conqueror</ShortDisplayName>
+    <Condition stat="KogboldSteamworksCompleted" threshold="40">StatValue</Condition>
+  </FameBonus>
+  <FameBonus id="KogboldSteamworksMaster" code="431">
+    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
+    <DisplayCategory>Kogbold Steamworks</DisplayCategory>
+    <DisplayName>Kogbold Steamworks Master {0}</DisplayName>
+    <Repeatable>true</Repeatable>
+    <AbsoluteBonus>8000</AbsoluteBonus>
+    <Description>Complete Kogbold Steamworks 100 times</Description>
+    <ShortDisplayName>Master {0}</ShortDisplayName>
+    <MaxRepeatCount>20</MaxRepeatCount>
+    <Condition stat="KogboldSteamworksCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
   <FameBonus id="Oryx'sCastleScout" code="317">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>
@@ -4777,53 +4877,6 @@
     <ShortDisplayName>Master {0}</ShortDisplayName>
     <MaxRepeatCount>20</MaxRepeatCount>
     <Condition stat="BeachzonesCompleted" threshold="100">StatValue</Condition>
-  </FameBonus>
-  <FameBonus id="SulfurousWetlandsScout" code="422">
-    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
-    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
-    <DisplayName>Sulfurous Wetlands Scout</DisplayName>
-    <AbsoluteBonus>100</AbsoluteBonus>
-    <Description>Complete Sulfurous Wetlands 1 time</Description>
-    <ShortDisplayName>Scout</ShortDisplayName>
-    <Condition stat="SulfurousWetlandsCompleted" threshold="1">StatValue</Condition>
-  </FameBonus>
-  <FameBonus id="SulfurousWetlandsExplorer" code="423">
-    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
-    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
-    <DisplayName>Sulfurous Wetlands Explorer</DisplayName>
-    <AbsoluteBonus>200</AbsoluteBonus>
-    <Description>Complete Sulfurous Wetlands 10 times</Description>
-    <ShortDisplayName>Explorer</ShortDisplayName>
-    <Condition stat="SulfurousWetlandsCompleted" threshold="10">StatValue</Condition>
-  </FameBonus>
-  <FameBonus id="SulfurousWetlandsAdventurer" code="424">
-    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
-    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
-    <DisplayName>Sulfurous Wetlands Adventurer</DisplayName>
-    <AbsoluteBonus>400</AbsoluteBonus>
-    <Description>Complete Sulfurous Wetlands 20 times</Description>
-    <ShortDisplayName>Adventurer</ShortDisplayName>
-    <Condition stat="SulfurousWetlandsCompleted" threshold="20">StatValue</Condition>
-  </FameBonus>
-  <FameBonus id="SulfurousWetlandsConqueror" code="425">
-    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
-    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
-    <DisplayName>Sulfurous Wetlands Conqueror</DisplayName>
-    <AbsoluteBonus>800</AbsoluteBonus>
-    <Description>Complete Sulfurous Wetlands 40 times</Description>
-    <ShortDisplayName>Conqueror</ShortDisplayName>
-    <Condition stat="SulfurousWetlandsCompleted" threshold="40">StatValue</Condition>
-  </FameBonus>
-  <FameBonus id="SulfurousWetlandsMaster" code="426">
-    <DisplayGroup>Dungeon Bonuses</DisplayGroup>
-    <DisplayCategory>Sulfurous Wetlands</DisplayCategory>
-    <DisplayName>Sulfurous Wetlands Master {0}</DisplayName>
-    <Repeatable>true</Repeatable>
-    <AbsoluteBonus>2000</AbsoluteBonus>
-    <Description>Complete Sulfurous Wetlands 100 times</Description>
-    <ShortDisplayName>Master {0}</ShortDisplayName>
-    <MaxRepeatCount>20</MaxRepeatCount>
-    <Condition stat="SulfurousWetlandsCompleted" threshold="100">StatValue</Condition>
   </FameBonus>
   <FameBonus id="HiddenInterregnumScout" code="422">
     <DisplayGroup>Dungeon Bonuses</DisplayGroup>

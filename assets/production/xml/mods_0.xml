@@ -1499,4 +1499,14 @@
       <SpecialSpawnOnDeath category="ShattersEncore" reqLabels="MINIBOSS" excludeLabels="SPECIAL" prob="0.25" />
     </Mutators>
   </DungeonModifier>
+  <DungeonModifier id="STEAMWORKS_MAINTENANCE" type="0x013d">
+    <DisplayId>Machine Maintenance</DisplayId>
+    <PowerLevel>3</PowerLevel>
+    <Description>Dungeon turrets are disabled while they undergo maintenance.</Description>
+    <Labels>STEAMWORKS</Labels>
+    <IncompatibleLabels>STEAMWORKS</IncompatibleLabels>
+    <Mutators>
+      <GlobalFlag>turretsOff</GlobalFlag>
+    </Mutators>
+  </DungeonModifier>
 </DungeonModifiers>

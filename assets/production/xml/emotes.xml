@@ -1,165 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Objects>
-  <Object type="0xc100" id="SnowflakeEmote">
+  <Object type="0xc0a5" id="White Bag Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <DisplayId>Snowflake</DisplayId>
-    <Description>Something here</Description>
+    <DisplayId>White Bag Emote</DisplayId>
+    <Description>Unlocks the White Bag Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x120</Index>
     </Texture>
     <EmoteTexture>
-      <File>crystalCaveObjects16x16</File>
-      <Index>0x11</Index>
+      <File>lofiObj</File>
+      <Index>0x120</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc101" id="SnowmanEmote">
+  <Object type="0xc0a6" id="Good Luck Emote">
     <Class>Emote</Class>
-    <VictoryEmote />
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Good Luck Emote</DisplayId>
+    <Description>Unlocks the Good Luck Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x121</Index>
     </Texture>
     <EmoteTexture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0x3b</Index>
+      <File>lofiObj</File>
+      <Index>0x121</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc102" id="VacationEmote">
+  <Object type="0xc0a7" id="OK Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>OK Emote</DisplayId>
+    <Description>Unlocks the OK Emote Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x122</Index>
     </Texture>
     <EmoteTexture>
-      <File>pirateCaveObjects16x16</File>
-      <Index>0x02</Index>
+      <File>lofiObj</File>
+      <Index>0x122</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc103" id="PoisonEmote">
+  <Object type="0xc0a8" id="Question Mark Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Question Mark Emote</DisplayId>
+    <Description>Unlocks the Question Mark Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x123</Index>
     </Texture>
     <EmoteTexture>
-      <File>spiderDenObjects8x8</File>
-      <Index>0x142</Index>
+      <File>lofiObj</File>
+      <Index>0x123</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc104" id="LuckEmote">
+  <Object type="0xc0a9" id="Exclamation Mark Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Exclamation Mark Emote</DisplayId>
+    <Description>Unlocks the Exclamation Mark Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x124</Index>
     </Texture>
     <EmoteTexture>
-      <File>stPatricksObjects8x8</File>
-      <Index>0x37</Index>
+      <File>lofiObj</File>
+      <Index>0x124</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc105" id="WhiteEmote">
+  <Object type="0xc0aa" id="Nexus Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Nexus Emote</DisplayId>
+    <Description>Unlocks the Nexus Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x131</Index>
     </Texture>
     <EmoteTexture>
-      <File>lofiObj4</File>
-      <Index>0xd9</Index>
+      <File>lofiObj</File>
+      <Index>0x131</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc106" id="O3Emote">
+  <Object type="0xc0ab" id="Clock Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Clock Emote</DisplayId>
+    <Description>Unlocks the Clock Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x132</Index>
     </Texture>
     <EmoteTexture>
-      <File>oryxSanctuaryObjects32x32</File>
-      <Index>6</Index>
+      <File>lofiObj</File>
+      <Index>0x132</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc107" id="TornadoEmote">
+  <Object type="0xc0ac" id="Warning Emote">
     <Class>Emote</Class>
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Warning Emote</DisplayId>
+    <Description>Unlocks the Warning Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x133</Index>
     </Texture>
     <EmoteTexture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0x81</Index>
+      <File>lofiObj</File>
+      <Index>0x133</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />
     <Activate>Emote</Activate>
   </Object>
-  <Object type="0xc108" id="OryxHordeEmote">
+  <Object type="0xc0ae" id="Eye Emote">
     <Class>Emote</Class>
-    <VictoryEmote />
     <Item />
     <SlotType>10</SlotType>
-    <Description>Something here</Description>
+    <DisplayId>Eye Emote</DisplayId>
+    <Description>Unlocks the Eye Emote. The emote will be added to your Wardrobe.</Description>
     <Consumable />
     <Texture>
       <File>lofiObj</File>
-      <Index>0x02</Index>
+      <Index>0x134</Index>
     </Texture>
     <EmoteTexture>
-      <File>oryxHordeObjects16x16</File>
-      <Index>0x10</Index>
+      <File>lofiObj</File>
+      <Index>0x134</Index>
     </EmoteTexture>
     <BagType>2</BagType>
     <Soulbound />

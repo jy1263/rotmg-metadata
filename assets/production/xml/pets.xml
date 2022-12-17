@@ -22029,4 +22029,176 @@
     <feedPower>1000</feedPower>
     <Track />
   </Object>
+  <Object id="Mechanical Dog" type="0x798B">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Mechanical Dog Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x798C" id="Mechanical Dog Pet Skin">
+    <PetSkin />
+    <DisplayId>Mechanical Dog</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>5</ItemTier>
+    <Family>Canine</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>236</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x798D" id="Mechanical Dog Pet Stone">
+    <DisplayId>Mechanical Dog Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>5</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>236</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Built to be faster, stronger, protective and made with the finest materials, a heart of gold installed and programmed to love. This puppy will follow you to the ends of the realms happy by your side.\n\nUnlocks Mechanical Dog Pet Skin of the Canine family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31116">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Steampunk Cat" type="0x798E">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Feline</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Steampunk Cat Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0x798F" id="Steampunk Cat Pet Skin">
+    <PetSkin />
+    <DisplayId>Steampunk Cat</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Feline</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>237</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0x7990" id="Steampunk Cat Pet Stone">
+    <DisplayId>Steampunk Cat Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>237</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A stray cat without a home, they stumbled upon the factory where the kogbold's raised this little critter, and it's thanks to the environment they were able to grow strong from it. No matter the terrain or monsters this cat faces nothing can bring this rascal's fighting spirit down, Urgles beware!\n\nUnlocks Steampunk Cat Pet Skin of the Feline family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="31119">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Kogbold Maid" type="0xc473">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Kogbold Maid Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xc472" id="Kogbold Maid Pet Skin">
+    <PetSkin />
+    <DisplayId>Kogbold Maid</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Reptile</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>238</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xc471" id="Kogbold Maid Pet Stone">
+    <DisplayId>Kogbold Maid Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>238</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Helping to Clean up the factory, a task deemed impossible but this isn't your ordinary maid, picked from the factories top of the line cleaning specialists this one maid will show you what cleaning is all about.\n\nUnlocks Kogbold Maid Pet Skin of the Reptile family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50290">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object id="Toy Bot K.B" type="0xc470">
+    <Pet />
+    <Class>Pet</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x32</Index>
+    </Texture>
+    <Family>Automaton</Family>
+    <Rarity>Divine</Rarity>
+    <DefaultSkin>Toy Bot K.B Pet Skin</DefaultSkin>
+    <Size>80</Size>
+    <NoHatchOrFuse />
+  </Object>
+  <Object type="0xc46f" id="Toy Bot K.B Pet Skin">
+    <PetSkin />
+    <DisplayId>Toy Bot K.B</DisplayId>
+    <Class>PetSkin</Class>
+    <ItemTier>4</ItemTier>
+    <Family>Automaton</Family>
+    <Rarity>Divine</Rarity>
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>239</Index>
+    </AnimatedTexture>
+  </Object>
+  <Object type="0xc46e" id="Toy Bot K.B Pet Stone">
+    <DisplayId>Toy Bot K.B Pet Skin</DisplayId>
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>petsDivine</File>
+      <Index>239</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The Kogbolds also enjoy making things that aren't weapons such as this top of the line toy product, it even comes equipped with a solar light cannon! See in the dark and scorch anyone deemed not your friend.\n\nUnlocks Toy Bot K.B Pet Skin of the Automaton family. The skin will be added to your Pet Wardrobe in the Pet Yard and can be used to change the appearance of your pet!</Description>
+    <Activate skinType="50287">UnlockPetSkin</Activate>
+    <Consumable />
+    <Soulbound />
+    <BagType>7</BagType>
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
 </Objects>

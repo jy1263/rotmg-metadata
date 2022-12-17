@@ -73,6 +73,7 @@
     <KillStat stat="BeastKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BEAST,GOD,QUEST,STASISIMMUNE,TRACKLOOT,MINIBOSS,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e47" id="Spoiled Creampuff">
@@ -113,6 +114,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e46" id="Desire Troll">
@@ -173,6 +175,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e45" id="Swoll Fairy">
@@ -222,6 +225,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
   </Object>
   <Object type="0x5e44" id="Gigacorn">
@@ -265,6 +269,7 @@
     <KillStat stat="NatureKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,NATURE,GOD,QUEST,STASISIMMUNE,TRACKLOOT,SHORTMINIBOSS</Labels>
   </Object>
   <Object type="0x5e43" id="Candyland Boss Spawner">
@@ -355,6 +360,7 @@
     <KillStat stat="ConstructKills" />
     <KillStat stat="GodKills" />
     <DamageBasedXP />
+    <BleedMax>1</BleedMax>
     <Labels>ENEMY,BOSS,CONSTRUCT,GOD,QUEST,STASISIMMUNE,TRACKLOOT</Labels>
     <SpecialSpawn category="Bis">Candyland Portal</SpecialSpawn>
     <SpecialSpawn category="Chef">Fries</SpecialSpawn>

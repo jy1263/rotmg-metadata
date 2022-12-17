@@ -4099,4 +4099,155 @@
     </Corner>
     <BlendPriority>2</BlendPriority>
   </Ground>
+  <Ground type="0x63f7" id="Junkyard Snow">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62E</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62F</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x630</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x632</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>18</BlendPriority>
+    <RandomOffset />
+    <NoWalk />
+  </Ground>
+  <Ground type="0x63f8" id="Junkyard Snow Wall">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62D</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62E</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x62F</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x630</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x632</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>3</BlendPriority>
+    <RandomOffset />
+    <NoWalk />
+  </Ground>
+  <Ground type="0x63f9" id="Junkyard Snow Ground">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x630</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x631</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x632</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>.95</Speed>
+    <BlendPriority>18</BlendPriority>
+  </Ground>
+  <Ground type="0x63fa" id="Junkyard Snowy Rock">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x637</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x638</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x639</Index>
+      </Texture>
+    </RandomTexture>
+    <BlendPriority>12</BlendPriority>
+    <RandomOffset />
+  </Ground>
+  <Ground type="0x63fb" id="Junkyard Snow Dark">
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x633</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x634</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x635</Index>
+      </Texture>
+    </RandomTexture>
+    <Speed>.95</Speed>
+    <BlendPriority>21</BlendPriority>
+  </Ground>
+  <Ground type="0x63fc" id="Junkyard Oil Slick">
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x636</Index>
+    </Texture>
+    <SlideAmount>0.95</SlideAmount>
+    <BlendPriority>20</BlendPriority>
+    <Speed>1</Speed>
+    <Sink />
+    <Animate dx="0.25" dy="0.25">Wave</Animate>
+  </Ground>
 </GroundTypes>

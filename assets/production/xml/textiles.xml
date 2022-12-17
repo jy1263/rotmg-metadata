@@ -7066,4 +7066,222 @@
     <Soulbound />
     <BagType>2</BagType>
   </Object>
+  <Object type="0x12a7" id="Large Nails Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Large_Nails_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1c</Index>
+    </Mask>
+    <Tex1>0xa00010d</Tex1>
+    <AnimatedDye type="2" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A large bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x13a7" id="Small Nails Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Small_Nails_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1e</Index>
+    </Mask>
+    <Tex2>0xa00010d</Tex2>
+    <AnimatedDye type="2" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A small bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x12b0" id="Large Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Large_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1c</Index>
+    </Mask>
+    <Tex1>0xa00010e</Tex1>
+    <AnimatedDye type="1" speed="-2" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A large bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x13b0" id="Small Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Small_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1e</Index>
+    </Mask>
+    <Tex2>0xa00010e</Tex2>
+    <AnimatedDye type="1" speed="-2" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A small bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x12b1" id="Large Big Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Large_Big_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1c</Index>
+    </Mask>
+    <Tex1>0xa00010f</Tex1>
+    <AnimatedDye type="3" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A large bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x13b1" id="Small Big Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Small_Big_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1e</Index>
+    </Mask>
+    <Tex2>0xa00010f</Tex2>
+    <AnimatedDye type="3" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A small bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x12b2" id="Large Nuts and Bolts Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Large_Nuts_and_Bolts_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1c</Index>
+    </Mask>
+    <Tex1>0xa000110</Tex1>
+    <SlotType>10</SlotType>
+    <Description>A large bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x13b2" id="Small Nuts and Bolts Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Small_Nuts_and_Bolts_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1e</Index>
+    </Mask>
+    <Tex2>0xa000110</Tex2>
+    <SlotType>10</SlotType>
+    <Description>A small bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x12b3" id="Large Steampunk Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Large_Steampunk_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1b</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1c</Index>
+    </Mask>
+    <Tex1>0xa000111</Tex1>
+    <AnimatedDye type="3" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A large bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x13b3" id="Small Steampunk Gears Cloth">
+    <Class>Dye</Class>
+    <DisplayId>{textiles.Small_Steampunk_Gears_Cloth}</DisplayId>
+    <Item />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x1d</Index>
+    </Texture>
+    <Mask>
+      <File>lofiObj3</File>
+      <Index>0x1e</Index>
+    </Mask>
+    <Tex2>0xa000111</Tex2>
+    <AnimatedDye type="3" speed="3" pivotX="0" pivotY="0" />
+    <SlotType>10</SlotType>
+    <Description>A small bolt of cloth.</Description>
+    <Activate>Dye</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable />
+    <Soulbound />
+    <BagType>2</BagType>
+  </Object>
 </Objects>

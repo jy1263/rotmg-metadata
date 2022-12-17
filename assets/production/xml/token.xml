@@ -21077,4 +21077,184 @@
     <BagType>2</BagType>
     <Treasure />
   </Object>
+  <Object type="0x88fb" id="Festive Cog x1">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>1</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88fc" id="Festive Cog x2">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>2</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88fd" id="Festive Cog x3">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>3</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88fe" id="Festive Cog x4">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>4</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x88ff" id="Festive Cog x5">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>5</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x8900" id="Festive Cog x6">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>6</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x8901" id="Festive Cog x7">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>7</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x8902" id="Festive Cog x8">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>8</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x8903" id="Festive Cog x9">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>9</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
+  <Object type="0x8904" id="Festive Cog x10">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>d2LofiObjEmbed</File>
+      <Index>1195</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>The festive cog resembles the same type of cog that is most used throughout the machines in Steamworks, but don't be fooled into using it for your robots as this one only works as a cinnamon flavored sweet.</Description>
+    <Quantity>10</Quantity>
+    <ExtraTooltipData>
+      <EffectInfo name="Stack limit" description="10" />
+      <EffectInfo name="Event" description="Oryxmas 2022" />
+    </ExtraTooltipData>
+    <Soulbound />
+    <BagType>2</BagType>
+    <Treasure />
+  </Object>
 </Objects>

@@ -5204,7 +5204,6 @@
     <Activate skinType="8305">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5223,7 +5222,6 @@
     <Activate skinType="8306">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5242,7 +5240,6 @@
     <Activate skinType="8307">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5261,7 +5258,6 @@
     <Activate skinType="8308">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5280,7 +5276,6 @@
     <Activate skinType="8309">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5299,7 +5294,6 @@
     <Activate skinType="8310">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5318,7 +5312,6 @@
     <Activate skinType="8311">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5337,7 +5330,6 @@
     <Activate skinType="8312">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5356,7 +5348,6 @@
     <Activate skinType="8313">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5375,7 +5366,6 @@
     <Activate skinType="8314">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5394,7 +5384,6 @@
     <Activate skinType="8315">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5413,7 +5402,6 @@
     <Activate skinType="8316">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5432,7 +5420,6 @@
     <Activate skinType="8317">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -5451,7 +5438,6 @@
     <Activate skinType="8318">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -8550,7 +8536,6 @@
     <Activate skinType="19659">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11104,7 +11089,6 @@
     <Activate skinType="9389">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11602,7 +11586,6 @@
     <Activate skinType="9445">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11621,7 +11604,6 @@
     <Activate skinType="9447">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11640,7 +11622,6 @@
     <Activate skinType="9449">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11659,7 +11640,6 @@
     <Activate skinType="9451">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11678,7 +11658,6 @@
     <Activate skinType="9453">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11697,7 +11676,6 @@
     <Activate skinType="9455">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11716,7 +11694,6 @@
     <Activate skinType="9457">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11735,7 +11712,6 @@
     <Activate skinType="9459">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11754,7 +11730,6 @@
     <Activate skinType="9461">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11773,7 +11748,6 @@
     <Activate skinType="9463">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11792,7 +11766,6 @@
     <Activate skinType="9465">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11811,7 +11784,6 @@
     <Activate skinType="9467">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11830,7 +11802,6 @@
     <Activate skinType="9469">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11849,7 +11820,6 @@
     <Activate skinType="9471">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11868,7 +11838,6 @@
     <Activate skinType="9473">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -11887,7 +11856,6 @@
     <Activate skinType="9475">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12083,7 +12051,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12100,7 +12067,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12117,7 +12083,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12134,7 +12099,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12151,7 +12115,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12168,7 +12131,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12185,7 +12147,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12202,7 +12163,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12219,7 +12179,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12236,7 +12195,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12253,7 +12211,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12270,7 +12227,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12287,7 +12243,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12304,7 +12259,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12321,7 +12275,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -12338,7 +12291,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -13562,7 +13514,6 @@
     <Activate skinType="30701">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -13732,7 +13683,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14021,7 +13971,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14041,7 +13990,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14061,7 +14009,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14081,7 +14028,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14101,7 +14047,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14121,7 +14066,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14141,7 +14085,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14161,7 +14104,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14181,7 +14123,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14201,7 +14142,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14221,7 +14161,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14241,7 +14180,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14261,7 +14199,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14281,7 +14218,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14301,7 +14237,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14321,7 +14256,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14341,7 +14275,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14502,7 +14435,6 @@
     <Activate skinType="30803">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14592,7 +14524,6 @@
     <Activate skinType="30813">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14611,7 +14542,6 @@
     <Activate skinType="30815">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14630,7 +14560,6 @@
     <Activate skinType="30817">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14649,7 +14578,6 @@
     <Activate skinType="30819">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14668,7 +14596,6 @@
     <Activate skinType="30821">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14687,7 +14614,6 @@
     <Activate skinType="30823">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14706,7 +14632,6 @@
     <Activate skinType="30825">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14725,7 +14650,6 @@
     <Activate skinType="30827">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14744,7 +14668,6 @@
     <Activate skinType="30829">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14763,7 +14686,6 @@
     <Activate skinType="30831">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14782,7 +14704,6 @@
     <Activate skinType="30833">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14801,7 +14722,6 @@
     <Activate skinType="30835">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14820,7 +14740,6 @@
     <Activate skinType="30837">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14839,7 +14758,6 @@
     <Activate skinType="30839">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14858,7 +14776,6 @@
     <Activate skinType="30841">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14877,7 +14794,6 @@
     <Activate skinType="30843">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -14896,7 +14812,6 @@
     <Activate skinType="30845">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15649,7 +15564,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15670,7 +15584,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15691,7 +15604,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15712,7 +15624,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15733,7 +15644,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15754,7 +15664,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15775,7 +15684,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15796,7 +15704,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15817,7 +15724,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15838,7 +15744,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15859,7 +15764,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15880,7 +15784,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15901,7 +15804,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15922,7 +15824,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15943,7 +15844,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15964,7 +15864,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -15985,7 +15884,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -16023,7 +15921,6 @@
     <Activate skinType="30974">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -16061,7 +15958,6 @@
     <Activate skinType="31234">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>250</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -16097,7 +15993,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -16414,7 +16309,6 @@
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -16470,7 +16364,6 @@
     <Activate skinType="31282">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
-    <feedPower>500</feedPower>
     <UniqueID />
     <Track />
   </Object>
@@ -18272,6 +18165,57 @@
     <SlotType>10</SlotType>
     <Description>Despite being slow in the head, prone to walking aimlessly and a craving for delicious brains, at least their cold heart is in the right place so long as they aren't hungry. \n\nSkin Class: Samurai</Description>
     <Activate skinType="31478">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0x7af9" id="Steampunk Mechanic Paladin Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>885</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Not the smartest mechanic but their way around using a wrench make up for their lack of fixing ability, if you need help disassembling and destroying things, this can-do mechanic is more than happy to help you do just that. \n\nSkin Class: Paladin</Description>
+    <Activate skinType="31480">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0x7afb" id="Steampunk Pilot Huntress Skin">
+    <Class>Equipment</Class>
+    <ItemTier>3</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>886</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Most of her piloting capabilities come from violent altercations with flying enemies and using them to hitch an unstable ride, she claims its safe and fun. Using her forged license and questionable means of flying she's ready to soar high and crash in style. \n\nSkin Class: Huntress</Description>
+    <Activate skinType="31482">UnlockSkin</Activate>
+    <Consumable />
+    <BagType>7</BagType>
+    <Soulbound />
+    <feedPower>1000</feedPower>
+    <Track />
+  </Object>
+  <Object type="0x7afd" id="Steampunk Detective Trickster Skin">
+    <Class>Equipment</Class>
+    <ItemTier>4</ItemTier>
+    <Item />
+    <AnimatedTexture>
+      <File>playerskins</File>
+      <Index>887</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>The detective is here, sporting their fancy clothes and one of a kind indestructible magnifying glass. They're ready to solve all sorts of cases in a violent manner. \n\nSkin Class: Trickster</Description>
+    <Activate skinType="31484">UnlockSkin</Activate>
     <Consumable />
     <BagType>7</BagType>
     <Soulbound />

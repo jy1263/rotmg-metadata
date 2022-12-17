@@ -5142,12 +5142,12 @@
   </Object>
   <Object type="0xb1d1" id="LOD Rock Dragon Head">
     <Enemy />
-    <DisplayId>Rock Dragon</DisplayId>
+    <DisplayId>Wrapped Dragon</DisplayId>
     <Class>Character</Class>
     <Portrait>
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x78</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x29</Index>
       </Texture>
     </Portrait>
     <AnimatedTexture>
@@ -5176,38 +5176,38 @@
     <TrackLoot />
     <AltTexture id="1">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x78</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x29</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="2">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x79</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x2a</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="3">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x7a</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x2b</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="4">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x7b</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x2c</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="5">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x7c</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x27</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="6">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x7d</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x28</Index>
       </Texture>
     </AltTexture>
     <Projectile id="0">
@@ -5298,32 +5298,32 @@
     <Group>LOD Rock Dragon Body Segments</Group>
     <DisplayId>Rock Dragon</DisplayId>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x75</Index>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x21</Index>
     </Texture>
     <Animation prob="1" period="1.2">
       <Frame time="0.4">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x74</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x20</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x75</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x21</Index>
         </Texture>
       </Frame>
       <Frame time="0.4">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x76</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x22</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x74</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x21</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -5355,37 +5355,37 @@
     <Group>LOD Rock Dragon Body Segments</Group>
     <DisplayId>Rock Dragon</DisplayId>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x6a</Index>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x51</Index>
     </Texture>
     <AltTexture id="1">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x72</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x52</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="2">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x73</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x51</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="3">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x71</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x50</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="4">
       <Texture>
-        <File>lairOfDraconisObjects16x16</File>
-        <Index>0x70</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x52</Index>
       </Texture>
     </AltTexture>
     <AltTexture id="5">
       <Texture>
-        <File>lofiObjBig</File>
-        <Index>0xb0</Index>
+        <File>oryxHordeObjects16x16</File>
+        <Index>0x51</Index>
       </Texture>
     </AltTexture>
     <HitSound>monster/bats_hit</HitSound>
@@ -5439,22 +5439,22 @@
     <DisplayId>Rock Dragon</DisplayId>
     <Class>Character</Class>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x77</Index>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x23</Index>
     </Texture>
     <Exp>0</Exp>
     <Size>120</Size>
     <Animation prob="1.0" period="0.4">
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x75</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x20</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x77</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x23</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -5473,22 +5473,22 @@
     <DisplayId>Rock Dragon</DisplayId>
     <Class>Character</Class>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x6f</Index>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x53</Index>
     </Texture>
     <Exp>0</Exp>
     <Size>120</Size>
     <Animation prob="1.0" period="0.4">
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x71</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x50</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x6f</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x53</Index>
         </Texture>
       </Frame>
     </Animation>
@@ -5507,8 +5507,8 @@
     <Enemy />
     <Class>Character</Class>
     <AnimatedTexture>
-      <File>lairOfDraconisChars16x16</File>
-      <Index>10</Index>
+      <File>oryxHordeChars16x16</File>
+      <Index>15</Index>
     </AnimatedTexture>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
@@ -5524,8 +5524,8 @@
     <Class>Character</Class>
     <DisplayId>Rock Dragon Bat</DisplayId>
     <Texture>
-      <File>lairOfDraconisObjects16x16</File>
-      <Index>0x7e</Index>
+      <File>oryxHordeObjects16x16</File>
+      <Index>0x1a</Index>
     </Texture>
     <HitSound>monster/bats_hit</HitSound>
     <DeathSound>monster/bats_death</DeathSound>
@@ -5539,14 +5539,14 @@
     <Animation prob="1.0" period="0.4">
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x7e</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x1a</Index>
         </Texture>
       </Frame>
       <Frame time="0.2">
         <Texture>
-          <File>lairOfDraconisObjects16x16</File>
-          <Index>0x7f</Index>
+          <File>oryxHordeObjects16x16</File>
+          <Index>0x1b</Index>
         </Texture>
       </Frame>
     </Animation>

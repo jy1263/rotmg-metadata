@@ -3231,7 +3231,7 @@
     <Labels>ENEMY,MINION</Labels>
   </Object>
   <Object type="0x4b2d" id="Keyper Initiator">
-    <DisplayId>The Keyper</DisplayId>
+    <DisplayId>The Skeyper</DisplayId>
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
@@ -3269,14 +3269,15 @@
     <DontFaceAttacks />
     <Level>20</Level>
     <TrackLoot />
+    <DisplayId>The Skeyper</DisplayId>
     <AnimatedTexture>
-      <File>crystalCaveChars16x16</File>
-      <Index>27</Index>
+      <File>chars16x16rEncounters</File>
+      <Index>163</Index>
     </AnimatedTexture>
     <AltTexture id="1">
       <AnimatedTexture>
-        <File>crystalCaveChars16x16</File>
-        <Index>29</Index>
+        <File>chars16x16rEncounters</File>
+        <Index>164</Index>
       </AnimatedTexture>
     </AltTexture>
     <Size>1</Size>
@@ -6483,7 +6484,7 @@
     <Terrain>Mountains</Terrain>
   </Object>
   <Object type="0x80b9" id="The Appetizer Initiator">
-    <DisplayId>The Appetizer</DisplayId>
+    <DisplayId>The Santappetizer</DisplayId>
     <Class>GameObject</Class>
     <Enemy />
     <Invincible />
@@ -6503,9 +6504,10 @@
     <Quest />
     <Level>20</Level>
     <TrackLoot />
+    <DisplayId>The Santappetizer</DisplayId>
     <AnimatedTexture>
       <File>chars16x16rEncounters</File>
-      <Index>161</Index>
+      <Index>162</Index>
     </AnimatedTexture>
     <MaxHitPoints>150000</MaxHitPoints>
     <Defense>60</Defense>
